@@ -100,8 +100,8 @@
         const byDate = {};
         for (const e of events) {
           if (!byDate[e.date]) byDate[e.date] = {};
-          if (!byDate[e.date][e.venue]) byDate[e.date][e.venue] = [];
-          byDate[e.date][e.venue].push(e);
+          if (!byDate[e.date][e.Venue]) byDate[e.date][e.Venue] = [];
+          byDate[e.Date][e.Venue].push(e);
         }
 
         const tbody = document.getElementById('table-body');
@@ -125,7 +125,7 @@
             eventsForVenue.forEach((e, i) => {
               const div = document.createElement('div');
               div.className = 'event-entry';
-              div.innerHTML = `<div class="band">${e.band || ''}</div><div class="info">${e.info || ''}</div>`;
+              div.innerHTML = `<div class="band">${e.Artist || ''}</div><div class="info">${e.Info || ''}</div>`;
               td.appendChild(div);
             });
             tr.appendChild(td);
