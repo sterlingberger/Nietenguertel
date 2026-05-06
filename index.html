@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nietengürtel presents</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 2rem;
+      background: #f9f9f9;
+      color: #1a1a1a;
+    }
+
+    h1 {
+      font-size: 1.4rem;
+      font-weight: 500;
+      margin-bottom: 1.5rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      table-layout: fixed;
+    }
+
+    th {
+      background: #f1f1f1;
+      font-weight: 500;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 10px 14px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+
+    th.date-col { width: 110px; }
+
+    td {
+      padding: 10px 14px;
+      border: 1px solid #e5e5e5;
+      vertical-align: top;
+      font-size: 0.9rem;
+    }
+
+    td.date-cell {
+      font-weight: 500;
+      color: #555;
+      white-space: nowrap;
+    }
+
+    .event-entry + .event-entry {
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px dashed #ddd;
+    }
+
+    .band {
+      font-weight: 500;
+    }
+
+    .info {
+      font-size: 0.82rem;
+      color: #666;
+      margin-top: 2px;
+    }
+
+    tr:nth-child(even) td {
+      background: #fafafa;
+    }
+  </style>
+</head>
+<body>
+  <h1>Events</h1>
+  <table id="event-table">
+    <thead>
+      <tr>
+        <th class="date-col">Datum</th>
+        <th>Arena Wien</th>
+        <th>Arena Dreiraum</th>
+        <th>Chelsea</th>
+        <th>Kramladen</th>
+      </tr>
+    </thead>
+    <tbody id="table-body">
+      <tr><td colspan="5" style="color:#999; text-align:center;">Lade Daten...</td></tr>
+    </tbody>
+  </table>
+
+  <script>
+    const VENUES = ['Arena Wien', 'Arena Dreiraum', 'Chelsea', 'Kramladen'];
+
+    fetch('data/events.json')
+      .then(r => r.json())
+      .then(events => {
+        events.sort((a, b) => a.date.localeCompare(b.date));
+
+        const byDate = {};
+        for (const e of events) {
+          if (!byDate[e.date]) byDate[e.date] = {};
+          if (!byDate[e.date][e.venue]) byDate[e.date][e.venue] = [];
+          byDate[e.date][e.venue].push(e);
+        }
+
+        const tbody = document.getElementById('table-body');
+        tbody.innerHTML = '';
+
+        for (const date of Object.keys(byDate).sort()) {
+          const tr = document.createElement('tr');
+
+          const formatted = new Date(date).toLocaleDateString('de-AT', {
+            day: '2-digit', month: '2-digit', year: 'numeric'
+          });
+
+          const tdDate = document.createElement('td');
+          tdDate.className = 'date-cell';
+          tdDate.textContent = formatted;
+          tr.appendChild(tdDate);
+
+          for (const venue of VENUES) {
+            const td = document.createElement('td');
+            const eventsForVenue = byDate[date][venue] || [];
+            eventsForVenue.forEach((e, i) => {
+              const div = document.createElement('div');
+              div.className = 'event-entry';
+              div.innerHTML = `<div class="band">${e.band || ''}</div><div class="info">${e.info || ''}</div>`;
+              td.appendChild(div);
+            });
+            tr.appendChild(td);
+          }
+
+          tbody.appendChild(tr);
+        }
+      })
+      .catch(() => {
+        document.getElementById('table-body').innerHTML =
+          '<tr><td colspan="5" style="color:red; text-align:center;">Fehler beim Laden der Daten.</td></tr>';
+      });
+  </script>
+</body>
+</html>
