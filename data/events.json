@@ -1,0 +1,728 @@
+[
+  {
+    "Venue": "Arena Wien",
+    "Date": "2026-05-06",
+    "Artist": "MIND ENTERPRISES (ita) \u002B TOMMY COUNTACH (ger)",
+    "Info": ""
+  },
+  {
+    "Venue": "Arena Dreiraum",
+    "Date": "2026-05-07",
+    "Artist": "NIGHTSTALKER (grc) \u002B OUT OF NOTHING (aut)",
+    "Info": ""
+  },
+  {
+    "Venue": "Arena Wien",
+    "Date": "2026-05-08",
+    "Artist": "ARENA HEURIGER zum 50er / FREITAG",
+    "Info": ""
+  },
+  {
+    "Venue": "Arena Wien",
+    "Date": "2026-05-09",
+    "Artist": "ARENA HEURIGER zum 50er / SAMSTAG",
+    "Info": ""
+  },
+  {
+    "Venue": "Arena Wien",
+    "Date": "2026-05-10",
+    "Artist": "ARENA HEURIGER zum 50er / SONNTAG",
+    "Info": ""
+  },
+  {
+    "Venue": "Arena Dreiraum",
+    "Date": "2026-05-11",
+    "Artist": "SICK THOUGHTS (us) \u002B BAD WEED (aut) \u002B NAZI TAMPONS (sk)",
+    "Info": ""
+  },
+  {
+    "Venue": "Arena Wien",
+    "Date": "2026-05-11",
+    "Artist": "HERMANO (us) \u002B TRUCKFIGHTERS (swe) \u002B ONEIDA (us) \u002B SOLACE (us)",
+    "Info": ""
+  },
+  {
+    "Venue": "Arena Wien",
+    "Date": "2026-05-12",
+    "Artist": "CRIPPLED BLACK PHOENIX (uk/swe) \u002B TEMPLE FANG (hol)",
+    "Info": ""
+  },
+  {
+    "Venue": "Arena Wien",
+    "Date": "2026-05-13",
+    "Artist": "BLACK PARADE - BEST OF EMO, SCENE \u0026 ALTERNATIVE MUSIC",
+    "Info": ""
+  },
+  {
+    "Venue": "Arena Wien",
+    "Date": "2026-05-14",
+    "Artist": "HANG MASSIVE (uk/swe)",
+    "Info": ""
+  },
+  {
+    "Venue": "Arena Wien",
+    "Date": "2026-05-15",
+    "Artist": "JUTES (can)",
+    "Info": ""
+  },
+  {
+    "Venue": "Arena Dreiraum",
+    "Date": "2026-05-16",
+    "Artist": "ABYSSAL (uk) \u002B CARCINOMA (uk) \u002B WOVENTONGVE (aut)",
+    "Info": ""
+  },
+  {
+    "Venue": "Arena Wien",
+    "Date": "2026-05-16",
+    "Artist": "FRAZEY FORD (can) \u002B THE SAWTOOTH STARS (can)",
+    "Info": ""
+  },
+  {
+    "Venue": "Arena Dreiraum",
+    "Date": "2026-05-18",
+    "Artist": "M.D.C. (us) \u002B BARACKCA (hun)",
+    "Info": ""
+  },
+  {
+    "Venue": "Arena Wien",
+    "Date": "2026-05-18",
+    "Artist": "RUSSIAN CIRCLES (us) \u002B PELICAN (us)",
+    "Info": ""
+  },
+  {
+    "Venue": "Arena Wien",
+    "Date": "2026-05-19",
+    "Artist": "GREEEN (ger) \u002B JONNY MAHORO (ger) *OPEN AIR*",
+    "Info": ""
+  },
+  {
+    "Venue": "Arena Wien",
+    "Date": "2026-05-20",
+    "Artist": "SOFIA ISELLA (us) \u002B CLOUDY JUNE (ger) \u002B SEB LOWE (uk) *OPEN AIR*",
+    "Info": ""
+  },
+  {
+    "Venue": "Arena Wien",
+    "Date": "2026-05-21",
+    "Artist": "PATTI SMITH QUARTET *OPEN AIR* / *AUSVERKAUFT*",
+    "Info": ""
+  },
+  {
+    "Venue": "Arena Wien",
+    "Date": "2026-05-22",
+    "Artist": "OSKA (aut) \u002B MIRA TAYLOR (aut)",
+    "Info": ""
+  },
+  {
+    "Venue": "Arena Dreiraum",
+    "Date": "2026-05-22",
+    "Artist": "NEBULA (us) \u002B JOHNNY NASTY BOOTS (us)",
+    "Info": ""
+  },
+  {
+    "Venue": "Arena Wien",
+    "Date": "2026-05-23",
+    "Artist": "COLLAPSE XL - DRUM \u0026 BASS ALL NIGHT LONG",
+    "Info": ""
+  },
+  {
+    "Venue": "Arena Dreiraum",
+    "Date": "2026-05-26",
+    "Artist": "MOONDOGGY (can) \u002B SELVE (aus)",
+    "Info": ""
+  },
+  {
+    "Venue": "Arena Dreiraum",
+    "Date": "2026-05-27",
+    "Artist": "GUITAR WOLF (jap) \u002B SUX SUX SUX (aut)",
+    "Info": ""
+  },
+  {
+    "Venue": "Arena Wien",
+    "Date": "2026-05-28",
+    "Artist": "SIAMESE ELEPHANTS (aut) \u002B UMAMI (aut)",
+    "Info": ""
+  },
+  {
+    "Venue": "Arena Wien",
+    "Date": "2026-05-29",
+    "Artist": "ICEBERG",
+    "Info": ""
+  },
+  {
+    "Venue": "Arena Wien",
+    "Date": "2026-05-30",
+    "Artist": "ACID KING (us) \u002B CONGULUS (tur)",
+    "Info": ""
+  },
+  {
+    "Venue": "Arena Wien",
+    "Date": "2026-05-31",
+    "Artist": "DEINE FREUNDE (ger) *OPEN AIR / AUSVERKAUFT*",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-05-07",
+    "Artist": "CASSIES / humming people",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-05-08",
+    "Artist": "JUST THIS / \u00A7 181a StGB",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-05-09",
+    "Artist": "REMOTE BONDAGE (DE)",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-05-10",
+    "Artist": "SABABA 5",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-05-12",
+    "Artist": "REVEREND STOMP / FAINSCHMITZ",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-05-13",
+    "Artist": "ACID MOTHERS TEMPLE (J)",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-05-14",
+    "Artist": "LIN (DE)",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-05-15",
+    "Artist": "VENEREA (SWE) / DANKESCHATZ (DE)",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-05-16",
+    "Artist": "FOUR IMAGINARY BOYS - \u0022The Cure Tribute Band\u0022",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-05-17",
+    "Artist": "VINYL \u0026 CD FLOHMARKT",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-05-18",
+    "Artist": "FUSSBALL PUBQUIZ",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-05-20",
+    "Artist": "THUNDERBALLS - AC/DC Tributeband",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-05-22",
+    "Artist": "FOLLOW THE ZEBRA / TOBY WHYLE",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-05-23",
+    "Artist": "POWERPLANT / HITMEN / C.A.M.O.",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-05-24",
+    "Artist": "G\u00DCRTEL CONNECTION: HEATING CELLAR / THE VIRGIN VALENTINAS",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-05-25",
+    "Artist": "PACIFICA (ARG) / PANIK DELUXE",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-05-27",
+    "Artist": "GROOVE CONNECTION: HIGHER SOUND SPECIES",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-05-28",
+    "Artist": "STEVEN BROWN (TUXEDOMOON/USA) / WHEN IT\u00B4S OVER",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-05-29",
+    "Artist": "MINISEX",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-06-03",
+    "Artist": "BLUE BIRD STAGE",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-06-05",
+    "Artist": "I HATE MYSELF BECAUSE / LAUNDROMAT CHICKS / GUSH VALLEY",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-06-06",
+    "Artist": "BARNS COURTNEY (UK)",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-06-08",
+    "Artist": "GROOVE CONNECTION: PULS",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-06-11",
+    "Artist": "SCARABEUSDREAM / MIKALA N\u00D8RGAARD",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-06-19",
+    "Artist": "CHASER (USA) / SNAILMATE (USA)",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-06-26",
+    "Artist": "TIMESHIFT - \u0022LIBOR\u0022 LP RELEASE SHOW",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-06-27",
+    "Artist": "OCEAN SLEEPER (AUS)",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-06-30",
+    "Artist": "SCENE QUEEN (UK)",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-07-06",
+    "Artist": "STRUNG OUT (USA) / THE CORPS (CAN)",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-07-07",
+    "Artist": "THE SOPHS (USA)",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-07-08",
+    "Artist": "ABGESAGT: LIVE SKULL (USA) / REFLECTOR",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-07-12",
+    "Artist": "BLEVEDERE (CAN) / RABIES (CZ) / SMACKED (SLO)",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-07-27",
+    "Artist": "A WILHELM SCREAM (USA)",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-08-01",
+    "Artist": "THE ELEPHANT TRACKS / KRPL",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-08-02",
+    "Artist": "BALLYHOO! (USA) / WONK UNIT (UK)",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-08-04",
+    "Artist": "SCREAM (USA) / DIM PROSPECTS / 7 SIOUX",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-08-12",
+    "Artist": "WAR ON WOMEN (USA)",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-08-17",
+    "Artist": "MYSIE / CHOVO",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-09-07",
+    "Artist": "L1NKN P4RK / WIREFALL",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-09-17",
+    "Artist": "KARLI BRAUN",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-09-23",
+    "Artist": "SOYUZ",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-09-24",
+    "Artist": "ISABEL VAN GELDER (NL) / SAGE DARLEY",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-09-27",
+    "Artist": "ERIC STECKEL (USA)",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-10-07",
+    "Artist": "AUSGESTORBEN",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-10-13",
+    "Artist": "STU LARSEN (AUS)",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-10-15",
+    "Artist": "\u00D6ASIS",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-10-18",
+    "Artist": "DECLAN WELSH AND THE DECADENT WEST (UK)",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-10-28",
+    "Artist": "TAY OSKEE (AUS)",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-11-06",
+    "Artist": "LOST IN LONA (CH)",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-11-11",
+    "Artist": "CLAN OF XYMOX (NL) / SUNDL",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-11-12",
+    "Artist": "IKAN HYU (CH)",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-11-16",
+    "Artist": "ALELA DIANE (USA)",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-11-17",
+    "Artist": "CHUCK PROPHET (USA) / OUR MAN IN THE FIELD (UK)",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-11-21",
+    "Artist": "THE VEILS (NZ)",
+    "Info": ""
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2027-04-17",
+    "Artist": "IAN HOOPER",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-05-06",
+    "Artist": "RONAI (HUN) // NEFELI (AUT) // KRAMLADEN (VIENNA)",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-05-07",
+    "Artist": "KRISTINA SAPUTO \u0026 THE BLUE EASE | ORANGE ORCHID",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-05-07",
+    "Artist": "STORE BEATS - THURSDAY EDITION // KRAMLADEN",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-05-08",
+    "Artist": "LIVE: REFORM - TURKISH ROCK",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-05-08",
+    "Artist": "LIVE: REFORM - TURKISH ROCK",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-05-08",
+    "Artist": "MIDNIGHTTI",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-05-09",
+    "Artist": "TWICEASMAD - LIVE IM KRAMLADEN WIEN",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-05-11",
+    "Artist": "MEHMET ATLI - LIVE",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-05-14",
+    "Artist": "DELICATE STRANGERS - EP RELEASE CONCERT",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-05-15",
+    "Artist": "GIKKS \u00B7 15.05.26",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-05-16",
+    "Artist": "KAPIKO - GRAND AUSTRIAN TOUR 2026",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-05-19",
+    "Artist": "DOPE PURPLE | SKIYYA \u0026 THE DREAM MACHINE",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-05-22",
+    "Artist": "NILA \u002B TERRA TOMA | KRAMLADEN WIEN",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-05-24",
+    "Artist": "G\u00DCRTEL CONNECTION #18",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-05-26",
+    "Artist": "MWITA MATARO \u0026 BAND LIVE",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-05-27",
+    "Artist": "ANGELIZER LIVE IM KRAMLADEN",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-05-28",
+    "Artist": "SONS OF NESREKA \u0026 STRANGE ENOUGH - LIVE",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-05-30",
+    "Artist": "COZMIC GEORGE (AT) \u0026 HUM (DE)",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-06-04",
+    "Artist": "CHAOS INTERNATIONAL \u0026 IVUR \u0026 DORA FLOB",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-06-05",
+    "Artist": "KAT - \u0022MANEGE\u0022 DEB\u00DCT-ALBUMRELEASE @ KRAMLADEN WIEN",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-06-12",
+    "Artist": "GROSSKIND - RELEASE KONZERT",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-06-13",
+    "Artist": "PUCA \u0026 RETROROCK - LIVE @KRAMLADEN",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-06-18",
+    "Artist": "ALBUM RELEASE SHOW",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-06-19",
+    "Artist": "GIKKS \u00B7 19.06.26",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-06-20",
+    "Artist": "MAXI NAGL - GOLFBALL (ALBUM RELEASE SHOW) @ KRAMLADEN MIT SUPPORT: TBA",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-07-09",
+    "Artist": "ACID ROW (CZ) \u002B THE ELEPHANT TRACKS (AUT) I KRAMLADEN",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-07-17",
+    "Artist": "GIKKS \u00B7 17.07.26",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-07-25",
+    "Artist": "PAINTING CLOUDS \u002B SUPPORT | KRAMLADEN",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-08-29",
+    "Artist": "SCRUTCH \u0026 JONAS FEURLE - WORLD TOUR \u002B SPECIAL GUEST!",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-09-04",
+    "Artist": "ANNIE TAYLOR \u2022 WIEN \u2022 KRAMLADEN",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-09-05",
+    "Artist": "MISS MELLOW \u002B THE GOOD LIBRARY \u002B THE SOUND AYE",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-10-07",
+    "Artist": "DIE CIGARETTEN LIVE IN WIEN",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-10-09",
+    "Artist": "BAIBA \u2022 DELUSIONAL \u2661 ALBUM RELEASE \u2661 VIENNA",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-10-10",
+    "Artist": "WIEN_KRAMLADEN - .LIMA \u0026 MEERSEIN - CONERT",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-10-23",
+    "Artist": "MODS VS. ROCKERS II",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-11-06",
+    "Artist": "CHRISTIAN ALBRECHT LIVE IM KRAMLADEN WIEN",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-11-07",
+    "Artist": "TERRA TOMA // SPUREN LLILL // COLLECTIVE REALITY @ KRAMLADEN",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-11-14",
+    "Artist": "RATHMANN \u002B SUPPORT: ZELDA WEBER",
+    "Info": ""
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2027-01-30",
+    "Artist": "PEER MAGNUS - ALBUM RELEASE SHOW",
+    "Info": ""
+  }
+]

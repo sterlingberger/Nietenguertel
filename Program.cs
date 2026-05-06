@@ -35,7 +35,10 @@ namespace EventCrawler
             }
 
             var json = JsonSerializer.Serialize(allEvents, new JsonSerializerOptions { WriteIndented = true });
-            await File.WriteAllTextAsync("events.json", json);
+            var dataPath = Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "data");
+            Directory.CreateDirectory(dataPath);
+            await File.WriteAllTextAsync(Path.Combine(dataPath, "events.json"), json);
+
         }
     }
 }
