@@ -38,7 +38,7 @@ namespace EventCrawler.Crawler
                     string date = $"{weekday} {numweekday} {monthyear}";
                     string artist = await div.Locator(".Event_H1").InnerTextAsync();
                     string info = await div.Locator(".Event_H2").InnerTextAsync();
-                    string venue = "Arena Wien";
+                    string venue = "Arena";
 
                     var span = div.Locator("xpath=.//span[@class='col-md-5  suite_Eventitle']/span[3]");
                     string? halle = await span.TextContentAsync();
@@ -63,7 +63,7 @@ namespace EventCrawler.Crawler
                 {
                     var ev = new Event
                     {
-                        Venue = "Arena Wien",
+                        Venue = "Arena",
                         Info = $"{ex.Message}"
                     };
                     result.Add(ev);
