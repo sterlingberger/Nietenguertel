@@ -11,11 +11,12 @@ namespace EventCrawler.Crawler
     {
         private string url = "https://arena.wien/Home/Programm#data_abonnement=-1&data_month=5&data_year=2026&data_event_category=-1&searchTerm=&data_mode=DATE&data_pagenumber=0&page_header=Mai+2026";
         private IPage _page;
-
         public ArenaCrawler(IPage page)
         {
             _page = page;
         }
+
+        public string GetName() { return "Arena"; }
 
         public async Task<IEnumerable<Event>> FetchAsync()
         {

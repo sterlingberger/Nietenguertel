@@ -18,6 +18,8 @@ namespace EventCrawler.Crawler
             _page = page;
         }
 
+        public string GetName() { return "Chelsea"; }
+
         public async Task<IEnumerable<Event>> FetchAsync()
         {
             List<Event> result = new List<Event>();
