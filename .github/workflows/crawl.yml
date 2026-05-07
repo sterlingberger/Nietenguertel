@@ -8,6 +8,8 @@ on:
 jobs:
   crawl:
     runs-on: windows-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout
@@ -19,19 +21,19 @@ jobs:
           dotnet-version: '10.0'
 
       - name: Build
-        run: dotnet build
+        run: dotnet build EventCrawler.csproj
 
       - name: Install Playwright Browsers
         run: pwsh bin/Debug/net10.0/playwright.ps1 install chromium
 
       - name: Run Crawler
-        run: dotnet run --project EventCrawler.csproj
+        run: dotnet run --project EventCrawler.csproj --no-build
 
       - name: Commit & Push events.json
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add data/events.json
-          git commit -m "Update events.json $(Get-Date -Format 'yyyy-MM-dd')" 
+          git commit -m "Update events.json $(Get-Date -Format 'yyyy-MM-dd')"
           git push
         shell: pwsh
