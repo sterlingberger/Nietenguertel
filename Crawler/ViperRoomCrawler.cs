@@ -4,16 +4,15 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 using System.Text.RegularExpressions;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace EventCrawler.Crawler
 {
-    internal class ChelseaCrawler : ICrawler
+    internal class ViperRoomCrawler : ICrawler
     {
-        private string url = "https://www.chelsea.co.at/concerts.php";
+        private string url = "https://www.viper-room.at/veranstaltungen";
         private IPage _page;
 
-        public ChelseaCrawler(IPage page)
+        public ViperRoomCrawler(IPage page)
         {
             _page = page;
         }
@@ -27,23 +26,22 @@ namespace EventCrawler.Crawler
                 WaitUntil = WaitUntilState.NetworkIdle
             });
 
-            string eventxpath = "xpath=//html//body//div[@class='main']//table[@class='termindetails']";
+            string eventxpath = "xpath=//div[@id='em-events-list-grouped-1']//ul[@class='events_list']//li";
             var eventDivs = await _page.Locator(eventxpath).AllAsync();
 
-            string venue = "Chelsea";
+            string venue = "Viper Room";
 
             foreach (var div in eventDivs)
             {
                 try
                 {
-                    string date = await div.Locator(".date").InnerTextAsync();
-                    string artist = await div.Locator(".band").InnerTextAsync();
-                    string info = await div.Locator(".text").InnerTextAsync();
+                    string date = await div.Locator(".event_date_monthyear").InnerTextAsync();
+                    var anchor = div.Locator("h2.event_title a");
+                    
+                    string link = await anchor.GetAttributeAsync("href") ?? "";
+                    string artist = await anchor.InnerTextAsync();
 
-                    var anchor = div.Locator("xpath=preceding-sibling::a[starts-with(@name,'concert_')]");
-                    string concertid = await anchor.Last.GetAttributeAsync("name") ?? "";
-
-                    string link = url + $"#{concertid}";
+                    string info = await div.Locator(".event_teaser").InnerTextAsync();
 
                     var ev = new Event
                     {
@@ -72,19 +70,7 @@ namespace EventCrawler.Crawler
 
         private DateOnly ParseDate(string raw)
         {
-            // Wochentag entfernen
-            var cleaned = Regex.Replace(raw, @"^[^,]+,\s*", "").Trim().TrimEnd('.');
-
-            if (cleaned.Count(c => c == '.') == 1)
-            {
-                // "21.11" → kein Jahr
-                return DateOnly.ParseExact(cleaned + "." + DateTime.Now.Year, "d.M.yyyy", CultureInfo.InvariantCulture);
-            }
-            else
-            {
-                // "17.04.2027" → Jahr vorhanden
-                return DateOnly.ParseExact(cleaned, "d.M.yyyy", CultureInfo.InvariantCulture);
-            }
+            return DateOnly.ParseExact(raw, "dd.MM.yy");
         }
     }
 }

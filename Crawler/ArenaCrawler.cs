@@ -16,8 +16,6 @@ namespace EventCrawler.Crawler
             _page = page;
         }
 
-        public string GetName() { return "Arena"; }
-
         public async Task<IEnumerable<Event>> FetchAsync()
         {
             List<Event> result = new List<Event>();
@@ -29,7 +27,7 @@ namespace EventCrawler.Crawler
 
             var eventDivs = await _page.Locator("xpath=//*[@id=\"dnn_ctr1076_ViewEventListDirectTicketing_ctl01\"]/div[2]/div/div/div").AllAsync();
 
-            Console.WriteLine($"{GetName()}Crawler fand {eventDivs?.Count} eventDivs");
+            //Console.WriteLine($"ArenaCrawler fand {eventDivs?.Count} eventDivs");
 
             foreach (var div in eventDivs)
             {
@@ -67,7 +65,7 @@ namespace EventCrawler.Crawler
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine($"Fehler in {GetName()}Crawler FetchAsync():");
+                    Console.WriteLine($"Fehler in ArenaCrawler FetchAsync():");
                     Console.WriteLine($"ExceptionMessage: {ex.Message}");
                     Console.WriteLine($"InnerException{ex.InnerException}");
 

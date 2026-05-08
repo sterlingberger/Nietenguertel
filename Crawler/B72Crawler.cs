@@ -1,0 +1,80 @@
+﻿using Microsoft.Playwright;
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Security.Cryptography;
+using System.Text;
+using System.Text.RegularExpressions;
+
+namespace EventCrawler.Crawler
+{
+    internal class B72Crawler : ICrawler
+    {
+        private string url = "https://www.b72.at/";
+        private IPage _page;
+
+        public B72Crawler(IPage page)
+        {
+            _page = page;
+        }
+
+        public async Task<IEnumerable<Event>> FetchAsync()
+        {
+            List<Event> result = new List<Event>();
+
+            await _page.GotoAsync(url, new PageGotoOptions
+            {
+                WaitUntil = WaitUntilState.NetworkIdle
+            });
+
+            //string eventxpath = "xpath=//*[@id=\"copilot-render-69fd92f9b55ed\"]//div//div[3]//div//div//div//div//div";
+            //var eventDivs = await _page.Locator(eventxpath).AllAsync();
+            var eventDivs = await _page.Locator("xpath=//div[@class='section']//*[contains(@class,'row mtb0')]").AllAsync();
+
+            string venue = "B72";
+
+            foreach (var div in eventDivs)
+            {
+                try
+                {
+                    var anchor = div.Locator("a").First;
+                    string link = url + await anchor.GetAttributeAsync("href") ?? "";
+                    string artist = await anchor.InnerTextAsync();
+
+                    string date = await div.Locator("h4").First.InnerTextAsync();
+
+                    string info = "";
+                    //für mehr info könnte man jeden Link öffnen und dann von dort auslesen, für jetzt mal ok
+
+                    var ev = new Event
+                    {
+                        Date = ParseDate(date),
+                        Artist = artist,
+                        Venue = venue,
+                        Info = info,
+                        Link = link
+                    };
+                    result.Add(ev);
+                }
+                catch (Exception ex)
+                {
+                    var ev = new Event
+                    {
+                        Venue = venue,
+                        Info = $"{ex.Message}"
+                    };
+                    result.Add(ev);
+                }
+
+            }
+
+            return result;
+        }
+
+        private DateOnly ParseDate(string raw)
+        {
+            //raw format "08.05"
+            return DateOnly.ParseExact($"{raw}.{DateTime.Now.Year}", "dd.MM.yyyy");
+        }
+    }
+}

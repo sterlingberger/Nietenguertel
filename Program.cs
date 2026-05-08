@@ -23,13 +23,20 @@ namespace EventCrawler
             });
 
             Console.WriteLine($"Init dauerte {sw.ElapsedMilliseconds} ms");
-            
+
 
             // open a new page within the current browser context
             var page = await browser.NewPageAsync();
 
             //Crwaler initialisieren
-            ICrawler[] crawlers = [new ChelseaCrawler(page), new ArenaCrawler(page), new KramladenCrawler(page)];
+            ICrawler[] crawlers = [
+                new ChelseaCrawler(page),
+                new ArenaCrawler(page),
+                new KramladenCrawler(page),
+                new ViperRoomCrawler(page),
+                new RhizCrawler(page),
+                new B72Crawler(page)
+                ];
 
             //alle events sammeln
             var allEvents = new List<Event>();
@@ -41,7 +48,7 @@ namespace EventCrawler
                 var events = await crawler.FetchAsync();
                 allEvents.AddRange(events);
 
-                Console.WriteLine($"{crawler.GetName()} lieferte {events.Count()} events in {sw.ElapsedMilliseconds} ms");
+                Console.WriteLine($"{crawler.GetType().Name} lieferte {events.Count()} events in {sw.ElapsedMilliseconds} ms");
                 sw.Restart();
             }
 

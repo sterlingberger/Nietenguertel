@@ -7,7 +7,5 @@ namespace EventCrawler.Crawler
     internal interface ICrawler
     {
         Task<IEnumerable<Event>> FetchAsync();
-
-        string GetName();
     }
 }
