@@ -10,6 +10,7 @@
             padding: 2rem;
             background: #f9f9f9;
             color: #1a1a1a;
+            overflow-x: auto;
         }
 
         h1 {
@@ -19,13 +20,17 @@
         }
 
         table {
-            width: 100%;
+            min-width: 600px;
+            width: auto;
             border-collapse: collapse;
             background: #fff;
             table-layout: fixed;
         }
 
         th {
+            position: sticky; /*damit Header mitgescrollt wird*/
+            top: 0;
+            z-index: 1;
             background: #f1f1f1;
             font-weight: 500;
             font-size: 0.85rem;
@@ -34,16 +39,17 @@
             padding: 10px 14px;
             border: 1px solid #ddd;
             text-align: left;
-
             /* erlauben Umbrüche auch in langen Venue-Namen (nur wenn nötig) */
             white-space: normal;
             overflow-wrap: anywhere;
             word-break: break-word;
+            min-width: 220px;
         }
 
             th.date-col {
                 width: 5%;
                 white-space: normal;
+                min-width: 60px;
             }
 
         td {
@@ -111,7 +117,6 @@
             <tr><td colspan="5" style="color:#999; text-align:center;">Lade Daten...</td></tr>
         </tbody>
     </table>
-
     <script>
         const VENUES = ['Arena', 'Chelsea', 'Kramladen', 'Viper Room', 'Rhiz', 'B72'];
 

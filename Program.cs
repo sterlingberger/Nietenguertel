@@ -30,11 +30,11 @@ namespace EventCrawler
 
             //Crwaler initialisieren
             ICrawler[] crawlers = [
-                new ChelseaCrawler(page),
-                new ArenaCrawler(page),
-                new KramladenCrawler(page),
-                new ViperRoomCrawler(page),
-                new RhizCrawler(page),
+                //new ArenaCrawler(page),
+                //new ChelseaCrawler(page),
+                //new KramladenCrawler(page),
+                //new ViperRoomCrawler(page),
+                //new RhizCrawler(page),
                 new B72Crawler(page)
                 ];
 
@@ -45,12 +45,19 @@ namespace EventCrawler
 
             foreach (var crawler in crawlers)
             {
+                Console.WriteLine($"{crawler.GetType().Name} ...");
+
                 var events = await crawler.FetchAsync();
                 allEvents.AddRange(events);
 
-                Console.WriteLine($"{crawler.GetType().Name} lieferte {events.Count()} events in {sw.ElapsedMilliseconds} ms");
+                Console.WriteLine($"lieferte {events.Count()} events in {sw.ElapsedMilliseconds} ms");
                 sw.Restart();
             }
+
+            //nur diesen und nächsten monat berücksichtigen
+            //könnte man im crawler machen, aber vielleicht will ich das wieder entfernen
+            allEvents.RemoveAll(e => e.Date.Month > DateTime.Now.Month + 1);
+            allEvents.RemoveAll(e => e.Date < DateOnly.FromDateTime(DateTime.Today));
 
             sw.Restart();
 

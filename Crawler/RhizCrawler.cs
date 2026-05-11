@@ -74,6 +74,30 @@ namespace EventCrawler.Crawler
 
             }
 
+            //info nachträglich setzen
+            foreach (Event ev in result)
+            {
+                //ins event reingehen und info beziehen
+                await _page.GotoAsync(ev.Link, new PageGotoOptions
+                {
+                    WaitUntil = WaitUntilState.NetworkIdle
+                });
+
+                var infos = await _page.Locator("div.singleEvent p").AllAsync();
+
+                string info = ev.Info;
+
+                foreach (var p in infos)
+                {
+                    string ptext = await p.InnerTextAsync();
+
+                    if (!string.IsNullOrWhiteSpace(ptext))
+                        info += $"\n{ptext}";
+                }
+
+                ev.Info = info;
+            }
+
             return result;
         }
 

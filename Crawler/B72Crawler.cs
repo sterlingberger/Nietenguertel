@@ -10,7 +10,8 @@ namespace EventCrawler.Crawler
 {
     internal class B72Crawler : ICrawler
     {
-        private string url = "https://www.b72.at/";
+        private const string urlbase = "https://www.b72.at/";
+        private string url = $"{urlbase}program";
         private IPage _page;
 
         public B72Crawler(IPage page)
@@ -38,20 +39,17 @@ namespace EventCrawler.Crawler
                 try
                 {
                     var anchor = div.Locator("a").First;
-                    string link = url + await anchor.GetAttributeAsync("href") ?? "";
+                    string link = urlbase + await anchor.GetAttributeAsync("href") ?? "";
                     string artist = await anchor.InnerTextAsync();
 
                     string date = await div.Locator("h4").First.InnerTextAsync();
-
-                    string info = "";
-                    //für mehr info könnte man jeden Link öffnen und dann von dort auslesen, für jetzt mal ok
 
                     var ev = new Event
                     {
                         Date = ParseDate(date),
                         Artist = artist,
                         Venue = venue,
-                        Info = info,
+                        Info = "",
                         Link = link
                     };
                     result.Add(ev);
@@ -66,6 +64,28 @@ namespace EventCrawler.Crawler
                     result.Add(ev);
                 }
 
+            }
+
+            //info nachträglich setzen
+            foreach (Event ev in result)
+            {
+                //ins event reingehen und info beziehen
+                await _page.GotoAsync(ev.Link, new PageGotoOptions
+                {
+                    WaitUntil = WaitUntilState.NetworkIdle
+                });
+
+                var container = _page.Locator("xpath=//html//body//div[@class='container']//div[@class='section']//div[@class='row']//div[@class='col s12']");
+
+                //bisher nur bei gürtelconnection als mehrere strongs gesehen
+                var elements = await container.Locator("p, strong").AllAsync();
+
+                foreach (var el in elements)
+                {
+                    string text = await el.InnerTextAsync();
+                    if (!string.IsNullOrWhiteSpace(text))
+                        ev.Info += $"\n{text}";
+                }
             }
 
             return result;
