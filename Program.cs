@@ -57,6 +57,7 @@ namespace EventCrawler
             //nur diesen und nächsten monat berücksichtigen
             //könnte man im crawler machen, aber vielleicht will ich das wieder entfernen
             allEvents.RemoveAll(e => e.Date.Month > DateTime.Now.Month + 1);
+            allEvents.RemoveAll(e => e.Date.Year > DateTime.Now.Year);
             allEvents.RemoveAll(e => e.Date < DateOnly.FromDateTime(DateTime.Today));
 
             sw.Restart();
