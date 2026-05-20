@@ -7,12 +7,12 @@ using System.Text.RegularExpressions;
 
 namespace EventCrawler.Crawler
 {
-    internal class ViperRoomCrawler : ICrawler
+    internal class SzeneCrawler : ICrawler
     {
-        private string url = "https://www.viper-room.at/veranstaltungen";
+        private string url = "https://szene.wien/";
         private IPage _page;
 
-        public ViperRoomCrawler(IPage page)
+        public SzeneCrawler(IPage page)
         {
             _page = page;
         }
@@ -26,22 +26,28 @@ namespace EventCrawler.Crawler
                 WaitUntil = WaitUntilState.NetworkIdle
             });
 
-            string eventxpath = "xpath=//div[@id='em-events-list-grouped-1']//ul[@class='events_list']//li";
+            // Button klicken
+            await _page.ClickAsync("button.wpgb-button.wpgb-load-more");
+
+            // Warten bis alle Elemente geladen sind
+            await _page.WaitForLoadStateAsync(LoadState.NetworkIdle);
+
+            await Task.Delay(2000);
+
+            string eventxpath = "xpath=//article[starts-with(@class, 'wpgb-card wpgb-card-2 wpgb')]";
             var eventDivs = await _page.Locator(eventxpath).AllAsync();
 
-            string venue = "Viper Room";
+            string venue = "Szene";
 
             foreach (var div in eventDivs)
             {
                 try
                 {
-                    string date = await div.Locator(".event_date_monthyear").InnerTextAsync();
-                    var anchor = div.Locator("h2.event_title a");
-                    
-                    string link = await anchor.GetAttributeAsync("href") ?? "";
-                    string artist = await anchor.InnerTextAsync();
+                    var artist = await div.Locator("h3.wpgb-block-1").InnerTextAsync();
 
-                    //string info = await div.Locator(".event_teaser").InnerTextAsync();
+                    var date = await div.Locator("div.wpgb-block-2").InnerTextAsync();
+
+                    var link = await div.Locator("a.wpgb-card-layer-link").GetAttributeAsync("href");
 
                     //eingrenzen auf die kommendne 2 Monate, der findet sonst zu viel
                     if (ParseDate(date).Month > DateTime.Now.Month + 1)
@@ -52,10 +58,9 @@ namespace EventCrawler.Crawler
                         Date = ParseDate(date),
                         Artist = artist,
                         Venue = venue,
-                        Info = "",
+                        Info = "", //haben keine info
                         Link = link
                     };
-
                     result.Add(ev);
                 }
                 catch (Exception ex)
@@ -67,6 +72,7 @@ namespace EventCrawler.Crawler
                     };
                     result.Add(ev);
                 }
+
             }
 
             //info nachträglich setzen
@@ -80,10 +86,10 @@ namespace EventCrawler.Crawler
                         WaitUntil = WaitUntilState.NetworkIdle
                     });
 
-                    var div = _page.Locator("//div[@id='em-event-6']");
+                    var container = _page.Locator("xpath=//div[@id='em-event-6']/div[@class='text']");
 
-                    var allText = await div.Locator("> *:not(.event_time):not(.event_actions)").AllInnerTextsAsync();
-                    ev.Info = string.Join("\n", allText);
+                    //bisher nur bei gürtelconnection als mehrere strongs gesehen
+                    ev.Info = await container.InnerTextAsync();
                 }
                 catch (Exception ex)
                 {
@@ -97,7 +103,13 @@ namespace EventCrawler.Crawler
 
         private DateOnly ParseDate(string raw)
         {
-            return DateOnly.ParseExact(raw, "dd.MM.yy");
+            // "((fr., 22. mai 2026))"
+            raw = raw.Trim('(', ')', ' ').ToLower();
+            raw = raw.Replace(".", "");
+            // de-AT lowercase MonthNames registrieren geht nicht nativ,
+            // daher ToTitleCase
+            raw = new CultureInfo("de-AT").TextInfo.ToTitleCase(raw);
+            return DateOnly.ParseExact(raw, "ddd, d MMMM yyyy", new CultureInfo("de-AT"));
         }
     }
 }

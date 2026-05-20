@@ -35,7 +35,10 @@ namespace EventCrawler
                 new KramladenCrawler(page),
                 new ViperRoomCrawler(page),
                 new RhizCrawler(page),
-                new B72Crawler(page)
+                new B72Crawler(page),
+                new Venster99Crawler(page),
+                new SzeneCrawler(page),
+                new CarinaCrawler(page)
                 ];
 
             //alle events sammeln

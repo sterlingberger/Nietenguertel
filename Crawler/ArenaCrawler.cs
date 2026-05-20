@@ -58,9 +58,13 @@ namespace EventCrawler.Crawler
                         var anchor = div.Locator("a").First;
                         string link = await anchor.GetAttributeAsync("href") ?? "";
 
+                        //eingrenzen auf die kommendne 2 Monate, der findet sonst zu viel
+                        if (ParseDate(date).Month > DateTime.Now.Month + 1)
+                            continue;
+
                         var ev = new Event
                         {
-                            Date = await ParseDate(date),
+                            Date = ParseDate(date),
                             Artist = artist,
                             Venue = venue,
                             Info = info + " | " + halle,
@@ -98,7 +102,7 @@ namespace EventCrawler.Crawler
             return result;
         }
 
-        private async Task<DateOnly> ParseDate(string raw)
+        private DateOnly ParseDate(string raw)
         {
             // "SA 09 MAI | 2026" oder "MI 03 JUN. | 2026"
             var cleaned = raw.Replace("|", "").Replace(".", "").Trim();

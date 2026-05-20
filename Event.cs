@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Text.Json.Serialization;
+using static System.Net.WebRequestMethods;
 
 namespace EventCrawler
 {
@@ -20,5 +21,17 @@ namespace EventCrawler
 
         //nur erste 50 zeichen nehmen
         public string InfoShort => Info.Length > 128 ? Info[..128] + "..." : Info;
+
+
+        public override bool Equals(object obj) =>
+            obj is Event other &&
+            Artist == other.Artist &&
+            Date == other.Date &&
+            Link == other.Link &&
+            InfoShort == other.InfoShort &&
+            Venue == other.Venue;
+
+        public override int GetHashCode() =>
+            HashCode.Combine(Artist, Date, Link, InfoShort, Venue);
     }
 }

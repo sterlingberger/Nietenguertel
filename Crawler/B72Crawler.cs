@@ -44,6 +44,10 @@ namespace EventCrawler.Crawler
 
                     string date = await div.Locator("h4").First.InnerTextAsync();
 
+                    //eingrenzen auf die kommendne 2 Monate, der findet sonst zu viel
+                    if (ParseDate(date).Month > DateTime.Now.Month + 1)
+                        continue;
+
                     var ev = new Event
                     {
                         Date = ParseDate(date),

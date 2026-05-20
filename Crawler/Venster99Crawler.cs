@@ -4,16 +4,15 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 using System.Text.RegularExpressions;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace EventCrawler.Crawler
 {
-    internal class ChelseaCrawler : ICrawler
+    internal class Venster99Crawler : ICrawler
     {
-        private string url = "https://www.chelsea.co.at/concerts.php";
+        private string url = "https://www.venster99.at/";
         private IPage _page;
 
-        public ChelseaCrawler(IPage page)
+        public Venster99Crawler(IPage page)
         {
             _page = page;
         }
@@ -27,23 +26,20 @@ namespace EventCrawler.Crawler
                 WaitUntil = WaitUntilState.NetworkIdle
             });
 
-            string eventxpath = "xpath=//html//body//div[@class='main']//table[@class='termindetails']";
+            string eventxpath = "xpath=//div[@id='events-container']/div[@class='event']";
             var eventDivs = await _page.Locator(eventxpath).AllAsync();
 
-            string venue = "Chelsea";
+            string venue = "Venster99";
 
             foreach (var div in eventDivs)
             {
                 try
                 {
-                    string date = await div.Locator(".date").InnerTextAsync();
-                    string artist = await div.Locator(".band").InnerTextAsync();
-                    string info = await div.Locator(".text").InnerTextAsync();
+                    var date = await div.Locator("p").First.InnerTextAsync();
 
-                    var anchor = div.Locator("xpath=preceding-sibling::a[starts-with(@name,'concert_')]");
-                    string concertid = await anchor.Last.GetAttributeAsync("name") ?? "";
+                    var artist = await div.Locator("strong").First.InnerTextAsync();
 
-                    string link = url + $"#{concertid}";
+                    var link = await div.Locator("a[href]").First.GetAttributeAsync("href");
 
                     //eingrenzen auf die kommendne 2 Monate, der findet sonst zu viel
                     if (ParseDate(date).Month > DateTime.Now.Month + 1)
@@ -54,7 +50,7 @@ namespace EventCrawler.Crawler
                         Date = ParseDate(date),
                         Artist = artist,
                         Venue = venue,
-                        Info = info,
+                        Info = "keine Info", //haben keine info
                         Link = link
                     };
                     result.Add(ev);
@@ -76,19 +72,8 @@ namespace EventCrawler.Crawler
 
         private DateOnly ParseDate(string raw)
         {
-            // Wochentag entfernen
-            var cleaned = Regex.Replace(raw, @"^[^,]+,\s*", "").Trim().TrimEnd('.');
-
-            if (cleaned.Count(c => c == '.') == 1)
-            {
-                // "21.11" → kein Jahr
-                return DateOnly.ParseExact(cleaned + "." + DateTime.Now.Year, "d.M.yyyy", CultureInfo.InvariantCulture);
-            }
-            else
-            {
-                // "17.04.2027" → Jahr vorhanden
-                return DateOnly.ParseExact(cleaned, "d.M.yyyy", CultureInfo.InvariantCulture);
-            }
+            // "Wed Jun 10 2026"
+            return DateOnly.ParseExact(raw, "ddd MMM d yyyy", CultureInfo.InvariantCulture);
         }
     }
 }
