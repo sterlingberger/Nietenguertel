@@ -1,13 +1,6 @@
 [
   {
     "Venue": "Arena",
-    "Date": "2026-05-19",
-    "Artist": "GREEEN (ger) \u002B JONNY MAHORO (ger) *OPEN AIR*",
-    "Link": "https://arena.wien/Home/Programm-Detail/concert-id/48299",
-    "InfoShort": " | Arena Wien - Open Air"
-  },
-  {
-    "Venue": "Arena",
     "Date": "2026-05-20",
     "Artist": "SOFIA ISELLA (us) \u002B CLOUDY JUNE (ger) \u002B SEB LOWE (uk) *OPEN AIR*",
     "Link": "https://arena.wien/Home/Programm-Detail/concert-id/48363",
@@ -372,13 +365,6 @@
   },
   {
     "Venue": "Kramladen",
-    "Date": "2026-05-19",
-    "Artist": "DOPE PURPLE | SKIYYA \u0026 THE DREAM MACHINE",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/792275099927333.webp?v=1779084214260",
-    "InfoShort": "dazed \u0026 confused shows presents\n\u2726 DOPE PURPLE \u2726\n\nPsyc..."
-  },
-  {
-    "Venue": "Kramladen",
     "Date": "2026-05-20",
     "Artist": "HAYDEN ARP @ KRAMLADEN",
     "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1267421855583109.webp?v=1779084214261",
@@ -511,11 +497,32 @@
     "InfoShort": "Einlass 19:00\nRINGLETS (NZL)\nRagingly bright post-pu..."
   },
   {
-    "Venue": "Viper Room",
-    "Date": "2026-05-19",
-    "Artist": "AUSVERKAUFT!! PALEDUSK, KNOSIS, GREYHAVEN, HEADWRECK",
-    "Link": "https://www.viper-room.at/events/live-paledusk-knosis-greyhaven-headwreck",
-    "InfoShort": "!! SOLD OUT !!"
+    "Venue": "Kramladen",
+    "Date": "2026-06-18",
+    "Artist": "ALBUM RELEASE SHOW",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1422868079495640.webp?v=1779084214270",
+    "InfoShort": "Wir ver\u00F6ffentlichen unser Album! More info soon!"
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-06-19",
+    "Artist": "GIKKS \u00B7 19.06.26",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2617223585323778.webp?v=1778915930442",
+    "InfoShort": "Die \u2018Gikks\u2019 sind eine Konzertreihe, die von dem \u00F6s..."
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-06-20",
+    "Artist": "MAXI NAGL - GOLFBALL (ALBUM RELEASE SHOW) @ KRAMLADEN MIT SUPPORT: TBA",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2024449641801913.webp?v=1779084214271",
+    "InfoShort": "Maxi Nagl ver\u00F6ffentlicht am 19.6 sein neues Album ..."
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-06-27",
+    "Artist": "STERNPUNKTSTERN LIVE @KRAMLADEN",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1988296025123139.webp?v=1779084214271",
+    "InfoShort": "STERNpunktSTERN is back - plugged and loud\n...und ..."
   },
   {
     "Venue": "Viper Room",
