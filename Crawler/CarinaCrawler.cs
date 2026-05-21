@@ -1,4 +1,5 @@
-﻿using Microsoft.Playwright;
+﻿using EventCrawler.Models;
+using Microsoft.Playwright;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -17,6 +18,12 @@ namespace EventCrawler.Crawler
             _page = page;
         }
 
+        public string VenueName { get; private set; }
+
+        public void SetVenueName(string name)
+        {
+            VenueName = name;
+        }
         public async Task<IEnumerable<Event>> FetchAsync()
         {
             List<Event> result = new List<Event>();
@@ -53,8 +60,6 @@ namespace EventCrawler.Crawler
             string eventxpath = "xpath=//div[@id='mec_skin_events_599']/div[@class='mec-wrap colorskin-custom']/div[@class='mec-event-grid-clean']/div[@class='row']/div[@class='col-md-3 col-sm-3']";
             var eventDivs = await _page.Locator(eventxpath).AllAsync();
 
-            string venue = "Cafe Carina";
-
             foreach (var div in eventDivs)
             {
                 try
@@ -76,7 +81,7 @@ namespace EventCrawler.Crawler
                     {
                         Date = ParseDate(date),
                         Artist = artist,
-                        Venue = venue,
+                        Venue = VenueName,
                         Info = "", //haben keine info
                         Link = link
                     };
@@ -88,7 +93,7 @@ namespace EventCrawler.Crawler
                 {
                     var ev = new Event
                     {
-                        Venue = venue,
+                        Venue = VenueName,
                         Info = $"{ex.Message}"
                     };
                     result.Add(ev);

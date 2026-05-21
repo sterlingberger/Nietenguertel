@@ -1,4 +1,5 @@
-﻿using Microsoft.Playwright;
+﻿using EventCrawler.Models;
+using Microsoft.Playwright;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -16,6 +17,12 @@ namespace EventCrawler.Crawler
             _page = page;
         }
 
+        public string VenueName { get; private set; }
+
+        public void SetVenueName(string name)
+        {
+            VenueName = name;
+        }
         public async Task<IEnumerable<Event>> FetchAsync()
         {
             List<Event> result = new List<Event>();
@@ -32,8 +39,6 @@ namespace EventCrawler.Crawler
             await _page.WaitForLoadStateAsync(LoadState.NetworkIdle);
 
             var eventDivs = await _page.Locator("xpath=//div[@id='block-yui_3_17_2_1_1743151507799_1398']//div[@class='sqs-block-content']//div[@class='sqs-code-container']//div[@class='sk-fb-event']//div[@class='sk-events-body']//div[@class='sk-events-wrapper --sk-columns-3']//div[@class='sk-events-masonry']//div[@class='sk-event-item --vertical --sk-event-image-loaded']").AllAsync();
-
-            string venue = "Kramladen";
 
             foreach (var div in eventDivs)
             {
@@ -56,7 +61,7 @@ namespace EventCrawler.Crawler
                     {
                         Date = ParseDate(date),
                         Artist = artist,
-                        Venue = venue,
+                        Venue = VenueName,
                         Info = info,
                         Link = link
                     };
@@ -66,7 +71,7 @@ namespace EventCrawler.Crawler
                 {
                     var ev = new Event
                     {
-                        Venue = venue,
+                        Venue = VenueName,
                         Info = $"{ex.Message}"
                     };
                     result.Add(ev);

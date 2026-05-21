@@ -1,4 +1,5 @@
-﻿using Microsoft.Playwright;
+﻿using EventCrawler.Models;
+using Microsoft.Playwright;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -15,6 +16,13 @@ namespace EventCrawler.Crawler
         public SzeneCrawler(IPage page)
         {
             _page = page;
+        }
+
+        public string VenueName { get; private set; }
+
+        public void SetVenueName(string name)
+        {
+            VenueName = name;
         }
 
         public async Task<IEnumerable<Event>> FetchAsync()
@@ -37,8 +45,6 @@ namespace EventCrawler.Crawler
             string eventxpath = "xpath=//article[starts-with(@class, 'wpgb-card wpgb-card-2 wpgb')]";
             var eventDivs = await _page.Locator(eventxpath).AllAsync();
 
-            string venue = "Szene";
-
             foreach (var div in eventDivs)
             {
                 try
@@ -57,7 +63,7 @@ namespace EventCrawler.Crawler
                     {
                         Date = ParseDate(date),
                         Artist = artist,
-                        Venue = venue,
+                        Venue = VenueName,
                         Info = "", //haben keine info
                         Link = link
                     };
@@ -67,7 +73,7 @@ namespace EventCrawler.Crawler
                 {
                     var ev = new Event
                     {
-                        Venue = venue,
+                        Venue = VenueName,
                         Info = $"{ex.Message}"
                     };
                     result.Add(ev);

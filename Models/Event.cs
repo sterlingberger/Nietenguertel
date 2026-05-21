@@ -4,7 +4,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using static System.Net.WebRequestMethods;
 
-namespace EventCrawler
+namespace EventCrawler.Models
 {
     internal class Event
     {

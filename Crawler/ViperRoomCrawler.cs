@@ -1,4 +1,5 @@
-﻿using Microsoft.Playwright;
+﻿using EventCrawler.Models;
+using Microsoft.Playwright;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -17,6 +18,13 @@ namespace EventCrawler.Crawler
             _page = page;
         }
 
+        public string VenueName { get; private set; }
+
+        public void SetVenueName(string name)
+        {
+            VenueName = name;
+        }
+
         public async Task<IEnumerable<Event>> FetchAsync()
         {
             List<Event> result = new List<Event>();
@@ -28,8 +36,6 @@ namespace EventCrawler.Crawler
 
             string eventxpath = "xpath=//div[@id='em-events-list-grouped-1']//ul[@class='events_list']//li";
             var eventDivs = await _page.Locator(eventxpath).AllAsync();
-
-            string venue = "Viper Room";
 
             foreach (var div in eventDivs)
             {
@@ -51,7 +57,7 @@ namespace EventCrawler.Crawler
                     {
                         Date = ParseDate(date),
                         Artist = artist,
-                        Venue = venue,
+                        Venue = VenueName,
                         Info = "",
                         Link = link
                     };
@@ -62,7 +68,7 @@ namespace EventCrawler.Crawler
                 {
                     var ev = new Event
                     {
-                        Venue = venue,
+                        Venue = VenueName,
                         Info = $"{ex.Message}"
                     };
                     result.Add(ev);

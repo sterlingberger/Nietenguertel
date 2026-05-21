@@ -1,4 +1,5 @@
 ﻿using EventCrawler.Crawler;
+using EventCrawler.Models;
 using Microsoft.Playwright;
 using System.Diagnostics;
 using System.Text.Json;
@@ -24,21 +25,20 @@ namespace EventCrawler
 
             Console.WriteLine($"Init dauerte {sw.ElapsedMilliseconds} ms");
 
-
             // open a new page within the current browser context
             var page = await browser.NewPageAsync();
 
-            //Crwaler initialisieren
-            ICrawler[] crawlers = [
-                new ArenaCrawler(page),
-                new ChelseaCrawler(page),
-                new KramladenCrawler(page),
-                new ViperRoomCrawler(page),
-                new RhizCrawler(page),
-                new B72Crawler(page),
-                new Venster99Crawler(page),
-                new SzeneCrawler(page),
-                new CarinaCrawler(page)
+            //Venues initialisieren
+            Venue[] venues = [
+                new Venue("Arena", new string[]{"U3"}, new ArenaCrawler(page)),
+                new Venue("Chelsea", new string[]{"U6"}, new ChelseaCrawler(page)),
+                new Venue("Kramladen", new string[]{"U6"}, new KramladenCrawler(page)),
+                new Venue("Viper Room", new string[]{"U3"}, new ViperRoomCrawler(page)),
+                new Venue("Rhiz", new string[]{"U6"}, new RhizCrawler(page)),
+                new Venue("B72", new string[]{"U6"}, new B72Crawler(page)),
+                new Venue("Venster99", new string[]{"U6"}, new Venster99Crawler(page)),
+                new Venue("Szene", new string[]{"U3"}, new SzeneCrawler(page)),
+                new Venue("Cafe Carina", new string[]{"U6"}, new CarinaCrawler(page)),
                 ];
 
             //alle events sammeln
@@ -46,8 +46,9 @@ namespace EventCrawler
 
             sw.Restart();
 
-            foreach (var crawler in crawlers)
+            foreach (var venue in venues)
             {
+                var crawler = venue.Crawler;
                 Console.WriteLine($"{crawler.GetType().Name} ...");
 
                 var events = await crawler.FetchAsync();

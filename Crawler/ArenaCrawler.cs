@@ -1,4 +1,5 @@
-﻿using Microsoft.Playwright;
+﻿using EventCrawler.Models;
+using Microsoft.Playwright;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -16,6 +17,14 @@ namespace EventCrawler.Crawler
         {
             _page = page;
         }
+
+        public string VenueName { get; private set; }
+
+        public void SetVenueName(string name)
+        {
+            VenueName = name;
+        }
+
 
         public async Task<IEnumerable<Event>> FetchAsync()
         {
@@ -47,7 +56,6 @@ namespace EventCrawler.Crawler
                         string date = $"{weekday} {numweekday} {monthyear}";
                         string artist = await div.Locator(".Event_H1").InnerTextAsync();
                         string info = await div.Locator(".Event_H2").InnerTextAsync();
-                        string venue = "Arena";
 
                         var span = div.Locator("xpath=.//span[@class='col-md-5  suite_Eventitle']/span[3]");
                         string? halle = await span.TextContentAsync();
@@ -66,7 +74,7 @@ namespace EventCrawler.Crawler
                         {
                             Date = ParseDate(date),
                             Artist = artist,
-                            Venue = venue,
+                            Venue = VenueName,
                             Info = info + " | " + halle,
                             Link = link
                         };
@@ -80,7 +88,7 @@ namespace EventCrawler.Crawler
 
                         var ev = new Event
                         {
-                            Venue = "Arena",
+                            Venue = VenueName,
                             Info = $"{ex.Message}"
                         };
                         result.Add(ev);

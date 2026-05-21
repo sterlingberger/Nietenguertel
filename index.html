@@ -19,6 +19,44 @@
             margin-bottom: 1.5rem;
         }
 
+        .filters {
+            margin-bottom: 1rem;
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+            /* Separator zwischen Icon-Filtern und Row-Filter-Buttons */
+            .filters .sep {
+                color: #ccc;
+                padding: 0 6px;
+                user-select: none;
+                align-self: stretch;
+                display: inline-flex;
+                align-items: center;
+            }
+
+        .row-filters {
+            display: inline-flex;
+            gap: 0.5rem;
+            align-items: center;
+        }
+
+        .row-btn {
+            background: transparent;
+            border: 1px solid #ccc;
+            padding: 6px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+            .row-btn.active {
+                border-color: #28a745;
+                background: #eaf7ec;
+                color: #1a1a1a;
+            }
+
         table {
             min-width: 600px;
             width: auto;
@@ -98,36 +136,193 @@
             display: inline;
             font-size: 0.95em;
         }
+
+        /* Icon-Filter: sichtbar statt Checkbox */
+        .filter-icon {
+            width: 36px;
+            height: 36px;
+            cursor: pointer;
+            border-radius: 6px;
+            padding: 4px;
+            box-sizing: border-box;
+            border: 2px solid transparent;
+            transition: border-color 120ms ease, box-shadow 120ms ease, transform 120ms ease;
+        }
+
+            .filter-icon:hover {
+                transform: translateY(-1px);
+            }
+
+            .filter-icon.active,
+            .filter-icon[aria-pressed="true"] {
+                border-color: #28a745; /* grün */
+                box-shadow: 0 0 0 4px rgba(40,167,69,0.12);
+            }
     </style>
 </head>
 <body>
+    <div class="filters" aria-hidden="false">
+        <!-- versteckte Checkboxen bleiben als State-Quelle erhalten -->
+        <input type="checkbox" id="filter-u3" checked hidden>
+        <img src="data/u3.svg" alt="U3" class="filter-icon" data-target="filter-u3" role="button" aria-pressed="true" />
+
+        <input type="checkbox" id="filter-u6" checked hidden>
+        <img src="data/u6.svg" alt="U6" class="filter-icon" data-target="filter-u6" role="button" aria-pressed="true" />
+
+        <span class="sep">|</span>
+
+        <div class="row-filters" role="radiogroup" aria-label="Zeilenfilter">
+            <button class="row-btn" data-filter="today" aria-checked="false" role="radio">heute</button>
+            <button class="row-btn active" data-filter="week" aria-checked="true" role="radio">diese woche</button>
+            <button class="row-btn" data-filter="all" aria-checked="false" role="radio">alle</button>
+        </div>
+    </div>
+
     <table id="event-table">
         <thead>
-            <tr>
+            <tr id="header-row">
                 <th class="date-col">Datum</th>
-                <th>Arena</th>
-                <th>Chelsea</th>
-                <th>Kramladen</th>
-                <th>Viper Room</th>
-                <th>Rhiz</th>
-                <th>B72</th>
-                <th>Venster99</th>
-                <th>Szene</th>
-                <th>Cafe Carina</th>
+                <!-- venue header cells werden zur Laufzeit erzeugt -->
             </tr>
         </thead>
         <tbody id="table-body">
             <tr><td colspan="5" style="color:#999; text-align:center;">Lade Daten...</td></tr>
         </tbody>
     </table>
-    <script>
-        const VENUES = ['Arena', 'Chelsea', 'Kramladen', 'Viper Room', 'Rhiz', 'B72', 'Venster99', 'Szene', 'Cafe Carina'];
 
+    <script>
+        // Falls der Server die Venue-Objekte injiziert, erwartet das hier ein Array von Objekten:
+        // window.VENUE_OBJECTS = [{ Name: 'Arena', LocationFilter: ['U3'] }, ...]
+        // Fallback: wenn nicht vorhanden, benutze die alte Liste ohne LocationFilter.
+        const rawVenues = window.VENUE_OBJECTS ?? [
+            { Name: 'Arena', LocationFilter: ['U3'] },
+            { Name: 'Chelsea', LocationFilter: ['U6'] },
+            { Name: 'Kramladen', LocationFilter: ['U6'] },
+            { Name: 'Viper Room', LocationFilter: ['U3'] },
+            { Name: 'Rhiz', LocationFilter: ['U6'] },
+            { Name: 'B72', LocationFilter: ['U6'] },
+            { Name: 'Venster99', LocationFilter: ['U6'] },
+            { Name: 'Szene', LocationFilter: ['U3'] },
+            { Name: 'Cafe Carina', LocationFilter: ['U6'] }
+        ];
+
+        // Normalisierte Venue-Liste (nur Namen + LocationFilter)
+        const VENUE_OBJECTS = rawVenues.map(v => ({
+            name: v.Name ?? v.name,
+            locations: Array.isArray(v.LocationFilter) ? v.LocationFilter : (v.LocationFilter ? [v.LocationFilter] : (v.locations ?? []))
+        }));
+
+        const filterU3 = document.getElementById('filter-u3');
+        const filterU6 = document.getElementById('filter-u6');
+        const headerRow = document.getElementById('header-row');
+        const tbody = document.getElementById('table-body');
+
+        // Erzeuge Headerzellen dynamisch (Datum bleibt erste Spalte)
+        function renderHeaders() {
+            // entferne vorhandene venue-ths
+            Array.from(headerRow.querySelectorAll('th.venue-col')).forEach(n => n.remove());
+
+            VENUE_OBJECTS.forEach((v, idx) => {
+                const th = document.createElement('th');
+                th.className = 'venue-col';
+                th.setAttribute('data-venue-index', idx);
+                th.setAttribute('data-locations', v.locations.join(','));
+                th.textContent = v.name;
+                headerRow.appendChild(th);
+            });
+        }
+
+        // Sichtbarkeit der Spalten aktualisieren basierend auf Checkboxen
+        function updateColumnVisibility() {
+            const showU3 = filterU3.checked;
+            const showU6 = filterU6.checked;
+            VENUE_OBJECTS.forEach((v, idx) => {
+                const locations = v.locations || [];
+                // Spalte zeigen, falls eine der Location-Typen erlaubt ist
+                const shouldShow = (showU3 && locations.includes('U3')) || (showU6 && locations.includes('U6')) || (locations.length === 0 && (showU3 || showU6));
+                // header
+                const th = headerRow.querySelector(`th[data-venue-index="${idx}"]`);
+                if (th) th.style.display = shouldShow ? '' : 'none';
+                // zellen in allen rows
+                tbody.querySelectorAll(`td[data-venue-index="${idx}"]`).forEach(td => {
+                    td.style.display = shouldShow ? '' : 'none';
+                });
+            });
+        }
+
+        // ---------------- Row-Filter (heute / diese woche / alle) ----------------
+        const rowButtons = Array.from(document.querySelectorAll('.row-btn'));
+        let currentRowFilter = rowButtons.find(b => b.classList.contains('active'))?.dataset.filter ?? 'all';
+
+        function parseISODate(iso) {
+            // iso expected "YYYY-MM-DD"
+            const parts = String(iso).split('-').map(Number);
+            if (parts.length < 3) return new Date(NaN);
+            return new Date(parts[0], parts[1] - 1, parts[2]);
+        }
+        function startOfDay(d) { return new Date(d.getFullYear(), d.getMonth(), d.getDate()); }
+
+        function updateRowFilter() {
+            const today = startOfDay(new Date());
+            let start = null, end = null;
+
+            if (currentRowFilter === 'today') {
+                start = today;
+                end = today;
+            } else if (currentRowFilter === 'week') {
+                // Woche: Montag bis Sonntag (DE-Konvention)
+                const day = today.getDay(); // 0=So,1=Mo...
+                const diffToMonday = (day + 6) % 7; // 0->6,1->0,...
+                start = startOfDay(new Date(today.getFullYear(), today.getMonth(), today.getDate() - diffToMonday));
+                end = startOfDay(new Date(start.getFullYear(), start.getMonth(), start.getDate() + 6));
+            } else { // all
+                start = null; end = null;
+            }
+
+            tbody.querySelectorAll('tr').forEach(tr => {
+                const dateIso = tr.dataset.date; // wir setzen dies beim Rendern
+                if (!dateIso) return; // header or placeholder rows
+                if (currentRowFilter === 'all') {
+                    tr.style.display = '';
+                } else {
+                    const d = parseISODate(dateIso);
+                    const sd = startOfDay(d);
+                    if (!isNaN(d)) {
+                        const show = sd >= start && sd <= end;
+                        tr.style.display = show ? '' : 'none';
+                    } else {
+                        tr.style.display = 'none';
+                    }
+                }
+            });
+        }
+
+        // Radio-like Verhalten für die Buttons
+        rowButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                rowButtons.forEach(b => {
+                    b.classList.remove('active');
+                    b.setAttribute('aria-checked', 'false');
+                });
+                btn.classList.add('active');
+                btn.setAttribute('aria-checked', 'true');
+                currentRowFilter = btn.dataset.filter;
+                updateRowFilter();
+            });
+        });
+        // -----------------------------------------------------------------------
+
+        // Daten aus events.json lesen und Tabelle rendern
         fetch('data/events.json')
             .then(r => r.json())
             .then(events => {
+                // erstelle Header
+                renderHeaders();
+
+                // sortieren
                 events.sort((a, b) => a.Date.localeCompare(b.Date));
 
+                // gruppieren nach Datum
                 const byDate = {};
                 for (const e of events) {
                     if (!byDate[e.Date]) byDate[e.Date] = {};
@@ -135,11 +330,12 @@
                     byDate[e.Date][e.Venue].push(e);
                 }
 
-                const tbody = document.getElementById('table-body');
                 tbody.innerHTML = '';
 
                 for (const date of Object.keys(byDate).sort()) {
                     const tr = document.createElement('tr');
+                    // speichere das ISO-Datum als data-Attribut für Filter
+                    tr.dataset.date = date;
 
                     const d = new Date(date);
                     const weekday = d.toLocaleDateString('de-AT', { weekday: 'short' }).replace(/\.$/, '');
@@ -152,10 +348,12 @@
                     tdDate.innerHTML = `<span class="weekday">${weekday}</span> <span class="datepart">${datePart}</span>`;
                     tr.appendChild(tdDate);
 
-                    for (const venue of VENUES) {
+                    // Erzeuge für jede Venue in der gleichen Reihenfolge eine Zelle (sichtbar/hidden später)
+                    VENUE_OBJECTS.forEach((v, idx) => {
                         const td = document.createElement('td');
-                        const eventsForVenue = byDate[date][venue] || [];
-                        eventsForVenue.forEach((e, i) => {
+                        td.setAttribute('data-venue-index', idx);
+                        const eventsForVenue = byDate[date][v.name] || [];
+                        eventsForVenue.forEach((e) => {
                             const entry = document.createElement('div');
                             entry.className = 'event-entry';
 
@@ -163,7 +361,6 @@
                             bandDiv.className = 'band';
                             bandDiv.textContent = e.Artist || '';
 
-                            // Öffnet e.Link in neuem Tab, falls vorhanden
                             if (e.Link) {
                                 bandDiv.style.cursor = 'pointer';
                                 bandDiv.title = 'Link öffnen';
@@ -185,15 +382,57 @@
                             td.appendChild(entry);
                         });
                         tr.appendChild(td);
-                    }
+                    });
 
                     tbody.appendChild(tr);
                 }
+
+                // initiale Sichtbarkeit anwenden
+                updateColumnVisibility();
+                updateRowFilter();
             })
             .catch(() => {
                 document.getElementById('table-body').innerHTML =
                     '<tr><td colspan="5" style="color:red; text-align:center;">Fehler beim Laden der Daten.</td></tr>';
             });
+
+        // event listeners für filter (Icon-Checkboxen)
+        filterU3.addEventListener('change', updateColumnVisibility);
+        filterU6.addEventListener('change', updateColumnVisibility);
+
+        // Hilfsfunktion: Icon-Visual abhängig vom Checkbox-Status setzen
+        function updateIconState(icon, checked) {
+            if (checked) {
+                icon.classList.add('active');
+                icon.setAttribute('aria-pressed', 'true');
+            } else {
+                icon.classList.remove('active');
+                icon.setAttribute('aria-pressed', 'false');
+            }
+        }
+
+        // Icon-Interaktion initialisieren und mit Checkboxen synchronisieren
+        document.querySelectorAll('.filter-icon').forEach(icon => {
+            const cbId = icon.dataset.target;
+            const cb = document.getElementById(cbId);
+            if (!cb) return;
+
+            // initialen Zustand setzen
+            updateIconState(icon, cb.checked);
+
+            // Klick auf Icon toggelt die Checkbox, aktualisiert UI und Sichtbarkeit
+            icon.addEventListener('click', () => {
+                cb.checked = !cb.checked;
+                updateIconState(icon, cb.checked);
+                // bestehende Logik wiederverwenden
+                updateColumnVisibility();
+                // feuere change, falls andere Listener darauf hören
+                cb.dispatchEvent(new Event('change', { bubbles: true }));
+            });
+
+            // falls Checkbox anderweitig geändert wird, Icon mitziehen
+            cb.addEventListener('change', () => updateIconState(icon, cb.checked));
+        });
     </script>
 </body>
 </html>
