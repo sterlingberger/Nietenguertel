@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nietengürtel</title>
     <style>
+        /* Dunkles Farbschema nach Vorgabe */
         body {
             font-family: sans-serif;
             padding: 2rem;
-            background: #f9f9f9;
-            color: #1a1a1a;
+            background: #020309; /* Seiten-Hintergrund */
+            color: #e6e6e6; /* allgemeiner Text */
             overflow-x: auto;
         }
 
@@ -17,6 +18,31 @@
             font-size: 1.4rem;
             font-weight: 500;
             margin-bottom: 1.5rem;
+        }
+
+        /* Header-Bild Container (zentriert, responsive) */
+        .header-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 36px;
+        }
+        .header-container img.header-img {
+            display: block;
+            width: min(60vw, 700px); /* skaliert mit Viewport */
+            max-width: 85%;
+            height: auto;
+        }
+
+        /* schmale rote Linie unter dem Bild, nicht full-width */
+        .header-divider {
+            height: 1px;
+            background: #6B2626; /* rote Linie */
+            width: min(80%, 1024px);
+            margin: 8px auto 24px auto; /* zentriert mit Abstand oben/unten */
+            border-radius: 1px;
+            opacity: 1;
         }
 
         .filters {
@@ -28,7 +54,7 @@
 
             /* Separator zwischen Icon-Filtern und Row-Filter-Buttons */
             .filters .sep {
-                color: #ccc;
+                color: #444;
                 padding: 0 6px;
                 user-select: none;
                 align-self: stretch;
@@ -44,24 +70,25 @@
 
         .row-btn {
             background: transparent;
-            border: 1px solid #ccc;
+            border: 1px solid #361313; /* inaktiv: #361313 */
             padding: 6px 10px;
             border-radius: 4px;
             cursor: pointer;
             font-size: 0.9rem;
+            color: #e6e6e6;
         }
 
             .row-btn.active {
-                border-color: #28a745;
-                background: #eaf7ec;
-                color: #1a1a1a;
+                border-color: #28a745; /* aktiv bleibt grün */
+                background: #0f2a12; /* dezenter Grünton-Hintergrund bei aktiv */
+                color: #ffffff;
             }
 
         table {
             min-width: 600px;
             width: auto;
             border-collapse: collapse;
-            background: #fff;
+            background: #020309; /* Tabellen-Hintergrund wie Seiten-Hintergrund */
             table-layout: fixed;
         }
 
@@ -69,14 +96,15 @@
             position: sticky; /*damit Header mitgescrollt wird*/
             top: 0;
             z-index: 1;
-            background: #f1f1f1;
+            background: #6B2626; /* Header-Farbe */
             font-weight: 500;
             font-size: 0.85rem;
             text-transform: uppercase;
             letter-spacing: 0.05em;
             padding: 10px 14px;
-            border: 1px solid #ddd;
+            border: 1px solid #6B2626; /* Linienfarbe */
             text-align: left;
+            color: #ffffff;
             /* erlauben Umbrüche auch in langen Venue-Namen (nur wenn nötig) */
             white-space: normal;
             overflow-wrap: anywhere;
@@ -92,17 +120,19 @@
 
         td {
             padding: 10px 14px;
-            border: 1px solid #e5e5e5;
+            border: 1px solid #6B2626; /* Tabellenlinien dunkelrot */
             vertical-align: top;
             font-size: 0.9rem;
             /* erlaubt Wortumbrüche auch innerhalb langer Wörter (hilft im Hochformat auf Handy) */
             overflow-wrap: anywhere;
             word-break: break-word;
+            background: transparent; /* Zellen nehmen Tabellen-Hintergrund an */
+            color: #e6e6e6;
         }
 
             td.date-cell {
                 font-weight: 500;
-                color: #555;
+                color: #d0d6d9; /* Datum etwas heller */
                 /* erlaubt normalen Zeilenumbruch (nicht erzwungen) */
                 white-space: normal;
             }
@@ -110,24 +140,25 @@
         .event-entry + .event-entry {
             margin-top: 10px;
             padding-top: 10px;
-            border-top: 1px dashed #ddd;
+            border-top: 1px dashed rgba(107,38,38,0.15); /* dezente Trennung */
         }
 
         .band {
-            font-weight: 500;
+            font-weight: 700;
             /* lange Künstlernamen umbrechen, verhindern Überlaufen */
             overflow-wrap: anywhere;
             word-break: break-word;
+            color: #ffffff; /* Artist: weiß */
         }
 
         .info {
             font-size: 0.82rem;
-            color: #666;
+            color: #9aa3ad; /* Info: gedämpftes Grau (unterschiedlicher Ton) */
             margin-top: 2px;
         }
 
         tr:nth-child(even) td {
-            background: #fafafa;
+            background: rgba(255,255,255,0.01); /* sehr dezenter Wechsel */
         }
 
         /* Datumskomponenten inline belassen, damit Umbruch nur bei Bedarf passiert */
@@ -145,8 +176,9 @@
             border-radius: 6px;
             padding: 4px;
             box-sizing: border-box;
-            border: 2px solid transparent;
+            border: 2px solid #361313; /* inaktiv: #361313 */
             transition: border-color 120ms ease, box-shadow 120ms ease, transform 120ms ease;
+            background: transparent;
         }
 
             .filter-icon:hover {
@@ -161,6 +193,12 @@
     </style>
 </head>
 <body>
+    <!-- Header-Bild (zentriert, responsive) -->
+    <div class="header-container" aria-hidden="false">
+        <img src="data/snake_header_red.png" alt="Snake Header" class="header-img" />
+    </div>
+    <div class="header-divider" aria-hidden="true"></div>
+
     <div class="filters" aria-hidden="false">
         <!-- versteckte Checkboxen bleiben als State-Quelle erhalten -->
         <input type="checkbox" id="filter-u3" checked hidden>
@@ -272,7 +310,7 @@
             } else if (currentRowFilter === 'week') {
                 // Woche: Montag bis Sonntag (DE-Konvention)
                 const day = today.getDay(); // 0=So,1=Mo...
-                const diffToMonday = (day + 6) % 7; // 0->6,1->0,...
+                const diffToMonday = (day + 6) % 7; // 0->6,1->0,... 
                 start = startOfDay(new Date(today.getFullYear(), today.getMonth(), today.getDate() - diffToMonday));
                 end = startOfDay(new Date(start.getFullYear(), start.getMonth(), start.getDate() + 6));
             } else { // all
