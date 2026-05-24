@@ -294,8 +294,8 @@
             <input type="checkbox" id="filter-u3" checked hidden>
             <img src="data/u3.svg" alt="U3" class="filter-icon" data-target="filter-u3" role="button" aria-pressed="true" />
 
-            <input type="checkbox" id="filter-u4" checked hidden>
-            <img src="data/u4.svg" alt="U4" class="filter-icon" data-target="filter-u4" role="button" aria-pressed="true" />
+            <!--<input type="checkbox" id="filter-u4" checked hidden>
+            <img src="data/u4.svg" alt="U4" class="filter-icon" data-target="filter-u4" role="button" aria-pressed="true" />-->
 
             <input type="checkbox" id="filter-u6" checked hidden>
             <img src="data/u6.svg" alt="U6" class="filter-icon" data-target="filter-u6" role="button" aria-pressed="true" />
@@ -359,7 +359,7 @@
         const filterU1 = document.getElementById('filter-u1');
         const filterU2 = document.getElementById('filter-u2');
         const filterU3 = document.getElementById('filter-u3');
-        const filterU4 = document.getElementById('filter-u4');
+        /*const filterU4 = document.getElementById('filter-u4');*/
         const filterU6 = document.getElementById('filter-u6');
         const headerRow = document.getElementById('header-row');
         const tbody = document.getElementById('table-body');
@@ -392,9 +392,9 @@
                     (showU1 && locations.includes('U1')) ||
                     (showU2 && locations.includes('U2')) ||
                     (showU3 && locations.includes('U3')) ||
-                    (showU3 && locations.includes('U4')) ||
+                    //(showU4 && locations.includes('U4')) ||
                     (showU6 && locations.includes('U6')) ||
-                    (locations.length === 0 && (showU1 || showU2 || showU3 || showU4 || showU6));
+                    (locations.length === 0 && (showU1 || showU2 || showU3 /*|| showU4 */|| showU6));
                 // header
                 const th = headerRow.querySelector(`th[data-venue-index="${idx}"]`);
                 if (th) th.style.display = shouldShow ? '' : 'none';
