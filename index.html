@@ -260,6 +260,19 @@
                 .participate-link a:hover {
                     text-decoration: underline;
                 }
+
+        .filter-grid {
+            display: flex;
+            gap: 4px; /* bestehender Abstand zwischen den Icons */
+        }
+
+        @media (max-width: 600px) {
+            .filter-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 2px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -271,17 +284,22 @@
 
     <div class="filters" aria-hidden="false">
         <!-- versteckte Checkboxen bleiben als State-Quelle erhalten -->
-        <input type="checkbox" id="filter-u1" checked hidden>
-        <img src="data/u1.svg" alt="U1" class="filter-icon" data-target="filter-u1" role="button" aria-pressed="true" />
+        <div class="filter-grid">
+            <input type="checkbox" id="filter-u1" checked hidden>
+            <img src="data/u1.svg" alt="U1" class="filter-icon" data-target="filter-u1" role="button" aria-pressed="true" />
 
-        <input type="checkbox" id="filter-u2" checked hidden>
-        <img src="data/u2.svg" alt="U2" class="filter-icon" data-target="filter-u2" role="button" aria-pressed="true" />
+            <input type="checkbox" id="filter-u2" checked hidden>
+            <img src="data/u2.svg" alt="U2" class="filter-icon" data-target="filter-u2" role="button" aria-pressed="true" />
 
-        <input type="checkbox" id="filter-u3" checked hidden>
-        <img src="data/u3.svg" alt="U3" class="filter-icon" data-target="filter-u3" role="button" aria-pressed="true" />
+            <input type="checkbox" id="filter-u3" checked hidden>
+            <img src="data/u3.svg" alt="U3" class="filter-icon" data-target="filter-u3" role="button" aria-pressed="true" />
 
-        <input type="checkbox" id="filter-u6" checked hidden>
-        <img src="data/u6.svg" alt="U6" class="filter-icon" data-target="filter-u6" role="button" aria-pressed="true" />
+            <input type="checkbox" id="filter-u4" checked hidden>
+            <img src="data/u4.svg" alt="U4" class="filter-icon" data-target="filter-u4" role="button" aria-pressed="true" />
+
+            <input type="checkbox" id="filter-u6" checked hidden>
+            <img src="data/u6.svg" alt="U6" class="filter-icon" data-target="filter-u6" role="button" aria-pressed="true" />
+        </div>
 
         <span class="sep">|</span>
 
@@ -324,7 +342,7 @@
             { Name: 'B72', LocationFilter: ['U6'] },
             { Name: 'Cafe Carina', LocationFilter: ['U6'] },
             { Name: 'Chelsea', LocationFilter: ['U6'] },
-            { Name: 'Flucc', LocationFilter: ['U1','U2'] },
+            { Name: 'Flucc', LocationFilter: ['U1', 'U2'] },
             { Name: 'Kramladen', LocationFilter: ['U6'] },
             { Name: 'Rhiz', LocationFilter: ['U6'] },
             { Name: 'Szene', LocationFilter: ['U3'] },
@@ -341,7 +359,7 @@
         const filterU1 = document.getElementById('filter-u1');
         const filterU2 = document.getElementById('filter-u2');
         const filterU3 = document.getElementById('filter-u3');
-        //const filterU4 = document.getElementById('filter-u4');
+        const filterU4 = document.getElementById('filter-u4');
         const filterU6 = document.getElementById('filter-u6');
         const headerRow = document.getElementById('header-row');
         const tbody = document.getElementById('table-body');
@@ -374,8 +392,9 @@
                     (showU1 && locations.includes('U1')) ||
                     (showU2 && locations.includes('U2')) ||
                     (showU3 && locations.includes('U3')) ||
+                    (showU3 && locations.includes('U4')) ||
                     (showU6 && locations.includes('U6')) ||
-                    (locations.length === 0 && (showU1 || showU2 || showU3 || showU6));
+                    (locations.length === 0 && (showU1 || showU2 || showU3 || showU4 || showU6));
                 // header
                 const th = headerRow.querySelector(`th[data-venue-index="${idx}"]`);
                 if (th) th.style.display = shouldShow ? '' : 'none';
@@ -536,6 +555,7 @@
         filterU1.addEventListener('change', updateColumnVisibility);
         filterU2.addEventListener('change', updateColumnVisibility);
         filterU3.addEventListener('change', updateColumnVisibility);
+        filterU4.addEventListener('change', updateColumnVisibility);
         filterU6.addEventListener('change', updateColumnVisibility);
 
         // Hilfsfunktion: Icon-Visual abhängig vom Checkbox-Status gesetzt
