@@ -248,7 +248,7 @@
 
         .participate-link {
             text-align: center;
-            color: #6B2626;
+            color: #A63B3B;
         }
 
             .participate-link a {
@@ -271,6 +271,12 @@
 
     <div class="filters" aria-hidden="false">
         <!-- versteckte Checkboxen bleiben als State-Quelle erhalten -->
+        <input type="checkbox" id="filter-u1" checked hidden>
+        <img src="data/u1.svg" alt="U1" class="filter-icon" data-target="filter-u1" role="button" aria-pressed="true" />
+
+        <input type="checkbox" id="filter-u2" checked hidden>
+        <img src="data/u2.svg" alt="U2" class="filter-icon" data-target="filter-u2" role="button" aria-pressed="true" />
+
         <input type="checkbox" id="filter-u3" checked hidden>
         <img src="data/u3.svg" alt="U3" class="filter-icon" data-target="filter-u3" role="button" aria-pressed="true" />
 
@@ -286,7 +292,7 @@
         </div>
 
         <span class="sep">|</span>
-        <a class ="participate-link" href="mitmachen.html">mitmachen</a>
+        <a class="participate-link" href="mitmachen.html">mitmachen</a>
     </div>
 
     <div class="table-wrapper">
@@ -318,6 +324,7 @@
             { Name: 'B72', LocationFilter: ['U6'] },
             { Name: 'Cafe Carina', LocationFilter: ['U6'] },
             { Name: 'Chelsea', LocationFilter: ['U6'] },
+            { Name: 'Flucc', LocationFilter: ['U1','U2'] },
             { Name: 'Kramladen', LocationFilter: ['U6'] },
             { Name: 'Rhiz', LocationFilter: ['U6'] },
             { Name: 'Szene', LocationFilter: ['U3'] },
@@ -331,7 +338,10 @@
             locations: Array.isArray(v.LocationFilter) ? v.LocationFilter : (v.LocationFilter ? [v.LocationFilter] : (v.locations ?? []))
         }));
 
+        const filterU1 = document.getElementById('filter-u1');
+        const filterU2 = document.getElementById('filter-u2');
         const filterU3 = document.getElementById('filter-u3');
+        //const filterU4 = document.getElementById('filter-u4');
         const filterU6 = document.getElementById('filter-u6');
         const headerRow = document.getElementById('header-row');
         const tbody = document.getElementById('table-body');
@@ -353,12 +363,19 @@
 
         // Sichtbarkeit der Spalten aktualisieren basierend auf Checkboxen
         function updateColumnVisibility() {
+            const showU1 = filterU1.checked;
+            const showU2 = filterU2.checked;
             const showU3 = filterU3.checked;
             const showU6 = filterU6.checked;
             VENUE_OBJECTS.forEach((v, idx) => {
                 const locations = v.locations || [];
                 // Spalte zeigen, falls eine der Location-Typen erlaubt ist
-                const shouldShow = (showU3 && locations.includes('U3')) || (showU6 && locations.includes('U6')) || (locations.length === 0 && (showU3 || showU6));
+                const shouldShow =
+                    (showU1 && locations.includes('U1')) ||
+                    (showU2 && locations.includes('U2')) ||
+                    (showU3 && locations.includes('U3')) ||
+                    (showU6 && locations.includes('U6')) ||
+                    (locations.length === 0 && (showU1 || showU2 || showU3 || showU6));
                 // header
                 const th = headerRow.querySelector(`th[data-venue-index="${idx}"]`);
                 if (th) th.style.display = shouldShow ? '' : 'none';
@@ -516,6 +533,8 @@
             });
 
         // event listeners für filter (Icon-Checkboxen)
+        filterU1.addEventListener('change', updateColumnVisibility);
+        filterU2.addEventListener('change', updateColumnVisibility);
         filterU3.addEventListener('change', updateColumnVisibility);
         filterU6.addEventListener('change', updateColumnVisibility);
 

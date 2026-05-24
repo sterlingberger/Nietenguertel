@@ -39,6 +39,7 @@ namespace EventCrawler
                 new Venue("Venster99", new string[]{"U6"}, new Venster99Crawler(page)),
                 new Venue("Szene", new string[]{"U3"}, new SzeneCrawler(page)),
                 new Venue("Cafe Carina", new string[]{"U6"}, new CarinaCrawler(page)),
+                new Venue("Flucc", new string[]{"U1","U2"}, new FluccCrawler(page)),
                 ];
 
             //alle events sammeln
