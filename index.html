@@ -267,10 +267,20 @@
         }
 
         @media (max-width: 600px) {
+            .filters {
+                flex-direction: column;
+                align-items: center;
+                gap: 1rem;
+            }
+
             .filter-grid {
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                gap: 2px;
+                display: flex;
+                flex-direction: row;
+                gap: 4px;
+            }
+
+            .sep {
+                display: none !important;
             }
         }
 
