@@ -1,13 +1,6 @@
 [
   {
     "Venue": "Arena",
-    "Date": "2026-05-30",
-    "Artist": "ACID KING (us) \u002B CONGULUS (tur)",
-    "Link": "https://arena.wien/Home/Programm-Detail/concert-id/48422",
-    "InfoShort": "Roadtrip To Outta Space | Arena Wien - Kleine Halle"
-  },
-  {
-    "Venue": "Arena",
     "Date": "2026-05-31",
     "Artist": "DEINE FREUNDE (ger) *OPEN AIR / AUSVERKAUFT*",
     "Link": "https://arena.wien/Home/Programm-Detail/concert-id/48540",
@@ -253,20 +246,6 @@
   },
   {
     "Venue": "Kramladen",
-    "Date": "2026-05-30",
-    "Artist": "COZMIC GEORGE (AT) \u0026 HUM (DE)",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1419907580141568.webp?v=1780123771005",
-    "InfoShort": "Cozmic George \u0026 HUM live im Kramladen\nCOZMIC GEORGE..."
-  },
-  {
-    "Venue": "Kramladen",
-    "Date": "2026-05-30",
-    "Artist": "KOLLEKTIV KLANGGERECHT",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1258445669433648.webp?v=1780033282511",
-    "InfoShort": "Samstag 30.05.\n\nab 24:00-6:00\nKollektiv Klanggerecht ..."
-  },
-  {
-    "Venue": "Kramladen",
     "Date": "2026-06-03",
     "Artist": "GIKKS MIT YATWA \u0026 LASHOUT",
     "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2192464618243797.webp?v=1780123771007",
@@ -379,13 +358,6 @@
   },
   {
     "Venue": "Viper Room",
-    "Date": "2026-05-30",
-    "Artist": "VIENNA DECAY NIGHT",
-    "Link": "https://www.viper-room.at/events/vienna-decay-night-0526",
-    "InfoShort": "\nVIENNA DECAY NIGHT \u2013 SPRING 2026 EDITION\n\nOur gloomy souls are happy to invite you to:\nViper Room, 30.05.2026\nDoors 22:00\nLive:..."
-  },
-  {
-    "Venue": "Viper Room",
     "Date": "2026-06-03",
     "Artist": "METAL \u0026 SPIRITS GATHERING - WHISKY TASTING",
     "Link": "https://www.viper-room.at/events/metal-spirits-gathering-whisky-tasting-0626",
@@ -491,13 +463,6 @@
   },
   {
     "Venue": "Rhiz",
-    "Date": "2026-05-30",
-    "Artist": "Distorted Cunts",
-    "Link": "https://rhiz.wien/copilotevent/30-05-2026_distorted-cunts",
-    "InfoShort": "\nDatum: 30.05.2026 | Einlass: 21:00 Uhr\nBeginn: 21:00 | Ende: Uhr\n\n\u20AC 10,- Eintritt"
-  },
-  {
-    "Venue": "Rhiz",
     "Date": "2026-05-31",
     "Artist": "Swing The Boat",
     "Link": "https://rhiz.wien/copilotevent/31-05-2026_swing-the-boat-goes-rhiz",
@@ -533,13 +498,6 @@
   },
   {
     "Venue": "B72",
-    "Date": "2026-05-30",
-    "Artist": "NOSHPIT",
-    "Link": "https://www.b72.at//program/10210/Noshpit",
-    "InfoShort": ""
-  },
-  {
-    "Venue": "B72",
     "Date": "2026-06-03",
     "Artist": "10TH OASIS NIGHT W/ RUBBISH",
     "Link": "https://www.b72.at//program/10057/10th_OASIS_NIGHT_w_rubbis",
@@ -565,13 +523,6 @@
     "Artist": "PETROL GIRLS",
     "Link": "https://www.b72.at//program/10362/Petrol_Girls",
     "InfoShort": ""
-  },
-  {
-    "Venue": "Venster99",
-    "Date": "2026-05-30",
-    "Artist": "Dim Prospect, Los Tonnos, UVM",
-    "Link": "http://www.instagram.com/buehnenspitz/",
-    "InfoShort": "keine Info"
   },
   {
     "Venue": "Venster99",
@@ -628,13 +579,6 @@
     "Artist": "Hc4L",
     "Link": "http://.at",
     "InfoShort": "keine Info"
-  },
-  {
-    "Venue": "Szene",
-    "Date": "2026-05-30",
-    "Artist": "redlock festival #3",
-    "Link": "https://szene.wien/events/redlock-festival-3/",
-    "InfoShort": "Metalnight Outbreak presents:\n\nREDLOCK FESTIVAL #3 feat.:\nABBIE FALLS | AMNYON | MVSOCHIST | LIKE WE ARE\nAENYGMA | MAIRA | ARCWA..."
   },
   {
     "Venue": "Szene",
@@ -708,13 +652,6 @@
   },
   {
     "Venue": "Cafe Carina",
-    "Date": "2026-05-30",
-    "Artist": "M\u00E4nnlichkeitscoaching \u2013 Ein Theaterst\u00FCck Von \u201EVolle Kanne!\u201C",
-    "Link": "https://www.cafe-carina.at/2020/events/theaterstueck-maennlichkeitscoaching-von-und-mit-volle-kanne/",
-    "InfoShort": "M\u00E4nnlichkeitscoaching \u2013 ein Theaterst\u00FCck von \u201Evolle Kanne!\u201C\n\nDu bist nicht sonderlich erfolgreich?\nDeine Freundin hat dich verla..."
-  },
-  {
-    "Venue": "Cafe Carina",
     "Date": "2026-05-31",
     "Artist": "Sonntag Ruhetag",
     "Link": "https://www.cafe-carina.at/2020/events/sonntag-ruhetag-443-153-252-778-729/",
@@ -737,9 +674,9 @@
   {
     "Venue": "Cafe Carina",
     "Date": "2026-06-03",
-    "Artist": "RNP Stagetime",
+    "Artist": "RNP Stagetime: Ginger Shot // Noise Box // Killed By Youth",
     "Link": "https://www.cafe-carina.at/2020/events/rnp-stagetime-6-782/",
-    "InfoShort": "RNP Stagetime\nEndlich wieder mal ein bisschen live spielen\n\n\u00A0\n\nSTAGETIME\nNEWCOMER LiVE ON STAGE\nhosted by Rhythm \u0026 Poetry\n\n\u00A0\n\nCa..."
+    "InfoShort": "RNP Stagetime: Ginger Shot // Noise Box // Killed by Youth\n\n20:30 Ginger Shot\n\nhttps://www.facebook.com/gingershotrock\n\nhttps://..."
   },
   {
     "Venue": "Cafe Carina",
@@ -789,6 +726,146 @@
     "Artist": "VMI NIGHT",
     "Link": "https://www.cafe-carina.at/2020/events/vmi-night-6/",
     "InfoShort": "VMI NIGHT\n\nVMI\u00A0NIGHT @ Caf\u00E9 Carina\n\u00A0\nMittwoch, 10. Juni 2026, 20:30 Uhr\n\nSeid dabei bei der letzten\u00A0VMI\u00A0NIGHT dieses Semesters! ..."
+  },
+  {
+    "Venue": "Cafe Carina",
+    "Date": "2026-06-11",
+    "Artist": "Chaos Theory // Just Some Strangers Live (WM Im Gastgarten)",
+    "Link": "https://www.cafe-carina.at/2020/events/just-some-strangers/",
+    "InfoShort": "Chaos Theory // Just Some Strangers live (WM im Gastgarten)\n\n\u00A0\n\nChaos Theory\n\nChaos Theory ist ein Solo Musiker, der seit 2025 M..."
+  },
+  {
+    "Venue": "Cafe Carina",
+    "Date": "2026-06-12",
+    "Artist": "Secondsummer ( WM Im Gastgarten)",
+    "Link": "https://www.cafe-carina.at/2020/events/secondsummer/",
+    "InfoShort": "secondsummer ( WM im Gastgarten)\n\n\nDas fulminante Quartett verfolgt in konsequenter Weise\n\ndie von vielen lang ersehnte Stilrich..."
+  },
+  {
+    "Venue": "Cafe Carina",
+    "Date": "2026-06-13",
+    "Artist": "Churchpenny Allstars // Die Biene Meier (WM Im Gastgarten)",
+    "Link": "https://www.cafe-carina.at/2020/events/churchpenny-allstars-die-biene-meier-wm-im-gastgarten/",
+    "InfoShort": "Churchpenny Allstars // Die Biene Meier (WM im Gastgarten)\n\nChurchpenny Allstars\u00A0\n\nChurchpenny Allstars sind ein 2016 in Wien ge..."
+  },
+  {
+    "Venue": "Cafe Carina",
+    "Date": "2026-06-14",
+    "Artist": "Sonntag Ruhetag",
+    "Link": "https://www.cafe-carina.at/2020/events/sonntag-ruhetag-443-153-252-778-729/",
+    "InfoShort": "Sonntag Ruhetag\n\ngeschlossen"
+  },
+  {
+    "Venue": "Cafe Carina",
+    "Date": "2026-06-15",
+    "Artist": "Fussball WM 2026 | 18:00 Spanien \u2013 Kapverdische Inseln | 21:00 Belgien \u2013 \u00C4gypten",
+    "Link": "https://www.cafe-carina.at/2020/events/fussball-wm-2026-spanien-kapverdische-inseln-belgien-aegypten/",
+    "InfoShort": "Fussball WM 2026 | 18:00 Spanien \u2013 Kapverdische Inseln | 21:00 Belgien \u2013 \u00C4gypten\n\nFussball WM 2026 | 18:00 Spanien \u2013 Kapverdisch..."
+  },
+  {
+    "Venue": "Cafe Carina",
+    "Date": "2026-06-16",
+    "Artist": "Docks (Slowcore/Shoegaze, FR) \u2738 Danny Drivr (Indie/Bedroom Pop, Wien) (WM Im Gastgarten)",
+    "Link": "https://www.cafe-carina.at/2020/events/docks-slowcore-shoegaze-fr-%e2%9c%b8-danny-drivr-indie-bedroom-pop-wien-cafe-carina/",
+    "InfoShort": "Docks (slowcore/shoegaze, FR) \u2738 Danny Drivr (indie/bedroom pop, Wien) (WM im Gastgarten)\n\n\u2738 Docks\nSlowcore/shoegaze/indie duo fr..."
+  },
+  {
+    "Venue": "Cafe Carina",
+    "Date": "2026-06-17",
+    "Artist": "CENOTAPH [TK] | SUBCUTANEOUS EXSANGUINATION [WIEN] | SLOOW [LINZ] (WM Im Gastgarten)",
+    "Link": "https://www.cafe-carina.at/2020/events/cenotaph-tk-subcutaneous-exsanguination-wien-sloow-linz/",
+    "InfoShort": "CENOTAPH [TK] | SUBCUTANEOUS EXSANGUINATION [WIEN] | SLOOW [LINZ] (WM im Gastgarten)\n\n[ENGLISH VERSION BELOW]\nEine Nacht voller ..."
+  },
+  {
+    "Venue": "Cafe Carina",
+    "Date": "2026-06-18",
+    "Artist": "Preslmayr // Maigeborn (WM Im Gastgarten)",
+    "Link": "https://www.cafe-carina.at/2020/events/surimi-live-preslmayr-album-praesentation-supp-maigeborn-645/",
+    "InfoShort": "Preslmayr // Maigeborn (WM im Gastgarten)\n\nPreslmayr\n\nWirre Frisuren, l\u00E4ssige Lieder \u2013 a bissal zu laut.\nAber sehr sehr wuschig!..."
+  },
+  {
+    "Venue": "Cafe Carina",
+    "Date": "2026-06-19",
+    "Artist": "The Drags // The Cooltrains (WM Im Gastgarten)",
+    "Link": "https://www.cafe-carina.at/2020/events/the-drags-the-cooltrains-wm-im-gastgarten/",
+    "InfoShort": "The Drags // The Cooltrains (WM im Gastgarten)\n\n\nThe Drags sind eine Blues-Garage-Rock-Band aus Wien, \u00D6sterreich. Ihre Musik ist..."
+  },
+  {
+    "Venue": "Cafe Carina",
+    "Date": "2026-06-20",
+    "Artist": "Esther Olivia \u0026 Band (WM Im Gastgarten)",
+    "Link": "https://www.cafe-carina.at/2020/events/esther-olivia-band-wm-im-gastgarten/",
+    "InfoShort": "Esther Olivia \u0026 Band (WM im Gastgarten)\n\nEsther Olivia \u0026 Band\n\nEsther Olivia, eine 18 j\u00E4hrige Singer-Songwriterin aus Wien, die ..."
+  },
+  {
+    "Venue": "Cafe Carina",
+    "Date": "2026-06-21",
+    "Artist": "Sonntag Ruhetag",
+    "Link": "https://www.cafe-carina.at/2020/events/sonntag-ruhetag-443-153-252-778-729/",
+    "InfoShort": "Sonntag Ruhetag\n\ngeschlossen"
+  },
+  {
+    "Venue": "Cafe Carina",
+    "Date": "2026-06-22",
+    "Artist": "WM Argentinien \u2013 \u00D6sterreich",
+    "Link": "https://www.cafe-carina.at/2020/events/wm-argentinien-oesterreich/",
+    "InfoShort": "WM Argentinien \u2013 \u00D6sterreich"
+  },
+  {
+    "Venue": "Cafe Carina",
+    "Date": "2026-06-23",
+    "Artist": "RNP Stagetime WM Im Gastgarten",
+    "Link": "https://www.cafe-carina.at/2020/events/rnp-stagetime-6-782-731/",
+    "InfoShort": "RNP Stagetime WM im Gastgarten\n\nSTAGETIME\nNEWCOMER LiVE ON STAGE\nhosted by Rhythm \u0026 Poetry\n\n\u00A0\n\nCafe Carina \u2013 RNP Stagetime\n\n#caf..."
+  },
+  {
+    "Venue": "Cafe Carina",
+    "Date": "2026-06-24",
+    "Artist": "WM Im Lokal 21:00 Schweiz \u2013 Kanada",
+    "Link": "https://www.cafe-carina.at/2020/events/wm-im-lokal-2100-schweiz-kanada/",
+    "InfoShort": "WM im Lokal 21:00 Schweiz \u2013 Kanada"
+  },
+  {
+    "Venue": "Cafe Carina",
+    "Date": "2026-06-25",
+    "Artist": "Inzeption \u2013 Die Au\u00DFergew\u00F6hnliche LED ZEPPELIN-Tribute Show (WM Im Gastgarten)",
+    "Link": "https://www.cafe-carina.at/2020/events/inzeption-die-aussergewoehnliche-led-zeppelin-tribute-show-wm-im-gastgarten/",
+    "InfoShort": "Inzeption \u2013 Die au\u00DFergew\u00F6hnliche LED ZEPPELIN-Tribute Show (WM im Gastgarten)\n\n\nDas erkl\u00E4rte Ziel von Inzeption ist es, den Soun..."
+  },
+  {
+    "Venue": "Cafe Carina",
+    "Date": "2026-06-26",
+    "Artist": "8th Anniversary Of Musicjunky Bookings \u0026 Records: Support The Underground Vol. 6 Sampler Pr\u00E4sentation \u2013 PFARRKAFFEE \u2013 NASTY NEIGHBOURS \u2013 THE VILE (WM Im Gastgarten)",
+    "Link": "https://www.cafe-carina.at/2020/events/8th-anniversary-of-musicjunky-bookings-records-support-the-underground-vol-6-sampler-praesentation-pfarrkaffee-nasty-neighbours-the-vile-wm-im-gastgarten/",
+    "InfoShort": "8th Anniversary of Musicjunky Bookings \u0026 Records: Support the Underground Vol. 6 Sampler Pr\u00E4sentation \u2013 PFARRKAFFEE \u2013 NASTY NEIG..."
+  },
+  {
+    "Venue": "Cafe Carina",
+    "Date": "2026-06-27",
+    "Artist": "Kopie Von 8th Anniversary Of Musicjunky Bookings \u0026 Records: HOG MEETS FROG \u2013 THE SICK PACK RAT ATTACK \u2013 GENERATION BREAKDOWN",
+    "Link": "https://www.cafe-carina.at/2020/events/8th-anniversary-of-musicjunky-bookings-records-support-the-underground-vol-6-sampler-praesentation-pfarrkaffee-nasty-neighbours-the-vile-wm-im-gastgarten-569/",
+    "InfoShort": "Kopie von 8th Anniversary of Musicjunky Bookings \u0026 Records: HOG MEETS FROG \u2013 THE SICK PACK RAT ATTACK \u2013 GENERATION BREAKDOWN\n\n8t..."
+  },
+  {
+    "Venue": "Cafe Carina",
+    "Date": "2026-06-28",
+    "Artist": "Sonntag Ruhetag",
+    "Link": "https://www.cafe-carina.at/2020/events/sonntag-ruhetag-443-153-252-778-729/",
+    "InfoShort": "Sonntag Ruhetag\n\ngeschlossen"
+  },
+  {
+    "Venue": "Cafe Carina",
+    "Date": "2026-06-29",
+    "Artist": "WM Im Lokal 19:00 Sieger Gruppe C \u2013 Zweiter Gruppe F",
+    "Link": "https://www.cafe-carina.at/2020/events/wm-im-lokal-1900-sieger-gruppe-c-zweiter-gruppe-f/",
+    "InfoShort": "WM im Lokal 19:00 Sieger Gruppe C \u2013 Zweiter Gruppe F"
+  },
+  {
+    "Venue": "Cafe Carina",
+    "Date": "2026-06-30",
+    "Artist": "WM Im Lokal 19:00 Gruppe E \u2013 Zweiter Gruppe I",
+    "Link": "https://www.cafe-carina.at/2020/events/wm-im-lokal-1900-gruppe-e-zweiter-gruppe-i/",
+    "InfoShort": "WM im Lokal 19:00 Gruppe E \u2013 Zweiter Gruppe I"
   },
   {
     "Venue": "Flucc",
