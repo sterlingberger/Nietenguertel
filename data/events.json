@@ -1,13 +1,6 @@
 [
   {
     "Venue": "Arena",
-    "Date": "2026-05-31",
-    "Artist": "DEINE FREUNDE (ger) *OPEN AIR / AUSVERKAUFT*",
-    "Link": "https://arena.wien/Home/Programm-Detail/concert-id/48540",
-    "InfoShort": " | Arena Wien - Open Air"
-  },
-  {
-    "Venue": "Arena",
     "Date": "2026-06-03",
     "Artist": "FL\u00DCSTERN (aut) \u002B KOBERMANN (aut)",
     "Link": "https://arena.wien/Home/Programm-Detail/concert-id/48510",
@@ -147,6 +140,139 @@
     "InfoShort": " | Arena Wien - Gel\u00E4nde"
   },
   {
+    "Venue": "Arena",
+    "Date": "2026-07-02",
+    "Artist": "CONVERGE (us) \u002B HERIOT (uk) \u002B BONEFLOWER (esp) \u002B CROUCH (bel)",
+    "Link": "https://arena.wien/Home/Programm-Detail/concert-id/48485",
+    "InfoShort": " | Arena Wien - Gro\u00DFe Halle"
+  },
+  {
+    "Venue": "Arena",
+    "Date": "2026-07-03",
+    "Artist": "T\u00D6CHTERS\u00D6HNE FEST - 10 JAHRE JUBIL\u00C4UM *ABGESAGT*",
+    "Link": "https://arena.wien/Home/Programm-Detail/concert-id/48302",
+    "InfoShort": " | Arena Wien - Open Air"
+  },
+  {
+    "Venue": "Arena",
+    "Date": "2026-07-04",
+    "Artist": "T\u00D6CHTERS\u00D6HNE FEST - 10 JAHRE JUBIL\u00C4UM *ABGESAGT*",
+    "Link": "https://arena.wien/Home/Programm-Detail/concert-id/48303",
+    "InfoShort": " | Arena Wien - Open Air"
+  },
+  {
+    "Venue": "Arena",
+    "Date": "2026-07-06",
+    "Artist": "XAVIER RUDD (aus) *OPEN AIR*",
+    "Link": "https://arena.wien/Home/Programm-Detail/concert-id/48435",
+    "InfoShort": " | Arena Wien - Open Air"
+  },
+  {
+    "Venue": "Arena",
+    "Date": "2026-07-08",
+    "Artist": "BLUE ON GREEN FESTIVAL *OPEN AIR*",
+    "Link": "https://arena.wien/Home/Programm-Detail/concert-id/48532",
+    "InfoShort": " | Arena Wien - Open Air"
+  },
+  {
+    "Venue": "Arena",
+    "Date": "2026-07-09",
+    "Artist": "OLIVER TREE (us)",
+    "Link": "https://arena.wien/Home/Programm-Detail/concert-id/48545",
+    "InfoShort": " | Arena Wien - Gro\u00DFe Halle"
+  },
+  {
+    "Venue": "Arena",
+    "Date": "2026-07-10",
+    "Artist": "KAE TEMPEST (uk)",
+    "Link": "https://arena.wien/Home/Programm-Detail/concert-id/48552",
+    "InfoShort": " | Arena Wien - Gro\u00DFe Halle"
+  },
+  {
+    "Venue": "Arena",
+    "Date": "2026-07-12",
+    "Artist": "SNARKY PUPPY (us) *OPEN AIR*",
+    "Link": "https://arena.wien/Home/Programm-Detail/concert-id/48492",
+    "InfoShort": " | Arena Wien - Open Air"
+  },
+  {
+    "Venue": "Arena",
+    "Date": "2026-07-14",
+    "Artist": "SINA BATHAIE (irn/can)",
+    "Link": "https://arena.wien/Home/Programm-Detail/concert-id/48438",
+    "InfoShort": " | Arena Wien - Gro\u00DFe Halle"
+  },
+  {
+    "Venue": "Arena",
+    "Date": "2026-07-15",
+    "Artist": "VOIVOD (can) \u002B POISON RUIN (usa) \u002B PRYNE (aut)",
+    "Link": "https://arena.wien/Home/Programm-Detail/concert-id/48491",
+    "InfoShort": " | Arena Wien - Gro\u00DFe Halle"
+  },
+  {
+    "Venue": "Arena",
+    "Date": "2026-07-16",
+    "Artist": "GROSSSTADTGEFL\u00DCSTER (ger) *OPEN AIR / AUSVERKAUFT*",
+    "Link": "https://arena.wien/Home/Programm-Detail/concert-id/48291",
+    "InfoShort": " | Arena Wien - Open Air"
+  },
+  {
+    "Venue": "Arena",
+    "Date": "2026-07-18",
+    "Artist": "SPORTFREUNDE STILLER (ger) *OPEN AIR*",
+    "Link": "https://arena.wien/Home/Programm-Detail/concert-id/48118",
+    "InfoShort": " | Arena Wien - Open Air"
+  },
+  {
+    "Venue": "Arena",
+    "Date": "2026-07-19",
+    "Artist": "WOLF ALICE (uk) *OPEN AIR*",
+    "Link": "https://arena.wien/Home/Programm-Detail/concert-id/48446",
+    "InfoShort": " | Arena Wien - Open Air"
+  },
+  {
+    "Venue": "Arena",
+    "Date": "2026-07-21",
+    "Artist": "CHET FAKER (aus) *OPEN AIR*",
+    "Link": "https://arena.wien/Home/Programm-Detail/concert-id/48440",
+    "InfoShort": " | Arena Wien - Open Air"
+  },
+  {
+    "Venue": "Arena",
+    "Date": "2026-07-22",
+    "Artist": "DEAFHEAVEN (us)",
+    "Link": "https://arena.wien/Home/Programm-Detail/concert-id/48502",
+    "InfoShort": " | Arena Wien - Gro\u00DFe Halle"
+  },
+  {
+    "Venue": "Arena",
+    "Date": "2026-07-24",
+    "Artist": "BROILERS (ger) \u002B HOT WATER MUSIC (us) *OPEN AIR / AUSVERKAUFT*",
+    "Link": "https://arena.wien/Home/Programm-Detail/concert-id/48262",
+    "InfoShort": " | Arena Wien - Open Air"
+  },
+  {
+    "Venue": "Arena",
+    "Date": "2026-07-25",
+    "Artist": "BROILERS (ger) \u002B HOT WATER MUSIC (us) *OPEN AIR / ZUSATZSHOW*",
+    "Link": "https://arena.wien/Home/Programm-Detail/concert-id/48344",
+    "InfoShort": " | Arena Wien - Open Air"
+  },
+  {
+    "Venue": "Arena",
+    "Date": "2026-07-29",
+    "Artist": "FU MANCHU (us) \u002B SWANMAY (aut)",
+    "Link": "https://arena.wien/Home/Programm-Detail/concert-id/48495",
+    "InfoShort": "Roadtrip To Outta Space | Arena Wien - Gro\u00DFe Halle"
+  },
+  {
+    "Venue": "Arena",
+    "Date": "2026-07-31",
+    "Artist": "ICEBERG",
+    "Link": "https://arena.wien/Home/Programm-Detail/concert-id/48468",
+    "InfoShort": " | Arena Wien - Gel\u00E4nde"
+  },
+  {
     "Venue": "Chelsea",
     "Date": "2026-06-03",
     "Artist": "BLUE BIRD STAGE",
@@ -212,6 +338,13 @@
   {
     "Venue": "Chelsea",
     "Date": "2026-06-21",
+    "Artist": "VINYL \u0026 CD FLOHMARKT",
+    "Link": "https://www.chelsea.co.at/concerts.php#concert_6726",
+    "InfoShort": "14:00 - 19:00\n\n\nEs ist wieder soweit, die gem\u00FCtlichste kleine Vinylb\u00F6rse der Stadt macht sich im Chelsea Schanigarten breit. Sol..."
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-06-21",
     "Artist": "YOLA (DE) / LUISA SCHWEIG",
     "Link": "https://www.chelsea.co.at/concerts.php#concert_6717",
     "InfoShort": "YOLA\nDie Essener K\u00FCnstlerin yola sorgte 2024 mit ihrer Deb\u00FCtsingle \u201Enimmerland\u201C erstmals f\u00FCr Aufmerksamkeit \u2013 ein vertr\u00E4umter Ei..."
@@ -245,59 +378,94 @@
     "InfoShort": "Doors: 19:30h, Show: 20h\n\n\n\u201CPut a knife up to his boner, cut him\u201D with those nine words a trend was born and Scene Queen (along ..."
   },
   {
+    "Venue": "Chelsea",
+    "Date": "2026-07-06",
+    "Artist": "STRUNG OUT (USA) / THE CORPS (CAN)",
+    "Link": "https://www.chelsea.co.at/concerts.php#concert_6602",
+    "InfoShort": "Doors: 20:00, Show: 20:30\n\n\nSTRUNG OUT\nDead Rebellion, Strung Out\u2019s 10th album and the next step in their 35-year evolution, mar..."
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-07-07",
+    "Artist": "THE SOPHS (USA)",
+    "Link": "https://www.chelsea.co.at/concerts.php#concert_6663",
+    "InfoShort": "\nThe Sophs: Das Rough-Trade-Ph\u00E4nomen kommt nach Wien\nMit einer Mischung aus roher Ehrlichkeit, \u201Eflammenden\u201C intrusiven Gedanken ..."
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-07-08",
+    "Artist": "ABGESAGT: LIVE SKULL (USA) / REFLECTOR",
+    "Link": "https://www.chelsea.co.at/concerts.php#concert_6557",
+    "InfoShort": "Die Tour musste leider verschoben werden und findet voraussichtlich im Februar 2027 statt.\n\n"
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-07-12",
+    "Artist": "BLEVEDERE (CAN) / RABIES (CZ) / SMACKED (SLO)",
+    "Link": "https://www.chelsea.co.at/concerts.php#concert_6641",
+    "InfoShort": "\nBELVEDERE\nCanadian skate-punk legends Belvedere barely need an introduction. They are heroes of fast, furious, melodic punk, wh..."
+  },
+  {
+    "Venue": "Chelsea",
+    "Date": "2026-07-27",
+    "Artist": "A WILHELM SCREAM (USA) / THE PENSKE FILE (CAN)",
+    "Link": "https://www.chelsea.co.at/concerts.php#concert_6561",
+    "InfoShort": "Doors: 20:00, Show: 20:30\n\n\nA WILHELM SCREAM\nA body of work that culls from various styles weaved together into what Massachuset..."
+  },
+  {
     "Venue": "Kramladen",
     "Date": "2026-06-03",
     "Artist": "GIKKS MIT YATWA \u0026 LASHOUT",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2192464618243797.webp?v=1780123771007",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2192464618243797.webp?v=1780290776638",
     "InfoShort": "Der n\u00E4chste Gikk findet am 03.06. im Wiener Kramla..."
   },
   {
     "Venue": "Kramladen",
     "Date": "2026-06-04",
     "Artist": "CHAOS INTERNATIONAL \u0026 IVUR \u0026 DORA FLOB",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1368479001967307.webp?v=1780123771006",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1368479001967307.webp?v=1780290776648",
     "InfoShort": "GOOD NEWS, EVERYONE!\n\nChaos International (PL) are ..."
   },
   {
     "Venue": "Kramladen",
     "Date": "2026-06-05",
     "Artist": "KAT MOHN- \u0022MANEGE\u0022 DEB\u00DCT-ALBUMRELEASE @ KRAMLADEN WIEN",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1986316375345344.webp?v=1780123771008",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1986316375345344.webp?v=1780290776652",
     "InfoShort": "Aus den Weiten des Universums erscheint Kat Mohn a..."
   },
   {
     "Venue": "Kramladen",
     "Date": "2026-06-06",
     "Artist": "WAVY PUNKY NOISE NIGHT W PARC DE TRIOMPHE UND LAUT FRAGEN",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1371691277518633.webp?v=1780123771007",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1371691277518633.webp?v=1780290776647",
     "InfoShort": "Am 6. Juni 2026 werden Parc de Triomphe (New New W..."
   },
   {
     "Venue": "Kramladen",
     "Date": "2026-06-06",
     "Artist": "L\u00D6WENZAHN | GENERAL TECHNO DE-RESTORATION",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2737371523306634.webp?v=1780123771013",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2737371523306634.webp?v=1780290776649",
     "InfoShort": " FREE PARTY \n_________\n\nDEEP / ORGANIC / TECHNO all n..."
   },
   {
     "Venue": "Kramladen",
     "Date": "2026-06-09",
     "Artist": "LITTLE MILA - ALBUM - RELEASE SHOW",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1520777342835994.webp?v=1780123771012",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1520777342835994.webp?v=1780290776653",
     "InfoShort": "9.6.26\n\n19 Uhr Kramladen\n\nLittle Mila - Album Release ..."
   },
   {
     "Venue": "Kramladen",
     "Date": "2026-06-10",
     "Artist": "DUOLIA. KONZERT - SUPPORT: REBECCA LYNN SPRAGUE",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/844590434862683.webp?v=1780123771015",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/844590434862683.webp?v=1780290776650",
     "InfoShort": "DuoLia. (Wien/Vorarlberg/AT) machen Indie-Folk mit..."
   },
   {
     "Venue": "Kramladen",
     "Date": "2026-06-12",
     "Artist": "GROSSKIND - RELEASE KONZERT",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/3587342274738817.webp?v=1780123771014",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/3587342274738817.webp?v=1780290776649",
     "InfoShort": "Gro\u00DFKind stehen zwar noch am Anfang, klingen aber ..."
   },
   {
@@ -311,50 +479,78 @@
     "Venue": "Kramladen",
     "Date": "2026-06-13",
     "Artist": "PUCA \u0026 RETROROCK - LIVE @KRAMLADEN",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/921036510621912.webp?v=1780123771013",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/921036510621912.webp?v=1780290776654",
     "InfoShort": "Den Abend er\u00F6ffnet die Band Retrorock mit Classic ..."
   },
   {
     "Venue": "Kramladen",
     "Date": "2026-06-16",
     "Artist": "MULE LORD PRESENTS RINGLETS (FLYING NUN/NZL) \u002B PROSA (BERLIN)",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1406511811611652.webp?v=1780123771016",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1406511811611652.webp?v=1780290776663",
     "InfoShort": "Einlass 19:00\nRINGLETS (NZL)\nRagingly bright post-pu..."
   },
   {
     "Venue": "Kramladen",
     "Date": "2026-06-18",
     "Artist": "ALBUM RELEASE SHOW",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1422868079495640.webp?v=1780123771016",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1422868079495640.webp?v=1780290776651",
     "InfoShort": "Wir ver\u00F6ffentlichen unser Album! More info soon!"
   },
   {
     "Venue": "Kramladen",
     "Date": "2026-06-19",
     "Artist": "GIKKS \u00B7 19.06.26",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2617223585323778.webp?v=1780123771017",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2617223585323778.webp?v=1780290776660",
     "InfoShort": "Die \u2018Gikks\u2019 sind eine Konzertreihe, die von dem \u00F6s..."
   },
   {
     "Venue": "Kramladen",
     "Date": "2026-06-20",
     "Artist": "MAXI NAGL - GOLFBALL (ALBUM RELEASE SHOW) @ KRAMLADEN MIT SUPPORT: TBA",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2024449641801913.webp?v=1780123771017",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2024449641801913.webp?v=1780290776659",
     "InfoShort": "Maxi Nagl ver\u00F6ffentlicht am 19.6 sein neues Album ..."
   },
   {
     "Venue": "Kramladen",
     "Date": "2026-06-23",
     "Artist": "KIKSIO LIVE: ZIGARETTENRAUCH RELEASE SHOW",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/27316929304566633.webp?v=1780123771018",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/27316929304566633.webp?v=1780290776655",
     "InfoShort": "Kiksio Live: Zigarettenrauch Release Show\n\n23.06. im..."
   },
   {
     "Venue": "Kramladen",
     "Date": "2026-06-27",
     "Artist": "STERNPUNKTSTERN LIVE @KRAMLADEN",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1988296025123139.webp?v=1780123771018",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1988296025123139.webp?v=1780290776658",
     "InfoShort": "STERNpunktSTERN is back - plugged and loud\n...und ..."
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-07-09",
+    "Artist": "ACID ROW (CZ) \u002B THE ELEPHANT TRACKS (AUT) I KRAMLADEN",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2476103922846947.webp?v=1780290776660",
+    "InfoShort": "Don \u0301t miss this!\n\n\u0022Acid Row\u0022 from Czechia and the l..."
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-07-11",
+    "Artist": "JESKO BRAUN (SUPPORT: ELIZAVETA TRUKHANOVA) LIVE - KRAMLADEN WIEN, 11.07.26",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1246871844193712.webp?v=1780290776657",
+    "InfoShort": "JESKO BRAUN\nJesko Braun (Berlin) - ungeschliffen un..."
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-07-17",
+    "Artist": "GIKKS \u00B7 17.07.26",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1230732522301062.webp?v=1780290776658",
+    "InfoShort": "Die \u2018Gikks\u2019 sind eine Konzertreihe, die von dem \u00F6s..."
+  },
+  {
+    "Venue": "Kramladen",
+    "Date": "2026-07-25",
+    "Artist": "PAINTING CLOUDS \u002B SUPPORT | KRAMLADEN",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1173430221536214.webp?v=1780290776656",
+    "InfoShort": "Coming soon "
   },
   {
     "Venue": "Viper Room",
@@ -462,11 +658,81 @@
     "InfoShort": "\nNachdem es uns jahrelang wie den Leuten in Gravity Falls ging und wir immer schon der Meinung waren, ein Halloween im Jahr ist ..."
   },
   {
-    "Venue": "Rhiz",
-    "Date": "2026-05-31",
-    "Artist": "Swing The Boat",
-    "Link": "https://rhiz.wien/copilotevent/31-05-2026_swing-the-boat-goes-rhiz",
-    "InfoShort": "\nDatum: 31.05.2026 | Einlass: 16:30 Uhr\nBeginn: 16:30 | Ende: 21:30 Uhr\n\nDer Lindy Hop ist ein lebendiger Paartanz aus der Swing..."
+    "Venue": "Viper Room",
+    "Date": "2026-07-02",
+    "Artist": "Live: EYEHATEGOD, DESOLAT, KIELKROPF",
+    "Link": "https://www.viper-room.at/events/live-eyehategod-supports",
+    "InfoShort": "\nEYEHATEGOD\nDie Sludge Legenden aus New Orleans kehren zur\u00FCck in den Club!\nhttps://www.facebook.com/OfficialEyeHateGod\nhttps://w..."
+  },
+  {
+    "Venue": "Viper Room",
+    "Date": "2026-07-03",
+    "Artist": "JUMPDAFUCKUP",
+    "Link": "https://www.viper-room.at/events/jumpdafuckup-2-2026-07-03",
+    "InfoShort": "\nJUMPDAFUCKUP!\nDiese Party steht ganz im Zeichen der h\u00E4rteren Gitarren, hier steht tanzen und headbangen am Programm.\nDJs: Kaile..."
+  },
+  {
+    "Venue": "Viper Room",
+    "Date": "2026-07-04",
+    "Artist": "NEAR DARK",
+    "Link": "https://www.viper-room.at/events/near-dark-2026-07-04",
+    "InfoShort": "\nAn jedem 1.Samstag im Monat!\nNear Dark \u2013 Dark 80s Classics \u0026 New Retro Goth Sounds mit\nDJ Eraserhead \u002B DJ Dust\nSpecial Guest DJ..."
+  },
+  {
+    "Venue": "Viper Room",
+    "Date": "2026-07-10",
+    "Artist": "WELCOME TO THE EIGHTIES",
+    "Link": "https://www.viper-room.at/events/welcome-to-the-eighties-2026-07-10",
+    "InfoShort": "\nWELCOME TO THE EIGHTIES!\n\u201EWer sich an die 80er erinnern kann, hat sie nicht miterlebt\u201C\n\u00A9 Falco\n\n\nDie Achtziger sind gekommen, u..."
+  },
+  {
+    "Venue": "Viper Room",
+    "Date": "2026-07-11",
+    "Artist": "WHAT\u0027S MY AGE AGAIN?",
+    "Link": "https://www.viper-room.at/events/whats-my-age-again-4-2026-07-11",
+    "InfoShort": "\nSomebody told me come dance, dance the 2nd saturday each month at whats my age again!\nIn times like these we better be breaking..."
+  },
+  {
+    "Venue": "Viper Room",
+    "Date": "2026-07-18",
+    "Artist": "BREAKDOWN",
+    "Link": "https://www.viper-room.at/events/breakdown-2-2026-07-18",
+    "InfoShort": "\nBREAKDOWN \u2013 die Emo-, Nu Metal \u0026 Metalcore Night im Viper Room\n\nDJs: Cunthulhu, Teenage Anarchist \u0026 Iguana\n\nSounds Like:\nAlien ..."
+  },
+  {
+    "Venue": "Viper Room",
+    "Date": "2026-07-19",
+    "Artist": "Live: KRAANIUM, PIGHEAD",
+    "Link": "https://www.viper-room.at/events/live-kraanium-pighead",
+    "InfoShort": "\nMore Infos soon !\n\n"
+  },
+  {
+    "Venue": "Viper Room",
+    "Date": "2026-07-29",
+    "Artist": "Live: PANZERFAUST",
+    "Link": "https://www.viper-room.at/events/live-panzerfaust-0726",
+    "InfoShort": "\n\u2013 \uD835\uDDE7\uD835\uDDF5\uD835\uDDF2 \uD835\uDDD7\uD835\uDDF2\uD835\uDDEE\uD835\uDE01\uD835\uDDF5 \uD835\uDDD9\uD835\uDDFF\uD835\uDDFC\uD835\uDDFB\uD835\uDE01\uD835\uDDF6\uD835\uDDF2\uD835\uDDFF\uD835\uDE00 \uD835\uDDE7\uD835\uDDFC\uD835\uDE02\uD835\uDDFF \uD835\uDFEE\uD835\uDFEC\uD835\uDFEE\uD835\uDFF2 \u2013\n\uD835\uDDE3\uD835\uDDD4\uD835\uDDE1\uD835\uDDED\uD835\uDDD8\uD835\uDDE5\uD835\uDDD9\uD835\uDDD4\uD835\uDDE8\uD835\uDDE6\uD835\uDDE7 ist eine kanadische Black-Metal-Band, die ein..."
+  },
+  {
+    "Venue": "Viper Room",
+    "Date": "2026-07-30",
+    "Artist": "Live: CRYPTA",
+    "Link": "https://www.viper-room.at/events/live-crypta",
+    "InfoShort": "\nCRYPTA\nDie Female Death Metal Band aus Brasilien ist im Juli bei uns zu Gast, mit im Gep\u00E4ck dann vermutlich auch ihr drittes St..."
+  },
+  {
+    "Venue": "Viper Room",
+    "Date": "2026-07-31",
+    "Artist": "Live: IMMOLATION \u0026 Support",
+    "Link": "https://www.viper-room.at/events/live-immolation-support",
+    "InfoShort": "\n\uD835\uDDDC\uD835\uDDE0\uD835\uDDE0\uD835\uDDE2\uD835\uDDDF\uD835\uDDD4\uD835\uDDE7\uD835\uDDDC\uD835\uDDE2\uD835\uDDE1 \u2013 \uD835\uDDE6\uD835\uDE02\uD835\uDDFA\uD835\uDDFA\uD835\uDDF2\uD835\uDDFF \uD835\uDDD7\uD835\uDDF2\uD835\uDE00\uD835\uDDF0\uD835\uDDF2\uD835\uDDFB\uD835\uDE01 \uD835\uDDE7\uD835\uDDFC\uD835\uDE02\uD835\uDDFF \uD835\uDFEE\uD835\uDFEC\uD835\uDFEE\uD835\uDFF2\nEine der Urv\u00E4ter des Death Metal ist zur\u00FCck. 37 Jahre nach..."
+  },
+  {
+    "Venue": "Viper Room",
+    "Date": "2026-07-31",
+    "Artist": "HIGH VOLTAGE FAIRIES IN THE PIT",
+    "Link": "https://www.viper-room.at/events/high-voltage-fairies-in-the-pit-2026-07-31",
+    "InfoShort": "\nHigh Voltage Fairies in the Pit\nThe Fairy Pit opens up again in Viper Room, starting now every last Friday of the month we are ..."
   },
   {
     "Venue": "Rhiz",
@@ -581,6 +847,41 @@
     "InfoShort": "keine Info"
   },
   {
+    "Venue": "Venster99",
+    "Date": "2026-07-02",
+    "Artist": "HC4L",
+    "Link": "http://hc4life.at",
+    "InfoShort": "keine Info"
+  },
+  {
+    "Venue": "Venster99",
+    "Date": "2026-07-03",
+    "Artist": "C\u00FAt L\u1ED9n \u002B Caloris Impact \u002B ECCCO = Vereinsfest by Fomo Concerts",
+    "Link": "http://www.facebook.com/events/2123010515141028/?",
+    "InfoShort": "keine Info"
+  },
+  {
+    "Venue": "Venster99",
+    "Date": "2026-07-11",
+    "Artist": "Venster 20 Jahre Geburtstagsfest",
+    "Link": "http://Venster gb fest",
+    "InfoShort": "keine Info"
+  },
+  {
+    "Venue": "Venster99",
+    "Date": "2026-07-16",
+    "Artist": "Antigen (cze) \u002B Esc\u00F6ria (bra)",
+    "Link": "http://www.venster99.at",
+    "InfoShort": "keine Info"
+  },
+  {
+    "Venue": "Venster99",
+    "Date": "2026-07-22",
+    "Artist": "Barr\u00E4kas (Costa Rica) \u002B Fatface (Greece)",
+    "Link": "http://venster99.at",
+    "InfoShort": "keine Info"
+  },
+  {
     "Venue": "Szene",
     "Date": "2026-06-01",
     "Artist": "choir! choir! choir!",
@@ -651,11 +952,60 @@
     "InfoShort": "((szene)) Soundgarden presented by ROCK ANTENNE \u00D6sterreich mit:\n\nGENTLE GLOW: Indie-Pop mit Strahlkraft\nDie \u00F6sterreichische Form..."
   },
   {
-    "Venue": "Cafe Carina",
-    "Date": "2026-05-31",
-    "Artist": "Sonntag Ruhetag",
-    "Link": "https://www.cafe-carina.at/2020/events/sonntag-ruhetag-443-153-252-778-729/",
-    "InfoShort": "Sonntag Ruhetag\n\ngeschlossen"
+    "Venue": "Szene",
+    "Date": "2026-07-02",
+    "Artist": "cassies | calandra",
+    "Link": "https://szene.wien/events/cassies-calandra/",
+    "InfoShort": "((szene)) Soundgarden presented by ROCK ANTENNE \u00D6sterreich mit:\n\nCASSIES ist eine junge Wiener Indie-Rock Band, die Elemente aus..."
+  },
+  {
+    "Venue": "Szene",
+    "Date": "2026-07-03",
+    "Artist": "katatropic | bakkers trakkers",
+    "Link": "https://szene.wien/events/katatropic-bakkers-trakkers/",
+    "InfoShort": "((szene)) Soundgarden presented by ROCK ANTENNE \u00D6sterreich mit:\n\nKATATROPIC\nKATATROPIC ist eine aufstrebende Newcomer-Band aus W..."
+  },
+  {
+    "Venue": "Szene",
+    "Date": "2026-07-04",
+    "Artist": "cool \u0026 juicy | eccentric cats",
+    "Link": "https://szene.wien/events/cool-juicy-eccentric-cats/",
+    "InfoShort": "((szene)) Soundgarden presented by ROCK ANTENNE \u00D6sterreich mit:\n\nCOOL\u0026JUICY ist eine f\u00FCnfk\u00F6pfige Band die sich durch ihre Vielse..."
+  },
+  {
+    "Venue": "Szene",
+    "Date": "2026-07-09",
+    "Artist": "f\u00FCr chiara | sun state of mind",
+    "Link": "https://szene.wien/events/fuer-chiara-sun-state-of-mind/",
+    "InfoShort": "((szene)) Soundgarden presented by ROCK ANTENNE \u00D6sterreich mit:\n\nF\u00DCR CHIARA\nF\u00DCR CHIARA ist eine Deutsch-Indie-Band aus Wien. Ihr..."
+  },
+  {
+    "Venue": "Szene",
+    "Date": "2026-07-10",
+    "Artist": "emex | noisefactory",
+    "Link": "https://szene.wien/events/emex-noisefactory/",
+    "InfoShort": "((szene)) Soundgarden presented by ROCK ANTENNE \u00D6sterreich mit:\n\nEMEX\nSeit \u00FCber f\u00FCnf Jahrzehnten stehen EMEX f\u00FCr echte Rock-Leid..."
+  },
+  {
+    "Venue": "Szene",
+    "Date": "2026-07-11",
+    "Artist": "hairy pussylovers | pendl",
+    "Link": "https://szene.wien/events/hairy-pussylovers-pendl/",
+    "InfoShort": "((szene)) Soundgarden presented by ROCK ANTENNE \u00D6sterreich mit:\n\nHAIRY PUSSYLOVERS\nThe famous HAIRY PUSSYLOVERS geben sich wiede..."
+  },
+  {
+    "Venue": "Szene",
+    "Date": "2026-07-16",
+    "Artist": "kutscher\u2019s blues band | rudi biber trio",
+    "Link": "https://szene.wien/events/kutschers-blues-band-rudi-biber-trio/",
+    "InfoShort": "((szene)) Soundgarden presented by ROCK ANTENNE \u00D6sterreich mit:\n\nKUTSCHER\u2019S BLUES BAND gelingt es wie kaum einer anderen Band, d..."
+  },
+  {
+    "Venue": "Szene",
+    "Date": "2026-07-18",
+    "Artist": "dirty blues sommerfest",
+    "Link": "https://szene.wien/events/dirty-blues-sommerfest/",
+    "InfoShort": "((szene)) Soundgarden presented by ROCK ANTENNE \u00D6sterreich mit:\n\nDas DIRTY BLUES CLUSTER GFRASTA SOMMERFEST steht heuer ganz im ..."
   },
   {
     "Venue": "Cafe Carina",
@@ -740,139 +1090,6 @@
     "Artist": "Secondsummer ( WM Im Gastgarten)",
     "Link": "https://www.cafe-carina.at/2020/events/secondsummer/",
     "InfoShort": "secondsummer ( WM im Gastgarten)\n\n\nDas fulminante Quartett verfolgt in konsequenter Weise\n\ndie von vielen lang ersehnte Stilrich..."
-  },
-  {
-    "Venue": "Cafe Carina",
-    "Date": "2026-06-13",
-    "Artist": "Churchpenny Allstars // Die Biene Meier (WM Im Gastgarten)",
-    "Link": "https://www.cafe-carina.at/2020/events/churchpenny-allstars-die-biene-meier-wm-im-gastgarten/",
-    "InfoShort": "Churchpenny Allstars // Die Biene Meier (WM im Gastgarten)\n\nChurchpenny Allstars\u00A0\n\nChurchpenny Allstars sind ein 2016 in Wien ge..."
-  },
-  {
-    "Venue": "Cafe Carina",
-    "Date": "2026-06-14",
-    "Artist": "Sonntag Ruhetag",
-    "Link": "https://www.cafe-carina.at/2020/events/sonntag-ruhetag-443-153-252-778-729/",
-    "InfoShort": "Sonntag Ruhetag\n\ngeschlossen"
-  },
-  {
-    "Venue": "Cafe Carina",
-    "Date": "2026-06-15",
-    "Artist": "Fussball WM 2026 | 18:00 Spanien \u2013 Kapverdische Inseln | 21:00 Belgien \u2013 \u00C4gypten",
-    "Link": "https://www.cafe-carina.at/2020/events/fussball-wm-2026-spanien-kapverdische-inseln-belgien-aegypten/",
-    "InfoShort": "Fussball WM 2026 | 18:00 Spanien \u2013 Kapverdische Inseln | 21:00 Belgien \u2013 \u00C4gypten\n\nFussball WM 2026 | 18:00 Spanien \u2013 Kapverdisch..."
-  },
-  {
-    "Venue": "Cafe Carina",
-    "Date": "2026-06-16",
-    "Artist": "Docks (Slowcore/Shoegaze, FR) \u2738 Danny Drivr (Indie/Bedroom Pop, Wien) (WM Im Gastgarten)",
-    "Link": "https://www.cafe-carina.at/2020/events/docks-slowcore-shoegaze-fr-%e2%9c%b8-danny-drivr-indie-bedroom-pop-wien-cafe-carina/",
-    "InfoShort": "Docks (slowcore/shoegaze, FR) \u2738 Danny Drivr (indie/bedroom pop, Wien) (WM im Gastgarten)\n\n\u2738 Docks\nSlowcore/shoegaze/indie duo fr..."
-  },
-  {
-    "Venue": "Cafe Carina",
-    "Date": "2026-06-17",
-    "Artist": "CENOTAPH [TK] | SUBCUTANEOUS EXSANGUINATION [WIEN] | SLOOW [LINZ] (WM Im Gastgarten)",
-    "Link": "https://www.cafe-carina.at/2020/events/cenotaph-tk-subcutaneous-exsanguination-wien-sloow-linz/",
-    "InfoShort": "CENOTAPH [TK] | SUBCUTANEOUS EXSANGUINATION [WIEN] | SLOOW [LINZ] (WM im Gastgarten)\n\n[ENGLISH VERSION BELOW]\nEine Nacht voller ..."
-  },
-  {
-    "Venue": "Cafe Carina",
-    "Date": "2026-06-18",
-    "Artist": "Preslmayr // Maigeborn (WM Im Gastgarten)",
-    "Link": "https://www.cafe-carina.at/2020/events/surimi-live-preslmayr-album-praesentation-supp-maigeborn-645/",
-    "InfoShort": "Preslmayr // Maigeborn (WM im Gastgarten)\n\nPreslmayr\n\nWirre Frisuren, l\u00E4ssige Lieder \u2013 a bissal zu laut.\nAber sehr sehr wuschig!..."
-  },
-  {
-    "Venue": "Cafe Carina",
-    "Date": "2026-06-19",
-    "Artist": "The Drags // The Cooltrains (WM Im Gastgarten)",
-    "Link": "https://www.cafe-carina.at/2020/events/the-drags-the-cooltrains-wm-im-gastgarten/",
-    "InfoShort": "The Drags // The Cooltrains (WM im Gastgarten)\n\n\nThe Drags sind eine Blues-Garage-Rock-Band aus Wien, \u00D6sterreich. Ihre Musik ist..."
-  },
-  {
-    "Venue": "Cafe Carina",
-    "Date": "2026-06-20",
-    "Artist": "Esther Olivia \u0026 Band (WM Im Gastgarten)",
-    "Link": "https://www.cafe-carina.at/2020/events/esther-olivia-band-wm-im-gastgarten/",
-    "InfoShort": "Esther Olivia \u0026 Band (WM im Gastgarten)\n\nEsther Olivia \u0026 Band\n\nEsther Olivia, eine 18 j\u00E4hrige Singer-Songwriterin aus Wien, die ..."
-  },
-  {
-    "Venue": "Cafe Carina",
-    "Date": "2026-06-21",
-    "Artist": "Sonntag Ruhetag",
-    "Link": "https://www.cafe-carina.at/2020/events/sonntag-ruhetag-443-153-252-778-729/",
-    "InfoShort": "Sonntag Ruhetag\n\ngeschlossen"
-  },
-  {
-    "Venue": "Cafe Carina",
-    "Date": "2026-06-22",
-    "Artist": "WM Argentinien \u2013 \u00D6sterreich",
-    "Link": "https://www.cafe-carina.at/2020/events/wm-argentinien-oesterreich/",
-    "InfoShort": "WM Argentinien \u2013 \u00D6sterreich"
-  },
-  {
-    "Venue": "Cafe Carina",
-    "Date": "2026-06-23",
-    "Artist": "RNP Stagetime WM Im Gastgarten",
-    "Link": "https://www.cafe-carina.at/2020/events/rnp-stagetime-6-782-731/",
-    "InfoShort": "RNP Stagetime WM im Gastgarten\n\nSTAGETIME\nNEWCOMER LiVE ON STAGE\nhosted by Rhythm \u0026 Poetry\n\n\u00A0\n\nCafe Carina \u2013 RNP Stagetime\n\n#caf..."
-  },
-  {
-    "Venue": "Cafe Carina",
-    "Date": "2026-06-24",
-    "Artist": "WM Im Lokal 21:00 Schweiz \u2013 Kanada",
-    "Link": "https://www.cafe-carina.at/2020/events/wm-im-lokal-2100-schweiz-kanada/",
-    "InfoShort": "WM im Lokal 21:00 Schweiz \u2013 Kanada"
-  },
-  {
-    "Venue": "Cafe Carina",
-    "Date": "2026-06-25",
-    "Artist": "Inzeption \u2013 Die Au\u00DFergew\u00F6hnliche LED ZEPPELIN-Tribute Show (WM Im Gastgarten)",
-    "Link": "https://www.cafe-carina.at/2020/events/inzeption-die-aussergewoehnliche-led-zeppelin-tribute-show-wm-im-gastgarten/",
-    "InfoShort": "Inzeption \u2013 Die au\u00DFergew\u00F6hnliche LED ZEPPELIN-Tribute Show (WM im Gastgarten)\n\n\nDas erkl\u00E4rte Ziel von Inzeption ist es, den Soun..."
-  },
-  {
-    "Venue": "Cafe Carina",
-    "Date": "2026-06-26",
-    "Artist": "8th Anniversary Of Musicjunky Bookings \u0026 Records: Support The Underground Vol. 6 Sampler Pr\u00E4sentation \u2013 PFARRKAFFEE \u2013 NASTY NEIGHBOURS \u2013 THE VILE (WM Im Gastgarten)",
-    "Link": "https://www.cafe-carina.at/2020/events/8th-anniversary-of-musicjunky-bookings-records-support-the-underground-vol-6-sampler-praesentation-pfarrkaffee-nasty-neighbours-the-vile-wm-im-gastgarten/",
-    "InfoShort": "8th Anniversary of Musicjunky Bookings \u0026 Records: Support the Underground Vol. 6 Sampler Pr\u00E4sentation \u2013 PFARRKAFFEE \u2013 NASTY NEIG..."
-  },
-  {
-    "Venue": "Cafe Carina",
-    "Date": "2026-06-27",
-    "Artist": "Kopie Von 8th Anniversary Of Musicjunky Bookings \u0026 Records: HOG MEETS FROG \u2013 THE SICK PACK RAT ATTACK \u2013 GENERATION BREAKDOWN",
-    "Link": "https://www.cafe-carina.at/2020/events/8th-anniversary-of-musicjunky-bookings-records-support-the-underground-vol-6-sampler-praesentation-pfarrkaffee-nasty-neighbours-the-vile-wm-im-gastgarten-569/",
-    "InfoShort": "Kopie von 8th Anniversary of Musicjunky Bookings \u0026 Records: HOG MEETS FROG \u2013 THE SICK PACK RAT ATTACK \u2013 GENERATION BREAKDOWN\n\n8t..."
-  },
-  {
-    "Venue": "Cafe Carina",
-    "Date": "2026-06-28",
-    "Artist": "Sonntag Ruhetag",
-    "Link": "https://www.cafe-carina.at/2020/events/sonntag-ruhetag-443-153-252-778-729/",
-    "InfoShort": "Sonntag Ruhetag\n\ngeschlossen"
-  },
-  {
-    "Venue": "Cafe Carina",
-    "Date": "2026-06-29",
-    "Artist": "WM Im Lokal 19:00 Sieger Gruppe C \u2013 Zweiter Gruppe F",
-    "Link": "https://www.cafe-carina.at/2020/events/wm-im-lokal-1900-sieger-gruppe-c-zweiter-gruppe-f/",
-    "InfoShort": "WM im Lokal 19:00 Sieger Gruppe C \u2013 Zweiter Gruppe F"
-  },
-  {
-    "Venue": "Cafe Carina",
-    "Date": "2026-06-30",
-    "Artist": "WM Im Lokal 19:00 Gruppe E \u2013 Zweiter Gruppe I",
-    "Link": "https://www.cafe-carina.at/2020/events/wm-im-lokal-1900-gruppe-e-zweiter-gruppe-i/",
-    "InfoShort": "WM im Lokal 19:00 Gruppe E \u2013 Zweiter Gruppe I"
-  },
-  {
-    "Venue": "Flucc",
-    "Date": "2026-05-31",
-    "Artist": "Sonntag\u0027 sdisco Vol. 27",
-    "Link": "https://flucc.at/events/Mi57qt-sonntag-sdisco-310526/",
-    "InfoShort": "@DECK | Sonntag\u00B4sdisco Vol. 27\nLetzte vorm Sommer \u2013 Last one before Donna Summer!\nLIVE:\u00A0plow\n\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0(Noise Rock) (oder Post..."
   },
   {
     "Venue": "Flucc",
