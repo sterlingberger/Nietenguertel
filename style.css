@@ -66,6 +66,16 @@ p {
     align-items: center;
 }
 
+.genre-btn {
+    background: transparent;
+    border: 1px solid #361313;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: #e6e6e6;
+}
+
 .row-btn {
     background: transparent;
     border: 1px solid #361313;
@@ -209,6 +219,140 @@ tr:nth-child(even) td {
 .filter-grid {
     display: flex;
     gap: 4px;
+}
+
+/* ── Genre-Filter ──────────────────────────────────────────── */
+
+.genre-wrap {
+    position: relative;
+}
+
+.genre-btn.active {
+    border-color: #28a745;
+    background: #0f2a12;
+    color: #ffffff;
+}
+
+.genre-popover {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: #0d0d1a;
+    border: 1px solid #6B2626;
+    border-radius: 8px;
+    padding: 14px;
+    min-width: 280px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+
+.genre-popover[hidden] {
+    display: none;
+}
+
+.genre-popover-hint {
+    margin: 0;
+    font-size: 0.78rem;
+    color: #e6e6e6;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.genre-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.genre-chip {
+    background: transparent;
+    border: 1px solid #361313;
+    padding: 4px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    color: #e6e6e6;
+    transition: border-color 100ms ease, background 100ms ease;
+}
+
+.genre-chip.active {
+    border-color: #28a745;
+    background: #0f2a12;
+    color: #ffffff;
+}
+
+.genre-input-row {
+    display: flex;
+    gap: 6px;
+}
+
+.genre-input-row input {
+    flex: 1;
+    background: #020309;
+    border: 1px solid #361313;
+    border-radius: 4px;
+    padding: 5px 8px;
+    color: #e6e6e6;
+    font-size: 0.85rem;
+    font-family: sans-serif;
+}
+
+.genre-input-row input:focus {
+    outline: none;
+    border-color: #6B2626;
+}
+
+.genre-input-row button {
+    background: transparent;
+    border: 1px solid #361313;
+    border-radius: 4px;
+    padding: 5px 12px;
+    cursor: pointer;
+    color: #e6e6e6;
+    font-size: 0.9rem;
+}
+
+.genre-input-row button:hover {
+    border-color: #6B2626;
+}
+
+.genre-mode-toggle {
+    display: flex;
+    gap: 6px;
+    border-top: 1px solid #1a1a2e;
+    padding-top: 10px;
+}
+
+.genre-mode-btn {
+    flex: 1;
+    background: transparent;
+    border: 1px solid #361313;
+    padding: 5px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.82rem;
+    color: #e6e6e6;
+    font-family: sans-serif;
+    transition: border-color 100ms ease, background 100ms ease;
+}
+
+.genre-mode-btn.active {
+    border-color: #28a745;
+    background: #0f2a12;
+    color: #ffffff;
+}
+
+/* Highlight-Modus: nicht-treffende Einträge abdunkeln */
+.genre-active .event-entry:not(.genre-match) {
+    opacity: 0.2;
+}
+
+.genre-active .card:not(.genre-match) {
+    opacity: 0.2;
 }
 
 /* ── Hilfssrolleiste am unteren Rand (nur Desktop) ─────────── */

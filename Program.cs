@@ -31,11 +31,15 @@ namespace EventCrawler
             List<Event> existingEvents = [];
             if (File.Exists(eventsFilePath))
             {
-                existingEvents = JsonSerializer.Deserialize<List<Event>>(await File.ReadAllTextAsync(eventsFilePath)) ?? [];
-                var today = DateOnly.FromDateTime(DateTime.Today);
-                existingEvents = existingEvents.Where(e => e.Date >= today).ToList();
-                Console.WriteLine($"events.json bereinigt: {existingEvents.Count} aktuelle events behalten");
-                await File.WriteAllTextAsync(eventsFilePath, JsonSerializer.Serialize(existingEvents, new JsonSerializerOptions { WriteIndented = true }));
+                var content = await File.ReadAllTextAsync(eventsFilePath);
+                if (!string.IsNullOrWhiteSpace(content))
+                {
+                    existingEvents = JsonSerializer.Deserialize<List<Event>>(content) ?? [];
+                    var today = DateOnly.FromDateTime(DateTime.Today);
+                    existingEvents = existingEvents.Where(e => e.Date >= today).ToList();
+                    Console.WriteLine($"events.json bereinigt: {existingEvents.Count} aktuelle events behalten");
+                    await File.WriteAllTextAsync(eventsFilePath, JsonSerializer.Serialize(existingEvents, new JsonSerializerOptions { WriteIndented = true }));
+                }
             }
 
             // open a new page within the current browser context

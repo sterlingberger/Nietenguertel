@@ -14,7 +14,6 @@ namespace EventCrawler.Models
 
         public string Artist { get; set; } = "unknown";
 
-        [JsonIgnore]
         public string Info { get; set; } = "unknown";
 
         public string Link { get; set; } = "unknown";

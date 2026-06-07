@@ -27,6 +27,204 @@ document.addEventListener('DOMContentLoaded', function () {
     const headerRow = document.getElementById('header-row');
     const tbody = document.getElementById('table-body');
     const cardList = document.getElementById('card-list');
+    const genreBtn = document.getElementById('genre-btn');
+    const genreWrap = document.getElementById('genre-wrap');
+
+    // ── Genre-Filter State ───────────────────────────────────────
+
+    const HARDCODED_TAGS = [
+        { label: 'Blues', terms: ['blues', 'soul', 'gospel'] },
+        { label: 'Folk', terms: ['folk', 'singer-songwriter', 'bluegrass'] },
+        { label: 'Funk', terms: ['funk'] },
+        { label: 'Electronic', terms: ['electronic', 'electro', 'industrial'] },
+        { label: 'Hardcore', terms: ['hardcore', 'metalcore', 'powerviolence'] },
+        { label: 'Hip-Hop', terms: ['hip-hop', 'hip hop', 'hiphop', 'rap', 'r&b', 'rnb'] },
+        { label: 'Indie', terms: ['indie'] },
+        { label: 'Jazz', terms: ['jazz', 'swing', 'bebop', 'fusion'] },
+        { label: 'Metal', terms: ['metal', 'thrash', 'doom'] },
+        { label: 'Pop', terms: ['Pop'] },
+        { label: 'Psych', terms: ['psych'] },
+        { label: 'Punk', terms: ['punk', 'oi!', 'anarcho'] },
+        { label: 'Reggae', terms: ['reggae', 'dub', 'dancehall'] },
+        { label: 'Rock', terms: ['rock', 'punk', 'metal', 'stoner', 'doom', 'grunge', 'indie', 'alternative'] },
+        { label: 'Ska', terms: ['ska'] },
+        { label: 'Stoner', terms: ['stoner'] },
+        { label: 'Techno', terms: ['techno', 'house', 'trance', 'dnb', 'drum and bass', "drum'n'bass"] },
+    ];
+
+    // label → terms Lookup (wird auch für custom tags befüllt)
+    const tagTermsMap = new Map(HARDCODED_TAGS.map(t => [t.label, t.terms]));
+
+    const activeTags = new Set();
+    let genreMode = 'highlight'; // 'highlight' | 'filter'
+    let allEventsData = []; // wird beim Rendern befüllt
+
+    // ── Genre-Popover aufbauen ───────────────────────────────────
+
+    const popover = document.createElement('div');
+    popover.className = 'genre-popover';
+    popover.id = 'genre-popover';
+    popover.hidden = true;
+
+    const chipsContainer = document.createElement('div');
+    chipsContainer.className = 'genre-chips';
+    chipsContainer.id = 'genre-chips-container';
+
+    function createChip(label) {
+        const btn = document.createElement('button');
+        btn.className = 'genre-chip';
+        btn.textContent = label;
+        btn.addEventListener('click', () => {
+            if (activeTags.has(label)) {
+                activeTags.delete(label);
+                btn.classList.remove('active');
+            } else {
+                activeTags.add(label);
+                btn.classList.add('active');
+            }
+            applyFilters();
+        });
+        chipsContainer.appendChild(btn);
+    }
+
+    HARDCODED_TAGS.forEach(t => createChip(t.label));
+
+    const inputRow = document.createElement('div');
+    inputRow.className = 'genre-input-row';
+
+    const tagInput = document.createElement('input');
+    tagInput.type = 'text';
+    tagInput.id = 'genre-input';
+    tagInput.placeholder = 'Tag hinzufügen ...';
+    tagInput.autocomplete = 'off';
+
+    const addBtn = document.createElement('button');
+    addBtn.textContent = '+';
+
+    function addCustomTag() {
+        const val = tagInput.value.trim();
+        if (!val) return;
+        tagInput.value = '';
+        // custom tag: label = einziger suchterm
+        if (!tagTermsMap.has(val)) tagTermsMap.set(val, [val]);
+        createChip(val);
+        activeTags.add(val);
+        // aktiv schalten
+        const chips = chipsContainer.querySelectorAll('.genre-chip');
+        chips[chips.length - 1].classList.add('active');
+        applyFilters();
+    }
+
+    addBtn.addEventListener('click', addCustomTag);
+    tagInput.addEventListener('keydown', e => { if (e.key === 'Enter') addCustomTag(); });
+
+    inputRow.appendChild(tagInput);
+    inputRow.appendChild(addBtn);
+
+    const modeToggle = document.createElement('div');
+    modeToggle.className = 'genre-mode-toggle';
+
+    const modeHighlight = document.createElement('button');
+    modeHighlight.className = 'genre-mode-btn active';
+    modeHighlight.dataset.mode = 'highlight';
+    modeHighlight.textContent = 'hervorheben';
+
+    const modeFilter = document.createElement('button');
+    modeFilter.className = 'genre-mode-btn';
+    modeFilter.dataset.mode = 'filter';
+    modeFilter.textContent = 'andere ausblenden';
+
+    [modeHighlight, modeFilter].forEach(btn => {
+        btn.addEventListener('click', () => {
+            genreMode = btn.dataset.mode;
+            modeHighlight.classList.toggle('active', genreMode === 'highlight');
+            modeFilter.classList.toggle('active', genreMode === 'filter');
+            applyFilters();
+        });
+    });
+
+    modeToggle.appendChild(modeHighlight);
+    modeToggle.appendChild(modeFilter);
+
+    const popoverHint = document.createElement('p');
+    popoverHint.className = 'genre-popover-hint';
+    popoverHint.textContent = 'Hinweis: als Grundlage für die Suche des Genres dient nur der Infotext der jeweiligen Veranstaltung. Hinter jedem Tag stecken gängige Schreibweisen oder verwandte Genres (Bsp.: Rock inkludiert Punk),' +
+        'kommen diese im Text vor schlägt der Filter an. Für spezielle Suche eigenen Tag eingeben (damit lässt sich der Filter auch zweckentfremden für Bspw. Band- oder Veranstaltungsnamen).';
+    popover.appendChild(popoverHint);
+
+    popover.appendChild(chipsContainer);
+    popover.appendChild(inputRow);
+    popover.appendChild(modeToggle);
+    genreWrap.appendChild(popover);
+
+    // ── Popover öffnen/schließen ─────────────────────────────────
+
+    genreBtn.addEventListener('click', e => {
+        e.stopPropagation();
+        popover.hidden = !popover.hidden;
+        console.log('genre click, hidden:', popover.hidden); // ← dazugeben
+    });
+
+    document.addEventListener('click', e => {
+        if (!genreWrap.contains(e.target)) {
+            popover.hidden = true;
+        }
+    });
+
+    // ── Genre-Hilfsfunktionen ────────────────────────────────────
+
+    function isGenreMatch(eventIdx) {
+        if (activeTags.size === 0) return true;
+        const e = allEventsData[eventIdx];
+        if (!e) return true;
+        const info = (e.Info || e.InfoShort || '').toLowerCase();
+        return [...activeTags].some(label => {
+            const terms = tagTermsMap.get(label) || [label];
+            return terms.some(term => info.includes(term.toLowerCase()));
+        });
+    }
+
+    function updateGenreFilter() {
+        const hasActive = activeTags.size > 0;
+        genreBtn.classList.toggle('active', hasActive);
+
+        // Reset
+        document.querySelectorAll('.event-entry').forEach(el => {
+            el.classList.remove('genre-match');
+            el.style.display = '';
+        });
+        tbody.classList.remove('genre-active');
+        if (cardList) {
+            cardList.querySelectorAll('.card').forEach(c => c.classList.remove('genre-match'));
+            cardList.classList.remove('genre-active');
+        }
+
+        if (!hasActive) return;
+
+        // Event-entries
+        document.querySelectorAll('.event-entry').forEach(el => {
+            const idx = parseInt(el.dataset.eventIdx, 10);
+            if (isNaN(idx)) return;
+            if (isGenreMatch(idx)) {
+                el.classList.add('genre-match');
+            } else if (genreMode === 'filter') {
+                el.style.display = 'none';
+            }
+        });
+
+        // Cards (nur Klasse; display wird in updateCardVisibility gesetzt)
+        if (cardList) {
+            cardList.querySelectorAll('.card').forEach(card => {
+                const idx = parseInt(card.dataset.eventIdx, 10);
+                if (!isNaN(idx)) card.classList.toggle('genre-match', isGenreMatch(idx));
+            });
+        }
+
+        if (genreMode === 'highlight') {
+            tbody.classList.add('genre-active');
+            if (cardList) cardList.classList.add('genre-active');
+        }
+    }
 
     // ── Hilfsfunktionen ─────────────────────────────────────────
 
@@ -112,7 +310,9 @@ document.addEventListener('DOMContentLoaded', function () {
         cardList.querySelectorAll('.card').forEach(card => {
             const venueIdx = parseInt(card.dataset.venueIndex, 10);
             const dateIso = card.dataset.date;
-            const show = isVenueVisible(venueIdx) && isDateVisible(dateIso);
+            const eventIdx = parseInt(card.dataset.eventIdx, 10);
+            const genreOk = activeTags.size === 0 || genreMode === 'highlight' || isGenreMatch(eventIdx);
+            const show = isVenueVisible(venueIdx) && isDateVisible(dateIso) && genreOk;
             card.style.display = show ? '' : 'none';
         });
     }
@@ -123,6 +323,7 @@ document.addEventListener('DOMContentLoaded', function () {
         updateColumnVisibility();
         updateRowFilter();
         updateCardVisibility();
+        updateGenreFilter();
     }
 
     // ── Zeitfilter-Buttons ───────────────────────────────────────
@@ -174,6 +375,8 @@ document.addEventListener('DOMContentLoaded', function () {
         .then(events => {
             renderHeaders();
             events.sort((a, b) => a.Date.localeCompare(b.Date));
+            allEventsData = events;
+            events.forEach((e, idx) => { e._idx = idx; });
 
             // Gruppieren nach Datum für Tabelle
             const byDate = {};
@@ -225,6 +428,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         infoDiv.className = 'info';
                         infoDiv.textContent = e.InfoShort || '';
 
+                        entry.dataset.eventIdx = e._idx;
                         entry.appendChild(bandDiv);
                         entry.appendChild(infoDiv);
                         td.appendChild(entry);
@@ -243,6 +447,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             card.className = 'card';
                             card.dataset.venueIndex = idx;
                             card.dataset.date = date;
+                            card.dataset.eventIdx = e._idx;
 
                             card.innerHTML = `
                                 <div class="card-meta">

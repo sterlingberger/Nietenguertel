@@ -99,6 +99,34 @@ namespace EventCrawler.Crawler
                 crawlscount++;
             }
 
+            //info nachträglich setzen
+            foreach (Event ev in result)
+            {
+                try
+                {
+                    await _page.GotoAsync(ev.Link, new PageGotoOptions
+                    {
+                        WaitUntil = WaitUntilState.NetworkIdle
+                    });
+
+                    var extinfocontainer = _page.Locator("xpath=//div[@id='dnn_ctr577_ViewEventDetail_hgc_RowContainer']/div[@class='suite_calRowContainer teaser']/div[@class='col-md-12']/div[@class='suite_VAdescr']");
+
+                    //bisher nur bei gürtelconnection als mehrere strongs gesehen
+                    var elements = await extinfocontainer.Locator("p").AllAsync();
+
+                    foreach (var el in elements)
+                    {
+                        string text = await el.InnerTextAsync();
+                        if (!string.IsNullOrWhiteSpace(text))
+                            ev.Info += $" | {text}";
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"ArenaCrawler: extendedinfo für '{ev.Artist}' nicht abrufbar - {ex.Message}");
+                }
+            }
+
             return result;
         }
 
