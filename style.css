@@ -1,0 +1,347 @@
+body {
+    font-family: sans-serif;
+    padding: 2rem;
+    background: #020309;
+    color: #e6e6e6;
+    overflow-x: hidden; /* body scrollt nie horizontal, nur der table-wrapper */
+}
+
+h1 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 36px;
+}
+
+.header-container img.header-img {
+    display: block;
+    width: min(60vw, 700px);
+    max-width: 85%;
+    height: auto;
+}
+
+.header-divider {
+    height: 1px;
+    background: #6B2626;
+    width: min(80%, 1024px);
+    margin: 8px auto 24px auto;
+    border-radius: 1px;
+}
+
+.filters {
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.filters .sep {
+    color: #444;
+    padding: 0 6px;
+    user-select: none;
+    align-self: stretch;
+    display: inline-flex;
+    align-items: center;
+}
+
+.row-filters {
+    display: inline-flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.row-btn {
+    background: transparent;
+    border: 1px solid #361313;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: #e6e6e6;
+}
+
+.row-btn.active {
+    border-color: #28a745;
+    background: #0f2a12;
+    color: #ffffff;
+}
+
+/* ── Tabellen-Layout (Desktop) ─────────────────────────────── */
+
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+    max-height: 80vh;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-gutter: stable;
+}
+
+.table-wrapper table {
+    margin: 0 auto;
+}
+
+table {
+    min-width: 600px;
+    width: auto;
+    border-collapse: collapse;
+    background: #020309;
+    table-layout: fixed;
+}
+
+th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #6B2626;
+    font-weight: 500;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 10px 14px;
+    border: 1px solid #6B2626;
+    text-align: left;
+    color: #ffffff;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    min-width: 220px;
+}
+
+th.date-col {
+    width: 5%;
+    white-space: normal;
+    min-width: 60px;
+}
+
+td {
+    padding: 10px 14px;
+    border: 1px solid #6B2626;
+    vertical-align: top;
+    font-size: 0.9rem;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    background: transparent;
+    color: #e6e6e6;
+}
+
+td.date-cell {
+    font-weight: 500;
+    color: #d0d6d9;
+    white-space: normal;
+}
+
+.event-entry + .event-entry {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed rgba(107,38,38,0.15);
+}
+
+.band {
+    font-weight: 700;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    color: #ffffff;
+}
+
+.info {
+    font-size: 0.82rem;
+    color: #9aa3ad;
+    margin-top: 2px;
+}
+
+tr:nth-child(even) td {
+    background: rgba(255,255,255,0.01);
+}
+
+.date-cell .weekday,
+.date-cell .datepart {
+    display: inline;
+    font-size: 0.95em;
+}
+
+.cell-date {
+    font-size: 0.75rem;
+    color: #8d4a4a;
+    margin-bottom: 4px;
+}
+
+/* ── Icon-Filter ───────────────────────────────────────────── */
+
+.filter-icon {
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 2px solid #361313;
+    transition: border-color 120ms ease, box-shadow 120ms ease, transform 120ms ease;
+    background: transparent;
+}
+
+.filter-icon:hover {
+    transform: translateY(-1px);
+}
+
+.filter-icon.active,
+.filter-icon[aria-pressed="true"] {
+    border-color: #28a745;
+    box-shadow: 0 0 0 4px rgba(40,167,69,0.12);
+}
+
+.filter-grid {
+    display: flex;
+    gap: 4px;
+}
+
+/* ── Hilfssrolleiste am unteren Rand (nur Desktop) ─────────── */
+
+.h-scroll {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 18px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    z-index: 9999;
+    display: none;
+    background: transparent;
+}
+
+.h-scroll .inner {
+    height: 1px;
+}
+
+/* ── Footer ────────────────────────────────────────────────── */
+
+.legal-links {
+    text-align: center;
+    margin-top: 24px;
+    color: #6B2626;
+    font-size: 0.95rem;
+}
+
+.legal-links a {
+    color: #6B2626;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.legal-links a:hover {
+    text-decoration: underline;
+}
+
+.participate-link {
+    text-align: center;
+    color: #7D2C2C;
+}
+
+.participate-link a {
+    color: #6B2626;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.participate-link a:hover {
+    text-decoration: underline;
+}
+
+/* ── Card-Layout (Mobile) ──────────────────────────────────── */
+
+.card-list {
+    display: none; /* auf Desktop versteckt */
+}
+
+.card {
+    background: #0a0a14;
+    border: 1px solid #6B2626;
+    border-radius: 6px;
+    padding: 12px 14px;
+    cursor: pointer;
+}
+
+.card-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 5px;
+}
+
+.card-venue {
+    font-size: 0.72rem;
+    color: #8d4a4a;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 600;
+}
+
+.card-date {
+    font-size: 0.72rem;
+    color: #8d4a4a;
+}
+
+.card-artist {
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 0.95rem;
+    overflow-wrap: anywhere;
+}
+
+.card-info {
+    font-size: 0.8rem;
+    color: #9aa3ad;
+    margin-top: 4px;
+    overflow-wrap: anywhere;
+}
+
+/* ── Responsive Breakpoints ────────────────────────────────── */
+
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+
+    .table-wrapper {
+        display: none; /* Tabelle auf Mobile verstecken */
+    }
+
+    .h-scroll {
+        display: none !important; /* nicht nötig auf Mobile */
+    }
+
+    .card-list {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .filters {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.75rem;
+    }
+
+    .filter-grid {
+        flex-direction: row;
+    }
+
+    .sep {
+        display: none !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .card-list {
+        display: none !important;
+    }
+}
