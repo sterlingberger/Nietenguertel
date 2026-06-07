@@ -343,6 +343,14 @@ tr:nth-child(even) td {
         flex-direction: row;
     }
 
+    p {
+        /*color: #6B2626;*/
+        color: #8d4a4a;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-size: 0.8rem;
+    }
+
     .sep {
         display: none !important;
     }
