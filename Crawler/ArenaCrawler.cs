@@ -41,6 +41,11 @@ namespace EventCrawler.Crawler
 
                 var eventDivs = await _page.Locator("xpath=//*[@id=\"dnn_ctr1076_ViewEventListDirectTicketing_ctl01\"]/div[2]/div/div/div").AllAsync();
 
+                if (eventDivs.Count == 0)
+                {
+                    throw new InvalidDataException($"Scheint, als würde kein Eventcontainer für {VenueName} gefunden > 0 Events auffindbar, überspringe Crawl");
+                }
+
                 //Console.WriteLine($"ArenaCrawler fand {eventDivs?.Count} eventDivs");
 
                 foreach (var div in eventDivs)
@@ -53,45 +58,32 @@ namespace EventCrawler.Crawler
                         var numweekday = await datespan.Locator(".suite_day-number").InnerTextAsync();
                         var monthyear = await datespan.Locator(".suite_year").InnerTextAsync();
 
-                        string date = $"{weekday} {numweekday} {monthyear}";
+                        string dateRaw = $"{weekday} {numweekday} {monthyear}";
                         string artist = await div.Locator(".Event_H1").InnerTextAsync();
                         string info = await div.Locator(".Event_H2").InnerTextAsync();
 
                         var span = div.Locator("xpath=.//span[@class='col-md-5  suite_Eventitle']/span[3]");
                         string? halle = await span.TextContentAsync();
 
-                        //if (halle != null && (halle.Contains("Dreiraum") || halle.Contains("Kleine Halle")))
-                        //    venue = "Arena Dreiraum";
-
                         var anchor = div.Locator("a").First;
                         string link = await anchor.GetAttributeAsync("href") ?? "";
 
-                        //eingrenzen auf die kommendne 2 Monate, der findet sonst zu viel
-                        if (ParseDate(date).Month > DateTime.Now.Month + 1)
+                        var date = ParseDate(dateRaw);
+                        if (date.Month > DateTime.Now.Month + 1)
                             continue;
 
-                        var ev = new Event
+                        result.Add(new Event
                         {
-                            Date = ParseDate(date),
+                            Date = date,
                             Artist = artist,
                             Venue = VenueName,
                             Info = info + " | " + halle,
                             Link = link
-                        };
-                        result.Add(ev);
+                        });
                     }
                     catch (Exception ex)
                     {
-                        Console.WriteLine($"Fehler in ArenaCrawler FetchAsync():");
-                        Console.WriteLine($"ExceptionMessage: {ex.Message}");
-                        Console.WriteLine($"InnerException{ex.InnerException}");
-
-                        var ev = new Event
-                        {
-                            Venue = VenueName,
-                            Info = $"{ex.Message}"
-                        };
-                        result.Add(ev);
+                        Console.WriteLine($"ArenaCrawler: item übersprungen - {ex.Message}");
                     }
                 }
 

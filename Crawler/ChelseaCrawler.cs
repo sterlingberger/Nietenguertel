@@ -39,11 +39,16 @@ namespace EventCrawler.Crawler
             string eventxpath = "xpath=//html//body//div[@class='main']//table[@class='termindetails']";
             var eventDivs = await _page.Locator(eventxpath).AllAsync();
 
+            if (eventDivs.Count == 0)
+            {
+                throw new InvalidDataException($"Scheint, als würde kein Eventcontainer für {VenueName} gefunden > 0 Events auffindbar, überspringe Crawl");
+            }
+
             foreach (var div in eventDivs)
             {
                 try
                 {
-                    string date = await div.Locator(".date").InnerTextAsync();
+                    string dateRaw = await div.Locator(".date").InnerTextAsync();
                     string artist = await div.Locator(".band").InnerTextAsync();
                     string info = await div.Locator(".text").InnerTextAsync();
 
@@ -52,28 +57,22 @@ namespace EventCrawler.Crawler
 
                     string link = url + $"#{concertid}";
 
-                    //eingrenzen auf die kommendne 2 Monate, der findet sonst zu viel
-                    if (ParseDate(date).Month > DateTime.Now.Month + 1)
+                    var date = ParseDate(dateRaw);
+                    if (date.Month > DateTime.Now.Month + 1)
                         continue;
 
-                    var ev = new Event
+                    result.Add(new Event
                     {
-                        Date = ParseDate(date),
+                        Date = date,
                         Artist = artist,
                         Venue = VenueName,
                         Info = info,
                         Link = link
-                    };
-                    result.Add(ev);
+                    });
                 }
                 catch (Exception ex)
                 {
-                    var ev = new Event
-                    {
-                        Venue = VenueName,
-                        Info = $"{ex.Message}"
-                    };
-                    result.Add(ev);
+                    Console.WriteLine($"ChelseaCrawler: item übersprungen - {ex.Message}");
                 }
 
             }

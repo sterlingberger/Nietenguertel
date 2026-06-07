@@ -25,6 +25,19 @@ namespace EventCrawler
 
             Console.WriteLine($"Init dauerte {sw.ElapsedMilliseconds} ms");
 
+            // veraltete events aus der bestehenden events.json entfernen
+            var dataPath = Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "data");
+            var eventsFilePath = Path.Combine(dataPath, "events.json");
+            List<Event> existingEvents = [];
+            if (File.Exists(eventsFilePath))
+            {
+                existingEvents = JsonSerializer.Deserialize<List<Event>>(await File.ReadAllTextAsync(eventsFilePath)) ?? [];
+                var today = DateOnly.FromDateTime(DateTime.Today);
+                existingEvents = existingEvents.Where(e => e.Date >= today).ToList();
+                Console.WriteLine($"events.json bereinigt: {existingEvents.Count} aktuelle events behalten");
+                await File.WriteAllTextAsync(eventsFilePath, JsonSerializer.Serialize(existingEvents, new JsonSerializerOptions { WriteIndented = true }));
+            }
+
             // open a new page within the current browser context
             var page = await browser.NewPageAsync();
 
@@ -52,10 +65,19 @@ namespace EventCrawler
                 var crawler = venue.Crawler;
                 Console.WriteLine($"{crawler.GetType().Name} ...");
 
-                var events = await crawler.FetchAsync();
+                IEnumerable<Event> events;
+                try
+                {
+                    events = await crawler.FetchAsync();
+                    Console.WriteLine($"lieferte {events.Count()} events in {sw.ElapsedMilliseconds} ms");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"FEHLER - behalte bestehende events aus events.json");
+                    Console.WriteLine($"  {ex.GetType().Name}: {ex.Message}");
+                    events = existingEvents.Where(e => e.Venue == venue.Name);
+                }
                 allEvents.AddRange(events);
-
-                Console.WriteLine($"lieferte {events.Count()} events in {sw.ElapsedMilliseconds} ms");
                 sw.Restart();
             }
 
@@ -68,7 +90,6 @@ namespace EventCrawler
             sw.Restart();
 
             var json = JsonSerializer.Serialize(allEvents, new JsonSerializerOptions { WriteIndented = true });
-            var dataPath = Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "data");
             Directory.CreateDirectory(dataPath);
             await File.WriteAllTextAsync(Path.Combine(dataPath, "events.json"), json);
 

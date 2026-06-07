@@ -37,41 +37,37 @@ namespace EventCrawler.Crawler
             string eventxpath = "xpath=//div[@id='em-events-list-grouped-1']//ul[@class='events_list']//li";
             var eventDivs = await _page.Locator(eventxpath).AllAsync();
 
+            if (eventDivs.Count == 0)
+            {
+                throw new InvalidDataException($"Scheint, als würde kein Eventcontainer für {VenueName} gefunden > 0 Events auffindbar, überspringe Crawl");
+            }
+
             foreach (var div in eventDivs)
             {
                 try
                 {
-                    string date = await div.Locator(".event_date_monthyear").InnerTextAsync();
+                    string dateRaw = await div.Locator(".event_date_monthyear").InnerTextAsync();
                     var anchor = div.Locator("h2.event_title a");
-                    
+
                     string link = await anchor.GetAttributeAsync("href") ?? "";
                     string artist = await anchor.InnerTextAsync();
 
-                    //string info = await div.Locator(".event_teaser").InnerTextAsync();
-
-                    //eingrenzen auf die kommendne 2 Monate, der findet sonst zu viel
-                    if (ParseDate(date).Month > DateTime.Now.Month + 1)
+                    var date = ParseDate(dateRaw);
+                    if (date.Month > DateTime.Now.Month + 1)
                         continue;
 
-                    var ev = new Event
+                    result.Add(new Event
                     {
-                        Date = ParseDate(date),
+                        Date = date,
                         Artist = artist,
                         Venue = VenueName,
                         Info = "",
                         Link = link
-                    };
-
-                    result.Add(ev);
+                    });
                 }
                 catch (Exception ex)
                 {
-                    var ev = new Event
-                    {
-                        Venue = VenueName,
-                        Info = $"{ex.Message}"
-                    };
-                    result.Add(ev);
+                    Console.WriteLine($"ViperRoomCrawler: item übersprungen - {ex.Message}");
                 }
             }
 
@@ -80,7 +76,6 @@ namespace EventCrawler.Crawler
             {
                 try
                 {
-                    //ins event reingehen und info beziehen
                     await _page.GotoAsync(ev.Link, new PageGotoOptions
                     {
                         WaitUntil = WaitUntilState.NetworkIdle
@@ -93,9 +88,8 @@ namespace EventCrawler.Crawler
                 }
                 catch (Exception ex)
                 {
-                    ev.Info = $"{ex.Message}";
+                    Console.WriteLine($"ViperRoomCrawler: info für '{ev.Artist}' nicht abrufbar - {ex.Message}");
                 }
-
             }
 
             return result;

@@ -39,6 +39,11 @@ namespace EventCrawler.Crawler
             //var eventDivs = await _page.Locator(eventxpath).AllAsync();
             var eventDivs = await _page.Locator("css=.card-body").AllAsync(); //css selector
 
+            if (eventDivs.Count == 0)
+            {
+                throw new InvalidDataException($"Scheint, als würde kein Eventcontainer für {VenueName} gefunden > 0 Events auffindbar, überspringe Crawl");
+            }
+
             foreach (var div in eventDivs)
             {
                 try
@@ -49,37 +54,30 @@ namespace EventCrawler.Crawler
                     string artist = await div.Locator("h2.card-title").InnerTextAsync();
 
                     string info = await div.Locator("h3").First.InnerTextAsync();
-                    //für mehr info könnte man jeden Link öffnen und dann von dort auslesen, für jetzt mal ok
 
                     var datelocator = div.Locator("p").Filter(new LocatorFilterOptions
                     {
                         HasText = "datum"
                     }).First;
 
-                    string date = await datelocator.InnerTextAsync();
+                    string dateRaw = await datelocator.InnerTextAsync();
 
-                    //eingrenzen auf die kommendne 2 Monate, der findet sonst zu viel
-                    if (ParseDate(date).Month > DateTime.Now.Month + 1)
+                    var date = ParseDate(dateRaw);
+                    if (date.Month > DateTime.Now.Month + 1)
                         continue;
 
-                    var ev = new Event
+                    result.Add(new Event
                     {
-                        Date = ParseDate(date),
+                        Date = date,
                         Artist = artist,
                         Venue = VenueName,
                         Info = info,
                         Link = link
-                    };
-                    result.Add(ev);
+                    });
                 }
                 catch (Exception ex)
                 {
-                    var ev = new Event
-                    {
-                        Venue = VenueName,
-                        Info = $"{ex.Message}"
-                    };
-                    result.Add(ev);
+                    Console.WriteLine($"RhizCrawler: item übersprungen - {ex.Message}");
                 }
 
             }
@@ -87,25 +85,31 @@ namespace EventCrawler.Crawler
             //info nachträglich setzen
             foreach (Event ev in result)
             {
-                //ins event reingehen und info beziehen
-                await _page.GotoAsync(ev.Link, new PageGotoOptions
+                try
                 {
-                    WaitUntil = WaitUntilState.NetworkIdle
-                });
+                    await _page.GotoAsync(ev.Link, new PageGotoOptions
+                    {
+                        WaitUntil = WaitUntilState.NetworkIdle
+                    });
 
-                var infos = await _page.Locator("div.singleEvent p").AllAsync();
+                    var infos = await _page.Locator("div.singleEvent p").AllAsync();
 
-                string info = ev.Info;
+                    string info = ev.Info;
 
-                foreach (var p in infos)
-                {
-                    string ptext = await p.InnerTextAsync();
+                    foreach (var p in infos)
+                    {
+                        string ptext = await p.InnerTextAsync();
 
-                    if (!string.IsNullOrWhiteSpace(ptext))
-                        info += $"\n{ptext}";
+                        if (!string.IsNullOrWhiteSpace(ptext))
+                            info += $"\n{ptext}";
+                    }
+
+                    ev.Info = info;
                 }
-
-                ev.Info = info;
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"RhizCrawler: info für '{ev.Artist}' nicht abrufbar - {ex.Message}");
+                }
             }
 
             return result;

@@ -60,6 +60,11 @@ namespace EventCrawler.Crawler
             string eventxpath = "xpath=//div[@id='mec_skin_events_599']/div[@class='mec-wrap colorskin-custom']/div[@class='mec-event-grid-clean']/div[@class='row']/div[@class='col-md-3 col-sm-3']";
             var eventDivs = await _page.Locator(eventxpath).AllAsync();
 
+            if (eventDivs.Count == 0)
+            {
+                throw new InvalidDataException($"Scheint, als würde kein Eventcontainer für {VenueName} gefunden > 0 Events auffindbar, überspringe Crawl");
+            }
+
             foreach (var div in eventDivs)
             {
                 try
@@ -69,20 +74,19 @@ namespace EventCrawler.Crawler
                     var day = await div.Locator("div.mec-event-date").InnerTextAsync();
                     var month = await div.Locator("div.mec-event-month").InnerTextAsync();
 
-                    string date = day + " " + month;
+                    var date = ParseDate(day + " " + month);
 
                     var link = await div.Locator("h4.mec-event-title a").GetAttributeAsync("href");
 
-                    //eingrenzen auf die kommendne 2 Monate, der findet sonst zu viel
-                    if (ParseDate(date).Month > DateTime.Now.Month + 1)
+                    if (date.Month > DateTime.Now.Month + 1)
                         continue;
 
                     var ev = new Event
                     {
-                        Date = ParseDate(date),
+                        Date = date,
                         Artist = artist,
                         Venue = VenueName,
-                        Info = "", //haben keine info
+                        Info = "",
                         Link = link
                     };
 
@@ -91,12 +95,7 @@ namespace EventCrawler.Crawler
                 }
                 catch (Exception ex)
                 {
-                    var ev = new Event
-                    {
-                        Venue = VenueName,
-                        Info = $"{ex.Message}"
-                    };
-                    result.Add(ev);
+                    Console.WriteLine($"CarinaCrawler: item übersprungen - {ex.Message}");
                 }
 
             }
@@ -106,7 +105,6 @@ namespace EventCrawler.Crawler
             {
                 try
                 {
-                    //ins event reingehen und info beziehen
                     await _page.GotoAsync(ev.Link, new PageGotoOptions
                     {
                         WaitUntil = WaitUntilState.NetworkIdle
@@ -118,9 +116,8 @@ namespace EventCrawler.Crawler
                 }
                 catch (Exception ex)
                 {
-                    ev.Info = $"{ex.Message}";
+                    Console.WriteLine($"CarinaCrawler: info für '{ev.Artist}' nicht abrufbar - {ex.Message}");
                 }
-
             }
 
             return result;

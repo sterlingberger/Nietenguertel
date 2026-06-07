@@ -36,38 +36,37 @@ namespace EventCrawler.Crawler
             string eventxpath = "xpath=//div[@id='events-container']/div[@class='event']";
             var eventDivs = await _page.Locator(eventxpath).AllAsync();
 
+            if (eventDivs.Count == 0)
+            {
+                throw new InvalidDataException($"Scheint, als würde kein Eventcontainer für {VenueName} gefunden > 0 Events auffindbar, überspringe Crawl");
+            }
+
             foreach (var div in eventDivs)
             {
                 try
                 {
-                    var date = await div.Locator("p").First.InnerTextAsync();
+                    var dateRaw = await div.Locator("p").First.InnerTextAsync();
 
                     var artist = await div.Locator("strong").First.InnerTextAsync();
 
                     var link = await div.Locator("a[href]").First.GetAttributeAsync("href");
 
-                    //eingrenzen auf die kommendne 2 Monate, der findet sonst zu viel
-                    if (ParseDate(date).Month > DateTime.Now.Month + 1)
+                    var date = ParseDate(dateRaw);
+                    if (date.Month > DateTime.Now.Month + 1)
                         continue;
 
-                    var ev = new Event
+                    result.Add(new Event
                     {
-                        Date = ParseDate(date),
+                        Date = date,
                         Artist = artist,
                         Venue = VenueName,
-                        Info = "keine Info", //haben keine info
+                        Info = "",
                         Link = link
-                    };
-                    result.Add(ev);
+                    });
                 }
                 catch (Exception ex)
                 {
-                    var ev = new Event
-                    {
-                        Venue = VenueName,
-                        Info = $"{ex.Message}"
-                    };
-                    result.Add(ev);
+                    Console.WriteLine($"Venster99Crawler: item übersprungen - {ex.Message}");
                 }
 
             }

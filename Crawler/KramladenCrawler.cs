@@ -40,41 +40,40 @@ namespace EventCrawler.Crawler
 
             var eventDivs = await _page.Locator("xpath=//div[@id='block-yui_3_17_2_1_1743151507799_1398']//div[@class='sqs-block-content']//div[@class='sqs-code-container']//div[@class='sk-fb-event']//div[@class='sk-events-body']//div[@class='sk-events-wrapper --sk-columns-3']//div[@class='sk-events-masonry']//div[@class='sk-event-item --vertical --sk-event-image-loaded']").AllAsync();
 
+            if (eventDivs.Count == 0)
+            {
+                throw new InvalidDataException($"Scheint, als würde kein Eventcontainer für {VenueName} gefunden > 0 Events auffindbar, überspringe Crawl");
+            }
+
             foreach (var div in eventDivs)
             {
                 try
                 {
                     var datespan = div.Locator(".sk-event-item-date");
 
-                    string date = await datespan.Locator(".icon_text").InnerTextAsync();
+                    string dateRaw = await datespan.Locator(".icon_text").InnerTextAsync();
                     string link = await div.Locator(".sk-event-item-thumbnail img").GetAttributeAsync("src") ?? "";
 
                     string artist = await div.Locator(".sk-event-item-title").InnerTextAsync();
 
                     string info = await div.Locator(".sk-event-item-desc--less.js-event-item-desc--less > div").InnerTextAsync();
 
-                    //eingrenzen auf die kommendne 2 Monate, der findet sonst zu viel
-                    if (ParseDate(date).Month > DateTime.Now.Month + 1)
+                    var date = ParseDate(dateRaw);
+                    if (date.Month > DateTime.Now.Month + 1)
                         continue;
 
-                    var ev = new Event
+                    result.Add(new Event
                     {
-                        Date = ParseDate(date),
+                        Date = date,
                         Artist = artist,
                         Venue = VenueName,
                         Info = info,
                         Link = link
-                    };
-                    result.Add(ev);
+                    });
                 }
                 catch (Exception ex)
                 {
-                    var ev = new Event
-                    {
-                        Venue = VenueName,
-                        Info = $"{ex.Message}"
-                    };
-                    result.Add(ev);
+                    Console.WriteLine($"KramladenCrawler: item übersprungen - {ex.Message}");
                 }
             }
 

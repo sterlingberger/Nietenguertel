@@ -55,7 +55,6 @@ namespace EventCrawler.Crawler
             {
                 try
                 {
-                    //ins event reingehen und info beziehen
                     await _page.GotoAsync(show.Link, new PageGotoOptions
                     {
                         WaitUntil = WaitUntilState.NetworkIdle
@@ -66,7 +65,7 @@ namespace EventCrawler.Crawler
 
                     var div = await _page.Locator("xpath=//section[@id='main-block']/div[@class='container no-padding']/div[@class='grid block-builder']/div[@class='event-main-col col col-m-6 ']/div[@class='container']").AllAsync();
 
-                    string date = await div.First().Locator(".date.uppercase").InnerTextAsync();
+                    string dateRaw = await div.First().Locator(".date.uppercase").InnerTextAsync();
 
                     var infos = await div.First().Locator(".location.uppercase.notranslate").AllInnerTextsAsync();
                     string info = string.Empty;
@@ -83,11 +82,11 @@ namespace EventCrawler.Crawler
                     foreach (var i in infos)
                         info += i + "\n";
 
-                    //eingrenzen auf die kommendne 2 Monate, der findet sonst zu viel
-                    if (ParseDate(date).Month > DateTime.Now.Month + 1)
+                    var date = ParseDate(dateRaw);
+                    if (date.Month > DateTime.Now.Month + 1)
                         continue;
 
-                    show.Date = ParseDate(date);
+                    show.Date = date;
                     show.Artist = artist;
                     show.Venue = VenueName;
                     show.Info = info;
@@ -96,10 +95,7 @@ namespace EventCrawler.Crawler
                 }
                 catch (Exception ex)
                 {
-
-                    show.Venue = VenueName;
-                    show.Info = $"{ex.Message}";
-                    result.Add(show);
+                    Console.WriteLine($"FluccCrawler: item übersprungen ({show.Link}) - {ex.Message}");
                 }
             }
 

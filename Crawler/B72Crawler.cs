@@ -40,6 +40,11 @@ namespace EventCrawler.Crawler
             //var eventDivs = await _page.Locator(eventxpath).AllAsync();
             var eventDivs = await _page.Locator("xpath=//div[@class='section']//*[contains(@class,'row mtb0')]").AllAsync();
 
+            if (eventDivs.Count == 0)
+            {
+                throw new InvalidDataException($"Scheint, als würde kein Eventcontainer für {VenueName} gefunden > 0 Events auffindbar, überspringe Crawl");
+            }
+
             foreach (var div in eventDivs)
             {
                 try
@@ -48,30 +53,24 @@ namespace EventCrawler.Crawler
                     string link = urlbase + await anchor.GetAttributeAsync("href") ?? "";
                     string artist = await anchor.InnerTextAsync();
 
-                    string date = await div.Locator("h4").First.InnerTextAsync();
+                    string dateRaw = await div.Locator("h4").First.InnerTextAsync();
+                    var date = ParseDate(dateRaw);
 
-                    //eingrenzen auf die kommendne 2 Monate, der findet sonst zu viel
-                    if (ParseDate(date).Month > DateTime.Now.Month + 1)
+                    if (date.Month > DateTime.Now.Month + 1)
                         continue;
 
-                    var ev = new Event
+                    result.Add(new Event
                     {
-                        Date = ParseDate(date),
+                        Date = date,
                         Artist = artist,
                         Venue = VenueName,
                         Info = "",
                         Link = link
-                    };
-                    result.Add(ev);
+                    });
                 }
                 catch (Exception ex)
                 {
-                    var ev = new Event
-                    {
-                        Venue = VenueName,
-                        Info = $"{ex.Message}"
-                    };
-                    result.Add(ev);
+                    Console.WriteLine($"B72Crawler: item übersprungen - {ex.Message}");
                 }
 
             }
@@ -79,22 +78,28 @@ namespace EventCrawler.Crawler
             //info nachträglich setzen
             foreach (Event ev in result)
             {
-                //ins event reingehen und info beziehen
-                await _page.GotoAsync(ev.Link, new PageGotoOptions
+                try
                 {
-                    WaitUntil = WaitUntilState.NetworkIdle
-                });
+                    await _page.GotoAsync(ev.Link, new PageGotoOptions
+                    {
+                        WaitUntil = WaitUntilState.NetworkIdle
+                    });
 
-                var container = _page.Locator("xpath=//html//body//div[@class='container']//div[@class='section']//div[@class='row']//div[@class='col s12']");
+                    var container = _page.Locator("xpath=//html//body//div[@class='container']//div[@class='section']//div[@class='row']//div[@class='col s12']");
 
-                //bisher nur bei gürtelconnection als mehrere strongs gesehen
-                var elements = await container.Locator("p, strong").AllAsync();
+                    //bisher nur bei gürtelconnection als mehrere strongs gesehen
+                    var elements = await container.Locator("p, strong").AllAsync();
 
-                foreach (var el in elements)
+                    foreach (var el in elements)
+                    {
+                        string text = await el.InnerTextAsync();
+                        if (!string.IsNullOrWhiteSpace(text))
+                            ev.Info += $"\n{text}";
+                    }
+                }
+                catch (Exception ex)
                 {
-                    string text = await el.InnerTextAsync();
-                    if (!string.IsNullOrWhiteSpace(text))
-                        ev.Info += $"\n{text}";
+                    Console.WriteLine($"B72Crawler: info für '{ev.Artist}' nicht abrufbar - {ex.Message}");
                 }
             }
 
