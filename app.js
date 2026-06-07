@@ -20,6 +20,41 @@ document.addEventListener('DOMContentLoaded', function () {
             : (v.LocationFilter ? [v.LocationFilter] : (v.locations ?? []))
     }));
 
+    // ── Theme Toggle ─────────────────────────────────────────────
+
+    const themeBtn = document.getElementById('theme-btn');
+    const headerImg = document.getElementById('header-img');
+
+    const DARK_IMG = 'data/snake_header_red.png';
+    const LIGHT_IMG = 'data/snake_header_light.png';
+
+    function getEffectiveTheme() {
+        if (document.documentElement.dataset.theme) {
+            return document.documentElement.dataset.theme;
+        }
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+
+    function applyTheme(theme) {
+        document.documentElement.dataset.theme = theme;
+        localStorage.setItem('theme', theme);
+        if (themeBtn) themeBtn.textContent = theme === 'dark' ? 'bright mode' : 'dark mode';
+        if (headerImg) headerImg.src = theme === 'light' ? LIGHT_IMG : DARK_IMG;
+    }
+
+    // Beim Start: data-theme wurde bereits im <head> gesetzt (kein FOWT).
+    // Hier nur noch Button-Text synchronisieren.
+    if (themeBtn) themeBtn.textContent = getEffectiveTheme() === 'dark' ? 'bright mode' : 'dark mode';
+
+    if (themeBtn) {
+        themeBtn.addEventListener('click', () => {
+            const current = getEffectiveTheme();
+            applyTheme(current === 'dark' ? 'light' : 'dark');
+        });
+    }
+
+    // ── Filter State ─────────────────────────────────────────────
+
     const filterU1 = document.getElementById('filter-u1');
     const filterU2 = document.getElementById('filter-u2');
     const filterU3 = document.getElementById('filter-u3');
@@ -34,6 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const HARDCODED_TAGS = [
         { label: 'Blues', terms: ['blues', 'soul', 'gospel'] },
+        { label: 'DJ', terms: ['dj'] },
         { label: 'Folk', terms: ['folk', 'singer-songwriter', 'bluegrass'] },
         { label: 'Funk', terms: ['funk'] },
         { label: 'Electronic', terms: ['electronic', 'electro', 'industrial'] },
@@ -49,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function () {
         { label: 'Rock', terms: ['rock', 'punk', 'metal', 'stoner', 'doom', 'grunge', 'indie', 'alternative'] },
         { label: 'Ska', terms: ['ska'] },
         { label: 'Stoner', terms: ['stoner'] },
-        { label: 'Techno', terms: ['techno', 'house', 'trance', 'dnb', 'drum and bass', "drum'n'bass"] },
+        { label: 'Techno', terms: ['techno', 'trance', 'dnb', 'drum and bass', "drum'n'bass"] },
     ];
 
     // label → terms Lookup (wird auch für custom tags befüllt)
@@ -162,7 +198,6 @@ document.addEventListener('DOMContentLoaded', function () {
     genreBtn.addEventListener('click', e => {
         e.stopPropagation();
         popover.hidden = !popover.hidden;
-        console.log('genre click, hidden:', popover.hidden); // ← dazugeben
     });
 
     document.addEventListener('click', e => {

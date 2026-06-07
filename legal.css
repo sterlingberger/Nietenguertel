@@ -1,8 +1,28 @@
 :root {
-    --bg: #020309;
-    --text: #A63B3B;
-    --muted: #8d4a4a;
+    --bg:        #020309;
+    --text:      #A63B3B;
+    --muted:     #8d4a4a;
     --max-width: 760px;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg:    #FFFFFA;
+        --text:  #8B1A1A;
+        --muted: #6b3a3a;
+    }
+}
+
+:root[data-theme="dark"] {
+    --bg:    #020309;
+    --text:  #A63B3B;
+    --muted: #8d4a4a;
+}
+
+:root[data-theme="light"] {
+    --bg:    #FFFFFA;
+    --text:  #8B1A1A;
+    --muted: #6b3a3a;
 }
 
 * { box-sizing: border-box; }

@@ -1,9 +1,92 @@
+/* ── Theme Variables ─────────────────────────────────────── */
+
+:root {
+    --bg:                    #020309;
+    --text:                  #e6e6e6;
+    --text-band:             #ffffff;   /* text auf dunkel/accent-bg (th, aktive chips) */
+    --text-info:             #9aa3ad;
+    --text-muted:            #8d4a4a;
+    --accent:                #6B2626;
+    --accent-inactive:       #361313;
+    --btn-active-border:     #28a745;
+    --btn-active-bg:         #0f2a12;
+    --card-bg:               #0a0a14;
+    --popover-bg:            #0d0d1a;
+    --sep:                   #444;
+    --mode-divider:          #1a1a2e;
+    --row-alt-bg:            rgba(255,255,255,0.01);
+    --entry-divider:         rgba(107,38,38,0.15);
+    --genre-inactive-opacity: 0.2;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg: #FFFFFA;
+        --text: #000000;
+        --text-band: #ffffff;
+        --text-info: #444855;
+        --text-muted: #6b3a3a;
+        --accent: #8B1A1A;
+        --accent-inactive: #b06060;
+        --btn-active-border: #1a7a30;
+        --btn-active-bg: #d4edda;
+        --card-bg: #F8F0F0;
+        --popover-bg: #EFE8E8;
+        --sep: #cc9999;
+        --mode-divider: #e8d0d0;
+        --row-alt-bg: rgba(0,0,0,0.03);
+        --entry-divider: rgba(139,26,26,0.12);
+        --genre-inactive-opacity: 0.5;
+    }
+}
+
+/* Manuelle Overrides (gesetzt via JS + localStorage) */
+:root[data-theme="dark"] {
+    --bg:                    #020309;
+    --text:                  #e6e6e6;
+    --text-band:             #ffffff;
+    --text-info:             #9aa3ad;
+    --text-muted:            #8d4a4a;
+    --accent:                #6B2626;
+    --accent-inactive:       #361313;
+    --btn-active-border:     #28a745;
+    --btn-active-bg:         #0f2a12;
+    --card-bg:               #0a0a14;
+    --popover-bg:            #0d0d1a;
+    --sep:                   #444;
+    --mode-divider:          #1a1a2e;
+    --row-alt-bg:            rgba(255,255,255,0.01);
+    --entry-divider:         rgba(107,38,38,0.15);
+    --genre-inactive-opacity: 0.2;
+}
+
+:root[data-theme="light"] {
+    --bg: #FFFFFA;
+    --text: #000000;
+    --text-band: #ffffff;
+    --text-info: #444855;
+    --text-muted: #542625;
+    --accent: #8B1A1A;
+    --accent-inactive: #b06060;
+    --btn-active-border: #1a7a30;
+    --btn-active-bg: #d4edda;
+    --card-bg: #F8F0F0;
+    --popover-bg: #EFE8E8;
+    --sep: #cc9999;
+    --mode-divider: #e8d0d0;
+    --row-alt-bg: rgba(0,0,0,0.03);
+    --entry-divider: rgba(139,26,26,0.12);
+    --genre-inactive-opacity: 0.5;
+}
+
+/* ── Basis ───────────────────────────────────────────────── */
+
 body {
     font-family: sans-serif;
     padding: 2rem;
-    background: #020309;
-    color: #e6e6e6;
-    overflow-x: hidden; /* body scrollt nie horizontal, nur der table-wrapper */
+    background: var(--bg);
+    color: var(--text);
+    overflow-x: hidden;
 }
 
 h1 {
@@ -13,8 +96,7 @@ h1 {
 }
 
 p {
-    /*color: #6B2626;*/
-    color: #8d4a4a;
+    color: var(--text-muted);
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     font-size: 0.8rem;
@@ -37,11 +119,13 @@ p {
 
 .header-divider {
     height: 1px;
-    background: #6B2626;
+    background: var(--accent);
     width: min(80%, 1024px);
     margin: 8px auto 24px auto;
     border-radius: 1px;
 }
+
+/* ── Filter-Leiste ───────────────────────────────────────── */
 
 .filters {
     margin-bottom: 1rem;
@@ -52,7 +136,7 @@ p {
 }
 
 .filters .sep {
-    color: #444;
+    color: var(--sep);
     padding: 0 6px;
     user-select: none;
     align-self: stretch;
@@ -66,31 +150,26 @@ p {
     align-items: center;
 }
 
-.genre-btn {
+/* ── Buttons (Row, Genre, Theme) ─────────────────────────── */
+
+.genre-btn,
+.row-btn,
+.theme-btn {
     background: transparent;
-    border: 1px solid #361313;
+    border: 1px solid var(--accent-inactive);
     padding: 6px 10px;
     border-radius: 4px;
     cursor: pointer;
     font-size: 0.9rem;
-    color: #e6e6e6;
+    color: var(--text);
 }
 
-.row-btn {
-    background: transparent;
-    border: 1px solid #361313;
-    padding: 6px 10px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 0.9rem;
-    color: #e6e6e6;
-}
-
-.row-btn.active {
-    border-color: #28a745;
-    background: #0f2a12;
-    color: #ffffff;
-}
+    .row-btn.active,
+    .genre-btn.active {
+        border-color: var(--btn-active-border);
+        background: var(--btn-active-bg);
+        color: var(--text);
+    }
 
 /* ── Tabellen-Layout (Desktop) ─────────────────────────────── */
 
@@ -111,7 +190,7 @@ table {
     min-width: 600px;
     width: auto;
     border-collapse: collapse;
-    background: #020309;
+    background: var(--bg);
     table-layout: fixed;
 }
 
@@ -119,15 +198,15 @@ th {
     position: sticky;
     top: 0;
     z-index: 1;
-    background: #6B2626;
+    background: var(--accent);
     font-weight: 500;
     font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     padding: 10px 14px;
-    border: 1px solid #6B2626;
+    border: 1px solid var(--accent);
     text-align: left;
-    color: #ffffff;
+    color: var(--text-band);   /* immer hell – bg ist immer dunkelrot */
     white-space: normal;
     overflow-wrap: anywhere;
     word-break: break-word;
@@ -142,42 +221,42 @@ th.date-col {
 
 td {
     padding: 10px 14px;
-    border: 1px solid #6B2626;
+    border: 1px solid var(--accent);
     vertical-align: top;
     font-size: 0.9rem;
     overflow-wrap: anywhere;
     word-break: break-word;
     background: transparent;
-    color: #e6e6e6;
+    color: var(--text);
 }
 
 td.date-cell {
     font-weight: 500;
-    color: #d0d6d9;
+    color: var(--text);
     white-space: normal;
 }
 
 .event-entry + .event-entry {
     margin-top: 10px;
     padding-top: 10px;
-    border-top: 1px dashed rgba(107,38,38,0.15);
+    border-top: 1px dashed var(--entry-divider);
 }
 
 .band {
     font-weight: 700;
     overflow-wrap: anywhere;
     word-break: break-word;
-    color: #ffffff;
+    color: var(--text);   /* --text statt --text-band: passt auf hellem wie dunklem bg */
 }
 
 .info {
     font-size: 0.82rem;
-    color: #9aa3ad;
+    color: var(--text-info);
     margin-top: 2px;
 }
 
 tr:nth-child(even) td {
-    background: rgba(255,255,255,0.01);
+    background: var(--row-alt-bg);
 }
 
 .date-cell .weekday,
@@ -188,7 +267,7 @@ tr:nth-child(even) td {
 
 .cell-date {
     font-size: 0.75rem;
-    color: #8d4a4a;
+    color: var(--text-muted);
     margin-bottom: 4px;
 }
 
@@ -201,7 +280,7 @@ tr:nth-child(even) td {
     border-radius: 6px;
     padding: 4px;
     box-sizing: border-box;
-    border: 2px solid #361313;
+    border: 2px solid var(--accent-inactive);
     transition: border-color 120ms ease, box-shadow 120ms ease, transform 120ms ease;
     background: transparent;
 }
@@ -212,7 +291,7 @@ tr:nth-child(even) td {
 
 .filter-icon.active,
 .filter-icon[aria-pressed="true"] {
-    border-color: #28a745;
+    border-color: var(--btn-active-border);
     box-shadow: 0 0 0 4px rgba(40,167,69,0.12);
 }
 
@@ -223,14 +302,14 @@ tr:nth-child(even) td {
 
 /* ── Genre-Filter ──────────────────────────────────────────── */
 
-.genre-wrap {
-    position: relative;
+.genre-theme-row {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
 }
 
-.genre-btn.active {
-    border-color: #28a745;
-    background: #0f2a12;
-    color: #ffffff;
+.genre-wrap {
+    position: relative;
 }
 
 .genre-popover {
@@ -238,8 +317,8 @@ tr:nth-child(even) td {
     top: calc(100% + 8px);
     left: 50%;
     transform: translateX(-50%);
-    background: #0d0d1a;
-    border: 1px solid #6B2626;
+    background: var(--popover-bg);
+    border: 1px solid var(--accent);
     border-radius: 8px;
     padding: 14px;
     min-width: 280px;
@@ -257,7 +336,7 @@ tr:nth-child(even) td {
 .genre-popover-hint {
     margin: 0;
     font-size: 0.78rem;
-    color: #e6e6e6;
+    color: var(--text);
     text-align: left;
     font-family: sans-serif;
 }
@@ -270,19 +349,19 @@ tr:nth-child(even) td {
 
 .genre-chip {
     background: transparent;
-    border: 1px solid #361313;
+    border: 1px solid var(--accent-inactive);
     padding: 4px 10px;
     border-radius: 4px;
     cursor: pointer;
     font-size: 0.85rem;
-    color: #e6e6e6;
+    color: var(--text);
     transition: border-color 100ms ease, background 100ms ease;
 }
 
 .genre-chip.active {
-    border-color: #28a745;
-    background: #0f2a12;
-    color: #ffffff;
+    border-color: var(--btn-active-border);
+    background: var(--btn-active-bg);
+    color: var(--text);
 }
 
 .genre-input-row {
@@ -292,67 +371,67 @@ tr:nth-child(even) td {
 
 .genre-input-row input {
     flex: 1;
-    background: #020309;
-    border: 1px solid #361313;
+    background: var(--bg);
+    border: 1px solid var(--accent-inactive);
     border-radius: 4px;
     padding: 5px 8px;
-    color: #e6e6e6;
+    color: var(--text);
     font-size: 0.85rem;
     font-family: sans-serif;
 }
 
 .genre-input-row input:focus {
     outline: none;
-    border-color: #6B2626;
+    border-color: var(--accent);
 }
 
 .genre-input-row button {
     background: transparent;
-    border: 1px solid #361313;
+    border: 1px solid var(--accent-inactive);
     border-radius: 4px;
     padding: 5px 12px;
     cursor: pointer;
-    color: #e6e6e6;
+    color: var(--text);
     font-size: 0.9rem;
 }
 
 .genre-input-row button:hover {
-    border-color: #6B2626;
+    border-color: var(--accent);
 }
 
 .genre-mode-toggle {
     display: flex;
     gap: 6px;
-    border-top: 1px solid #1a1a2e;
+    border-top: 1px solid var(--mode-divider);
     padding-top: 10px;
 }
 
 .genre-mode-btn {
     flex: 1;
     background: transparent;
-    border: 1px solid #361313;
+    border: 1px solid var(--accent-inactive);
     padding: 5px 8px;
     border-radius: 4px;
     cursor: pointer;
     font-size: 0.82rem;
-    color: #e6e6e6;
+    color: var(--text);
     font-family: sans-serif;
     transition: border-color 100ms ease, background 100ms ease;
 }
 
 .genre-mode-btn.active {
-    border-color: #28a745;
-    background: #0f2a12;
-    color: #ffffff;
+    border-color: var(--btn-active-border);
+    background: var(--btn-active-bg);
+    color: var(--text);
 }
 
 /* Highlight-Modus: nicht-treffende Einträge abdunkeln */
 .genre-active .event-entry:not(.genre-match) {
-    opacity: 0.2;
+    opacity: var(--genre-inactive-opacity);
 }
 
 .genre-active .card:not(.genre-match) {
-    opacity: 0.2;
+    opacity: var(--genre-inactive-opacity);
 }
 
 /* ── Hilfssrolleiste am unteren Rand (nur Desktop) ─────────── */
@@ -379,12 +458,12 @@ tr:nth-child(even) td {
 .legal-links {
     text-align: center;
     margin-top: 24px;
-    color: #6B2626;
+    color: var(--accent);
     font-size: 0.95rem;
 }
 
 .legal-links a {
-    color: #6B2626;
+    color: var(--accent);
     margin: 0 10px;
     text-decoration: none;
 }
@@ -395,11 +474,11 @@ tr:nth-child(even) td {
 
 .participate-link {
     text-align: center;
-    color: #7D2C2C;
+    color: var(--accent);
 }
 
 .participate-link a {
-    color: #6B2626;
+    color: var(--accent);
     margin: 0 10px;
     text-decoration: none;
 }
@@ -415,8 +494,8 @@ tr:nth-child(even) td {
 }
 
 .card {
-    background: #0a0a14;
-    border: 1px solid #6B2626;
+    background: var(--card-bg);
+    border: 1px solid var(--accent);
     border-radius: 6px;
     padding: 12px 14px;
     cursor: pointer;
@@ -431,7 +510,7 @@ tr:nth-child(even) td {
 
 .card-venue {
     font-size: 0.72rem;
-    color: #8d4a4a;
+    color: var(--text-muted);
     text-transform: uppercase;
     letter-spacing: 0.06em;
     font-weight: 600;
@@ -439,19 +518,19 @@ tr:nth-child(even) td {
 
 .card-date {
     font-size: 0.72rem;
-    color: #8d4a4a;
+    color: var(--text-muted);
 }
 
 .card-artist {
     font-weight: 700;
-    color: #ffffff;
+    color: var(--text);   /* --text statt --text-band: passt auf hellem wie dunklem bg */
     font-size: 0.95rem;
     overflow-wrap: anywhere;
 }
 
 .card-info {
     font-size: 0.8rem;
-    color: #9aa3ad;
+    color: var(--text-info);
     margin-top: 4px;
     overflow-wrap: anywhere;
 }
@@ -464,11 +543,11 @@ tr:nth-child(even) td {
     }
 
     .table-wrapper {
-        display: none; /* Tabelle auf Mobile verstecken */
+        display: none;
     }
 
     .h-scroll {
-        display: none !important; /* nicht nötig auf Mobile */
+        display: none !important;
     }
 
     .card-list {
@@ -488,8 +567,7 @@ tr:nth-child(even) td {
     }
 
     p {
-        /*color: #6B2626;*/
-        color: #8d4a4a;
+        color: var(--text-muted);
         text-align: center;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
         font-size: 0.8rem;

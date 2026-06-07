@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>nietengürtel.at</title>
     <link rel="icon" href="data/favicon.png" type="image/png">
+    <script>(function(){var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t;}());</script>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <div class="header-container" aria-hidden="false">
-        <img src="data/snake_header_red.png" alt="Snake Header" class="header-img" />
+        <!-- Light-Mode-Variante: data/snake_header_light.png ersetzen sobald vorhanden -->
+        <picture>
+            <source srcset="data/snake_header_light.png" media="(prefers-color-scheme: light)" />
+            <img src="data/snake_header_red.png" alt="Snake Header" class="header-img" id="header-img" />
+        </picture>
     </div>
     <p>keine Cookies, kein Tracking, nur das Wesentliche</p>
 
@@ -40,8 +45,11 @@
 
         <span class="sep">|</span>
 
-        <div class="genre-wrap" id="genre-wrap">
-            <button class="genre-btn" id="genre-btn">genre</button>
+        <div class="genre-theme-row">
+            <div class="genre-wrap" id="genre-wrap">
+                <button class="genre-btn" id="genre-btn">genre</button>
+            </div>
+            <button class="theme-btn" id="theme-btn">bright mode</button>
         </div>
 
         <span class="sep">|</span>
