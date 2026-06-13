@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const popupCalBtn = document.createElement('a');
     popupCalBtn.className = 'card-popup-btn';
-    popupCalBtn.innerHTML = 'In Kalender exportieren<br><span class="card-popup-btn-hint">(Uhrzeiten bitte selbständig nachprüfen - können nicht immer verlässlich automatisiert ausgelesen werden)</span>';
+    popupCalBtn.innerHTML = 'in Kalender exportieren<br><span class="card-popup-btn-hint">(Uhrzeiten bitte selbständig nachprüfen - können nicht immer verlässlich automatisiert ausgelesen werden)</span>';
 
     cardPopup.appendChild(popupTitle);
     cardPopup.appendChild(popupLinkBtn);
@@ -242,7 +242,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const popoverHint = document.createElement('p');
     popoverHint.className = 'genre-popover-hint';
-    popoverHint.textContent = 'Hinweis: als Grundlage für die Suche des Genres dient nur der Infotext der jeweiligen Veranstaltung. Hinter jedem Tag stecken gängige Schreibweisen oder verwandte Genres (Bsp.: Rock inkludiert Punk),' +
+    popoverHint.textContent = 'Hinweis: als Grundlage für die Suche des Genres dient nur der Infotext der jeweiligen Veranstaltung. Hinter jedem Tag stecken gängige Schreibweisen oder verwandte Genres (Bsp.: Rock inkludiert Punk), ' +
         'kommen diese im Text vor schlägt der Filter an. Für spezielle Suche eigenen Tag eingeben (damit lässt sich der Filter auch zweckentfremden für Bspw. Band- oder Veranstaltungsnamen).';
     popover.appendChild(popoverHint);
 

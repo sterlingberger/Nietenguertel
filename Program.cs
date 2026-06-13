@@ -144,7 +144,7 @@ namespace EventCrawler
             sb.Append($"DTSTAMP:{dtStamp}\r\n");
             sb.Append($"DTSTART:{dtStart}\r\n");
             sb.Append($"DTEND:{dtEnd}\r\n");
-            sb.Append($"SUMMARY:{Esc(ev.Artist) + " (Uhrzeit prüfen!)"}\r\n");
+            sb.Append($"SUMMARY:{Esc(ev.Artist) + " (Uhrzeit prüfen)"}\r\n");
             sb.Append($"LOCATION:{Esc(ev.Venue)}\r\n");
             sb.Append($"DESCRIPTION:{Esc(ev.Info)}\r\n");
             sb.Append($"URL:{ev.Link}\r\n");
