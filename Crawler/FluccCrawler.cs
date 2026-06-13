@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
+using System.Text.RegularExpressions;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace EventCrawler.Crawler
@@ -92,6 +93,36 @@ namespace EventCrawler.Crawler
                     show.Info = info;
 
                     result.Add(show);
+
+                    //uhrzeiten per regex
+                    #region regex
+
+                    var timeloc = await _page.Locator("xpath=//*[@class='time']").InnerTextAsync();
+
+                    var match = Regex.Match(timeloc.Trim(), @"(\d{1,2}):(\d{2})\s*[-—]\s*(\d{1,2}):(\d{2})");
+
+                    string start = null, end = null;
+
+                    if (match.Success)
+                    {
+                        start = $"{match.Groups[1].Value.PadLeft(2, '0')}:{match.Groups[2].Value}";
+                        end = $"{match.Groups[3].Value.PadLeft(2, '0')}:{match.Groups[4].Value}";
+                    }
+                    else
+                    {
+                        var singleMatch = Regex.Match(timeloc.Trim(), @"(\d{1,2}):(\d{2})");
+                        if (singleMatch.Success)
+                        {
+                            start = $"{singleMatch.Groups[1].Value.PadLeft(2, '0')}:{singleMatch.Groups[2].Value}";
+                        }
+                    }
+
+                    if (start != null)
+                        show.Start = show.Date.ToDateTime(TimeOnly.Parse(start));
+                    if (end != null)
+                        show.End = show.Date.ToDateTime(TimeOnly.Parse(end));
+
+                    #endregion
                 }
                 catch (Exception ex)
                 {

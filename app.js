@@ -20,6 +20,64 @@ document.addEventListener('DOMContentLoaded', function () {
             : (v.LocationFilter ? [v.LocationFilter] : (v.locations ?? []))
     }));
 
+    // ── Card-Popup (Mobile) ──────────────────────────────────────
+
+    const cardPopupOverlay = document.createElement('div');
+    cardPopupOverlay.className = 'card-popup-overlay';
+    cardPopupOverlay.hidden = true;
+
+    const cardPopup = document.createElement('div');
+    cardPopup.className = 'card-popup';
+
+    const popupTitle = document.createElement('div');
+    popupTitle.className = 'card-popup-title';
+
+    const popupLinkBtn = document.createElement('a');
+    popupLinkBtn.className = 'card-popup-btn';
+    popupLinkBtn.target = '_blank';
+    popupLinkBtn.rel = 'noopener noreferrer';
+    popupLinkBtn.textContent = 'zur Veranstaltung';
+
+    const popupCalBtn = document.createElement('a');
+    popupCalBtn.className = 'card-popup-btn';
+    popupCalBtn.innerHTML = 'In Kalender exportieren<br><span class="card-popup-btn-hint">(Uhrzeiten bitte selbständig nachprüfen - können nicht immer verlässlich automatisiert ausgelesen werden)</span>';
+
+    cardPopup.appendChild(popupTitle);
+    cardPopup.appendChild(popupLinkBtn);
+    cardPopup.appendChild(popupCalBtn);
+    cardPopupOverlay.appendChild(cardPopup);
+    document.body.appendChild(cardPopupOverlay);
+
+    function openCardPopup(e, artist, link, icsFileName, dateStr) {
+        popupTitle.textContent = (dateStr ? dateStr + ' · ' : '') + artist;
+        popupLinkBtn.href = link || '#';
+        if (!link) popupLinkBtn.style.display = 'none';
+        else popupLinkBtn.style.display = '';
+        if (icsFileName) {
+            popupCalBtn.href = `data/calendar/${icsFileName}`;
+            popupCalBtn.download = icsFileName;
+            popupCalBtn.style.display = '';
+        } else {
+            popupCalBtn.style.display = 'none';
+        }
+        cardPopupOverlay.hidden = false;
+    }
+
+    function closeCardPopup() {
+        cardPopupOverlay.hidden = true;
+    }
+
+    cardPopupOverlay.addEventListener('click', e => {
+        if (e.target === cardPopupOverlay) closeCardPopup();
+    });
+
+    document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') closeCardPopup();
+    });
+
+    // Klick innerhalb des Popups nicht nach außen durchlassen
+    cardPopup.addEventListener('click', e => e.stopPropagation());
+
     // ── Theme Toggle ─────────────────────────────────────────────
 
     const themeBtn = document.getElementById('theme-btn');
@@ -466,6 +524,21 @@ document.addEventListener('DOMContentLoaded', function () {
                         entry.dataset.eventIdx = e._idx;
                         entry.appendChild(bandDiv);
                         entry.appendChild(infoDiv);
+                        if (e.IcsFileName) {
+                            const calBtn = document.createElement('button');
+                            calBtn.className = 'cal-btn';
+                            calBtn.title = 'in Kalender exportieren';
+                            calBtn.innerHTML = '<img src="data/cal-icon.svg" alt="" class="cal-icon" /><span class="cal-btn-label">export</span>';
+                            calBtn.addEventListener('click', evt => {
+                                evt.stopPropagation();
+                                openCardPopup(e, e.Artist || '', e.Link, e.IcsFileName, `${weekday} ${datePart}`);
+                            });
+                            entry.appendChild(calBtn);
+                            const calHint = document.createElement('div');
+                            calHint.className = 'cal-hint';
+                            //calHint.textContent = '(Uhrzeiten können abweichen)';
+                            entry.appendChild(calHint);
+                        }
                         td.appendChild(entry);
                     });
                     tr.appendChild(td);
@@ -493,17 +566,13 @@ document.addEventListener('DOMContentLoaded', function () {
                                 <div class="card-info"></div>
                             `;
 
-                            const artistEl = card.querySelector('.card-artist');
-                            artistEl.textContent = e.Artist || '';
-                            if (e.Link) {
-                                artistEl.style.cursor = 'pointer';
-                                artistEl.addEventListener('click', () => {
-                                    try { window.open(e.Link, '_blank', 'noopener,noreferrer'); }
-                                    catch (err) { console.error('Konnte Link nicht öffnen', err); }
-                                });
-                            }
-
+                            card.querySelector('.card-artist').textContent = e.Artist || '';
                             card.querySelector('.card-info').textContent = e.InfoShort || '';
+
+                            card.addEventListener('click', () => {
+                                openCardPopup(e, e.Artist || '', e.Link, e.IcsFileName, `${weekday} ${datePart}`);
+                            });
+
                             cardList.appendChild(card);
                         });
                     });

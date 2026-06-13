@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260615-Cafe-Carina-WM-Im-Lokal-|-18:00-Spanien-–-Kapverdische-Inseln-|-21:00-Belgien-–-Ägypten@eventcrawler
+DTSTAMP:20260613T113144Z
+DTSTART:20260615T200000
+DTEND:20260615T235900
+SUMMARY:WM Im Lokal | 18:00 Spanien – Kapverdische Inseln | 21:00 Belgien – Ägypten
+LOCATION:Cafe Carina
+DESCRIPTION:WM im Lokal | 18:00 Spanien – Kapverdische Inseln | 21:00 Belgien – Ägypten  Fussball WM 2026 | 18:00 Spanien – Kapverdische Inseln | 21:00 Belgien – Ägypten
+URL:https://www.cafe-carina.at/2020/events/fussball-wm-2026-spanien-kapverdische-inseln-belgien-aegypten/
+END:VEVENT
+END:VCALENDAR

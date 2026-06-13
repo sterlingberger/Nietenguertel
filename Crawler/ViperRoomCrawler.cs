@@ -85,6 +85,20 @@ namespace EventCrawler.Crawler
 
                     var allText = await div.Locator("> *:not(.event_time):not(.event_actions)").AllInnerTextsAsync();
                     ev.Info = string.Join("\n", allText);
+
+                    //uhrzeit auslesen
+
+                    var time = await _page.Locator("xpath=//*[@class='event_doors']").InnerTextAsync();
+
+                    var match = Regex.Match(time.Trim(), @"(\d{1,2}):(\d{2})");
+
+                    string? start = null;
+
+                    if (match.Success)
+                    {
+                        start = $"{match.Groups[1].Value.PadLeft(2, '0')}:{match.Groups[2].Value}";
+                        ev.Start = ev.Date.ToDateTime(TimeOnly.Parse(start));
+                    }
                 }
                 catch (Exception ex)
                 {

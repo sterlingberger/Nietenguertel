@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260703-Venster99-Cút-Lộn-+-Caloris-Impact-+-ECCCO-=-Vereinsfest-by-Fomo-Concerts@eventcrawler
+DTSTAMP:20260613T113144Z
+DTSTART:20260703T180000
+DTEND:20260703T235900
+SUMMARY:Cút Lộn + Caloris Impact + ECCCO = Vereinsfest by Fomo Concerts
+LOCATION:Venster99
+DESCRIPTION:
+URL:http://www.facebook.com/events/2123010515141028/?
+END:VEVENT
+END:VCALENDAR

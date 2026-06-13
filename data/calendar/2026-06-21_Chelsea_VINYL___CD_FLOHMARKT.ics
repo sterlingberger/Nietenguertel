@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260621-Chelsea-VINYL-&-CD-FLOHMARKT@eventcrawler
+DTSTAMP:20260613T113144Z
+DTSTART:20260621T140000
+DTEND:20260621T190000
+SUMMARY:VINYL & CD FLOHMARKT
+LOCATION:Chelsea
+DESCRIPTION:14:00 - 19:00   Es ist wieder soweit\, die gemütlichste kleine Vinylbörse der Stadt macht sich im Chelsea Schanigarten breit. Sollte der Wettergott was dagegen haben\, findet das ganze indoor statt.   Vinyl\, CDs\, Tapes\, Bücher\, Musikzeitschriften\, DVDs\, Merchandise   Standanmeldung: chelsea@sil.at
+URL:https://www.chelsea.co.at/concerts.php#concert_6726
+END:VEVENT
+END:VCALENDAR

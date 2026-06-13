@@ -48,7 +48,7 @@ namespace EventCrawler.Crawler
 
                 await button.ClickAsync();
                 await _page.WaitForLoadStateAsync(LoadState.NetworkIdle);
-                await Task.Delay(1000);
+                await Task.Delay(3000);
                 clickcounter++;
             }
 
@@ -70,6 +70,9 @@ namespace EventCrawler.Crawler
                 try
                 {
                     var artist = await div.Locator("h4.mec-event-title a").InnerTextAsync();
+
+                    if (artist.Contains("Sonntag Ruhetag"))
+                        continue;
 
                     var day = await div.Locator("div.mec-event-date").InnerTextAsync();
                     var month = await div.Locator("div.mec-event-month").InnerTextAsync();
@@ -113,6 +116,21 @@ namespace EventCrawler.Crawler
                     var container = _page.Locator("//div[@class='col-md-8']/div[@class='mec-event-content']");
 
                     ev.Info = await container.InnerTextAsync();
+
+                    //var timecontainer = _page.Locator("xpath=//*[@class='mec-events-abbr']");
+                    var timecontainer = _page.Locator("xpath=//*[@class='mec-events-abbr'][not(ancestor::*[@class='mec-next-event'])]");
+                    var start = await timecontainer.AllInnerTextsAsync();
+                    string alls = String.Empty;
+
+                    foreach (string s in start)
+                    {
+                        alls += s + " ";
+                    }
+                    //zeitformat hh:mm
+                    var match = Regex.Match(alls, @"\b(\d{1,2}:\d{2})\b");
+                    if (match.Success)
+                        ev.Start = ev.Date.ToDateTime(TimeOnly.Parse(match.Value));
+
                 }
                 catch (Exception ex)
                 {

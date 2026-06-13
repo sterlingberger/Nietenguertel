@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260616-Cafe-Carina-Docks-(Slowcore/Shoegaze,-FR)-✸-Danny-Drivr-(Indie/Bedroom-Pop,-Wien)-(WM-Im-Gastgarten)@eventcrawler
+DTSTAMP:20260613T113144Z
+DTSTART:20260616T200000
+DTEND:20260616T235900
+SUMMARY:Docks (Slowcore/Shoegaze\, FR) ✸ Danny Drivr (Indie/Bedroom Pop\, Wien) (WM Im Gastgarten)
+LOCATION:Cafe Carina
+DESCRIPTION:Docks (slowcore/shoegaze\, FR) ✸ Danny Drivr (indie/bedroom pop\, Wien) (WM im Gastgarten)  ✸ Docks Slowcore/shoegaze/indie duo from Toulouse\, FR docksdocks.bandcamp.com Crossing multiple borders to present their new album! ✸ Danny Drivr Bedroom pop/indie solo project from Wien dannydrivr.bandcamp.com dannydrivr.neocities.org School bus driver & living room composer!
+URL:https://www.cafe-carina.at/2020/events/docks-slowcore-shoegaze-fr-%e2%9c%b8-danny-drivr-indie-bedroom-pop-wien-cafe-carina/
+END:VEVENT
+END:VCALENDAR

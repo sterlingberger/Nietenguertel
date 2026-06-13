@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace EventCrawler.Crawler
 {
@@ -62,14 +63,38 @@ namespace EventCrawler.Crawler
                     if (date.Month > DateTime.Now.Month + 1)
                         continue;
 
-                    result.Add(new Event
+                    Event ev = new Event
                     {
                         Date = date,
                         Artist = artist,
                         Venue = VenueName,
                         Info = info,
                         Link = link
-                    });
+                    };
+
+                    result.Add(ev);
+
+                    //startzeit auslesen
+                    #region regex
+                    var match = Regex.Match(dateRaw.Trim(), @"(\d{1,2}):(\d{2})\s*(AM|PM)", RegexOptions.IgnoreCase);
+
+                    string? start = null;
+
+                    if (match.Success)
+                    {
+                        int hour = int.Parse(match.Groups[1].Value);
+                        int minute = int.Parse(match.Groups[2].Value);
+                        bool isPM = match.Groups[3].Value.ToUpper() == "PM";
+
+                        if (isPM && hour != 12) hour += 12;
+                        if (!isPM && hour == 12) hour = 0;
+
+                        start = $"{hour:D2}:{minute:D2}";
+                    }
+
+                    if (start != null)
+                        ev.Start = ev.Date.ToDateTime(TimeOnly.Parse(start));
+                    #endregion
                 }
                 catch (Exception ex)
                 {

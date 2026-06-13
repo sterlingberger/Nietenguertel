@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260704-Cafe-Carina-THE-BLUE-RATS////-NO-KINGS-4th-Of-July-Concert@eventcrawler
+DTSTAMP:20260613T113144Z
+DTSTART:20260704T200000
+DTEND:20260704T235900
+SUMMARY:THE BLUE RATS//// NO KINGS 4th Of July Concert
+LOCATION:Cafe Carina
+DESCRIPTION:THE BLUE RATS//// NO KINGS 4th of July Concert  The Blue Rats  https://www.facebook.com/thebluerats  https://www.thebluerats.com  „The Blue Rats“ are still „working“ on the debute album. Under the motto „you can’t rush genius“ we are taking our time\, trying to keep to our roots and ro our „first best destiny“\, as Spock would say\, our live stage performances.
+URL:https://www.cafe-carina.at/2020/events/the-blue-rats-no-kings-4th-of-july-concert/
+END:VEVENT
+END:VCALENDAR

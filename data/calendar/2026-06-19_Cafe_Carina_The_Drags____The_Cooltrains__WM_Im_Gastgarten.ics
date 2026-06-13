@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260619-Cafe-Carina-The-Drags-//-The-Cooltrains-(WM-Im-Gastgarten)@eventcrawler
+DTSTAMP:20260613T113144Z
+DTSTART:20260619T200000
+DTEND:20260619T235900
+SUMMARY:The Drags // The Cooltrains (WM Im Gastgarten)
+LOCATION:Cafe Carina
+DESCRIPTION:The Drags // The Cooltrains (WM im Gastgarten)   The Drags sind eine Blues-Garage-Rock-Band aus Wien\, Österreich. Ihre Musik ist ein ursprünglicher Klang in der Tradition von Howlin‘ Wolf\, Small Faces\, Chess Records\, Etta James\, Mike Bloomfield – und allem Coolen aus den 50ern und 60ern.  https://thedragsband.com/  The Cooltrains\; 7-piece blues (upbeat) bandBlues\, Funk\, Soul & Rock – raw and real from Vienna Originals & covers   https://www.instagram.com/thecooltrains/
+URL:https://www.cafe-carina.at/2020/events/the-drags-the-cooltrains-wm-im-gastgarten/
+END:VEVENT
+END:VCALENDAR

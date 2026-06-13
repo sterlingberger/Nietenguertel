@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260702-Arena-CONVERGE-(us)-+-HERIOT-(uk)-+-BONEFLOWER-(esp)-+-CROUCH-(bel)@eventcrawler
+DTSTAMP:20260613T113144Z
+DTSTART:20260702T180000
+DTEND:20260702T235900
+SUMMARY:CONVERGE (us) + HERIOT (uk) + BONEFLOWER (esp) + CROUCH (bel)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Große Halle | Der Vorverkauf beginnt am 2. Februar um 11 Uhr Presale starts on February 2nd at 11am  CONVERGE HERIOT BONEFLOWER CROUCH  Vorverkauf Arena Shop € 35\,- (+ € 3\,50\,- Fee)  Abendkassa tba.  
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48485
+END:VEVENT
+END:VCALENDAR

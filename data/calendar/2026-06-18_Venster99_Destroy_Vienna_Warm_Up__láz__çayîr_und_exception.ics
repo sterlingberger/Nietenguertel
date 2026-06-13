@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260618-Venster99-Destroy-Vienna-Warm-Up:-láz,-çayîr-und-exception@eventcrawler
+DTSTAMP:20260613T113144Z
+DTSTART:20260618T180000
+DTEND:20260618T235900
+SUMMARY:Destroy Vienna Warm Up: láz\, çayîr und exception
+LOCATION:Venster99
+DESCRIPTION:
+URL:http://www.venster99.at
+END:VEVENT
+END:VCALENDAR

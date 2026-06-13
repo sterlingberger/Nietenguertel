@@ -61,14 +61,45 @@ namespace EventCrawler.Crawler
                     if (date.Month > DateTime.Now.Month + 1)
                         continue;
 
-                    result.Add(new Event
+                    Event ev = new Event
                     {
                         Date = date,
                         Artist = artist,
                         Venue = VenueName,
                         Info = info,
                         Link = link
-                    });
+                    };
+
+                    result.Add(ev);
+
+                    //uhrzeiten lesen per regex
+                    #region regex start
+                    var match = Regex.Match(info, @"(\d{1,2}):(\d{2})\s*-\s*(\d{1,2}):(\d{2})|(\d{1,2}):(\d{2})|(\d{1,2})h");
+
+                    string start = null, end = null;
+
+                    if (match.Success)
+                    {
+                        if (match.Groups[1].Success) // Range "14:00 - 19:00"
+                        {
+                            start = $"{match.Groups[1].Value.PadLeft(2, '0')}:{match.Groups[2].Value}";
+                            end = $"{match.Groups[3].Value.PadLeft(2, '0')}:{match.Groups[4].Value}";
+                        }
+                        else if (match.Groups[5].Success) // einzelne "hh:mm"
+                        {
+                            start = $"{match.Groups[5].Value.PadLeft(2, '0')}:{match.Groups[6].Value}";
+                        }
+                        else if (match.Groups[7].Success) // "19h"
+                        {
+                            start = $"{match.Groups[7].Value.PadLeft(2, '0')}:00";
+                        }
+
+                        if (start != null)
+                            ev.Start = ev.Date.ToDateTime(TimeOnly.Parse(start));
+                        if (end != null)
+                            ev.End = ev.Date.ToDateTime(TimeOnly.Parse(end));
+                    }
+                    #endregion
                 }
                 catch (Exception ex)
                 {

@@ -66,14 +66,31 @@ namespace EventCrawler.Crawler
                     if (date.Month > DateTime.Now.Month + 1)
                         continue;
 
-                    result.Add(new Event
+                    Event ev = new Event
                     {
                         Date = date,
                         Artist = artist,
                         Venue = VenueName,
                         Info = info,
                         Link = link
-                    });
+                    };
+
+                    result.Add(ev);
+
+                    //regex für startzeit
+                    #region regex
+                    var match = Regex.Match(dateRaw.Trim(), @"(\d{1,2}):(\d{2})");
+
+                    string? start = null;
+
+                    if (match.Success)
+                    {
+                        start = $"{match.Groups[1].Value.PadLeft(2, '0')}:{match.Groups[2].Value}";
+                    }
+
+                    if (start != null)
+                        ev.Start = ev.Date.ToDateTime(TimeOnly.Parse(start));
+                    #endregion
                 }
                 catch (Exception ex)
                 {

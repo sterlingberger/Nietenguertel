@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260622-Cafe-Carina-WM-Im-Lokal:-Argentinien-–-Österreich@eventcrawler
+DTSTAMP:20260613T113144Z
+DTSTART:20260622T180000
+DTEND:20260622T235900
+SUMMARY:WM Im Lokal: Argentinien – Österreich
+LOCATION:Cafe Carina
+DESCRIPTION:WM im Lokal: Argentinien – Österreich
+URL:https://www.cafe-carina.at/2020/events/wm-argentinien-oesterreich/
+END:VEVENT
+END:VCALENDAR

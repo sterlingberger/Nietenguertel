@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260711-Rhiz-Master-Level-Madness@eventcrawler
+DTSTAMP:20260613T113144Z
+DTSTART:20260711T230000
+DTEND:20260711T235900
+SUMMARY:Master Level Madness
+LOCATION:Rhiz
+DESCRIPTION:Movement Culture Vienna Datum: 11.07.2026 | Einlass: 23:00 Uhr Beginn: 23:00 | Ende: Uhr 
+URL:https://rhiz.wien/copilotevent/11-07-2026_master-level-madness
+END:VEVENT
+END:VCALENDAR

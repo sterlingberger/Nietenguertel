@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260720-Venster99-a.punk.show,-Cranial-Putrefaction-&-tba@eventcrawler
+DTSTAMP:20260613T113144Z
+DTSTART:20260720T180000
+DTEND:20260720T235900
+SUMMARY:a.punk.show\, Cranial Putrefaction & tba
+LOCATION:Venster99
+DESCRIPTION:
+URL:http://tba
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260702-Szene-cassies-|-calandra@eventcrawler
+DTSTAMP:20260613T113144Z
+DTSTART:20260702T180000
+DTEND:20260702T235900
+SUMMARY:cassies | calandra
+LOCATION:Szene
+DESCRIPTION:((szene)) Soundgarden presented by ROCK ANTENNE Österreich mit:  CASSIES ist eine junge Wiener Indie-Rock Band\, die Elemente aus unterschiedlichen Stilrichtungen zu einem energiegeladenen Sound verbindet. Ihre Musik lebt von Dynamik und starken Kontrasten. Die Texte sind ehrlich\, direkt und nah an der Realität. Live schafft Cassies Räume\, in denen Emotionen Platz haben und Gemeinschaft spürbar wird.  CALANDRA verwandelt gespürte Emotion in Musik. Der Act bringt einen besonderen Zugang auf die Bühne: reduziert\, ehrlich und atmosphärisch. Zwischen all der Energie des Abends steht CALANDRA für die intensiven Momente\, die nicht über Lautstärke funktionieren\, sondern über Gefühl\, Ausdruck und Stimmung.  Bei Schlechtwetter findet die Show im Saal statt.  ******  ((szene)) Soundgarden 2026 Größer\, moderner und besser denn je. Den ganzen Sommer lang (halb-) akustische Live-Shows unter freiem Himmel in gemütlicher Garten-Atmosphäre mitten im Herzen Simmerings.  Auch heuer gibt es wieder die exklusiv erhältlichen hausgemachten\, überbackenen Rock-Brote!!  Festivalstimmung pur und das bei freiem Eintritt mitten in der Stadt. Let’s celebrate the summer!  Mit freundlicher Unterstützung von Soletti\, oeticket sowie Erste Bank und Sparkassa.   
+URL:https://szene.wien/events/cassies-calandra/
+END:VEVENT
+END:VCALENDAR

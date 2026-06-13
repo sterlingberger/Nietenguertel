@@ -18,8 +18,47 @@ namespace EventCrawler.Models
 
         public string Link { get; set; } = "unknown";
 
-        //nur erste 50 zeichen nehmen
+        [JsonIgnore] //nicht notwendig, da wenn kein Feld eh ignoriert
+        private DateTime? _start;
+        public DateTime Start
+        {
+            get => _start ?? Date.ToDateTime(new TimeOnly(18, 0));
+            set
+            {
+                _start = value;
+                foundstartdate = true;
+            }
+        }
+
+        private DateTime? _end;
+        public DateTime End
+        {
+            get => _end ?? Date.ToDateTime(new TimeOnly(23, 59));
+            set
+            {
+                _end = value;
+                foundenddate = true;
+            }
+        }
+
+        //debugging
+        [JsonIgnore]
+        public bool foundstartdate { get; set; } = false;
+        [JsonIgnore]
+        public bool foundenddate { get; set; } = false;
+
         public string InfoShort => Info.Length > 128 ? Info[..128] + "..." : Info;
+
+        public string IcsFileName
+        {
+            get
+            {
+                static string Safe(string s) =>
+                    string.Concat(s.Select(c => char.IsLetterOrDigit(c) || c == '-' ? c : '_'))
+                          .Trim('_');
+                return $"{Date:yyyy-MM-dd}_{Safe(Venue)}_{Safe(Artist)}.ics";
+            }
+        }
 
 
         public override bool Equals(object obj) =>

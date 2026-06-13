@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260628-Venster99-Retorsion,-Backyard,-Sulfuric-Cautery,-Morgue-Breath@eventcrawler
+DTSTAMP:20260613T113144Z
+DTSTART:20260628T180000
+DTEND:20260628T235900
+SUMMARY:Retorsion\, Backyard\, Sulfuric Cautery\, Morgue Breath
+LOCATION:Venster99
+DESCRIPTION:
+URL:http://www.Venster99.at
+END:VEVENT
+END:VCALENDAR

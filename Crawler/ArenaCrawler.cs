@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
+using System.Text.RegularExpressions;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace EventCrawler.Crawler
@@ -120,6 +121,16 @@ namespace EventCrawler.Crawler
                         if (!string.IsNullOrWhiteSpace(text))
                             ev.Info += $" | {text}";
                     }
+
+                    var doorselement = _page.Locator("xpath=//div[@id='dnn_ctr577_ViewEventDetail_hgc_RowContainer']/div[@class='suite_calRowContainer teaser']/div[@class='col-md-12']/div[@class='col-md-3 suite_EvenTime']");
+                    var doors = await doorselement.Locator("p").InnerTextAsync();
+
+                    //zeitformat hh:mm
+                    var match = Regex.Match(doors, @"\b(\d{1,2}:\d{2})\b");
+                    if (match.Success)
+                        ev.Start = ev.Date.ToDateTime(TimeOnly.Parse(match.Value));
+
+
                 }
                 catch (Exception ex)
                 {

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260613-Kramladen-PUCA-&-RETROROCK---LIVE-@KRAMLADEN@eventcrawler
+DTSTAMP:20260613T113144Z
+DTSTART:20260613T200000
+DTEND:20260613T235900
+SUMMARY:PUCA & RETROROCK - LIVE @KRAMLADEN
+LOCATION:Kramladen
+DESCRIPTION:Den Abend eröffnet die Band Retrorock mit Classic ...
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/921036510621912.webp?v=1781342560686
+END:VEVENT
+END:VCALENDAR

@@ -2,6 +2,7 @@
 using EventCrawler.Models;
 using Microsoft.Playwright;
 using System.Diagnostics;
+using System.Text;
 using System.Text.Json;
 
 namespace EventCrawler
@@ -98,7 +99,58 @@ namespace EventCrawler
             await File.WriteAllTextAsync(Path.Combine(dataPath, "events.json"), json);
 
             Console.WriteLine($"events.json geschrieben in {sw.ElapsedMilliseconds} ms");
+
+            sw.Restart();
+
+            // ICS-Dateien generieren
+            var calendarPath = Path.Combine(dataPath, "calendar");
+            Directory.CreateDirectory(calendarPath);
+
+            // Veraltete ICS löschen bevor neu geschrieben wird
+            foreach (var f in Directory.GetFiles(calendarPath, "*.ics"))
+                File.Delete(f);
+
+            var utf8NoBom = new UTF8Encoding(encoderShouldEmitUTF8Identifier: false);
+            foreach (var ev in allEvents)
+                await File.WriteAllTextAsync(Path.Combine(calendarPath, ev.IcsFileName), BuildIcs(ev), utf8NoBom);
+
+            Console.WriteLine($"{allEvents.Count} ICS-Dateien geschrieben in {sw.ElapsedMilliseconds} ms");
+
             sw.Stop();
+        }
+
+        static string BuildIcs(Event ev)
+        {
+            // Sonderzeichen gemäß RFC 5545 escapen
+            static string Esc(string s) =>
+                s.Replace("\\", "\\\\")
+                 .Replace(",",  "\\,")
+                 .Replace(";",  "\\;")
+                 .Replace("\r\n", " ")
+                 .Replace("\n",   " ");
+
+            var dtStamp = DateTime.UtcNow.ToString("yyyyMMdd'T'HHmmss'Z'");
+            var dtStart = ev.Start.ToString("yyyyMMdd'T'HHmmss");
+            var dtEnd   = ev.End.ToString("yyyyMMdd'T'HHmmss");
+            var uid     = $"{ev.Date:yyyyMMdd}-{ev.Venue}-{ev.Artist}@eventcrawler"
+                            .Replace(" ", "-");
+
+            var sb = new StringBuilder();
+            sb.Append("BEGIN:VCALENDAR\r\n");
+            sb.Append("VERSION:2.0\r\n");
+            sb.Append("PRODID:-//EventCrawler//EventCrawler//DE\r\n");
+            sb.Append("BEGIN:VEVENT\r\n");
+            sb.Append($"UID:{uid}\r\n");
+            sb.Append($"DTSTAMP:{dtStamp}\r\n");
+            sb.Append($"DTSTART:{dtStart}\r\n");
+            sb.Append($"DTEND:{dtEnd}\r\n");
+            sb.Append($"SUMMARY:{Esc(ev.Artist) + " (Uhrzeit prüfen!)"}\r\n");
+            sb.Append($"LOCATION:{Esc(ev.Venue)}\r\n");
+            sb.Append($"DESCRIPTION:{Esc(ev.Info)}\r\n");
+            sb.Append($"URL:{ev.Link}\r\n");
+            sb.Append("END:VEVENT\r\n");
+            sb.Append("END:VCALENDAR\r\n");
+            return sb.ToString();
         }
     }
 }

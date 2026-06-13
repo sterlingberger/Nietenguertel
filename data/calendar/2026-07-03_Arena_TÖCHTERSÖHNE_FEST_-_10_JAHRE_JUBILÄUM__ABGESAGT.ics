@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260703-Arena-TÖCHTERSÖHNE-FEST---10-JAHRE-JUBILÄUM-*ABGESAGT*@eventcrawler
+DTSTAMP:20260613T113144Z
+DTSTART:20260703T170000
+DTEND:20260703T235900
+SUMMARY:TÖCHTERSÖHNE FEST - 10 JAHRE JUBILÄUM *ABGESAGT*
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Open Air | "Liebe Leute\, wir müssen euch leider mitteilen\, dass wir das töchtersöhne Fest am 3/4. Juli 2026 absagen. Die Gründe sind: Das Donauinselfest wurde erstmalig auf Anfang Juli und unser Wochenende verschoben\, Foo Fighters spielen am Freitag in Wien und unsere Bands\, Crews\, Musiker:innen wie auch wir können nicht gleichzeitig an mehreren Orten sein. Wir müssen das deswegen in anderer Form nachholen - dann aber ohne zwei anderen Großereignissen gleichzeitig in der Stadt - wir bitten\, um euer Verständnis." - Töchtersöhne
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48302
+END:VEVENT
+END:VCALENDAR

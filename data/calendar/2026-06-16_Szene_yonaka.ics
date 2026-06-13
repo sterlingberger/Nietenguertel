@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260616-Szene-yonaka@eventcrawler
+DTSTAMP:20260613T113144Z
+DTSTART:20260616T190000
+DTEND:20260616T235900
+SUMMARY:yonaka
+LOCATION:Szene
+DESCRIPTION:YONAKA kehren am 16. Juni in die ((szene)) Wien zurück – und sie kommen nicht\, um leise zu bleiben. Das britische Indie-Trio bringt seinen explosiven Hybrid aus Alternative\, Pop-Edge und ungeschönter Emotionalität auf die Bühne\, getragen von Theresa Jarvis’ markanter Stimme. Ihre Shows sind ein wilder Ritt zwischen wuchtigen Hooks\, düsteren Zwischentönen und jener kompromisslosen Energie\, die YONAKA seit Jahren zu einer der spannendsten Live-Bands ihrer Liga macht.  Wer sich von einer Band packen\, aufrütteln und mit voller Wucht mitreißen lassen will\, sollte diesen Abend nicht verpassen.   
+URL:https://szene.wien/events/yonaka/
+END:VEVENT
+END:VCALENDAR

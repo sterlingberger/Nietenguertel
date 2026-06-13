@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260730-Viper-Room-Live:-CRYPTA@eventcrawler
+DTSTAMP:20260613T113144Z
+DTSTART:20260730T190000
+DTEND:20260730T235900
+SUMMARY:Live: CRYPTA
+LOCATION:Viper Room
+DESCRIPTION: CRYPTA Die Female Death Metal Band aus Brasilien ist im Juli bei uns zu Gast\, mit im Gepäck dann vermutlich auch ihr drittes Studio Album\, an dem die Band derzeit arbeitet. https://www.cryptaofficial.com/ https://www.facebook.com/cryptadeath https://www.youtube.com/watch?v=WESOssx4e-k…   VVK Tickets: Hardtickets ohne Gebühren: Viper Room Vienna (zu Event-Öffnungszeiten) Wiener LP Café (https://www.lp-cafe.wien/) – ab 25.2. Online: Ticketmaster (zuzügl. Gebühren)  
+URL:https://www.viper-room.at/events/live-crypta
+END:VEVENT
+END:VCALENDAR

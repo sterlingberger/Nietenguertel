@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260702-Cafe-Carina-DonnerJam-(WM-Im-Gastgarten)@eventcrawler
+DTSTAMP:20260613T113144Z
+DTSTART:20260702T200000
+DTEND:20260702T235900
+SUMMARY:DonnerJam (WM Im Gastgarten)
+LOCATION:Cafe Carina
+DESCRIPTION:DonnerJam (WM im Gastgarten)  Beim DonnerJam laden wir Musiker*innen unterschiedlicher Genres und Musikrichtungen ein\, um gemeinsam die Bühne im Café Carina zum Beben zu bringen. Nach einem etwa 45 minütigen Set sind Gäste ebenfalls willkommen\, am offenen Jam teilzunehmen! Bring your instruments and friends! Hosted by Verena Werni next: Donnerstag\, 3. September
+URL:https://www.cafe-carina.at/2020/events/donnerjam-5-739-346/
+END:VEVENT
+END:VCALENDAR

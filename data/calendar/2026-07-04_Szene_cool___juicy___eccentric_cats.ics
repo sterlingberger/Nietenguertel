@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260704-Szene-cool-&-juicy-|-eccentric-cats@eventcrawler
+DTSTAMP:20260613T113144Z
+DTSTART:20260704T180000
+DTEND:20260704T235900
+SUMMARY:cool & juicy | eccentric cats
+LOCATION:Szene
+DESCRIPTION:((szene)) Soundgarden presented by ROCK ANTENNE Österreich mit:  COOL&JUICY ist eine fünfköpfige Band die sich durch ihre Vielseitigkeit (Rock n’Roll\, Rock\, Pop\, Country) schon bei vielen Veranstaltungen (inkl. 3x Donauinselfest) in die Herzen der Besucher gespielt hat.  ECCENTRIC CATS ist eine 4-köpfige Band aus dem Raum Wien\, die Blues und moderaten Rock mit raffinierten Gesangparts und einer progressiven musikalischen Ausrichtung verbindet. Die Songs stammen allesamt aus eigener Feder.  Bei Schlechtwetter findet die Show im Saal statt.  ******  ((szene)) Soundgarden 2026 Größer\, moderner und besser denn je. Den ganzen Sommer lang (halb-) akustische Live-Shows unter freiem Himmel in gemütlicher Garten-Atmosphäre mitten im Herzen Simmerings.  Auch heuer gibt es wieder die exklusiv erhältlichen hausgemachten\, überbackenen Rock-Brote!!  Festivalstimmung pur und das bei freiem Eintritt mitten in der Stadt. Let’s celebrate the summer!  Mit freundlicher Unterstüzung von Soletti.   
+URL:https://szene.wien/events/cool-juicy-eccentric-cats/
+END:VEVENT
+END:VCALENDAR

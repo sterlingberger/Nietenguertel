@@ -425,7 +425,116 @@ tr:nth-child(even) td {
     color: var(--text);
 }
 
-/* Highlight-Modus: nicht-treffende Einträge abdunkeln */
+/* ── Kalender-Export-Button ────────────────────────────────── */
+
+.cal-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+    opacity: 0.8;
+    transition: opacity 100ms ease;
+    text-decoration: none;
+    color: var(--text);
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font: inherit;
+}
+
+.cal-btn:hover {
+    opacity: 1;
+}
+
+.cal-btn-label {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+}
+
+.cal-icon {
+    width: 18px;
+    height: 18px;
+    /* dark mode: schwarz → dunkelrot (#6B2626) */
+    filter: brightness(0) saturate(100%) invert(17%) sepia(50%) saturate(600%) hue-rotate(320deg);
+}
+
+@media (prefers-color-scheme: light) {
+    .cal-icon { filter: none; }
+}
+
+:root[data-theme="light"] .cal-icon { filter: none; }
+:root[data-theme="dark"]  .cal-icon { filter: brightness(0) saturate(100%) invert(17%) sepia(50%) saturate(600%) hue-rotate(320deg); }
+
+/* ── Card-Popup (Mobile) ───────────────────────────────────── */
+
+.card-popup-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-popup-overlay[hidden] {
+    display: none;
+}
+
+.card-popup {
+    background: var(--popover-bg);
+    border: 1px solid var(--accent);
+    border-radius: 12px;
+    padding: 20px 16px;
+    width: min(88vw, 320px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-popup-title {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 4px;
+}
+
+.card-popup-btn {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 13px 14px;
+    background: transparent;
+    border: 1px solid var(--accent-inactive);
+    border-radius: 6px;
+    color: var(--text);
+    font-size: 0.95rem;
+    text-align: left;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.card-popup-btn:hover {
+    border-color: var(--accent);
+}
+
+.card-popup-btn-hint {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+}
+
+.cal-hint {
+    font-size: 0.68rem;
+    color: var(--text-muted);
+    margin-top: 2px;
+    opacity: 0.7;
+}
+
+/* ── Highlight-Modus: nicht-treffende Einträge abdunkeln ───── */
 .genre-active .event-entry:not(.genre-match) {
     opacity: var(--genre-inactive-opacity);
 }

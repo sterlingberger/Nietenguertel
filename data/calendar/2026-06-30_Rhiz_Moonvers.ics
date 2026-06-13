@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260630-Rhiz-Moonvers@eventcrawler
+DTSTAMP:20260613T113144Z
+DTSTART:20260630T193000
+DTEND:20260630T235900
+SUMMARY:Moonvers
+LOCATION:Rhiz
+DESCRIPTION:einmal tief durchatmen Datum: 30.06.2026 | Einlass: 18:30 Uhr Beginn: 19:30 | Ende: Uhr 
+URL:https://rhiz.wien/copilotevent/30-06-2026_moonvers
+END:VEVENT
+END:VCALENDAR
