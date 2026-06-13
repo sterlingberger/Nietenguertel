@@ -3,10 +3,10 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260619-Kramladen-GIKKS-·-19.06.26@eventcrawler
-DTSTAMP:20260613T113144Z
+DTSTAMP:20260613T120652Z
 DTSTART:20260619T193000
 DTEND:20260619T235900
-SUMMARY:GIKKS · 19.06.26
+SUMMARY:GIKKS · 19.06.26 (Uhrzeit prüfen!)
 LOCATION:Kramladen
 DESCRIPTION:Die ‘Gikks’ sind eine Konzertreihe\, die von dem ös...
 URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2617223585323778.webp?v=1781342560689

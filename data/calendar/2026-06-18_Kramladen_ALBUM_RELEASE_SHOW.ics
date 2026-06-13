@@ -3,10 +3,10 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260618-Kramladen-ALBUM-RELEASE-SHOW@eventcrawler
-DTSTAMP:20260613T113144Z
+DTSTAMP:20260613T120652Z
 DTSTART:20260618T193000
 DTEND:20260618T235900
-SUMMARY:ALBUM RELEASE SHOW
+SUMMARY:ALBUM RELEASE SHOW (Uhrzeit prüfen!)
 LOCATION:Kramladen
 DESCRIPTION:Wir veröffentlichen unser Album! More info soon!
 URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1422868079495640.webp?v=1780290776651
