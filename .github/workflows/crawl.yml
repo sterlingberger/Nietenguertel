@@ -33,7 +33,7 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add data/events.json
+          git add data/events.json data/calendar/
           git commit -m "Update events.json $(Get-Date -Format 'yyyy-MM-dd')"
           git push
         shell: pwsh

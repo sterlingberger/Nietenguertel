@@ -3,10 +3,10 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260716-Venster99-Antigen-(cze)-+-Escöria-(bra)@eventcrawler
-DTSTAMP:20260613T113144Z
+DTSTAMP:20260613T120652Z
 DTSTART:20260716T180000
 DTEND:20260716T235900
-SUMMARY:Antigen (cze) + Escöria (bra)
+SUMMARY:Antigen (cze) + Escöria (bra) (Uhrzeit prüfen!)
 LOCATION:Venster99
 DESCRIPTION:
 URL:http://www.venster99.at
