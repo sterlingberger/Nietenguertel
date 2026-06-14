@@ -3,10 +3,10 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260627-Venster99-Tired-Maunra-Naire@eventcrawler
-DTSTAMP:20260613T120652Z
+DTSTAMP:20260614T095022Z
 DTSTART:20260627T180000
 DTEND:20260627T235900
-SUMMARY:Tired Maunra Naire (Uhrzeit prüfen!)
+SUMMARY:Tired Maunra Naire (Uhrzeit prüfen)
 LOCATION:Venster99
 DESCRIPTION:
 URL:http://.at

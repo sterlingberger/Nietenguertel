@@ -3,10 +3,10 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260616-Venster99-Feels-Like-Heaven+-2@eventcrawler
-DTSTAMP:20260613T120652Z
+DTSTAMP:20260614T095022Z
 DTSTART:20260616T180000
 DTEND:20260616T235900
-SUMMARY:Feels Like Heaven+ 2 (Uhrzeit prüfen!)
+SUMMARY:Feels Like Heaven+ 2 (Uhrzeit prüfen)
 LOCATION:Venster99
 DESCRIPTION:
 URL:http://.at

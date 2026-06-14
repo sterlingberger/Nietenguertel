@@ -3,10 +3,10 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260622-Arena-MAC-DEMARCO-(can)-*OPEN-AIR-/-AUSVERKAUFT*@eventcrawler
-DTSTAMP:20260613T120652Z
+DTSTAMP:20260614T095022Z
 DTSTART:20260622T180000
 DTEND:20260622T235900
-SUMMARY:MAC DEMARCO (can) *OPEN AIR / AUSVERKAUFT* (Uhrzeit prüfen!)
+SUMMARY:MAC DEMARCO (can) *OPEN AIR / AUSVERKAUFT* (Uhrzeit prüfen)
 LOCATION:Arena
 DESCRIPTION: | Arena Wien - Open Air | presented by GOODLIVE ARTISTS  Das Konzert ist ausverkauft! 
 URL:https://arena.wien/Home/Programm-Detail/concert-id/48389
