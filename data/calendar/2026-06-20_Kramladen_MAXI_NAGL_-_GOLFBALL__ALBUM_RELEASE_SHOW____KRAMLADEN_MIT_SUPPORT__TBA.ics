@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260620-Kramladen-MAXI-NAGL---GOLFBALL-(ALBUM-RELEASE-SHOW)-@-KRAMLADEN-MIT-SUPPORT:-TBA@eventcrawler
-DTSTAMP:20260614T095022Z
+DTSTAMP:20260615T123312Z
 DTSTART:20260620T190000
 DTEND:20260620T235900
 SUMMARY:MAXI NAGL - GOLFBALL (ALBUM RELEASE SHOW) @ KRAMLADEN MIT SUPPORT: TBA (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Maxi Nagl veröffentlicht am 19.6 sein neues Album ...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2024449641801913.webp?v=1781342560690
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2024449641801913.webp?v=1781511481841
 END:VEVENT
 END:VCALENDAR
