@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260731-Szene-wurstfabrik-|-ostwärts@eventcrawler
+DTSTAMP:20260617T111224Z
+DTSTART:20260731T180000
+DTEND:20260731T235900
+SUMMARY:wurstfabrik | ostwärts (Uhrzeit prüfen)
+LOCATION:Szene
+DESCRIPTION:((szene)) Soundgarden presented by ROCK ANTENNE Österreich mit:  WURSTFABRIK – die 6-köpfige Kult-Kombo verkörpert Leichtigkeit und Grandezza zugleich. Wiener Schmäh gepaart mit Virtuosität und Spielfreude treffen das Publikum wie die Faust das Auge. Von Wolfgang Ambros bis Wanda\, von Falco bis Bilderbuch – diese Band lebt und liebt den Austropop der 70er wie den von heute.  OSTWÄRTS – Die Kurt Ostbahn Tribute-Band wurde 2016 gegründet und spielte bisher zahlreiche Konzerte mit der Mission\, das Ostbahn-Liedgut nicht in Vergessenheit geraten zu lassen und live zu performen. Freuen Sie sich auf zarte und harte Interpretationen der „besten Liada“ vom Ostbahn Kurti\, von einer Band\, der man die Freude auf der Bühne förmlich ansieht. Authentisch\, ehrlich\, mitreissend!  Bei Schlechtwetter findet die Show im Saal statt.  ******  ((szene)) Soundgarden 2026 Größer\, moderner und besser denn je. Den ganzen Sommer lang (halb-) akustische Live-Shows unter freiem Himmel in gemütlicher Garten-Atmosphäre mitten im Herzen Simmerings.  Auch heuer gibt es wieder die exklusiv erhältlichen hausgemachten\, überbackenen Rock-Brote!!  Festivalstimmung pur und das bei freiem Eintritt mitten in der Stadt. Let’s celebrate the summer!  Mit freundlicher Unterstützung von Soletti.   
+URL:https://szene.wien/events/wurstfabrik-ostwaerts/
+END:VEVENT
+END:VCALENDAR

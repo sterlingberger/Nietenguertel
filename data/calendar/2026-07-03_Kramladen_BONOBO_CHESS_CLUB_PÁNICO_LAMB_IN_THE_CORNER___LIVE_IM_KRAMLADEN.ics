@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260703-Kramladen-BONOBO-CHESS-CLUB-PÁNICO-LAMB-IN-THE-CORNER-/-LIVE-IM-KRAMLADEN!@eventcrawler
-DTSTAMP:20260616T112655Z
+DTSTAMP:20260617T111224Z
 DTSTART:20260703T190000
 DTEND:20260703T235900
 SUMMARY:BONOBO CHESS CLUB PÁNICO LAMB IN THE CORNER / LIVE IM KRAMLADEN! (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Bonobo Chess Club  Mit Klängen die an die frühen si...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1329368212670188.webp?v=1781590069129
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1329368212670188.webp?v=1781675203037
 END:VEVENT
 END:VCALENDAR

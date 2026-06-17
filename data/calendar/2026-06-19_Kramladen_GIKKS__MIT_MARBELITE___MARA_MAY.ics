@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260619-Kramladen-GIKKS:-MIT-MARBELITE-&-MARA-MAY@eventcrawler
-DTSTAMP:20260616T112655Z
+DTSTAMP:20260617T111224Z
 DTSTART:20260619T193000
 DTEND:20260619T235900
 SUMMARY:GIKKS: MIT MARBELITE & MARA MAY (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Der nächste Gikk findet am 19.06.2026 statt. Diese...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2617223585323778.webp?v=1781590069126
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2617223585323778.webp?v=1781675203035
 END:VEVENT
 END:VCALENDAR

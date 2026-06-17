@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260627-Kramladen-STERNPUNKTSTERN-LIVE-@KRAMLADEN@eventcrawler
-DTSTAMP:20260616T112655Z
+DTSTAMP:20260617T111224Z
 DTSTART:20260627T210000
 DTEND:20260627T235900
 SUMMARY:STERNPUNKTSTERN LIVE @KRAMLADEN (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:STERNpunktSTERN is back - plugged and loud ...und ...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1988296025123139.webp?v=1781590069128
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1988296025123139.webp?v=1781675203041
 END:VEVENT
 END:VCALENDAR
