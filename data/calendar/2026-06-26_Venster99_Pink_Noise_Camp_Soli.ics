@@ -2,11 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
-UID:20260716-Venster99-Antigen-(cze)-+-Escöria-(bra)@eventcrawler
+UID:20260626-Venster99-Pink-Noise-Camp-Soli@eventcrawler
 DTSTAMP:20260619T105101Z
-DTSTART:20260716T180000
-DTEND:20260716T235900
-SUMMARY:Antigen (cze) + Escöria (bra) (Uhrzeit prüfen)
+DTSTART:20260626T180000
+DTEND:20260626T235900
+SUMMARY:Pink Noise Camp Soli (Uhrzeit prüfen)
 LOCATION:Venster99
 DESCRIPTION:
 URL:http://www.venster99.at
