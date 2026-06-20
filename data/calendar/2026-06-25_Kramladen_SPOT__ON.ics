@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260625-Kramladen-SPOT-[ON]@eventcrawler
-DTSTAMP:20260619T105101Z
+DTSTAMP:20260620T093124Z
 DTSTART:20260625T230000
 DTEND:20260625T235900
 SUMMARY:SPOT [ON] (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:SPOT[ON]: FROM STUDIO TO CLUB This night is dedicat...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1302886624890011.webp?v=1781762194840
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1302886624890011.webp?v=1781943280682
 END:VEVENT
 END:VCALENDAR

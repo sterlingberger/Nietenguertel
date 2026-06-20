@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260620-Kramladen-MIDNIGHTTI@eventcrawler
-DTSTAMP:20260619T105101Z
+DTSTAMP:20260620T093124Z
 DTSTART:20260620T233000
 DTEND:20260620T235900
 SUMMARY:MIDNIGHTTI (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:20.06.2026  You’re here to dance the night away or j...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2096632577927238.webp?v=1781762194838
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2096632577927238.webp?v=1781943280685
 END:VEVENT
 END:VCALENDAR
