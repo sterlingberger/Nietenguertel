@@ -58,6 +58,7 @@ namespace EventCrawler
                 new Venue("Szene", new string[]{"U3"}, new SzeneCrawler(page)),
                 new Venue("Cafe Carina", new string[]{"U6"}, new CarinaCrawler(page)),
                 new Venue("Flucc", new string[]{"U1","U2"}, new FluccCrawler(page)),
+                new Venue("WUK", new string[]{"U6"}, new WUKCrawler(page)),
                 ];
 
             //alle events sammeln
@@ -124,15 +125,15 @@ namespace EventCrawler
             // Sonderzeichen gemäß RFC 5545 escapen
             static string Esc(string s) =>
                 s.Replace("\\", "\\\\")
-                 .Replace(",",  "\\,")
-                 .Replace(";",  "\\;")
+                 .Replace(",", "\\,")
+                 .Replace(";", "\\;")
                  .Replace("\r\n", " ")
-                 .Replace("\n",   " ");
+                 .Replace("\n", " ");
 
             var dtStamp = DateTime.UtcNow.ToString("yyyyMMdd'T'HHmmss'Z'");
             var dtStart = ev.Start.ToString("yyyyMMdd'T'HHmmss");
-            var dtEnd   = ev.End.ToString("yyyyMMdd'T'HHmmss");
-            var uid     = $"{ev.Date:yyyyMMdd}-{ev.Venue}-{ev.Artist}@eventcrawler"
+            var dtEnd = ev.End.ToString("yyyyMMdd'T'HHmmss");
+            var uid = $"{ev.Date:yyyyMMdd}-{ev.Venue}-{ev.Artist}@eventcrawler"
                             .Replace(" ", "-");
 
             var sb = new StringBuilder();

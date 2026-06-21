@@ -10,7 +10,8 @@ document.addEventListener('DOMContentLoaded', function () {
         { Name: 'Rhiz', LocationFilter: ['U6'] },
         { Name: 'Szene', LocationFilter: ['U3'] },
         { Name: 'Venster99', LocationFilter: ['U6'] },
-        { Name: 'Viper Room', LocationFilter: ['U3'] }
+        { Name: 'Viper Room', LocationFilter: ['U3'] },
+        { Name: 'WUK', LocationFilter: ['U6'] }
     ];
 
     const VENUE_OBJECTS = rawVenues.map(v => ({
@@ -243,7 +244,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const popoverHint = document.createElement('p');
     popoverHint.className = 'genre-popover-hint';
     popoverHint.textContent = 'Hinweis: als Grundlage für die Suche des Genres dient nur der Infotext der jeweiligen Veranstaltung. Hinter jedem Tag stecken gängige Schreibweisen oder verwandte Genres (Bsp.: Rock inkludiert Punk), ' +
-        'kommen diese im Text vor schlägt der Filter an. Für spezielle Suche eigenen Tag eingeben (damit lässt sich der Filter auch zweckentfremden für Bspw. Band- oder Veranstaltungsnamen).';
+        'kommen diese im Text vor schlägt der Filter an. Für spezielle Suche eigenen Tag eingeben (damit lässt sich der Filter auch zweckentfremden für bspw. Band- oder Veranstaltungsnamen).';
     popover.appendChild(popoverHint);
 
     popover.appendChild(chipsContainer);
