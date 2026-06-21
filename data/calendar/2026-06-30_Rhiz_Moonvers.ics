@@ -3,10 +3,10 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260630-Rhiz-Moonvers@eventcrawler
-DTSTAMP:20260613T120652Z
+DTSTAMP:20260621T100148Z
 DTSTART:20260630T173000
 DTEND:20260630T235900
-SUMMARY:Moonvers (Uhrzeit prüfen!)
+SUMMARY:Moonvers (Uhrzeit prüfen)
 LOCATION:Rhiz
 DESCRIPTION:einmal tief durchatmen Datum: 30.06.2026 | Einlass: 16:30 Uhr Beginn: 17:30 | Ende: Uhr 
 URL:https://rhiz.wien/copilotevent/30-06-2026_moonvers

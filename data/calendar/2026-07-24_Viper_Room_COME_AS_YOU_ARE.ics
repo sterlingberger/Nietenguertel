@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260724-Viper-Room-COME-AS-YOU-ARE@eventcrawler
+DTSTAMP:20260621T100148Z
+DTSTART:20260724T220000
+DTEND:20260724T235900
+SUMMARY:COME AS YOU ARE (Uhrzeit prüfen)
+LOCATION:Viper Room
+DESCRIPTION: COME AS YOU ARE 90s GRUNGE · ALTERNATIVE · CROSSOVER   MAIN FLOOR — „THE PIT“ DJs Natas\, Ego-!st\, Iguana  Sounds like: Nirvana\, Pearl Jam\, Soundgarden\, Alice In Chains\, Rage Against The Machine\, Faith No More\, Beastie Boys\, Nine Inch Nails\, The Prodigy\, Chemical Brothers uvm.  Eintritt 10€  
+URL:https://www.viper-room.at/events/come-as-you-are-0726
+END:VEVENT
+END:VCALENDAR

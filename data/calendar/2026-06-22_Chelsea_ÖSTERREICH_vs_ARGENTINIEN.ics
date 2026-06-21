@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260622-Chelsea-ÖSTERREICH-vs-ARGENTINIEN@eventcrawler
+DTSTAMP:20260621T100148Z
+DTSTART:20260622T190000
+DTEND:20260622T235900
+SUMMARY:ÖSTERREICH vs ARGENTINIEN (Uhrzeit prüfen)
+LOCATION:Chelsea
+DESCRIPTION:Dear Good People\,  Mo\, 22.6.\, steigt um 19h das vorentscheidende WM Spiel in Gruppe J ÖSTERREICH gegen ARGENTINIEN. Wir übertragen im Chelsea sowohl drinnen als auch draußen im Schanigarten\, auf 4 Großbildleinwänden und 8 Screens. Das Lokal ist ab 17h geöffnet. Kommt vorbei und unterstützt unsere Mannschaft…
+URL:https://www.chelsea.co.at/concerts.php#concert_6732
+END:VEVENT
+END:VCALENDAR

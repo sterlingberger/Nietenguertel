@@ -3,10 +3,10 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260703-Rhiz-Danube-Audio-presents-DnB-Night@eventcrawler
-DTSTAMP:20260613T120652Z
+DTSTAMP:20260621T100148Z
 DTSTART:20260703T210000
 DTEND:20260703T235900
-SUMMARY:Danube Audio presents DnB Night (Uhrzeit prüfen!)
+SUMMARY:Danube Audio presents DnB Night (Uhrzeit prüfen)
 LOCATION:Rhiz
 DESCRIPTION: Datum: 03.07.2026 | Einlass: 21:00 Uhr Beginn: 21:00 | Ende: Uhr 
 URL:https://rhiz.wien/copilotevent/03-07-2026_danube-audio

@@ -3,10 +3,10 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260701-Cafe-Carina-WM-Im-Lokal:-18:00-Sieger-Gruppe-L-–-Dritter-Gruppe-E/H/I/J/K-22:00-Sieger-Gruppe-G-–-Dritter-Gruppe-A/E/H/I/J@eventcrawler
-DTSTAMP:20260613T120652Z
+DTSTAMP:20260621T100148Z
 DTSTART:20260701T180000
 DTEND:20260701T235900
-SUMMARY:WM Im Lokal: 18:00 Sieger Gruppe L – Dritter Gruppe E/H/I/J/K 22:00 Sieger Gruppe G – Dritter Gruppe A/E/H/I/J (Uhrzeit prüfen!)
+SUMMARY:WM Im Lokal: 18:00 Sieger Gruppe L – Dritter Gruppe E/H/I/J/K 22:00 Sieger Gruppe G – Dritter Gruppe A/E/H/I/J (Uhrzeit prüfen)
 LOCATION:Cafe Carina
 DESCRIPTION:WM im Lokal: 18:00 Sieger Gruppe L – Dritter Gruppe E/H/I/J/K 22:00 Sieger Gruppe G – Dritter Gruppe A/E/H/I/J
 URL:https://www.cafe-carina.at/2020/events/wm-im-lokal-1800-sieger-gruppe-l-dritter-gruppe-e-h-i-j-k-2200-sieger-gruppe-g-dritter-gruppe-a-e-h-i-j/

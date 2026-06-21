@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260626-Kramladen-TRANCE-BABES@eventcrawler
+DTSTAMP:20260621T100148Z
+DTSTART:20260626T233000
+DTEND:20260626T235900
+SUMMARY:TRANCE BABES (Uhrzeit prüfen)
+LOCATION:Kramladen
+DESCRIPTION:HI BABES\, so excited to share the lineup for the se...
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1544813587306442.webp?v=1781943280682
+END:VEVENT
+END:VCALENDAR
