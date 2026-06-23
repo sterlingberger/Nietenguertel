@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260725-Kramladen-PAINTING-CLOUDS-+-SUPPORT-|-KRAMLADEN@eventcrawler
-DTSTAMP:20260622T121902Z
+DTSTAMP:20260623T095723Z
 DTSTART:20260725T200000
 DTEND:20260725T235900
 SUMMARY:PAINTING CLOUDS + SUPPORT | KRAMLADEN (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Coming soon 
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1173430221536214.webp?v=1782106108429
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1173430221536214.webp?v=1782197922481
 END:VEVENT
 END:VCALENDAR

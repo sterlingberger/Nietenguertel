@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260724-Kramladen-VENZIORUS-X-CYPOLIH-(LIVE-CONCERT)@eventcrawler
-DTSTAMP:20260622T121902Z
+DTSTAMP:20260623T095723Z
 DTSTART:20260724T210000
 DTEND:20260724T235900
 SUMMARY:VENZIORUS X CYPOLIH (LIVE CONCERT) (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Live Concert by Venziorus & Cypolih Start at 9pm  Ti...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1015152090874726.webp?v=1782106108426
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1015152090874726.webp?v=1782197922480
 END:VEVENT
 END:VCALENDAR
