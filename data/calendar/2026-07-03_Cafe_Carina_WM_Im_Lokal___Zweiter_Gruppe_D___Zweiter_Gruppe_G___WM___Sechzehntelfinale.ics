@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260703-Cafe-Carina-WM-Im-Lokal-:-Zweiter-Gruppe-D-–-Zweiter-Gruppe-G-|-WM-|-Sechzehntelfinale@eventcrawler
+DTSTAMP:20260624T094431Z
+DTSTART:20260703T200000
+DTEND:20260703T235900
+SUMMARY:WM Im Lokal : Zweiter Gruppe D – Zweiter Gruppe G | WM | Sechzehntelfinale (Uhrzeit prüfen)
+LOCATION:Cafe Carina
+DESCRIPTION:WM im Lokal : Zweiter Gruppe D – Zweiter Gruppe G | WM | Sechzehntelfinale
+URL:https://www.cafe-carina.at/2020/events/wm-im-lokal-zweiter-gruppe-d-zweiter-gruppe-g-wm-sechzehntelfinale/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260708-Flucc-LIVE:-Geordie-Greep@eventcrawler
+DTSTAMP:20260624T094431Z
+DTSTART:20260708T190000
+DTEND:20260708T235900
+SUMMARY:LIVE: Geordie Greep (Uhrzeit prüfen)
+LOCATION:Flucc
+DESCRIPTION:@WANNE | 19h Doors 20h Concert 33\,70€ 
+URL:https://flucc.at/events/KNke4x-live-geordie-greep/
+END:VEVENT
+END:VCALENDAR
