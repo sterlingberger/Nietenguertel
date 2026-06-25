@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260706-Cafe-Carina-WM-Im-Lokal-–-Sieger-SF-12-–-Sieger-SF-11-|-WM-|-Achtelfinale@eventcrawler
+DTSTAMP:20260625T093714Z
+DTSTART:20260706T180000
+DTEND:20260706T235900
+SUMMARY:WM Im Lokal – Sieger SF 12 – Sieger SF 11 | WM | Achtelfinale (Uhrzeit prüfen)
+LOCATION:Cafe Carina
+DESCRIPTION:WM im Lokal – Sieger SF 12 – Sieger SF 11 | WM | Achtelfinale
+URL:https://www.cafe-carina.at/2020/events/wm-im-lokal/
+END:VEVENT
+END:VCALENDAR
