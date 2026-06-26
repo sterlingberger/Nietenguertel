@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260704-Rhiz-Kuai-Kuai@eventcrawler
+DTSTAMP:20260626T094214Z
+DTSTART:20260704T210000
+DTEND:20260704T235900
+SUMMARY:Kuai Kuai (Uhrzeit prüfen)
+LOCATION:Rhiz
+DESCRIPTION: Datum: 04.07.2026 | Einlass: 21:00 Uhr Beginn: 21:00 | Ende: Uhr  Welcome to the first edition "快快” of the 168 collective! A night full of community\, games and music! We are an East and Southeast Asian collective based in Vienna\, we longed to create the kind of spaces we were missing ourselves\, places where culture\, community and connection come naturally. Our name\, yi liu ba comes from the number 168\, which is considered lucky across many East and Southeast Asian cultures and is often associated with prosperity\, growth\, and good fortune. For us\, those values are reflected in the relationships we build\, the communities we nurture\, and the moments we create together. DJs: Xing\, Thao\, HLM\, Anni\, DJ Greens Eggs & MC Hanz
+URL:https://rhiz.wien/copilotevent/04-07-2026_kuaikuai
+END:VEVENT
+END:VCALENDAR
