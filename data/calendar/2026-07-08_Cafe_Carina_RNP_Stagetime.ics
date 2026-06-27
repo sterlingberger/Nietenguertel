@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260708-Cafe-Carina-RNP-Stagetime@eventcrawler
+DTSTAMP:20260627T084658Z
+DTSTART:20260708T200000
+DTEND:20260708T235900
+SUMMARY:RNP Stagetime (Uhrzeit prüfen)
+LOCATION:Cafe Carina
+DESCRIPTION:RNP Stagetime  STAGETIME NEWCOMER LiVE ON STAGE hosted by Rhythm & Poetry     Cafe Carina – RNP Stagetime  #cafecarina #rnpaustria #livemusik
+URL:https://www.cafe-carina.at/2020/events/rnp-stagetime-6-782-731-321/
+END:VEVENT
+END:VCALENDAR

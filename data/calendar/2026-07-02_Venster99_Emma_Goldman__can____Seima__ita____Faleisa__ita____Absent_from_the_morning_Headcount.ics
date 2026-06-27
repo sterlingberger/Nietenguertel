@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260702-Venster99-Emma-Goldman-(can)-+-Seima-(ita)-+-Faleisa-(ita)-+-Absent-from-the-morning-Headcount@eventcrawler
+DTSTAMP:20260627T084658Z
+DTSTART:20260702T180000
+DTEND:20260702T235900
+SUMMARY:Emma Goldman (can) + Seima (ita) + Faleisa (ita) + Absent from the morning Headcount (Uhrzeit prüfen)
+LOCATION:Venster99
+DESCRIPTION:
+URL:http://hc4life.at
+END:VEVENT
+END:VCALENDAR

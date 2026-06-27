@@ -2,11 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
-UID:20260630-Venster99-Hc4L@eventcrawler
-DTSTAMP:20260626T094214Z
+UID:20260630-Venster99-Urban-Sprawl-+-Influenece-+-Mindcurse@eventcrawler
+DTSTAMP:20260627T084658Z
 DTSTART:20260630T180000
 DTEND:20260630T235900
-SUMMARY:Hc4L (Uhrzeit prüfen)
+SUMMARY:Urban Sprawl + Influenece + Mindcurse (Uhrzeit prüfen)
 LOCATION:Venster99
 DESCRIPTION:
 URL:http://.at

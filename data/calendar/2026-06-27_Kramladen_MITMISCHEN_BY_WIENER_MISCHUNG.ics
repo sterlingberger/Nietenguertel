@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260627-Kramladen-MITMISCHEN-BY-WIENER-MISCHUNG@eventcrawler
-DTSTAMP:20260626T094214Z
+DTSTAMP:20260627T084658Z
 DTSTART:20260627T233000
 DTEND:20260627T235900
 SUMMARY:MITMISCHEN BY WIENER MISCHUNG (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Liebe alle - Wiener Mischung lädt wieder zum Mitmi...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/909849525448974.webp?v=1782375853297
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/909849525448974.webp?v=1782546194998
 END:VEVENT
 END:VCALENDAR
