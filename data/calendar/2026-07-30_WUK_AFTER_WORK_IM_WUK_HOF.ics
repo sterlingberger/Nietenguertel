@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260730-WUK-AFTER-WORK-IM-WUK-HOF@eventcrawler
+DTSTAMP:20260628T092306Z
+DTSTART:20260730T180000
+DTEND:20260730T235900
+SUMMARY:AFTER WORK IM WUK HOF (Uhrzeit prüfen)
+LOCATION:WUK
+DESCRIPTION:MUSIK\,  ZUSAMMEN & LEBEN AFTER WORK IM WUK HOF | TIME   Jeden Do von 4.6. bis 30.7.2026\, 18 bis 22 Uhr  PRICE   Eintritt frei  PLACE   Hof | Zwischen funky DJ-Sounds\, kühlen Drinks und Popcorn lässt sich der Tag gemütlich ausklingen. Freut euch auf eine sommerliche Atmosphäre\, wechselnde DJs und entspannte After Work-Vibes im hinteren Bereich des lauschigen WUK-Hofs.  Jeden Donnerstag von 4.6. bis 30.7.2026\, von 18 bis 22 Uhr WUK Hof\, nur bei Schönwetter Eintritt frei | Barrierefrei für Rollstuhlfahrer*innen. Veranstalter: WUK Event und Catering GmbH | 
+URL:https://wuk.at/en/programm/after-work-im-wuk-hof/
+END:VEVENT
+END:VCALENDAR
