@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260704-Kramladen-INGRIDS-ENKEL-&-LITTLE-MILA-(LIVE-IN-WIEN)@eventcrawler
-DTSTAMP:20260628T092306Z
+DTSTAMP:20260629T111443Z
 DTSTART:20260704T190000
 DTEND:20260704T235900
 SUMMARY:INGRIDS ENKEL & LITTLE MILA (LIVE IN WIEN) (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Ingrids Enkel klingt wie ein Echo aus der Vergange...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/827423013558822.webp?v=1782546194999
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/827423013558822.webp?v=1782719351908
 END:VEVENT
 END:VCALENDAR
