@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260811-Arena-CARPENTER-BRUT-(fra)-+-HEALTH-(us)-*OPEN-AIR*@eventcrawler
+DTSTAMP:20260701T100330Z
+DTSTART:20260811T173000
+DTEND:20260811T235900
+SUMMARY:CARPENTER BRUT (fra) + HEALTH (us) *OPEN AIR* (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Open Air | Am 11. August steigt ein Open Air der ganz besonderen Klasse in der Arena mit den Darksynth-Legenden Carpenter Brut und den LA-Noise-Industrial Rabauken Health. Im Vorprogramm treten Chat Pile (Noise/Sludge aus Oklahoma City) und der französischen Künstlerin Sierra Veins auf. Freut euch auf fette Sounds (Bass!) und knallige Visuals!  Vorverkauf/Presale Arena Shop € 49\,95\,- (inkl. Fees) Abendkassa/Box-office tba.
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48478
+END:VEVENT
+END:VCALENDAR

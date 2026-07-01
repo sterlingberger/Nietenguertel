@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260709-Kramladen-ACID-ROW-(CZ)-+-THE-ELEPHANT-TRACKS-(AUT)-I-KRAMLADEN@eventcrawler
-DTSTAMP:20260630T095436Z
+DTSTAMP:20260701T100330Z
 DTSTART:20260709T200000
 DTEND:20260709T235900
 SUMMARY:ACID ROW (CZ) + THE ELEPHANT TRACKS (AUT) I KRAMLADEN (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Don ́t miss this!  "Acid Row" from Czechia and the l...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2476103922846947.webp?v=1782807226559
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2476103922846947.webp?v=1782887412146
 END:VEVENT
 END:VCALENDAR

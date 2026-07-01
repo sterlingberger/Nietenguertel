@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260802-Chelsea-BALLYHOO!-(USA)-/-WONK-UNIT-(UK)@eventcrawler
+DTSTAMP:20260701T100330Z
+DTSTART:20260802T200000
+DTEND:20260802T235900
+SUMMARY:BALLYHOO! (USA) / WONK UNIT (UK) (Uhrzeit prüfen)
+LOCATION:Chelsea
+DESCRIPTION:Doors: 20:00\, Show: 20:30   BALLYHOO! is an American reggee rock and punk band from Aberdeen\, Maryland. https://ballyhoorocks.com/    WONK UNIT is a London-based DIY punk band known for their unique sound\, energetic performances\, and irreverent\, poetic lyrics.  https://wonkunit.com/    Tickets: www.eventim-light.com/at/a/60fa5dffd95e696e2fb33355/e/69c1ae916c069335ecebd872
+URL:https://www.chelsea.co.at/concerts.php#concert_6661
+END:VEVENT
+END:VCALENDAR

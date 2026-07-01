@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260802-Venster99-Wolfpack-(Aus),-Count-Catfish,-Force-Fed-Farm-Animals@eventcrawler
+DTSTAMP:20260701T100330Z
+DTSTART:20260802T180000
+DTEND:20260802T235900
+SUMMARY:Wolfpack (Aus)\, Count Catfish\, Force Fed Farm Animals (Uhrzeit prüfen)
+LOCATION:Venster99
+DESCRIPTION:
+URL:http://Venster99.com
+END:VEVENT
+END:VCALENDAR

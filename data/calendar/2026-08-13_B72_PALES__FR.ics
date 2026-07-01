@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260813-B72-PALES-(FR)@eventcrawler
+DTSTAMP:20260701T100330Z
+DTSTART:20260813T180000
+DTEND:20260813T235900
+SUMMARY:PALES (FR) (Uhrzeit prüfen)
+LOCATION:B72
+DESCRIPTION: Expect the unexpected. Tomi Ungerers motto\, enfant terrible of Strasbourg\, seems to have been written for Pales. The band blows up any genre classification with a raw and visceral style where Indus\, Noise\, and Pop collide in a sonic battle. The stage is a playground where trance becomes irrepressible\, breathless\, constantly brushing against the boundaries of chaos. The sound hits\, hypnotizes\, triggers spasms\, awakens the smells of acid\, cosmetics\, and burnt rubber. Pales choreographs shadows and romances of a new sonic youth that gets inside your mind and never leaves. Their latest EP CRUSH came out in February 2025
+URL:https://www.b72.at//program/10402/Pales_FR
+END:VEVENT
+END:VCALENDAR

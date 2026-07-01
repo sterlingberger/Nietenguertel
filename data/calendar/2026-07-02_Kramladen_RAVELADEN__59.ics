@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260702-Kramladen-RAVELADEN-#59@eventcrawler
+DTSTAMP:20260701T100330Z
+DTSTART:20260702T233000
+DTEND:20260702T235900
+SUMMARY:RAVELADEN #59 (Uhrzeit prüfen)
+LOCATION:Kramladen
+DESCRIPTION:Raveladen is still riding the House wave - come su...
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1537445284668630.webp?v=1782887412143
+END:VEVENT
+END:VCALENDAR
