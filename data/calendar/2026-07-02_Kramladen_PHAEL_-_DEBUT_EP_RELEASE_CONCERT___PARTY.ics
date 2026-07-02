@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260702-Kramladen-PHAEL---DEBUT-EP-RELEASE-CONCERT-&-PARTY-💿🪩@eventcrawler
-DTSTAMP:20260701T100330Z
+DTSTAMP:20260702T092628Z
 DTSTART:20260702T210000
 DTEND:20260702T235900
 SUMMARY:PHAEL - DEBUT EP RELEASE CONCERT & PARTY 💿🪩 (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:phael is presenting their debut release “phaelien”...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/999599526031698.webp?v=1782887412145
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/999599526031698.webp?v=1782975088639
 END:VEVENT
 END:VCALENDAR

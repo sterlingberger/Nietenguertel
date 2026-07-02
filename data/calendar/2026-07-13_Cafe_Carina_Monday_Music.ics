@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260713-Cafe-Carina-Monday-Music@eventcrawler
+DTSTAMP:20260702T092628Z
+DTSTART:20260713T190000
+DTEND:20260713T235900
+SUMMARY:Monday Music (Uhrzeit prüfen)
+LOCATION:Cafe Carina
+DESCRIPTION:Monday Music Dj Crimey und DJ Sachmo reiten durch Gefilde\, die manchmal etwas abseits von Blues und Soul liegen.  MOTTO  GUTE MUSIK – BIER – POPCORN – GASTGARTEN
+URL:https://www.cafe-carina.at/2020/events/funky-jazz-blues-soul-mit-dj-satchmo-2-2-2-2-2-2-2-449-567/
+END:VEVENT
+END:VCALENDAR

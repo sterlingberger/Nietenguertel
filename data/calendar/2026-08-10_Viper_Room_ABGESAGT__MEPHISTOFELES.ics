@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260810-Viper-Room-ABGESAGT!-MEPHISTOFELES@eventcrawler
+DTSTAMP:20260702T092628Z
+DTSTART:20260810T190000
+DTEND:20260810T235900
+SUMMARY:ABGESAGT! MEPHISTOFELES (Uhrzeit prüfen)
+LOCATION:Viper Room
+DESCRIPTION: MEPHISTOFELES Die argentinischen Doom Meister kehren nach ihrer letzten gefeierten Show im Club zurück auf unsere Bühne! Mit ihrem Sound verbinden sie die Wucht des Doom mit Rock’n Roll und einer finsteren\, okkulten Attitüde. https://www.facebook.com/mephistofelesmetal https://www.instagram.com/mephistofelesmetal/ https://www.youtube.com/watch?v=1Kc1RH9u16Y…   
+URL:https://www.viper-room.at/events/live-mephistofeles-0826
+END:VEVENT
+END:VCALENDAR

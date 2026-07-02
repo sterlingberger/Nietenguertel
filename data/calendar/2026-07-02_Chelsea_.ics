@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260702-Chelsea-@eventcrawler
+DTSTAMP:20260702T092628Z
+DTSTART:20260702T210000
+DTEND:20260702T235900
+SUMMARY: (Uhrzeit prüfen)
+LOCATION:Chelsea
+DESCRIPTION:Dear Good People\, am Donnerstag\, 2.7.\, um 21h\, steigt das entscheidende WM Spiel der Österreicher um den Aufstieg in das Achtelfinale gegen den amtierenden Europameister Spanien. Ein schwerer Brocken\, allerdings ist in einem K.O. Spiel alles möglich\, wie die letzten Tage bereits gezeigt haben. Wir zeigen diesen Schlager im Chelsea sowohl drinnen als auch draußen im Schanigarten und freuen uns auf euer Kommen.    
+URL:https://www.chelsea.co.at/concerts.php#concert_6737
+END:VEVENT
+END:VCALENDAR

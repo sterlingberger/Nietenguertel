@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260820-Viper-Room-Live:-ANETTE-OLZON@eventcrawler
+DTSTAMP:20260702T092628Z
+DTSTART:20260820T190000
+DTEND:20260820T235900
+SUMMARY:Live: ANETTE OLZON (Uhrzeit prüfen)
+LOCATION:Viper Room
+DESCRIPTION: Live: ANETTE OLZON Over a decade in the making\, the wait is finally over for European fans of symphonic metal. Former Nightwish vocalist Anette Olzon has announced her return to European stages\, marking her first tour on the continent since 2012. This exclusive\, limited-run tour will be entirely dedicated to the acclaimed albums she recorded with Nightwish: Dark Passion Play (2007) and Imaginaerum (2011). Fans can expect a nostalgic and high-energy journey\, featuring hits such as „Amaranth“\, „Bye Bye Beautiful“\, „Storytime“\, and „The Poet and the Pendulum“. Notably\, this tour will feature the live European debut of several songs from these albums that were never performed live by the band during her tenure\, making this a historic event for followers of the symphonic metal genre.  
+URL:https://www.viper-room.at/events/live-anette-olzon
+END:VEVENT
+END:VCALENDAR

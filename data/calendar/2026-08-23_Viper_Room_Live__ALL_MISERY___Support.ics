@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260823-Viper-Room-Live:-ALL-MISERY-&-Support@eventcrawler
+DTSTAMP:20260702T092628Z
+DTSTART:20260823T190000
+DTEND:20260823T235900
+SUMMARY:Live: ALL MISERY & Support (Uhrzeit prüfen)
+LOCATION:Viper Room
+DESCRIPTION: ALL MISERY Brutal Deathcore All Misery gelten als eine der härtesten Bands Lateinamerikas und ist nun endlich auch zu Gast bei uns im Club! https://www.facebook.com/AllMisery https://www.youtube.com/watch?v=LMR4RQxM3DM  Für diese Show haben wir noch 2 Slots für lokale Bands zur Verfügung    VVK Tickets: Hardtickets ohne Gebühren: Viper Room Vienna (zu Event-Öffnungszeiten) Wiener LP Café (https://www.lp-cafe.wien/) Online: Ticketmaster (zuzügl. Gebühren)  
+URL:https://www.viper-room.at/events/live-all-misery-support
+END:VEVENT
+END:VCALENDAR
