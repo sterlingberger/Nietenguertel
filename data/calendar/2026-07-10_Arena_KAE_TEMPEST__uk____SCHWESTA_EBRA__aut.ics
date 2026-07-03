@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260710-Arena-KAE-TEMPEST-(uk)-+-SCHWESTA-EBRA-(aut)@eventcrawler
+DTSTAMP:20260703T093225Z
+DTSTART:20260710T180000
+DTEND:20260710T235900
+SUMMARY:KAE TEMPEST (uk) + SCHWESTA EBRA (aut) (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Große Halle | presented by CUTE CONCERTS  Kae Tempest fifth studio album emerged unexpectedly after spontaneous sessions with producer Fraser T Smith – songs from the album and many more will be heard at Arena on Jul 10\, 2026.  Support: Schwesta Ebra
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48552
+END:VEVENT
+END:VCALENDAR

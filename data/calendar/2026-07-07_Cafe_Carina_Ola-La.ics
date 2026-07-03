@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260707-Cafe-Carina-Ola-La@eventcrawler
+DTSTAMP:20260703T093225Z
+DTSTART:20260707T200000
+DTEND:20260707T235900
+SUMMARY:Ola-La (Uhrzeit prüfen)
+LOCATION:Cafe Carina
+DESCRIPTION:Ola-la  Ola-la\, das Polnisch-Deutsche Duo aus Wien\, dass du nicht verpassen solltest. Irgendwo zwischen Pop und Jazz angesiedelt\, kann man einen Abend von Ella Fitzgerald bis Amy Winehouse erleben. Mal ganz akustisch\, mal mit Backings. Und auch was ganz eigenes im Gepäck.
+URL:https://www.cafe-carina.at/2020/events/ola-la/
+END:VEVENT
+END:VCALENDAR
