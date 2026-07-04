@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260806-Kramladen-PARTIPRIVATI-(SUPPORT:-ANGIE-ZACH)@eventcrawler
-DTSTAMP:20260703T093225Z
+DTSTAMP:20260704T084934Z
 DTSTART:20260806T210000
 DTEND:20260806T235900
 SUMMARY:PARTIPRIVATI (SUPPORT: ANGIE ZACH) (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Partiprivati ist eine junge Indie-Singer-Songwrite...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1248333167375562.webp?v=1783061263202
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1248333167375562.webp?v=1783146371255
 END:VEVENT
 END:VCALENDAR

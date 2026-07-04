@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260704-Kramladen-AUFGLEGT-IS‘@eventcrawler
+DTSTAMP:20260704T084934Z
+DTSTART:20260704T233000
+DTEND:20260704T235900
+SUMMARY:AUFGLEGT IS‘ (Uhrzeit prüfen)
+LOCATION:Kramladen
+DESCRIPTION:Line-up & timetable   23:30 - 02:30 Tobi Venao  02:30 ...
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1350512910610448.webp?v=1783146371239
+END:VEVENT
+END:VCALENDAR

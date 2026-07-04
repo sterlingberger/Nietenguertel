@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260729-Flucc-LIVE:-CV-Vision-/-DJ-Meshit@eventcrawler
+DTSTAMP:20260704T084934Z
+DTSTART:20260729T193000
+DTEND:20260729T010000
+SUMMARY:LIVE: CV Vision / DJ Meshit (Uhrzeit prüfen)
+LOCATION:Flucc
+DESCRIPTION:@DECK | CV Vision returns with the follow-up to his last opus “Im Tal der Stutzer” and delivers his sixth studio album “Release The Beast” - where he finds the sweet spot between psych rock\, Detroit techno\, fried synths\, black metal and library music. CV Vision will be joined by Vienna's very own dream duo Meshit on the decks.   CV Vision (DE\, Bureau B) @FluccDeck / Meshit DJ Set ----------------------------------- presented by Hang Records VVK 13€ 
+URL:https://flucc.at/events/Ubjie9-live-cv-vision-dj-meshit/
+END:VEVENT
+END:VCALENDAR
