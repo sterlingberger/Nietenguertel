@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260724-Rhiz-Polychaos-Dubium@eventcrawler
+DTSTAMP:20260706T105245Z
+DTSTART:20260724T210000
+DTEND:20260724T235900
+SUMMARY:Polychaos Dubium (Uhrzeit prüfen)
+LOCATION:Rhiz
+DESCRIPTION: Datum: 24.07.2026 | Einlass: 21:00 Uhr Beginn: 21:00 | Ende: Uhr  Polychaos Dubium Hybrid Club Music - Global Bass feat.: Jama Supreme Kmanxak Lucy Bakanal Ironica Los Culos Live Visuals & Video Mapping by Ironica Los Culos Qualia
+URL:https://rhiz.wien/copilotevent/24-07-2026_polychaos-dubium
+END:VEVENT
+END:VCALENDAR
