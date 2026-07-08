@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260718-Venster99-Fledermaus,-Bunt-Cunnies,-No-Plane-Pilots@eventcrawler
+DTSTAMP:20260708T084140Z
+DTSTART:20260718T180000
+DTEND:20260718T235900
+SUMMARY:Fledermaus\, Bunt Cunnies\, No Plane Pilots (Uhrzeit prüfen)
+LOCATION:Venster99
+DESCRIPTION:
+URL:http://www.instagram.com/buehnenspitz/
+END:VEVENT
+END:VCALENDAR

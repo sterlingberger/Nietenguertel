@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260723-Venster99-count-catfish,-woke,-dead-fuse-club@eventcrawler
+DTSTAMP:20260708T084140Z
+DTSTART:20260723T180000
+DTEND:20260723T235900
+SUMMARY:count catfish\, woke\, dead fuse club (Uhrzeit prüfen)
+LOCATION:Venster99
+DESCRIPTION:
+URL:http://Venster.com
+END:VEVENT
+END:VCALENDAR
