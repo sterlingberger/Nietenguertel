@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260718-Kramladen-GRUBI-+-SPIELZEUG-+-CICLES@eventcrawler
-DTSTAMP:20260708T084140Z
+DTSTAMP:20260709T095416Z
 DTSTART:20260718T200000
 DTEND:20260718T235900
 SUMMARY:GRUBI + SPIELZEUG + CICLES (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:GUBI + SPIELZEUG + CICLES  Punk/post-punk/indie Fundr...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/967250669668881.webp?v=1783493776147
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/967250669668881.webp?v=1783580836379
 END:VEVENT
 END:VCALENDAR

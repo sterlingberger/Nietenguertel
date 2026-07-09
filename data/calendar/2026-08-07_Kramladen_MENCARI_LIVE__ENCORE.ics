@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260807-Kramladen-MENCARI-LIVE:-ENCORE@eventcrawler
-DTSTAMP:20260708T084140Z
+DTSTAMP:20260709T095416Z
 DTSTART:20260807T203000
 DTEND:20260807T235900
 SUMMARY:MENCARI LIVE: ENCORE (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Pop-Rock mit Soul Da es bei uns erfreuliche private...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/969997982579783.webp?v=1783493776152
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/969997982579783.webp?v=1783580836384
 END:VEVENT
 END:VCALENDAR

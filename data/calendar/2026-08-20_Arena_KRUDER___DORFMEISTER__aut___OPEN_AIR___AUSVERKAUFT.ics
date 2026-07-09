@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260820-Arena-KRUDER-&-DORFMEISTER-(aut)-*OPEN-AIR-/-AUSVERKAUFT*@eventcrawler
+DTSTAMP:20260709T095416Z
+DTSTART:20260820T190000
+DTEND:20260820T235900
+SUMMARY:KRUDER & DORFMEISTER (aut) *OPEN AIR / AUSVERKAUFT* (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Open Air | presented by SPOON AGENCY  Das Konzert ist ausverkauft!  "K+D KICKS 30" – AudioVisual Anniversary Show  Kruder & Dorfmeister gehören zu den wenigen international gefeierten Aushängeschildern der österreichischen Musik. Seit den 1990er-Jahren prägt ihr unverwechselbarer Sound zwischen Downtempo\, Dub\, Electronica und Trip-Hop den elektronischen Zeitgeist einer ganzen Generation. Remixe für Künstler wie Madonna oder Depeche Mode machten sie weltweit bekannt. Ihre Karriere führte sie mehrfach um die ganze Welt – von den USA über Europa bis weit darüber hinaus. In Wien spielen sie an besonderen Orten wie dem Konzerthaus oder dem Burgtheater.   Trotz globalen Erfolgs blieben sie stets unabhängig und gingen mit ihrem Label G-Stone konsequent eigene Wege. Nun kehrt das Duo in seine Heimatstadt zurück und feiert mit K+D KICKS30 das 30-jährige Jubiläum der Kultplatte DJ-KICKS –  mit einem besonderen Auftritt in der Wiener Arena\, begleitet von einer eindrucksvollen visuellen Show.
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48479
+END:VEVENT
+END:VCALENDAR
