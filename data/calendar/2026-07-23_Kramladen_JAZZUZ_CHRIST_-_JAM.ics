@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260723-Kramladen-JAZZUZ-CHRIST---JAM@eventcrawler
+DTSTAMP:20260710T094951Z
+DTSTART:20260723T190000
+DTEND:20260723T235900
+SUMMARY:JAZZUZ CHRIST - JAM (Uhrzeit prüfen)
+LOCATION:Kramladen
+DESCRIPTION:JAZZUS CHRIST Jazz Blues and Psychedelic rock\, we c...
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1058467709995074.webp?v=1783666390018
+END:VEVENT
+END:VCALENDAR

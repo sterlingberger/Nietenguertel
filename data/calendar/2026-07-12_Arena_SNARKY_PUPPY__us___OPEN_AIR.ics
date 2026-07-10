@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260712-Arena-SNARKY-PUPPY-(us)-*OPEN-AIR*@eventcrawler
-DTSTAMP:20260709T095416Z
+DTSTAMP:20260710T094951Z
 DTSTART:20260712T190000
 DTEND:20260712T235900
 SUMMARY:SNARKY PUPPY (us) *OPEN AIR* (Uhrzeit prüfen)
 LOCATION:Arena
-DESCRIPTION: | Arena Wien - Open Air | presented by CUTE CONCERTS  Tickets available on Fri\, 6.2. 10:00 at Oeticket.com  Snarky Puppy the five times Grammy winning collective\, “has always been a band that prioritizes the sound of the music\,” says bandleader and bassist Michael League. Displaying a wide array of influences including funk\, rhythm & blues\, hard rock\, classic soul\, modern gospel\, new tech\, fusion and jazz\, Snarky Puppy isn’t exactly a jazz band\, it’s not a fusion band and it’s definitely not a jam band. It’s probably best to take Nate Chinen of the New York Times’ advice\, as stated in an online discussion about the group\, to “take them for what they are\, rather than judge them for what they’re not.”
+DESCRIPTION: | Arena Wien - Open Air | presented by CUTE CONCERTS  19:00 doors 20:30 Snarky Puppy  Snarky Puppy the five times Grammy winning collective\, “has always been a band that prioritizes the sound of the music\,” says bandleader and bassist Michael League. Displaying a wide array of influences including funk\, rhythm & blues\, hard rock\, classic soul\, modern gospel\, new tech\, fusion and jazz\, Snarky Puppy isn’t exactly a jazz band\, it’s not a fusion band and it’s definitely not a jam band. It’s probably best to take Nate Chinen of the New York Times’ advice\, as stated in an online discussion about the group\, to “take them for what they are\, rather than judge them for what they’re not.”
 URL:https://arena.wien/Home/Programm-Detail/concert-id/48492
 END:VEVENT
 END:VCALENDAR

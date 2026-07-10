@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260711-WUK-GESANG-DER-FERNEN-HORIZONTE@eventcrawler
+DTSTAMP:20260710T094951Z
+DTSTART:20260711T203000
+DTEND:20260711T235900
+SUMMARY:GESANG DER FERNEN HORIZONTE (Uhrzeit prüfen)
+LOCATION:WUK
+DESCRIPTION:MUSIK\,  KONZERT GESANG DER FERNEN HORIZONTE EIN BENEFIZKONZERT FÜR KLAVIER UND GESANG | TIME   Sa 11.7.2026 8.30 pm  PRICE   Eintritt frei\, Spende erbeten  PLACE   Iranisches Kulturhaus  GATE   B | Eine musikalische Performance auf Grundlage freier Improvisationen zu den Melodien des bulgarischen Philosophen\, Mystikers und spirituellen Lehrers Petar Danov.  Klavier: Mahtab Bozorgpourshirazi Gesang: Maria Becheva  Dieses Benefizkonzert findet ohne Ticketverkauf statt.  Mit einer freiwilligen Spende leisten die Gäste einen unmittelbaren Beitrag zur Unterstützung von Familien\, die vom Krieg im Iran betroffen sind\, von Menschen\, die ihre Existenzgrundlage verloren haben\, sowie von weiteren besonders verletzlichen Bevölkerungsgruppen im Iran. | Eine Veranstaltung des Iranischen Kulturhauses – Haus des Buches und der Avantgarde Kunstwerkstatt – Clownfisch Studio.    | 
+URL:https://wuk.at/en/programm/gesang-der-fernen-horizonte/
+END:VEVENT
+END:VCALENDAR
