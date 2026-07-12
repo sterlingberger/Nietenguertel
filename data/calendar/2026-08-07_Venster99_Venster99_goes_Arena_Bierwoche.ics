@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260807-Venster99-Venster99-goes-Arena-Bierwoche@eventcrawler
+DTSTAMP:20260712T082922Z
+DTSTART:20260807T180000
+DTEND:20260807T235900
+SUMMARY:Venster99 goes Arena Bierwoche (Uhrzeit prüfen)
+LOCATION:Venster99
+DESCRIPTION:
+URL:http://www.facebook.com/arenabeisl.erdberg
+END:VEVENT
+END:VCALENDAR
