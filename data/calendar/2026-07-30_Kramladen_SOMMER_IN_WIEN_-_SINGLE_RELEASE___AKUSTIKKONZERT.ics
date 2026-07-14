@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260730-Kramladen-SOMMER-IN-WIEN---SINGLE-RELEASE-/-AKUSTIKKONZERT@eventcrawler
-DTSTAMP:20260713T094135Z
+DTSTAMP:20260714T082152Z
 DTSTART:20260730T200000
 DTEND:20260730T235900
 SUMMARY:SOMMER IN WIEN - SINGLE RELEASE / AKUSTIKKONZERT (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Tickets  online: 10€  Tickets: AK 15€    Der Sommer in W...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1912766029385586.webp?v=1783925430684
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1912766029385586.webp?v=1784012097610
 END:VEVENT
 END:VCALENDAR
