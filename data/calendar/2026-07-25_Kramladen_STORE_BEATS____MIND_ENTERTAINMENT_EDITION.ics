@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260725-Kramladen-STORE-BEATS-//-MIND-ENTERTAINMENT-EDITION@eventcrawler
-DTSTAMP:20260714T082152Z
+DTSTAMP:20260715T082831Z
 DTSTART:20260725T233000
 DTEND:20260725T235900
 SUMMARY:STORE BEATS // MIND ENTERTAINMENT EDITION (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:▬▬▬▬▬▬▬▬▬▬▬▬▬▬  S T O R E - B E A T S - MinD Enterta...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1724632632017192.webp?v=1784012097610
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1724632632017192.webp?v=1784099997607
 END:VEVENT
 END:VCALENDAR

@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260804-Kramladen-NO-PLANE-PILOTS-&-ELENDT-@KRAMLADEN-VIENNA@eventcrawler
-DTSTAMP:20260714T082152Z
+DTSTAMP:20260715T082831Z
 DTSTART:20260804T193000
 DTEND:20260804T235900
 SUMMARY:NO PLANE PILOTS & ELENDT @KRAMLADEN VIENNA (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:No Plane Pilots & ELENDT @Kramladen Vienna    No Plane...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1651221156108766.webp?v=1784012097611
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1651221156108766.webp?v=1784099997608
 END:VEVENT
 END:VCALENDAR

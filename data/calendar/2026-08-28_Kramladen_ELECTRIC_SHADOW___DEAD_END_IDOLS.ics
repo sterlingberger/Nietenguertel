@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260828-Kramladen-ELECTRIC-SHADOW-&-DEAD-END-IDOLS@eventcrawler
-DTSTAMP:20260714T082152Z
+DTSTAMP:20260715T082831Z
 DTSTART:20260828T203000
 DTEND:20260828T235900
 SUMMARY:ELECTRIC SHADOW & DEAD END IDOLS (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Beginn um 20.30 Uhr  Eintritt: € 10\,- ELECTRIC SHADOW...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2083251089276408.webp?v=1784012097612
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2083251089276408.webp?v=1784099997611
 END:VEVENT
 END:VCALENDAR

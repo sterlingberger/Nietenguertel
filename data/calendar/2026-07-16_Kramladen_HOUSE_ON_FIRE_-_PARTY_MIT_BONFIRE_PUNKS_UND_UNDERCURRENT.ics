@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260716-Kramladen-HOUSE-ON-FIRE---PARTY-MIT-BONFIRE-PUNKS-UND-UNDERCURRENT@eventcrawler
-DTSTAMP:20260714T082152Z
+DTSTAMP:20260715T082831Z
 DTSTART:20260716T210000
 DTEND:20260716T235900
 SUMMARY:HOUSE ON FIRE - PARTY MIT BONFIRE PUNKS UND UNDERCURRENT (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Rock Punk Funk Alternative Abend im Kramladen  Mit d...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1547501620266925.webp?v=1784012097604
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1547501620266925.webp?v=1784099997601
 END:VEVENT
 END:VCALENDAR
