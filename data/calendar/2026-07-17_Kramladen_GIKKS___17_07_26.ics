@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260717-Kramladen-GIKKS-·-17.07.26@eventcrawler
-DTSTAMP:20260715T082831Z
+DTSTAMP:20260716T082709Z
 DTSTART:20260717T193000
 DTEND:20260717T235900
 SUMMARY:GIKKS · 17.07.26 (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Die ‘Gikks’ sind eine Konzertreihe\, die von dem ös...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1230732522301062.webp?v=1784012097605
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1230732522301062.webp?v=1784184992613
 END:VEVENT
 END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260821-Chelsea-NONSENSE@eventcrawler
+DTSTAMP:20260716T082709Z
+DTSTART:20260821T200000
+DTEND:20260821T235900
+SUMMARY:NONSENSE (Uhrzeit prüfen)
+LOCATION:Chelsea
+DESCRIPTION:Doors: 20:00\, Show: 20:30   Life is Nonsense\, so live it right.   www.instagram.com/nonsense_official_ua/
+URL:https://www.chelsea.co.at/concerts.php#concert_6742
+END:VEVENT
+END:VCALENDAR
