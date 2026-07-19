@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260814-Kramladen-LARA-CVETANA---LIVE-ON-STAGE@eventcrawler
-DTSTAMP:20260718T080251Z
+DTSTAMP:20260719T083117Z
 DTSTART:20260814T200000
 DTEND:20260814T235900
 SUMMARY:LARA CVETANA - LIVE ON STAGE (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:LARA CVETANA - Live on Stage mit ShoGun • TiTan MC...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1312226377249988.webp?v=1784184992624
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1312226377249988.webp?v=1784359000261
 END:VEVENT
 END:VCALENDAR
