@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260721-Kramladen-FREUNDE-SCHÖNER-LIVE-IM-KRAMLADEN-(SUPPORT:-MARLENE-STYLE)@eventcrawler
-DTSTAMP:20260719T083117Z
+DTSTAMP:20260720T092910Z
 DTSTART:20260721T203000
 DTEND:20260721T235900
 SUMMARY:FREUNDE SCHÖNER LIVE IM KRAMLADEN (SUPPORT: MARLENE STYLE) (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Wir spielen ein heißes Juli-Konzert im heißen Kram...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1729464564727954.webp?v=1784359000253
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1729464564727954.webp?v=1784531537134
 END:VEVENT
 END:VCALENDAR

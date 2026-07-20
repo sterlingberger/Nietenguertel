@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260730-Flucc-LIVE:-Celestial-Guard-&-arthur-the-gang@eventcrawler
+DTSTAMP:20260720T092910Z
+DTSTART:20260730T193000
+DTEND:20260730T235900
+SUMMARY:LIVE: Celestial Guard & arthur the gang (Uhrzeit prüfen)
+LOCATION:Flucc
+DESCRIPTION:@DECK | 19:30h Doors 20h Concert  LINE UP Celestial Guard LIVE arthur the gang LIVE  arthur the gang ist ein Musiker aus Wien\, der im dortigen Pop-Underground seit Anfang der 2020er aktiv ist: Die Songs sind melancholisch\, verträumt und mit tanzbaren Beats unterlegt. Mit seinem charakteristischen Falsett-Gesang erzählt er von großen Sehnsüchten und verpackt sie in halb-philosophischen Erklärungen. Der Name steht dabei für Freund:innen\, Austausch und die Idee\, dass man Musik nicht allein macht. Am 30. Juli präsentiert er in der Solo-Variante eine Auswahl an Songs live an der Gitarre mit Drum-Beats. 12€ 
+URL:https://flucc.at/events/Gun7jY-live-celestial-guard/
+END:VEVENT
+END:VCALENDAR
