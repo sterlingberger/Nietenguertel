@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260807-Kramladen-MENCARI-LIVE:-ENCORE-|-SUPPORT:-LUCIA-ANIMA@eventcrawler
-DTSTAMP:20260720T092910Z
+DTSTAMP:20260721T084109Z
 DTSTART:20260807T203000
 DTEND:20260807T235900
 SUMMARY:MENCARI LIVE: ENCORE | SUPPORT: LUCIA ANIMA (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Pop-Rock mit Soul Da es bei uns erfreuliche private...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/969997982579783.webp?v=1784531537142
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/969997982579783.webp?v=1784617689722
 END:VEVENT
 END:VCALENDAR
