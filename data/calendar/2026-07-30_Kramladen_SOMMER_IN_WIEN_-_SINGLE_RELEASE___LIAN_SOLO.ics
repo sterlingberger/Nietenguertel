@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260730-Kramladen-SOMMER-IN-WIEN---SINGLE-RELEASE-/-LIAN-SOLO@eventcrawler
-DTSTAMP:20260721T084109Z
+DTSTAMP:20260722T084317Z
 DTSTART:20260730T200000
 DTEND:20260730T235900
 SUMMARY:SOMMER IN WIEN - SINGLE RELEASE / LIAN SOLO (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Wo: KRAMLADEN  Was: Solokonzert  Warum: Release der ...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1912766029385586.webp?v=1784617689721
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1912766029385586.webp?v=1784703505224
 END:VEVENT
 END:VCALENDAR

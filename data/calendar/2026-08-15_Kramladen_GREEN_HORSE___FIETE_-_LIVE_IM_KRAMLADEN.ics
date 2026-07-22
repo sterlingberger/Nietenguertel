@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260815-Kramladen-GREEN-HORSE-&-FIETE---LIVE-IM-KRAMLADEN@eventcrawler
-DTSTAMP:20260721T084109Z
+DTSTAMP:20260722T084317Z
 DTSTART:20260815T200000
 DTEND:20260815T235900
 SUMMARY:GREEN HORSE & FIETE - LIVE IM KRAMLADEN (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Nette sympatische Indie Bands suchen begeisterte u...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1379555154067649.webp?v=1784617689724
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1379555154067649.webp?v=1784703505229
 END:VEVENT
 END:VCALENDAR

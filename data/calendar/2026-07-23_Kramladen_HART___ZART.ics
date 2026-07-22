@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260723-Kramladen-HART-&-ZART@eventcrawler
-DTSTAMP:20260721T084109Z
+DTSTAMP:20260722T084317Z
 DTSTART:20260723T233000
 DTEND:20260723T235900
 SUMMARY:HART & ZART (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Musik solange ihr stehen könnt. Versprochen. Tech H...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1671205130627018.webp?v=1784617689717
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1671205130627018.webp?v=1784703505221
 END:VEVENT
 END:VCALENDAR
