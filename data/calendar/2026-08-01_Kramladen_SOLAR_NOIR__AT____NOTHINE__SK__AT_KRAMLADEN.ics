@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260801-Kramladen-SOLAR-NOIR-(AT)-/-NOTHINE-(SK)-AT-KRAMLADEN@eventcrawler
-DTSTAMP:20260723T084219Z
+DTSTAMP:20260724T083813Z
 DTSTART:20260801T200000
 DTEND:20260801T235900
 SUMMARY:SOLAR NOIR (AT) / NOTHINE (SK) AT KRAMLADEN (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Doors 19:30  Start 20:30 Vienna's own Solar Noir brin...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/4494212184126804.webp?v=1784790175164
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/4494212184126804.webp?v=1784879335107
 END:VEVENT
 END:VCALENDAR

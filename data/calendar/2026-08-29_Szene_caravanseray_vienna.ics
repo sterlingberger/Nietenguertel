@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260829-Szene-caravanseray-vienna@eventcrawler
+DTSTAMP:20260724T083813Z
+DTSTART:20260829T193000
+DTEND:20260829T235900
+SUMMARY:caravanseray vienna (Uhrzeit prüfen)
+LOCATION:Szene
+DESCRIPTION:What embodies the sheer exuberant joy of life more thoroughly than dance\, feeling the delightful flow of music\, finding the story within and making it visible in a fleeting moment of time? Come witness the explosion of artistic expression on the stage\; varied\, colourful and as individual as the dancers coming together to fill the space with the magic of their dance. Be enchanted\, be enamoured\, be entertained\, and by all counts\, be delighted at the Theater of Delight!   
+URL:https://szene.wien/events/caravanseray-vienna/
+END:VEVENT
+END:VCALENDAR
