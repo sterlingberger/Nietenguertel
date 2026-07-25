@@ -1,17 +1,6 @@
 [
   {
     "Venue": "Arena",
-    "Date": "2026-07-24",
-    "Artist": "BROILERS (ger) \u002B HOT WATER MUSIC (us) *OPEN AIR / AUSVERKAUFT*",
-    "Info": " | Arena Wien - Open Air | presented by MIND OVER MATTER\n\nBROILERS OPEN AIRS 2026\n\n24.07.2026 WIEN, ARENA\n\nDas Konzert ist ausverkauft!\n\n18:00 Einlass\n19:30 Hot Water Music\n20:45 Broilers",
-    "Link": "https://arena.wien/Home/Programm-Detail/concert-id/48262",
-    "Start": "2026-07-24T18:00:00",
-    "End": "2026-07-24T23:59:00",
-    "InfoShort": " | Arena Wien - Open Air | presented by MIND OVER MATTER\n\nBROILERS OPEN AIRS 2026\n\n24.07.2026 WIEN, ARENA\n\nDas Konzert ist ausve...",
-    "IcsFileName": "2026-07-24_Arena_BROILERS__ger____HOT_WATER_MUSIC__us___OPEN_AIR___AUSVERKAUFT.ics"
-  },
-  {
-    "Venue": "Arena",
     "Date": "2026-07-25",
     "Artist": "BROILERS (ger) \u002B HOT WATER MUSIC (us) *OPEN AIR / ZUSATZSHOW*",
     "Info": " | Arena Wien - Open Air | presented by MIND OVER MATTER\n\nBROILERS OPEN AIRS 2026\n\n25.07.2026 WIEN, ARENA\n\n18:00 Einlass\n19:30 Hot Water Music\n20:45 Broilers",
@@ -254,21 +243,10 @@
   },
   {
     "Venue": "Kramladen",
-    "Date": "2026-07-24",
-    "Artist": "VENZIORUS X CYPOLIH (LIVE CONCERT)",
-    "Info": "Live Concert by Venziorus \u0026 Cypolih\nStart at 9pm\n\nTi...",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1015152090874726.webp?v=1784879335106",
-    "Start": "2026-07-24T21:00:00",
-    "End": "2026-07-24T23:59:00",
-    "InfoShort": "Live Concert by Venziorus \u0026 Cypolih\nStart at 9pm\n\nTi...",
-    "IcsFileName": "2026-07-24_Kramladen_VENZIORUS_X_CYPOLIH__LIVE_CONCERT.ics"
-  },
-  {
-    "Venue": "Kramladen",
     "Date": "2026-07-25",
     "Artist": "PAINTING CLOUDS \u002B SUPPORT | KRAMLADEN",
     "Info": "Coming soon ",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1173430221536214.webp?v=1784879335106",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1173430221536214.webp?v=1784962524653",
     "Start": "2026-07-25T20:00:00",
     "End": "2026-07-25T23:59:00",
     "InfoShort": "Coming soon ",
@@ -279,7 +257,7 @@
     "Date": "2026-07-25",
     "Artist": "STORE BEATS // MIND ENTERTAINMENT EDITION",
     "Info": "\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\n\nS T O R E - B E A T S - MinD Enterta...",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1724632632017192.webp?v=1784790175162",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1724632632017192.webp?v=1784962524654",
     "Start": "2026-07-25T22:30:00",
     "End": "2026-07-25T23:59:00",
     "InfoShort": "\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\u25AC\n\nS T O R E - B E A T S - MinD Enterta...",
@@ -301,7 +279,7 @@
     "Date": "2026-07-30",
     "Artist": "SOMMER IN WIEN - SINGLE RELEASE / LIAN SOLO",
     "Info": "Wo: KRAMLADEN\n\nWas: Solokonzert\n\nWarum: Release der ...",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1912766029385586.webp?v=1784879335107",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1912766029385586.webp?v=1784962524655",
     "Start": "2026-07-30T20:00:00",
     "End": "2026-07-30T23:59:00",
     "InfoShort": "Wo: KRAMLADEN\n\nWas: Solokonzert\n\nWarum: Release der ...",
@@ -312,7 +290,7 @@
     "Date": "2026-07-31",
     "Artist": "MARIGOLD \u002B MAKESHIFT CONCEPT IM KRAMLADEN",
     "Info": "Marigold und makeshift concept spielen Deren erste...",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1623511728728627.webp?v=1784790175165",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1623511728728627.webp?v=1784962524655",
     "Start": "2026-07-31T19:30:00",
     "End": "2026-07-31T23:59:00",
     "InfoShort": "Marigold und makeshift concept spielen Deren erste...",
@@ -323,7 +301,7 @@
     "Date": "2026-08-01",
     "Artist": "SOLAR NOIR (AT) / NOTHINE (SK) AT KRAMLADEN",
     "Info": "Doors 19:30\n\nStart 20:30\nVienna\u0027s own Solar Noir brin...",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/4494212184126804.webp?v=1784879335107",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/4494212184126804.webp?v=1784962524656",
     "Start": "2026-08-01T20:00:00",
     "End": "2026-08-01T23:59:00",
     "InfoShort": "Doors 19:30\n\nStart 20:30\nVienna\u0027s own Solar Noir brin...",
@@ -334,7 +312,7 @@
     "Date": "2026-08-04",
     "Artist": "NO PLANE PILOTS \u0026 ELENDT @KRAMLADEN VIENNA",
     "Info": "No Plane Pilots \u0026 ELENDT @Kramladen Vienna\n\n\n\nNo Plane...",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1651221156108766.webp?v=1784879335108",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1651221156108766.webp?v=1784962524657",
     "Start": "2026-08-04T19:30:00",
     "End": "2026-08-04T23:59:00",
     "InfoShort": "No Plane Pilots \u0026 ELENDT @Kramladen Vienna\n\n\n\nNo Plane...",
@@ -356,7 +334,7 @@
     "Date": "2026-08-07",
     "Artist": "MENCARI LIVE: ENCORE | SUPPORT: LUCIA ANIMA",
     "Info": "Pop-Rock mit Soul\nDa es bei uns erfreuliche private...",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/969997982579783.webp?v=1784879335109",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/969997982579783.webp?v=1784962524658",
     "Start": "2026-08-07T20:30:00",
     "End": "2026-08-07T23:59:00",
     "InfoShort": "Pop-Rock mit Soul\nDa es bei uns erfreuliche private...",
@@ -367,7 +345,7 @@
     "Date": "2026-08-08",
     "Artist": "T E C H N O L O G",
     "Info": "\u003E\u003E www.technolog.wtf \u003C\u003C\n\u003E\u003E https://soundcloud.com/t...",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1546402073640270.webp?v=1784879335110",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1546402073640270.webp?v=1784962524659",
     "Start": "2026-08-08T23:45:00",
     "End": "2026-08-08T23:59:00",
     "InfoShort": "\u003E\u003E www.technolog.wtf \u003C\u003C\n\u003E\u003E https://soundcloud.com/t...",
@@ -378,7 +356,7 @@
     "Date": "2026-08-14",
     "Artist": "LARA CVETANA - LIVE ON STAGE",
     "Info": "LARA CVETANA - Live on Stage mit ShoGun \u2022 TiTan MC...",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1312226377249988.webp?v=1784790175168",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1312226377249988.webp?v=1784962524660",
     "Start": "2026-08-14T20:00:00",
     "End": "2026-08-14T23:59:00",
     "InfoShort": "LARA CVETANA - Live on Stage mit ShoGun \u2022 TiTan MC...",
@@ -400,7 +378,7 @@
     "Date": "2026-08-28",
     "Artist": "ELECTRIC SHADOW \u0026 DEAD END IDOLS",
     "Info": "Beginn um 20.30 Uhr\n\nEintritt: \u20AC 10,-\nELECTRIC SHADOW...",
-    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2083251089276408.webp?v=1784879335111",
+    "Link": "https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2083251089276408.webp?v=1784962524661",
     "Start": "2026-08-28T20:30:00",
     "End": "2026-08-28T23:59:00",
     "InfoShort": "Beginn um 20.30 Uhr\n\nEintritt: \u20AC 10,-\nELECTRIC SHADOW...",
@@ -427,17 +405,6 @@
     "End": "2026-08-29T23:59:00",
     "InfoShort": "Jonas Feurle and scrutch come from very different ...",
     "IcsFileName": "2026-08-29_Kramladen_SCRUTCH___JONAS_FEURLE_-_WORLD_TOUR___SPECIAL_GUEST_AYBAE.ics"
-  },
-  {
-    "Venue": "Viper Room",
-    "Date": "2026-07-24",
-    "Artist": "COME AS YOU ARE",
-    "Info": "\nCOME AS YOU ARE\n90s GRUNGE \u00B7 ALTERNATIVE \u00B7 CROSSOVER\n\n\nMAIN FLOOR \u2014 \u201ETHE PIT\u201C\nDJs Natas, Ego-!st, Iguana\n\nSounds like:\nNirvana, Pearl Jam, Soundgarden, Alice In Chains, Rage Against The Machine, Faith No More, Beastie Boys, Nine Inch Nails, The Prodigy,\nChemical Brothers uvm.\n\nEintritt 10\u20AC\n\n",
-    "Link": "https://www.viper-room.at/events/come-as-you-are-0726",
-    "Start": "2026-07-24T22:00:00",
-    "End": "2026-07-24T23:59:00",
-    "InfoShort": "\nCOME AS YOU ARE\n90s GRUNGE \u00B7 ALTERNATIVE \u00B7 CROSSOVER\n\n\nMAIN FLOOR \u2014 \u201ETHE PIT\u201C\nDJs Natas, Ego-!st, Iguana\n\nSounds like:\nNirvana,...",
-    "IcsFileName": "2026-07-24_Viper_Room_COME_AS_YOU_ARE.ics"
   },
   {
     "Venue": "Viper Room",
@@ -628,17 +595,6 @@
   },
   {
     "Venue": "Rhiz",
-    "Date": "2026-07-24",
-    "Artist": "Polychaos Dubium",
-    "Info": "\nDatum: 24.07.2026 | Einlass: 21:00 Uhr\nBeginn: 21:00 | Ende: Uhr\n\nPolychaos Dubium\nHybrid Club Music - Global Bass\nfeat.:\nJama Supreme\nKmanxak\nLucy Bakanal\nIronica Los Culos\nLive Visuals \u0026 Video Mapping by\nIronica Los Culos\nQualia",
-    "Link": "https://rhiz.wien/copilotevent/24-07-2026_polychaos-dubium",
-    "Start": "2026-07-24T21:00:00",
-    "End": "2026-07-24T23:59:00",
-    "InfoShort": "\nDatum: 24.07.2026 | Einlass: 21:00 Uhr\nBeginn: 21:00 | Ende: Uhr\n\nPolychaos Dubium\nHybrid Club Music - Global Bass\nfeat.:\nJama ...",
-    "IcsFileName": "2026-07-24_Rhiz_Polychaos_Dubium.ics"
-  },
-  {
-    "Venue": "Rhiz",
     "Date": "2026-07-25",
     "Artist": "Entropy",
     "Info": "\nDatum: 25.07.2026 | Einlass: 21:00 Uhr\nBeginn: 21:00 | Ende: Uhr\n",
@@ -669,17 +625,6 @@
     "End": "2026-08-13T23:59:00",
     "InfoShort": "\n\u0093Expect the unexpected.\u0094 Tomi Ungerer\u0092s motto, enfant terrible of Strasbourg, seems to have\nbeen written for Pales. The band bl...",
     "IcsFileName": "2026-08-13_B72_PALES__FR.ics"
-  },
-  {
-    "Venue": "Venster99",
-    "Date": "2026-07-24",
-    "Artist": "HASE / PRUNKNELKE",
-    "Info": "",
-    "Link": "http://www.facebook.com/events/1526187132854935/",
-    "Start": "2026-07-24T18:00:00",
-    "End": "2026-07-24T23:59:00",
-    "InfoShort": "",
-    "IcsFileName": "2026-07-24_Venster99_HASE___PRUNKNELKE.ics"
   },
   {
     "Venue": "Venster99",
@@ -914,17 +859,6 @@
   },
   {
     "Venue": "Cafe Carina",
-    "Date": "2026-07-24",
-    "Artist": "SOMMER PAUSE",
-    "Info": "SOMMER PAUSE\n\u00A0geschlossen\n\n\u00A0",
-    "Link": "https://www.cafe-carina.at/2020/events/sonntag-ruhetag-715-333-970-496-766-848/",
-    "Start": "2026-07-24T18:00:00",
-    "End": "2026-07-24T23:59:00",
-    "InfoShort": "SOMMER PAUSE\n\u00A0geschlossen\n\n\u00A0",
-    "IcsFileName": "2026-07-24_Cafe_Carina_SOMMER_PAUSE.ics"
-  },
-  {
-    "Venue": "Cafe Carina",
     "Date": "2026-07-25",
     "Artist": "SOMMER PAUSE",
     "Info": "SOMMER PAUSE\n\u00A0geschlossen\n\n\u00A0",
@@ -1045,6 +979,17 @@
     "IcsFileName": "2026-08-04_Cafe_Carina_SOMMER_PAUSE.ics"
   },
   {
+    "Venue": "Cafe Carina",
+    "Date": "2026-08-05",
+    "Artist": "SOMMER PAUSE",
+    "Info": "SOMMER PAUSE\n\u00A0geschlossen\n\n\u00A0",
+    "Link": "https://www.cafe-carina.at/2020/events/sonntag-ruhetag-715-333-970-496-766-848/",
+    "Start": "2026-08-05T18:00:00",
+    "End": "2026-08-05T23:59:00",
+    "InfoShort": "SOMMER PAUSE\n\u00A0geschlossen\n\n\u00A0",
+    "IcsFileName": "2026-08-05_Cafe_Carina_SOMMER_PAUSE.ics"
+  },
+  {
     "Venue": "Flucc",
     "Date": "2026-07-29",
     "Artist": "LIVE: CV Vision / DJ Meshit",
@@ -1067,6 +1012,17 @@
     "IcsFileName": "2026-07-30_Flucc_LIVE__Celestial_Guard___arthur_the_gang.ics"
   },
   {
+    "Venue": "Flucc",
+    "Date": "2026-08-14",
+    "Artist": "LIVE: Six Sex",
+    "Info": "@WANNE | 19:00 Doors\n20:00 Concerts\n\nSupport Act: YPSY\n\nMit kompromissloser Energie, provokanter \u00C4sthetik und einem Sound zwischen elektronischer Clubmusik, Reggaet\u00F3n, Hyperpop und futuristischem Pop z\u00E4hlt SIX SEX aktuell zu den spannendsten internationalen Acts der neuen Clubgeneration.\nDie aus Buenos Aires stammende K\u00FCnstlerin begann ihre Karriere in der Underground-Szene der argentinischen Hauptstadt und entwickelte fr\u00FCh ihren unverwechselbaren Stil: roh, selbstbewusst, hyperfeminin und voller kreativer Grenz\u00FCberschreitungen. Inspiriert von Rave-Kultur, Mode, Performance-Art und lateinamerikanischen Einfl\u00FCssen erschafft SIX SEX eine Welt, in der Clubmusik auf avantgardistische Pop-\u00C4sthetik trifft. Ihre kompromisslose Art, Sexualit\u00E4t, Freiheit und Empowerment k\u00FCnstlerisch zu inszenieren, machte sie rasch zu einer pr\u00E4genden Stimme einer jungen internationalen Szene.\n\nK\u00FCrzlich k\u00FCndigte sie w\u00E4hrend einer ausverkauften Show in Buenos Aires ihr erstes Full-Length-Album an, das 2026 erscheinen soll. Es markiert den n\u00E4chsten gro\u00DFen Schritt ihrer Karriere nach f\u00FCnf gefeierten EPs, mit denen sie sich l\u00E4ngst einen festen Platz zwischen Underground-Rave und moderner Popkultur erarbeitet hat. Ihre Releases verbinden harte elektronische Sounds mit eing\u00E4ngigen Hooks und clubtauglicher Energie \u2013 stets begleitet von einer starken visuellen Handschrift und kompromissloser Attitude.\n\nNach einer intensiven Festival- und Release-Phase steht nun die n\u00E4chste gro\u00DFe Tournee bevor: Neben einer zweiten Europa-Tour spielt SIX SEX auf renommierten Festivals wie Lollapalooza Argentina, Lollapalooza Chile, Primavera Sound Barcelona, Cosqu\u00EDn Rock und Est\u00E9reo Picnic \u2013 au\u00DFerdem steht ihre erste US-Tour an.\u00A0\n\nSIX SEX liefert jedenfalls den Soundtrack f\u00FCr eine neue Generation zwischen Hyperpop, Rave und radikaler Selbstinszenierung \u2013 laut, mutig und kompromisslos zeitgeistig. Und demn\u00E4chst liefert sie diesen Sounds auch live und frei Haus nach Wien!\n\n34,90\u20AC Presale\n",
+    "Link": "https://flucc.at/events/AVVfh3-live-six-sex/",
+    "Start": "2026-08-14T19:00:00",
+    "End": "2026-08-14T23:59:00",
+    "InfoShort": "@WANNE | 19:00 Doors\n20:00 Concerts\n\nSupport Act: YPSY\n\nMit kompromissloser Energie, provokanter \u00C4sthetik und einem Sound zwisch...",
+    "IcsFileName": "2026-08-14_Flucc_LIVE__Six_Sex.ics"
+  },
+  {
     "Venue": "WUK",
     "Date": "2026-07-30",
     "Artist": "AFTER WORK IM WUK HOF",
@@ -1076,5 +1032,137 @@
     "End": "2026-07-30T23:59:00",
     "InfoShort": "MUSIK,\u00A0 ZUSAMMEN \u0026 LEBEN\nAFTER WORK IM WUK HOF | TIME\n\n\nJeden Do von 4.6. bis 30.7.2026,\n18 bis 22 Uhr\n\nPRICE\n\n\nEintritt frei\n\nP...",
     "IcsFileName": "2026-07-30_WUK_AFTER_WORK_IM_WUK_HOF.ics"
+  },
+  {
+    "Venue": "WUK",
+    "Date": "2026-08-11",
+    "Artist": "PLATZKONZERTE 2026",
+    "Info": "MUSIK,\u00A0 KONZERT\nPLATZKONZERTE 2026\nEIN DIVERSES PROGRAMM F\u00DCR EIN DIVERSES PUBLIKUM | TIME\n\n\nTu\u00A011.8.2026 - Th\u00A027.8.2026\n20:30 Uhr\n\nPRICE\n\n\nEintritt frei\n\nPLACE\n\n\nHof | 10 feine Konzerte, open air bei freiem Eintritt im begr\u00FCnten WUK-Hof. Barrierearm mit diversem Programm f\u00FCr ein diverses Publikum, gemixt aus unterschiedlichen Musikstilen, musikalischen und kulturellen Backgrounds und Ausdrucksformen. | Holy Shit! Hier sind sie wieder die Platzkonzerte! Klare Kante, guter Ton! Heuer mit queerem Electro Trash Pop von POPSCH, anarcho New-Wave-Post-Punk von ROLLTREPPE und radikalem Free-Jazz-Hip-Hop von und zu KOENIGLOLLIPOP. Ratta Tatta Peng Peng! So knallen PALOMA 004 Indie-esk ins sommerfrische Gem\u00FCse, w\u00E4hrend GATAFIERA\u00A0mit funky Reggeaton-Riot Wadeln dort hinrichtet, wo sie hingeh\u00F6ren. Den Auftakt zum Radau zupft diesmal DER T\u00C4UBLING selbst und swingt den WUK-Hof prophylaktisch mit fidel misanthropem Dada-Tourette-Rap ein. H\u00F6rt, h\u00F6rt! So addiert sich das Programm aus musikalischen Rarit\u00E4ten der Sonderklasse wieder zu einem akustischen Feuerwerk, das die Ohrmuscheln proper poliert.\u00A0\n\nKuratiert wird das Programm im dritten Jahr vom Veranstaltungskollektiv BRUTTO\u00A0aka Rania Moslam, Lisa Kortschak und Gregor Mahnert, das bisher u.a. im brut Theater Eventreihen auf die B\u00FChne gebracht hat - immer mit dem Ziel, unterschiedliche k\u00FCnstlerische Formate, Zug\u00E4nge und Arbeitsweisen einander gegen\u00FCber zu stellten, miteinander zu konfrontierten und aneinander auszuprobieren. Nicht im Sinne eines beliebigen \u201EAnything goes\u201C, sondern als gewagtes Zusammendenken scheinbarer und tats\u00E4chlicher Gegens\u00E4tze. Die Kuratur erfolgt heuer wieder als \u201ETeil des linken Musiker*innenratnetzwerks\u201C und denkt die Platzkonzerte als sommerlichen Treffpunkt f\u00FCr Musikinteressierte sowie als Ort f\u00FCr Austausch, Inspiration und solidarisches Kr\u00E4fte-Vereinen.\n\nPROGRAMM\n\nDi 11.8. DER T\u00C4UBLING\u00A0\nWenn man sich auf die w\u00FCtende Groteske des T\u00E4ublings einl\u00E4sst, wird man (...) einiges lernen: \u00DCber die Kraft von Worten, \u00FCber das Jonglieren am Abgrund des menschlichen Seins, \u00FCber das Loslassen.\n\nMi 12.8. PALOMA 004\u00A0\nStilistisch bewegt sich Paloma 004 zwischen Post-Punk, Grunge, Shoegaze und Synthpop \u2013 mit deutschen Texten, die Alltagsabsurdit\u00E4ten und tiefere Sinnfragen verhandeln.\n\nDo 13.8. MEL*E\u00A0\nWeite Melodieb\u00F6gen schweben \u00FCber energetischen Grooves, tanzbare Rhythmen treffen auf sph\u00E4rische Klangfl\u00E4chen \u2013 Mel*E spielt mit Gegens\u00E4tzen und verbindet das Virtuose mit dem Unmittelbaren, das Analoge mit dem Digitalen.\n\nFr 14.8. MANUL\u00A0\nWas bedeutet Manul? Wilder und ungez\u00E4hmter als Hauskatzenmusik \u2013 eine Raubkatze mit kurzen Beinen, aber langem Atem.\n\nDi 18.8. ROLLTREPPE\u00A0\nMit einer treibenden Bass-Schlagzeug-Fraktion, noisigen Gitarrenriffs und energiegeladenen Vocals erzeugt die Band einen tanzbaren Sound, der kaum ein Bein still stehen l\u00E4sst.\n\nMi 19.8. KOENIGLOLLIPOP\u00A0\nKoeniglollipop ist eine Band. Sie macht Musik, die ganz anders ist als alles, was du kennst!\n\nDo 20.8. BULL NAKANO\u00A0\nBenannt nach der japanischen Wrestlerin hat sich die hochkar\u00E4tig besetzte Band zusammengefunden um einen Sound zwischen aggressiven Riffs, grooviger Rhythmuspartie und mitrei\u00DFend emotionalen Vocals auszuloten.\n\nDi 25.8. GATAFIERA\u00A0\nIhre Musik ist zugleich tanzbar und politisch: Ein kraftvolles Statement f\u00FCr Repr\u00E4sentation, Befreiung und queere Selbsterm\u00E4chtigung.\n\nMI 26.8. SYNESTHETIC IVO\u00A0\nDadaistische Rap Texte und modifizierte W\u00F6rter die einen modernen musikalischen Nihilismus auf humorvolle und eigenwillige Weise feiern, sind Synesthetic IVO\u2019s Markenzeichen.\n\nDO 27.8. POPSCH\u00A0\nDiese Band ist Kult- Elektro trifft Glitzer, schamlos eing\u00E4ngigen Elektro-Pop und 80er Charme.\n\n\u00A0 | Eine Veranstaltung des WUK | ",
+    "Link": "https://wuk.at/en/programm/platzkonzerte-2026/",
+    "Start": "2026-08-11T18:00:00",
+    "End": "2026-08-11T23:59:00",
+    "InfoShort": "MUSIK,\u00A0 KONZERT\nPLATZKONZERTE 2026\nEIN DIVERSES PROGRAMM F\u00DCR EIN DIVERSES PUBLIKUM | TIME\n\n\nTu\u00A011.8.2026 - Th\u00A027.8.2026\n20:30 Uh...",
+    "IcsFileName": "2026-08-11_WUK_PLATZKONZERTE_2026.ics"
+  },
+  {
+    "Venue": "WUK",
+    "Date": "2026-08-11",
+    "Artist": "DER T\u00C4UBLING",
+    "Info": "MUSIK,\u00A0 KONZERT\nLIVE-MUSIK OPEN AIR\nDER T\u00C4UBLING\nPLATZKONZERTE 2026 | TIME\n\n\nTu\u00A011.8.2026\n8.30 pm\n\nPRICE\n\n\nEintritt frei\n\nPLACE\n\n\nHof | Herr T\u00E4ubling (Mit vollem Namen: Amadeus Magnus Ephraima T\u00E4ubling)\nAkademischer Grad: Prof. f\u00FCr Angewandte Misanthropie\nGenre: Touretterap\nBegr\u00FCnder der Str\u00F6mung des Radikalen Misanthropismus\nBesondere Merkmale: gepflegtes \u00E4u\u00DFeres Erscheinungsbild\nBer\u00FChmte Zitate: \u0022DU PENNER!!!\u0022\n\n\u0022Der Text ist vollkommen zusammenhanglos, die Melodie passt da kein St\u00FCck zu und im Video seh ich ein Kerl, der anscheinend gerne Lippenstift benutzt und sich auch sonst anzieht wie eine Transe. Ich kann diesem Crap nichts abgewinnen. Das ist doch nur was f\u00FCr Kiddies aus dem Ghetto, die zu beschr\u00E4nkt sind, um zu sehen, dass das hier einfach schei\u00DFe ist.\u0022 (dpa)\n\n\u201EHinter den Provokationen steckt hoch dramatische, traumatisierte und traumatisierende Musik, die ihresgleichen sucht. Das Gesicht, das dieses bitters\u00FC\u00DFe Gift ausspuckt, ist immer hinter einer alptraumhaften Hasenmaske versteckt. Wenn man sich auf die w\u00FCtende Groteske des T\u00E4ublings einl\u00E4sst, wird man dennoch einiges lernen: \u00DCber die Kraft von Worten, \u00FCber das Jonglieren am Abgrund des menschlichen Seins, \u00FCber das Loslassen. Konzerte werden zu gemeinsamen Therapie-Sessions, jeder wird mit den eigenen Perversionen konfrontiert.\u0022 (K\u00F6lner Stadtrevue)\n\n\u00A0 | Holy Shit! Hier sind sie wieder die Platzkonzerte! Klare Kante, guter Ton! Heuer mit queerem Electro Trash Pop von POPSCH, anarcho New-Wave-Post-Punk von ROLLTREPPE und radikalem Free-Jazz-Hip-Hop von und zu KOENIGLOLLIPOP. Ratta Tatta Peng Peng! So knallen PALOMA 004 Indie-esk ins sommerfrische Gem\u00FCse, w\u00E4hrend GATAFIERA\u00A0mit funky Reggeaton-Riot Wadeln dort hinrichtet, wo sie hingeh\u00F6ren. Den Auftakt zum Radau zupft diesmal DER T\u00C4UBLING selbst und swingt den WUK-Hof prophylaktisch mit fidel misanthropem Dada-Tourette-Rap ein. H\u00F6rt, h\u00F6rt! So addiert sich das Programm aus musikalischen Rarit\u00E4ten der Sonderklasse wieder zu einem akustischen Feuerwerk, das die Ohrmuscheln proper poliert.\u00A0\n\nKuratiert wird das Programm im dritten Jahr vom Veranstaltungskollektiv BRUTTO\u00A0aka Rania Moslam, Lisa Kortschak und Gregor Mahnert, das bisher u.a. im brut Theater Eventreihen auf die B\u00FChne gebracht hat - immer mit dem Ziel, unterschiedliche k\u00FCnstlerische Formate, Zug\u00E4nge und Arbeitsweisen einander gegen\u00FCber zu stellten, miteinander zu konfrontierten und aneinander auszuprobieren. Nicht im Sinne eines beliebigen \u201EAnything goes\u201C, sondern als gewagtes Zusammendenken scheinbarer und tats\u00E4chlicher Gegens\u00E4tze.\u00A0\nDie Kuratur erfolgt heuer wieder als \u201ETeil des linken Musiker*innenratnetzwerks\u201C und denkt die Platzkonzerte als sommerlichen Treffpunkt f\u00FCr Musikinteressierte sowie als Ort f\u00FCr Austausch, Inspiration und solidarisches Kr\u00E4fte-Vereinen. | ",
+    "Link": "https://wuk.at/en/programm/der-taeubling/",
+    "Start": "2026-08-11T20:30:00",
+    "End": "2026-08-11T23:59:00",
+    "InfoShort": "MUSIK,\u00A0 KONZERT\nLIVE-MUSIK OPEN AIR\nDER T\u00C4UBLING\nPLATZKONZERTE 2026 | TIME\n\n\nTu\u00A011.8.2026\n8.30 pm\n\nPRICE\n\n\nEintritt frei\n\nPLACE\n...",
+    "IcsFileName": "2026-08-11_WUK_DER_T\u00C4UBLING.ics"
+  },
+  {
+    "Venue": "WUK",
+    "Date": "2026-08-12",
+    "Artist": "PALOMA 004",
+    "Info": "MUSIK,\u00A0 KONZERT\nLIVE-MUSIK OPEN AIR\nPALOMA 004\nPLATZKONZERTE 2026 | TIME\n\n\nWe\u00A012.8.2026\n8.30 pm\n\nPRICE\n\n\nEintritt frei\n\nPLACE\n\n\nHof | Die Band (...) erschafft einen eigenwilligen Sound zwischen fragiler Melancholie, bissiger Energie und verspieltem Ernst.Stilistisch bewegt sich Paloma 004 zwischen Post-Punk, Grunge, Shoegaze und Synthpop \u2013 mit deutschen Texten, die Alltagsabsurdit\u00E4ten und tiefere Sinnfragen verhandeln. (Music Austria)\n\nZu Beginn war Paloma 004 das Soloprojekt von S\u00E4ngerin und Gitarristin Lisa Obereder. 2021 begann sie, ihre Lieder im Solo Setup mit Drumcomputer vor Publikum zu spielen. \u00DCber die Jahre ist das Projekt zu einer 4-k\u00F6pfigen Band gewachsen: Lisas Schwester Lena begann 2021 in der Gruppe Bass zu spielen, 2022 kamen Karo als Schlagzeugerin und Philipp als zweiter Gitarrist zur Band. Paloma 004 haben ihr Deb\u00FCtalbum \u201CAlles f\u00E4ngt neu an\u201D im Juni 2025 via das Wiener Indielabel Fettkakaover\u00F6ffentlicht. Die LP ist als Vinyl, Tape und digital erh\u00E4ltlich.\n\nDie Band in folgender Besetzung: Lisa (Gesang, Gitarre, Synth), Karo (Schlagzeug), Philipp (Gitarre, Bass) und Jonas (Bass, Synth). | Holy Shit! Hier sind sie wieder die Platzkonzerte! Klare Kante, guter Ton! Heuer mit queerem Electro Trash Pop von POPSCH, anarcho New-Wave-Post-Punk von ROLLTREPPE und radikalem Free-Jazz-Hip-Hop von und zu KOENIGLOLLIPOP. Ratta Tatta Peng Peng! So knallen PALOMA 004 Indie-esk ins sommerfrische Gem\u00FCse, w\u00E4hrend GATAFIERA\u00A0mit funky Reggeaton-Riot Wadeln dort hinrichtet, wo sie hingeh\u00F6ren. Den Auftakt zum Radau zupft diesmal DER T\u00C4UBLING selbst und swingt den WUK-Hof prophylaktisch mit fidel misanthropem Dada-Tourette-Rap ein. H\u00F6rt, h\u00F6rt! So addiert sich das Programm aus musikalischen Rarit\u00E4ten der Sonderklasse wieder zu einem akustischen Feuerwerk, das die Ohrmuscheln proper poliert.\u00A0\n\nKuratiert wird das Programm im dritten Jahr vom Veranstaltungskollektiv BRUTTO\u00A0aka Rania Moslam, Lisa Kortschak und Gregor Mahnert, das bisher u.a. im brut Theater Eventreihen auf die B\u00FChne gebracht hat - immer mit dem Ziel, unterschiedliche k\u00FCnstlerische Formate, Zug\u00E4nge und Arbeitsweisen einander gegen\u00FCber zu stellten, miteinander zu konfrontierten und aneinander auszuprobieren. Nicht im Sinne eines beliebigen \u201EAnything goes\u201C, sondern als gewagtes Zusammendenken scheinbarer und tats\u00E4chlicher Gegens\u00E4tze.\u00A0\nDie Kuratur erfolgt heuer wieder als \u201ETeil des linken Musiker*innenratnetzwerks\u201C und denkt die Platzkonzerte als sommerlichen Treffpunkt f\u00FCr Musikinteressierte sowie als Ort f\u00FCr Austausch, Inspiration und solidarisches Kr\u00E4fte-Vereinen. | ",
+    "Link": "https://wuk.at/en/programm/paloma-004/",
+    "Start": "2026-08-12T20:30:00",
+    "End": "2026-08-12T23:59:00",
+    "InfoShort": "MUSIK,\u00A0 KONZERT\nLIVE-MUSIK OPEN AIR\nPALOMA 004\nPLATZKONZERTE 2026 | TIME\n\n\nWe\u00A012.8.2026\n8.30 pm\n\nPRICE\n\n\nEintritt frei\n\nPLACE\n\n\n...",
+    "IcsFileName": "2026-08-12_WUK_PALOMA_004.ics"
+  },
+  {
+    "Venue": "WUK",
+    "Date": "2026-08-13",
+    "Artist": "MEL*E",
+    "Info": "MUSIK,\u00A0 KONZERT\nLIVE-MUSIK OPEN AIR\nMEL*E\nPLATZKONZERTE 2026 | TIME\n\n\nTh\u00A013.8.2026\n8.30 pm\n\nPRICE\n\n\nEintritt frei\n\nPLACE\n\n\nHof | Drei starke, unverwechselbare Stimmen im Jazz \u2013 Mel*E vereint virtuoses Zusammenspiel mit innovativer Klangforschung. In ihrem Sound verschmelzen akustische und elektronische Elemente zu einer hypnotischen, treibenden Musik, die Kopf und K\u00F6rper in Bewegung setzt.\n\nDie Band experimentiert mit Klangfarben und Strukturen: Der warme, effektierte Kontrabass erzeugt dichte, pulsierende Texturen, die sich zwischen tiefen Subfrequenzen und verzerrten Klangfl\u00E4chen bewegen. Synthesizer \u00F6ffnen R\u00E4ume, brechen Harmonien auf oder setzen schwebende Akzente, w\u00E4hrend das erweiterte Schlagzeug-Setup mit hybriden Sounds und Effekten eine vibrierende Basis schafft.\n\nWeite Melodieb\u00F6gen schweben \u00FCber energetischen Grooves, tanzbare Rhythmen treffen auf sph\u00E4rische Klangfl\u00E4chen \u2013 Mel*E spielt mit Gegens\u00E4tzen und verbindet das Virtuose mit dem Unmittelbaren, das Analoge mit dem Digitalen. Kraftvoll und feinf\u00FChlig, mitrei\u00DFend und introspektiv - immer mit Tiefgang und Dringlichkeit.\n\nZum Release ihres Deb\u00FCtalbums \u201EPROUD\u201C stellt Mel*E den Begriff Stolz bewusst als offene Frage in den Raum: pers\u00F6nlich und gesellschaftlich\u00A0 \u2013 zwischen Selbsterm\u00E4chtigung und den widerspr\u00FCchlichen Erwartungen, die oft damit verbunden werden. Viola Hammer (Synth), Judith Ferstl (Kontrabass/Bass Synth) und Judith Schwarz (Extended Drumset) formen einen eigenst\u00E4ndigen Bandsound mit hohem Wiedererkennungswert, der sowohl auf dem Album als auch live seine volle Wirkung entfaltet. | Holy Shit! Hier sind sie wieder die Platzkonzerte! Klare Kante, guter Ton! Heuer mit queerem Electro Trash Pop von POPSCH, anarcho New-Wave-Post-Punk von ROLLTREPPE und radikalem Free-Jazz-Hip-Hop von und zu KOENIGLOLLIPOP. Ratta Tatta Peng Peng! So knallen PALOMA 004 Indie-esk ins sommerfrische Gem\u00FCse, w\u00E4hrend GATAFIERA\u00A0mit funky Reggeaton-Riot Wadeln dort hinrichtet, wo sie hingeh\u00F6ren. Den Auftakt zum Radau zupft diesmal DER T\u00C4UBLING selbst und swingt den WUK-Hof prophylaktisch mit fidel misanthropem Dada-Tourette-Rap ein. H\u00F6rt, h\u00F6rt! So addiert sich das Programm aus musikalischen Rarit\u00E4ten der Sonderklasse wieder zu einem akustischen Feuerwerk, das die Ohrmuscheln proper poliert.\u00A0\n\nKuratiert wird das Programm im dritten Jahr vom Veranstaltungskollektiv BRUTTO\u00A0aka Rania Moslam, Lisa Kortschak und Gregor Mahnert, das bisher u.a. im brut Theater Eventreihen auf die B\u00FChne gebracht hat - immer mit dem Ziel, unterschiedliche k\u00FCnstlerische Formate, Zug\u00E4nge und Arbeitsweisen einander gegen\u00FCber zu stellten, miteinander zu konfrontierten und aneinander auszuprobieren. Nicht im Sinne eines beliebigen \u201EAnything goes\u201C, sondern als gewagtes Zusammendenken scheinbarer und tats\u00E4chlicher Gegens\u00E4tze.\u00A0\nDie Kuratur erfolgt heuer wieder als \u201ETeil des linken Musiker*innenratnetzwerks\u201C und denkt die Platzkonzerte als sommerlichen Treffpunkt f\u00FCr Musikinteressierte sowie als Ort f\u00FCr Austausch, Inspiration und solidarisches Kr\u00E4fte-Vereinen. | ",
+    "Link": "https://wuk.at/en/programm/mel-e/",
+    "Start": "2026-08-13T20:30:00",
+    "End": "2026-08-13T23:59:00",
+    "InfoShort": "MUSIK,\u00A0 KONZERT\nLIVE-MUSIK OPEN AIR\nMEL*E\nPLATZKONZERTE 2026 | TIME\n\n\nTh\u00A013.8.2026\n8.30 pm\n\nPRICE\n\n\nEintritt frei\n\nPLACE\n\n\nHof |...",
+    "IcsFileName": "2026-08-13_WUK_MEL_E.ics"
+  },
+  {
+    "Venue": "WUK",
+    "Date": "2026-08-14",
+    "Artist": "MANUL",
+    "Info": "MUSIK,\u00A0 KONZERT\nLIVE-MUSIK OPEN AIR\nMANUL\nPLATZKONZERTE 2026 | TIME\n\n\nFr\u00A014.8.2026\n8.30 pm\n\nPRICE\n\n\nEintritt frei\n\nPLACE\n\n\nHof | Benannt nach der wildlebenden Pallas-Katze macht das Duo Manul Musik, die wie das Tier kompakt und gedrungen ist, voll Unberechenbarkeit und emotionaler N\u00E4he. Gitarrenriffs changieren zwischen sph\u00E4rischen Shoegaze und klaren Hookmelodien, die sich in noch so runde Ohren festsetzen. Die Drums folgen, mal mit schweren klaren Beats zum Anlehnen, um dann wieder mit verspielten Rhythmen genaue Melodien wiederzugeben um sich in wilde, aber pr\u00E4zise ausgef\u00FChrte Zoomies zu steigern.\u00A0\n\nDie Musik von Manul l\u00E4sst die Intimit\u00E4t und Freundschaft der zwei Performenden sp\u00FCren: Die Nummern verarbeiten Gef\u00FChle und Geschichten, das Leben als nachtaktive Einzelg\u00E4nger, eifers\u00FCchtige Liebhaber und Anpassungsdruck an die Umgebung. Teils mit, teils ohne Text, die Instrumente immer symbiotisch und solidarisch einander zugewandt.\u00A0\nWas bedeutet Manul? Wilder und ungez\u00E4hmter als Hauskatzenmusik \u2013 eine Raubkatze mit kurzen Beinen, aber langem Atem.\u00A0\n\nIm Fr\u00FChsommer 2024 erschien die erste selbstbetitelte EP \u201CDemo Tape\u201D, vorerst exklusiv auf Kassette, via No Expectation Records mit Release Konzerten am Queerzilla Festival, Wien sowie in Linz und Ostrava (CZ). | Holy Shit! Hier sind sie wieder die Platzkonzerte! Klare Kante, guter Ton! Heuer mit queerem Electro Trash Pop von POPSCH, anarcho New-Wave-Post-Punk von ROLLTREPPE und radikalem Free-Jazz-Hip-Hop von und zu KOENIGLOLLIPOP. Ratta Tatta Peng Peng! So knallen PALOMA 004 Indie-esk ins sommerfrische Gem\u00FCse, w\u00E4hrend GATAFIERA\u00A0mit funky Reggeaton-Riot Wadeln dort hinrichtet, wo sie hingeh\u00F6ren. Den Auftakt zum Radau zupft diesmal DER T\u00C4UBLING selbst und swingt den WUK-Hof prophylaktisch mit fidel misanthropem Dada-Tourette-Rap ein. H\u00F6rt, h\u00F6rt! So addiert sich das Programm aus musikalischen Rarit\u00E4ten der Sonderklasse wieder zu einem akustischen Feuerwerk, das die Ohrmuscheln proper poliert.\u00A0\n\nKuratiert wird das Programm im dritten Jahr vom Veranstaltungskollektiv BRUTTO\u00A0aka Rania Moslam, Lisa Kortschak und Gregor Mahnert, das bisher u.a. im brut Theater Eventreihen auf die B\u00FChne gebracht hat - immer mit dem Ziel, unterschiedliche k\u00FCnstlerische Formate, Zug\u00E4nge und Arbeitsweisen einander gegen\u00FCber zu stellten, miteinander zu konfrontierten und aneinander auszuprobieren. Nicht im Sinne eines beliebigen \u201EAnything goes\u201C, sondern als gewagtes Zusammendenken scheinbarer und tats\u00E4chlicher Gegens\u00E4tze.\u00A0\nDie Kuratur erfolgt heuer wieder als \u201ETeil des linken Musiker*innenratnetzwerks\u201C und denkt die Platzkonzerte als sommerlichen Treffpunkt f\u00FCr Musikinteressierte sowie als Ort f\u00FCr Austausch, Inspiration und solidarisches Kr\u00E4fte-Vereinen. | ",
+    "Link": "https://wuk.at/en/programm/manul/",
+    "Start": "2026-08-14T20:30:00",
+    "End": "2026-08-14T23:59:00",
+    "InfoShort": "MUSIK,\u00A0 KONZERT\nLIVE-MUSIK OPEN AIR\nMANUL\nPLATZKONZERTE 2026 | TIME\n\n\nFr\u00A014.8.2026\n8.30 pm\n\nPRICE\n\n\nEintritt frei\n\nPLACE\n\n\nHof |...",
+    "IcsFileName": "2026-08-14_WUK_MANUL.ics"
+  },
+  {
+    "Venue": "WUK",
+    "Date": "2026-08-18",
+    "Artist": "ROLLTREPPE",
+    "Info": "MUSIK,\u00A0 KONZERT\nLIVE-MUSIK OPEN AIR\nROLLTREPPE\nPLATZKONZERTE 2026 | TIME\n\n\nTu\u00A018.8.2026\n8.30 pm\n\nPRICE\n\n\nEintritt frei\n\nPLACE\n\n\nHof | Es geht bergab! Rolltreppe ist eine Wave Punk Band aus Wien. 2019 gegr\u00FCndet, orientiert sich Rolltreppe musikalisch an Hardcore und Post Punk, mit starken Einfl\u00FCssen aus New Wave und No Wave der 1980er Jahre. Mit einer treibenden Bass-Schlagzeug-Fraktion, noisigen Gitarrenriffs und energiegeladenen Vocals erzeugen die vier Musiker:innen einen tanzbaren Sound, der kaum ein Bein still stehen l\u00E4sst. Die deutsch- und englischsprachigen Texte handeln von Technologie, Baustellen, zu hohen Mieten und dem allt\u00E4glichen Leben im Kapitalismus.\u00A0\n\nRolltreppe hat 2020 ihr erstes Tape in Eigenregie ver\u00F6ffentlicht. Das Salzburger Label Bachelor Records hat dieses Deb\u00FCt knapp ein Jahr sp\u00E4ter auf Vinyl gepresst. 2024 ist die zweite EP-Kassette mit dem Titel \u201EEs geht bergab\u201C beim Wiener DIY Label Urban Lurk erschienen. | Holy Shit! Hier sind sie wieder die Platzkonzerte! Klare Kante, guter Ton! Heuer mit queerem Electro Trash Pop von POPSCH, anarcho New-Wave-Post-Punk von ROLLTREPPE und radikalem Free-Jazz-Hip-Hop von und zu KOENIGLOLLIPOP. Ratta Tatta Peng Peng! So knallen PALOMA 004 Indie-esk ins sommerfrische Gem\u00FCse, w\u00E4hrend GATAFIERA\u00A0mit funky Reggeaton-Riot Wadeln dort hinrichtet, wo sie hingeh\u00F6ren. Den Auftakt zum Radau zupft diesmal DER T\u00C4UBLING selbst und swingt den WUK-Hof prophylaktisch mit fidel misanthropem Dada-Tourette-Rap ein. H\u00F6rt, h\u00F6rt! So addiert sich das Programm aus musikalischen Rarit\u00E4ten der Sonderklasse wieder zu einem akustischen Feuerwerk, das die Ohrmuscheln proper poliert.\u00A0\n\nKuratiert wird das Programm im dritten Jahr vom Veranstaltungskollektiv BRUTTO\u00A0aka Rania Moslam, Lisa Kortschak und Gregor Mahnert, das bisher u.a. im brut Theater Eventreihen auf die B\u00FChne gebracht hat - immer mit dem Ziel, unterschiedliche k\u00FCnstlerische Formate, Zug\u00E4nge und Arbeitsweisen einander gegen\u00FCber zu stellten, miteinander zu konfrontierten und aneinander auszuprobieren. Nicht im Sinne eines beliebigen \u201EAnything goes\u201C, sondern als gewagtes Zusammendenken scheinbarer und tats\u00E4chlicher Gegens\u00E4tze.\u00A0\nDie Kuratur erfolgt heuer wieder als \u201ETeil des linken Musiker*innenratnetzwerks\u201C und denkt die Platzkonzerte als sommerlichen Treffpunkt f\u00FCr Musikinteressierte sowie als Ort f\u00FCr Austausch, Inspiration und solidarisches Kr\u00E4fte-Vereinen. | ",
+    "Link": "https://wuk.at/en/programm/rolltreppe/",
+    "Start": "2026-08-18T20:30:00",
+    "End": "2026-08-18T23:59:00",
+    "InfoShort": "MUSIK,\u00A0 KONZERT\nLIVE-MUSIK OPEN AIR\nROLLTREPPE\nPLATZKONZERTE 2026 | TIME\n\n\nTu\u00A018.8.2026\n8.30 pm\n\nPRICE\n\n\nEintritt frei\n\nPLACE\n\n\n...",
+    "IcsFileName": "2026-08-18_WUK_ROLLTREPPE.ics"
+  },
+  {
+    "Venue": "WUK",
+    "Date": "2026-08-19",
+    "Artist": "KOENIGLOLLIPOP",
+    "Info": "MUSIK,\u00A0 KONZERT\nLIVE-MUSIK OPEN AIR\nKOENIGLOLLIPOP\nPLATZKONZERTE 2026 | TIME\n\n\nWe\u00A019.8.2026\n8.30 pm\n\nPRICE\n\n\nEintritt frei\n\nPLACE\n\n\nHof | Koeniglollipop ist eine Band. Sie macht Musik, die ganz anders ist als alles, was du kennst! Lukas und Leo sind zwei Menschen. Sie machen schon viele Jahre zusammen Musik. Jetzt haben sie ein neues Projekt gestartet. Sie hei\u00DFen jetzt Koeniglollipop. Das ist ihr neuer Name!\n\nSie haben jetzt ein neues Album. Das ist eine Zusammenstellung von mehreren Liedern.\u2028Das Album hei\u00DFt \u201EPantheism at Praterstern\u201C. Es ist jetzt auf Vinyl erh\u00E4ltlich \u2013 das bedeutet, du kannst die Musik auf einer richtigen Schallplatte h\u00F6ren! Die Platte erscheint auf dem Label Ventil Records. Was sie spielen, ist eine Mischung aus vielen verschiedenen Dingen: Hip-Hop, Free Jazz und sogar ein bisschen Neue Musik. Sie benutzen viele verschiedene Instrumente \u2013 Klavier, Gitarre, Klarinette, Trompete, Schlagzeug und sogar einen Synthesizer, der komische Ger\u00E4usche macht! Und dann singen sie auch noch \u2013 manchmal lustige Sachen und manchmal ernstere Dinge \u00FCber die Welt und die Menschen (...). (koeniglollipop) | Holy Shit! Hier sind sie wieder die Platzkonzerte! Klare Kante, guter Ton! Heuer mit queerem Electro Trash Pop von POPSCH, anarcho New-Wave-Post-Punk von ROLLTREPPE und radikalem Free-Jazz-Hip-Hop von und zu KOENIGLOLLIPOP. Ratta Tatta Peng Peng! So knallen PALOMA 004 Indie-esk ins sommerfrische Gem\u00FCse, w\u00E4hrend GATAFIERA\u00A0mit funky Reggeaton-Riot Wadeln dort hinrichtet, wo sie hingeh\u00F6ren. Den Auftakt zum Radau zupft diesmal DER T\u00C4UBLING selbst und swingt den WUK-Hof prophylaktisch mit fidel misanthropem Dada-Tourette-Rap ein. H\u00F6rt, h\u00F6rt! So addiert sich das Programm aus musikalischen Rarit\u00E4ten der Sonderklasse wieder zu einem akustischen Feuerwerk, das die Ohrmuscheln proper poliert.\u00A0\n\nKuratiert wird das Programm im dritten Jahr vom Veranstaltungskollektiv BRUTTO\u00A0aka Rania Moslam, Lisa Kortschak und Gregor Mahnert, das bisher u.a. im brut Theater Eventreihen auf die B\u00FChne gebracht hat - immer mit dem Ziel, unterschiedliche k\u00FCnstlerische Formate, Zug\u00E4nge und Arbeitsweisen einander gegen\u00FCber zu stellten, miteinander zu konfrontierten und aneinander auszuprobieren. Nicht im Sinne eines beliebigen \u201EAnything goes\u201C, sondern als gewagtes Zusammendenken scheinbarer und tats\u00E4chlicher Gegens\u00E4tze.\u00A0\nDie Kuratur erfolgt heuer wieder als \u201ETeil des linken Musiker*innenratnetzwerks\u201C und denkt die Platzkonzerte als sommerlichen Treffpunkt f\u00FCr Musikinteressierte sowie als Ort f\u00FCr Austausch, Inspiration und solidarisches Kr\u00E4fte-Vereinen. | ",
+    "Link": "https://wuk.at/en/programm/koeniglollipop/",
+    "Start": "2026-08-19T20:30:00",
+    "End": "2026-08-19T23:59:00",
+    "InfoShort": "MUSIK,\u00A0 KONZERT\nLIVE-MUSIK OPEN AIR\nKOENIGLOLLIPOP\nPLATZKONZERTE 2026 | TIME\n\n\nWe\u00A019.8.2026\n8.30 pm\n\nPRICE\n\n\nEintritt frei\n\nPLAC...",
+    "IcsFileName": "2026-08-19_WUK_KOENIGLOLLIPOP.ics"
+  },
+  {
+    "Venue": "WUK",
+    "Date": "2026-08-20",
+    "Artist": "BULL NAKANO",
+    "Info": "MUSIK,\u00A0 KONZERT\nLIVE-MUSIK OPEN AIR\nBULL NAKANO\nPLATZKONZERTE 2026 | TIME\n\n\nTh\u00A020.8.2026\n8.30 pm\n\nPRICE\n\n\nEintritt frei\n\nPLACE\n\n\nHof | Bull Nakano haben seit ihrem Deb\u00FCt 2025 einen Nerv getroffen. Wie sonst l\u00E4sst sich erkl\u00E4ren, dass sie neben den g\u00E4ngigen Punkb\u00FChnen auch Events wie das Silweety oder den Rundgang der Akademie der bildenden K\u00FCnste bespielen und da wie dort mit einer charmanten Selbstverst\u00E4ndlichkeit alles niederrei\u00DFen. Benannt nach der japanischen Wrestlerin hat sich die hochkar\u00E4tig besetzte Band zusammengefunden um einen Sound zwischen aggressiven Riffs, grooviger Rhythmuspartie und mitrei\u00DFend emotionalen Vocals auszuloten. Das treibt sowohl alteingesessene Hardcore-Traditionalist*innen als auch Nicht-Genre-Fans auf den Dancefloor wie K\u00FChe auf die Alm und macht vor allem ihre Live Shows zu einem ekstatischen Erlebnis. Ab hier gibt es kein Zur\u00FCck, denn wie es schon in dem Soundbite am Anfang ihres Demo Tapes hei\u00DFt: \u0022Bull Nakano means Business!\u201D | Holy Shit! Hier sind sie wieder die Platzkonzerte! Klare Kante, guter Ton! Heuer mit queerem Electro Trash Pop von POPSCH, anarcho New-Wave-Post-Punk von ROLLTREPPE und radikalem Free-Jazz-Hip-Hop von und zu KOENIGLOLLIPOP. Ratta Tatta Peng Peng! So knallen PALOMA 004 Indie-esk ins sommerfrische Gem\u00FCse, w\u00E4hrend GATAFIERA\u00A0mit funky Reggeaton-Riot Wadeln dort hinrichtet, wo sie hingeh\u00F6ren. Den Auftakt zum Radau zupft diesmal DER T\u00C4UBLING selbst und swingt den WUK-Hof prophylaktisch mit fidel misanthropem Dada-Tourette-Rap ein. H\u00F6rt, h\u00F6rt! So addiert sich das Programm aus musikalischen Rarit\u00E4ten der Sonderklasse wieder zu einem akustischen Feuerwerk, das die Ohrmuscheln proper poliert.\u00A0\n\nKuratiert wird das Programm im dritten Jahr vom Veranstaltungskollektiv BRUTTO\u00A0aka Rania Moslam, Lisa Kortschak und Gregor Mahnert, das bisher u.a. im brut Theater Eventreihen auf die B\u00FChne gebracht hat - immer mit dem Ziel, unterschiedliche k\u00FCnstlerische Formate, Zug\u00E4nge und Arbeitsweisen einander gegen\u00FCber zu stellten, miteinander zu konfrontierten und aneinander auszuprobieren. Nicht im Sinne eines beliebigen \u201EAnything goes\u201C, sondern als gewagtes Zusammendenken scheinbarer und tats\u00E4chlicher Gegens\u00E4tze.\u00A0\nDie Kuratur erfolgt heuer wieder als \u201ETeil des linken Musiker*innenratnetzwerks\u201C und denkt die Platzkonzerte als sommerlichen Treffpunkt f\u00FCr Musikinteressierte sowie als Ort f\u00FCr Austausch, Inspiration und solidarisches Kr\u00E4fte-Vereinen. | ",
+    "Link": "https://wuk.at/en/programm/bull-nakano/",
+    "Start": "2026-08-20T20:30:00",
+    "End": "2026-08-20T23:59:00",
+    "InfoShort": "MUSIK,\u00A0 KONZERT\nLIVE-MUSIK OPEN AIR\nBULL NAKANO\nPLATZKONZERTE 2026 | TIME\n\n\nTh\u00A020.8.2026\n8.30 pm\n\nPRICE\n\n\nEintritt frei\n\nPLACE\n\n...",
+    "IcsFileName": "2026-08-20_WUK_BULL_NAKANO.ics"
+  },
+  {
+    "Venue": "WUK",
+    "Date": "2026-08-25",
+    "Artist": "GATAFIERA",
+    "Info": "MUSIK,\u00A0 KONZERT\nLIVE-MUSIK OPEN AIR\nGATAFIERA\nPLATZKONZERTE 2026 | TIME\n\n\nTu\u00A025.8.2026\n8.30 pm\n\nPRICE\n\n\nEintritt frei\n\nPLACE\n\n\nHof | GATAFIERA ist ein in Wien ans\u00E4ssiges Latinx-Duo, bestehend aus den queeren trans K\u00FCnstler*innen Hoes\u00E9 und Lu\u00ED Matias dos Santos. Mit ihren peruanischen und brasilianischen Wurzeln haben sie ein transformatives Musikprojekt geschaffen, das Reggaeton und Baile Funk mit Elementen aus Drum \u2018n\u2019 Bass, Rock und Ballroom zu einem energiegeladenen, emotional tiefgehenden Sound. Ihre Musik ist zugleich tanzbar und politisch: Ein kraftvolles Statement f\u00FCr Repr\u00E4sentation, Befreiung und queere Selbsterm\u00E4chtigung.\n\nIm April 2024 ver\u00F6ffentlichten GATAFIERA ihre Deb\u00FCtsingle \u201EPerreo Deculonizado\u201C. Ein Jahr sp\u00E4ter folgte ihr Deb\u00FCtalbum SUDACA ATACA, das einen wichtigen Meilenstein ihrer Karriere markierte. Seither spielten sie zahlreiche Shows in Wien sowie erste internationale Auftritte in Deutschland, Frankreich, Belgien und Italien.\u00A0 | Holy Shit! Hier sind sie wieder die Platzkonzerte! Klare Kante, guter Ton! Heuer mit queerem Electro Trash Pop von POPSCH, anarcho New-Wave-Post-Punk von ROLLTREPPE und radikalem Free-Jazz-Hip-Hop von und zu KOENIGLOLLIPOP. Ratta Tatta Peng Peng! So knallen PALOMA 004 Indie-esk ins sommerfrische Gem\u00FCse, w\u00E4hrend GATAFIERA\u00A0mit funky Reggeaton-Riot Wadeln dort hinrichtet, wo sie hingeh\u00F6ren. Den Auftakt zum Radau zupft diesmal DER T\u00C4UBLING selbst und swingt den WUK-Hof prophylaktisch mit fidel misanthropem Dada-Tourette-Rap ein. H\u00F6rt, h\u00F6rt! So addiert sich das Programm aus musikalischen Rarit\u00E4ten der Sonderklasse wieder zu einem akustischen Feuerwerk, das die Ohrmuscheln proper poliert.\u00A0\n\nKuratiert wird das Programm im dritten Jahr vom Veranstaltungskollektiv BRUTTO\u00A0aka Rania Moslam, Lisa Kortschak und Gregor Mahnert, das bisher u.a. im brut Theater Eventreihen auf die B\u00FChne gebracht hat - immer mit dem Ziel, unterschiedliche k\u00FCnstlerische Formate, Zug\u00E4nge und Arbeitsweisen einander gegen\u00FCber zu stellten, miteinander zu konfrontierten und aneinander auszuprobieren. Nicht im Sinne eines beliebigen \u201EAnything goes\u201C, sondern als gewagtes Zusammendenken scheinbarer und tats\u00E4chlicher Gegens\u00E4tze.\u00A0\nDie Kuratur erfolgt heuer wieder als \u201ETeil des linken Musiker*innenratnetzwerks\u201C und denkt die Platzkonzerte als sommerlichen Treffpunkt f\u00FCr Musikinteressierte sowie als Ort f\u00FCr Austausch, Inspiration und solidarisches Kr\u00E4fte-Vereinen. | ",
+    "Link": "https://wuk.at/en/programm/gatafiera/",
+    "Start": "2026-08-25T20:30:00",
+    "End": "2026-08-25T23:59:00",
+    "InfoShort": "MUSIK,\u00A0 KONZERT\nLIVE-MUSIK OPEN AIR\nGATAFIERA\nPLATZKONZERTE 2026 | TIME\n\n\nTu\u00A025.8.2026\n8.30 pm\n\nPRICE\n\n\nEintritt frei\n\nPLACE\n\n\nH...",
+    "IcsFileName": "2026-08-25_WUK_GATAFIERA.ics"
+  },
+  {
+    "Venue": "WUK",
+    "Date": "2026-08-26",
+    "Artist": "SYNESTHETIC IVO",
+    "Info": "MUSIK,\u00A0 KONZERT\nLIVE-MUSIK OPEN AIR\nSYNESTHETIC IVO\nPLATZKONZERTE 2026 | TIME\n\n\nWe\u00A026.8.2026\n8.30 pm\n\nPRICE\n\n\nEintritt frei\n\nPLACE\n\n\nHof | Hinter der exzentrischen Kunstfigur Synesthetic IVO steckt der \u00F6sterreichische Musiker und Komponist Vincent Pongr\u00E1cz. Dadaistische Rap Texte und modifizierte W\u00F6rter die einen modernen musikalischen Nihilismus auf humorvolle und eigenwillige Weise feiern, sind Synesthetic IVO\u2019s Markenzeichen. Mit Konsequenz erschafft der Musiker ein audiovisuelles Kunstwerk zwischen David Lynch, J-Dilla, Fear and Loathing in Las Vegas und Dadaismus.\n\nIn seinem Deb\u00FCtalbum 1V0 und dem dazugeh\u00F6rigen Musikvideo YHLD \u00F6ffnet er eine T\u00FCre zu zeitgen\u00F6ssischem Avantgarde Hip-Hop die auch bei seinen Konzerten weit offen bleibt. Das dritte Album Hallo erscheint im Herbst 2027. Ernsthaft aber humorvoll- Diese musikalische Mischung spiegelt die avantgardistische Wiener Subkultur auf eine absurde und ausgefallene Art wider. | Holy Shit! Hier sind sie wieder die Platzkonzerte! Klare Kante, guter Ton! Heuer mit queerem Electro Trash Pop von POPSCH, anarcho New-Wave-Post-Punk von ROLLTREPPE und radikalem Free-Jazz-Hip-Hop von und zu KOENIGLOLLIPOP. Ratta Tatta Peng Peng! So knallen PALOMA 004 Indie-esk ins sommerfrische Gem\u00FCse, w\u00E4hrend GATAFIERA\u00A0mit funky Reggeaton-Riot Wadeln dort hinrichtet, wo sie hingeh\u00F6ren. Den Auftakt zum Radau zupft diesmal DER T\u00C4UBLING selbst und swingt den WUK-Hof prophylaktisch mit fidel misanthropem Dada-Tourette-Rap ein. H\u00F6rt, h\u00F6rt! So addiert sich das Programm aus musikalischen Rarit\u00E4ten der Sonderklasse wieder zu einem akustischen Feuerwerk, das die Ohrmuscheln proper poliert.\u00A0\n\nKuratiert wird das Programm im dritten Jahr vom Veranstaltungskollektiv BRUTTO\u00A0aka Rania Moslam, Lisa Kortschak und Gregor Mahnert, das bisher u.a. im brut Theater Eventreihen auf die B\u00FChne gebracht hat - immer mit dem Ziel, unterschiedliche k\u00FCnstlerische Formate, Zug\u00E4nge und Arbeitsweisen einander gegen\u00FCber zu stellten, miteinander zu konfrontierten und aneinander auszuprobieren. Nicht im Sinne eines beliebigen \u201EAnything goes\u201C, sondern als gewagtes Zusammendenken scheinbarer und tats\u00E4chlicher Gegens\u00E4tze.\u00A0\nDie Kuratur erfolgt heuer wieder als \u201ETeil des linken Musiker*innenratnetzwerks\u201C und denkt die Platzkonzerte als sommerlichen Treffpunkt f\u00FCr Musikinteressierte sowie als Ort f\u00FCr Austausch, Inspiration und solidarisches Kr\u00E4fte-Vereinen. | ",
+    "Link": "https://wuk.at/en/programm/synesthetic-ivo/",
+    "Start": "2026-08-26T20:30:00",
+    "End": "2026-08-26T23:59:00",
+    "InfoShort": "MUSIK,\u00A0 KONZERT\nLIVE-MUSIK OPEN AIR\nSYNESTHETIC IVO\nPLATZKONZERTE 2026 | TIME\n\n\nWe\u00A026.8.2026\n8.30 pm\n\nPRICE\n\n\nEintritt frei\n\nPLA...",
+    "IcsFileName": "2026-08-26_WUK_SYNESTHETIC_IVO.ics"
+  },
+  {
+    "Venue": "WUK",
+    "Date": "2026-08-27",
+    "Artist": "POPSCH",
+    "Info": "MUSIK,\u00A0 KONZERT\nLIVE-MUSIK OPEN AIR\nPOPSCH\nPLATZKONZERTE 2026 | TIME\n\n\nTh\u00A027.8.2026\n8.30 pm\n\nPRICE\n\n\nEintritt frei\n\nPLACE\n\n\nHof | H\u00E4tten Peaches und Kim Wilde ein Kind, es w\u00FCrde POPSCH hei\u00DFen! Diese Band ist Kult- Elektro trifft Glitzer, schamlos eing\u00E4ngigen Elektro-Pop und 80er Charme. Damit gelingt es POPSCH seit vielen Jahren eine Br\u00FCcke zwischen Clubkultur und politischem Aktivismus zu schlagen. Ihr neues Album \u201EGayPropaganda\u0022 tritt als ein kraftvolles queeres Statement gegen homophobe Attacken, Konformit\u00E4t und f\u00FCr Sichtbarkeit ein. Das Werk vereint bisher unver\u00F6ffentlichte Dauerbrenner mit einer Reihe neuer Elektro-Pop-Hits. Die Songs des Albums sind schrill, eing\u00E4ngig und politisch zugleich. Zwischen tanzbaren Beats, ironischen Texten und hymnischen Refrains entsteht eine queere Welt, die zum Mitschreien gemacht ist. Immer als Einladung zum Feiern und gleichzeitig als ein klares Zeichen gegen Wegschau-Mentalit\u00E4ten und Diskriminierung. | Holy Shit! Hier sind sie wieder die Platzkonzerte! Klare Kante, guter Ton! Heuer mit queerem Electro Trash Pop von POPSCH, anarcho New-Wave-Post-Punk von ROLLTREPPE und radikalem Free-Jazz-Hip-Hop von und zu KOENIGLOLLIPOP. Ratta Tatta Peng Peng! So knallen PALOMA 004 Indie-esk ins sommerfrische Gem\u00FCse, w\u00E4hrend GATAFIERA\u00A0mit funky Reggeaton-Riot Wadeln dort hinrichtet, wo sie hingeh\u00F6ren. Den Auftakt zum Radau zupft diesmal DER T\u00C4UBLING selbst und swingt den WUK-Hof prophylaktisch mit fidel misanthropem Dada-Tourette-Rap ein. H\u00F6rt, h\u00F6rt! So addiert sich das Programm aus musikalischen Rarit\u00E4ten der Sonderklasse wieder zu einem akustischen Feuerwerk, das die Ohrmuscheln proper poliert.\u00A0\n\nKuratiert wird das Programm im dritten Jahr vom Veranstaltungskollektiv BRUTTO\u00A0aka Rania Moslam, Lisa Kortschak und Gregor Mahnert, das bisher u.a. im brut Theater Eventreihen auf die B\u00FChne gebracht hat - immer mit dem Ziel, unterschiedliche k\u00FCnstlerische Formate, Zug\u00E4nge und Arbeitsweisen einander gegen\u00FCber zu stellten, miteinander zu konfrontierten und aneinander auszuprobieren. Nicht im Sinne eines beliebigen \u201EAnything goes\u201C, sondern als gewagtes Zusammendenken scheinbarer und tats\u00E4chlicher Gegens\u00E4tze.\u00A0\nDie Kuratur erfolgt heuer wieder als \u201ETeil des linken Musiker*innenratnetzwerks\u201C und denkt die Platzkonzerte als sommerlichen Treffpunkt f\u00FCr Musikinteressierte sowie als Ort f\u00FCr Austausch, Inspiration und solidarisches Kr\u00E4fte-Vereinen. | ",
+    "Link": "https://wuk.at/en/programm/popsch/",
+    "Start": "2026-08-27T20:30:00",
+    "End": "2026-08-27T23:59:00",
+    "InfoShort": "MUSIK,\u00A0 KONZERT\nLIVE-MUSIK OPEN AIR\nPOPSCH\nPLATZKONZERTE 2026 | TIME\n\n\nTh\u00A027.8.2026\n8.30 pm\n\nPRICE\n\n\nEintritt frei\n\nPLACE\n\n\nHof ...",
+    "IcsFileName": "2026-08-27_WUK_POPSCH.ics"
+  },
+  {
+    "Venue": "WUK",
+    "Date": "2026-08-29",
+    "Artist": "THE WHITE BUFFALO",
+    "Info": "MUSIK,\u00A0 KONZERT\nTHE WHITE BUFFALO | TIME\n\n\nSa\u00A029.8.2026\n8.00 pm\n\nPRICE\n\n\n\u20AC 36,96\n\nPLACE\n\n\nSaal\n\nGATE\n\n\nC | Jake Smith, auch bekannt als The White Buffalo, hat sich in den vergangenen 20 Jahren als angesehener Countryfolkmusiker und Songwriter etabliert. Zu seinem Werk geh\u00F6ren prominente Song- und Soundtrack-Platzierungen in der Welt des Fernsehens und Films, darunter die TV-Serien Sons Of Anarchy, This Is Us, Californication, The Punisher oder The Terminal List. Besonders die zahlreichen Soundtrack Beitr\u00E4ge zu der US Kult TV Serie Sons of Anarchy machten ihn bei uns bekannt. Allen voran dank des Songs ,,Come Join The Murder\u201C, welcher das Serienfinale musikalisch untermalt und sogar f\u00FCr einen \u201EEmmy\u201C nominiert wurde. NPRs \u201EAll Songs Considered\u201C bejubelte The White Buffalo als \u201Eerstaunlichen Geschichtenerz\u00E4hler\u201C, w\u00E4hrend das Magazin Classic Rock ihn zum \u201Ed\u00FCstersten Country-/Blues-Export Amerikas\u201C erkl\u00E4rte.\n\nSein j\u00FCngstes Studioalbum \u201EYear of the Dark Horse\u201C ver\u00F6ffentlichte The White Buffalo 2022 \u00FCber Snakefarm, Bassist und Keyboarder Christopher Hoffee und Schlagzeuger Matt Lynott begleiteten ihn bei den Aufnahmen zu \u201EYear of the Dark Horse\u201C im Neon Cross Studio in East Nashville. Acht Studioalben, drei EPs, sowie ein Live-Album stehen in der Diskografie. Das Live-Album \u201CA Freight Train Through the Night\u201D gab Smith die M\u00F6glichkeit auf 20 Jahre musikalischen Schaffens zur\u00FCckzublicken und Publikumslieblinge und Deep Cuts im Livegewand zu pr\u00E4sentieren. Die Emotionen und die Leidenschaft des Live-Erlebnisses soll \u201CA Freight Train Through the Night\u201C unterstreichen, Smith betont: \u201EWas wir live machen, ist v\u00F6llig anders als Studioalben. Pur und roh, keine Backing-Tracks, kein Auto-Tune und nicht perfekt, wir drei geben alles, wir in unserer reinsten Form.\u201C\n\nMit diesem ebenso klassischen wie frischen Ansatz sollten The White Buffalo Fans von Tom Waits, Nick Cave, Johnny Cash bis Tool, Rock\u2019n\u2019Roll der Sixties oder dem Dark-Noir-Western-Sound in Quentin Tarantino-Filmen begeistern k\u00F6nnen. | Barrierefrei f\u00FCr Rollstuhlfahrer_innen \u2013 um Anmeldung wird gebeten.\nVeranstalter: Barracuda Music GmbH | ",
+    "Link": "https://wuk.at/en/programm/the-white-buffalo/",
+    "Start": "2026-08-29T20:00:00",
+    "End": "2026-08-29T23:59:00",
+    "InfoShort": "MUSIK,\u00A0 KONZERT\nTHE WHITE BUFFALO | TIME\n\n\nSa\u00A029.8.2026\n8.00 pm\n\nPRICE\n\n\n\u20AC 36,96\n\nPLACE\n\n\nSaal\n\nGATE\n\n\nC | Jake Smith, auch beka...",
+    "IcsFileName": "2026-08-29_WUK_THE_WHITE_BUFFALO.ics"
   }
 ]
