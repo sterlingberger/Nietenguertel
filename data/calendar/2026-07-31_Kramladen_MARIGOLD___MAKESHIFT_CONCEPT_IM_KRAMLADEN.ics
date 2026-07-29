@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260731-Kramladen-MARIGOLD-+-MAKESHIFT-CONCEPT-IM-KRAMLADEN@eventcrawler
-DTSTAMP:20260728T084657Z
+DTSTAMP:20260729T085308Z
 DTSTART:20260731T193000
 DTEND:20260731T235900
 SUMMARY:MARIGOLD + MAKESHIFT CONCEPT IM KRAMLADEN (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Marigold und makeshift concept spielen Deren erste...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1623511728728627.webp?v=1785223834213
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1623511728728627.webp?v=1785310953085
 END:VEVENT
 END:VCALENDAR
