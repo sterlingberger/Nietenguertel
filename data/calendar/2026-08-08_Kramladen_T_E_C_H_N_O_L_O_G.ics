@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260808-Kramladen-T-E-C-H-N-O-L-O-G@eventcrawler
-DTSTAMP:20260729T085308Z
+DTSTAMP:20260730T083933Z
 DTSTART:20260808T234500
 DTEND:20260808T235900
 SUMMARY:T E C H N O L O G (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:>> www.technolog.wtf << >> https://soundcloud.com/t...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1546402073640270.webp?v=1785310953089
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1546402073640270.webp?v=1785393253612
 END:VEVENT
 END:VCALENDAR

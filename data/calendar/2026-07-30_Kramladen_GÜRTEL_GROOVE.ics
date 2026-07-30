@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260730-Kramladen-GÜRTEL-GROOVE@eventcrawler
-DTSTAMP:20260729T085308Z
+DTSTAMP:20260730T083933Z
 DTSTART:20260730T224500
 DTEND:20260730T235900
 SUMMARY:GÜRTEL GROOVE (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Hypnotic Techno Free entry 
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1602563954738338.webp?v=1785310953084
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1602563954738338.webp?v=1785393253607
 END:VEVENT
 END:VCALENDAR
