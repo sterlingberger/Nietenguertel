@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260801-Kramladen-SPECTRAL-W/-NOCTURNA@eventcrawler
-DTSTAMP:20260730T083933Z
+DTSTAMP:20260731T090027Z
 DTSTART:20260801T233000
 DTEND:20260801T235900
 SUMMARY:SPECTRAL W/ NOCTURNA (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:NOCTURNA GOES INTO ROUND TWO  After an incredible f...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1763306784852415.webp?v=1785393253610
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1763306784852415.webp?v=1785484323698
 END:VEVENT
 END:VCALENDAR
