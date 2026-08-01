@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260911-Chelsea-MEEZER@eventcrawler
+DTSTAMP:20260801T083141Z
+DTSTART:20260911T180000
+DTEND:20260911T235900
+SUMMARY:MEEZER (Uhrzeit prüfen)
+LOCATION:Chelsea
+DESCRIPTION: MEEZER besteht aus Mitgliedern renommierter Bands der heimischen Musikszene\, die ihrer gemeinsamen Lieblingsband\, WEEZER\, Tribut zollen. Anlässlich des 30-jährigen Jubiläums von Weezers legendärem Debütalbum\, dem heute als „Blue Album“ bekannten Erstlingswerk\, brachte MEEZER 2024 das Album in seiner Gesamtheit live auf die Bühne.  Nun widmet sich die Band dem nächsten Meilenstein der Weezer-Diskografie: Zum 30. Geburtstag des Nachfolgealbums „Pinkerton“ wird auch dieses Meisterwerk live zelebriert – mit viel Liebe zum Detail\, echter Begeisterung und dem Respekt\, den diese Songs verdienen.    Meezer is:  g/v - Pudl (James Choice & the Bad Desicions/Schmusechor)  g/v - Candy (the Incredible Staggers/Antimaniax/Candy Beat Camp u.v.m.)  b/v - Bernie (Astpai/Dirty Talons)  d/v - Mike (DeeCracks/Jagger Holly)    www.facebook.com/sayitaintmeezer  www.instagram.com/sayitaintmeezer
+URL:https://www.chelsea.co.at/concerts.php#concert_6631
+END:VEVENT
+END:VCALENDAR
