@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260922-Viper-Room-Live:-TENSIDE-&-AURORAWAVE@eventcrawler
+DTSTAMP:20260802T083442Z
+DTSTART:20260922T190000
+DTEND:20260922T235900
+SUMMARY:Live: TENSIDE & AURORAWAVE (Uhrzeit prüfen)
+LOCATION:Viper Room
+DESCRIPTION: TENSIDE & AURORAWAVE gemeinsam auf Tour: am 22.09. im Viper Room. TICKETS gibt es ab sofort über www.oeticket.com  
+URL:https://www.viper-room.at/events/live-tenside-aurorawave
+END:VEVENT
+END:VCALENDAR
