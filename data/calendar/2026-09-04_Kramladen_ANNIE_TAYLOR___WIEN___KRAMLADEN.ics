@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260904-Kramladen-ANNIE-TAYLOR-•-WIEN-•-KRAMLADEN@eventcrawler
-DTSTAMP:20260802T083442Z
+DTSTAMP:20260803T095924Z
 DTSTART:20260904T200000
 DTEND:20260904T235900
 SUMMARY:ANNIE TAYLOR • WIEN • KRAMLADEN (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Annie Taylor  "OUT OF SCALE" Tour 2026  09.04.2026 • W...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1250505743293563.webp?v=1785572849996
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1250505743293563.webp?v=1785739238787
 END:VEVENT
 END:VCALENDAR

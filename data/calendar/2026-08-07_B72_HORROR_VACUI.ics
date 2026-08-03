@@ -2,13 +2,13 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
-UID:20260807-Venster99-Venster99-goes-Arena-Bierwoche@eventcrawler
+UID:20260807-B72-HORROR-VACUI@eventcrawler
 DTSTAMP:20260803T095924Z
 DTSTART:20260807T180000
 DTEND:20260807T235900
-SUMMARY:Venster99 goes Arena Bierwoche (Uhrzeit prüfen)
-LOCATION:Venster99
+SUMMARY:HORROR VACUI (Uhrzeit prüfen)
+LOCATION:B72
 DESCRIPTION:
-URL:http://www.facebook.com/arenabeisl.erdberg
+URL:https://www.b72.at//program/10426/Horror_Vacui
 END:VEVENT
 END:VCALENDAR
