@@ -694,6 +694,17 @@
   },
   {
     "Venue": "Viper Room",
+    "Date": "2026-09-18",
+    "Artist": "LEWENDI",
+    "Info": "\n MITTELALTER/IRISH  ROCK/PAGAN/METAL  CLASSICS \nWir laden zum Lewendi \u2013 The Next Generation! Es wird ab dem Jahr 2026 abwechselnd Gast-DJs geben, die schon darauf brennen, euch auf der Tanzfl\u00E4che einzuheizen! Somit wollen wir nach zehn Jahren etwas mehr musikalische Abwechslung bzw. frischen Wind ins Lewendi bringen, um euch weiterhin die wildeste Mittelalter-Metal-Party in noch besserer Qualit\u00E4t bieten zu k\u00F6nnen!\n\nHierzu gibt es neben dem Resident-DJ Vagabund nun abwechselnd neue Energie bzw. musikalische Einfl\u00FCsse von DJ Flutterby (Veitstanz, Nerd Alert) und DJ Cunthulhu (Breakdown).\nDJ Flutterby wird im J\u00E4nner, Mai und September 2026 auftreten.\nDJ Cunthulhu wird im M\u00E4rz, Juli und November 2026 auftreten.\n\n\n MITTELALTER/IRISH sounds like \nCorvus Corax, dArtagnan, Dropkick Murphys, Faun, Feuerschwanz, Flogging Molly, Helium Vola, In Extremo, Letzte Instanz, Mr. Hurley \u0026 die Pulveraffen, Saltatio Mortis, Schandmaul, Subway To Sally, The Rumjacks, Versengold, Vogelfrey\n\n\n ROCK/PAGAN/METAL sounds like \nAlestorm, Arkona, Danheim, Disturbed, Electric Callboy, Eluveitie, Ensiferum, Equilibrium, Finntroll, H\u00E4matom, Hedningarna, Heilung, Heldmaschine, Korpiklaani, Machine Head, Marilyn Manson, Megaherz, Metallica, Nanowar of Steel, Nightwish, Nine Inch Nails, Oomph!, Rage Against The Machine, System Of A Down\n\n\n CLASSICS sounds like \nAnd One, ASP, Covenant, Deine Lakaien, Eisenfunk, Infected Mushrooms, Pendulum, Santiano, The Prodigy, VNV Nation\n\n\n\n HARD FACTS \nDJs:\nVagabund (Resident)\nFlutterby (Veitstanz)\nEintritt:\n\u20AC8,- \u003C 23:00 \u003E \u20AC10,-\n\n",
+    "Link": "https://www.viper-room.at/events/lewendi-0926",
+    "Start": "2026-09-18T22:00:00",
+    "End": "2026-09-18T23:59:00",
+    "InfoShort": "\n MITTELALTER/IRISH  ROCK/PAGAN/METAL  CLASSICS \nWir laden zum Lewendi \u2013 The Next Generation! Es wird ab dem Jahr 2026 abwechsel...",
+    "IcsFileName": "2026-09-18_Viper_Room_LEWENDI.ics"
+  },
+  {
+    "Venue": "Viper Room",
     "Date": "2026-09-19",
     "Artist": "BREAKDOWN",
     "Info": "\nBREAKDOWN \u2013 die Emo-, Nu Metal \u0026 Metalcore Night im Viper Room\n\nDJs: Cunthulhu, Teenage Anarchist \u0026 Iguana\n\nSounds Like:\nAlien Ant Farm, All That Remains, Architects, As I Lay Dying, Atreyu, August Burns Red, Avenged Sevenfold, Beartooth, Billy Talent, Bring Me The Horizon, Coal Chamber, Crazy Town, Deftones, Disturbed, Drowning Pool, Fallout Boy, Falling In Reverse, Five Finger Deathpunch, Good Charlotte, Heaven Shall Burn, Korn, Lamb Of God, Limp Bizkit, Linkin Park, Marilyn Manson, Motionless In White, Mudvayne, Muse, Mushroomhead, My Chemical Romance, Northlane, P.O.D, Panic At The Disco, Papa Roach, Paramore, Parkway Drive, Rage Against The Machine, Rob Zombie, Skindred, Slipknot, Soulfly, Static X, System of a Down, The Ghost Inside, The Used, Trivium, Underoath, Unearth und viele mehr!\n\nEintritt: 8\u20AC\nBerliner Luft Special: 2,60\u20AC\n\n",
@@ -1046,17 +1057,6 @@
   },
   {
     "Venue": "Cafe Carina",
-    "Date": "2026-08-03",
-    "Artist": "SOMMER PAUSE",
-    "Info": "SOMMER PAUSE\n\u00A0geschlossen\n\n\u00A0",
-    "Link": "https://www.cafe-carina.at/2020/events/sonntag-ruhetag-715-333-970-496-766-848/",
-    "Start": "2026-08-03T18:00:00",
-    "End": "2026-08-03T23:59:00",
-    "InfoShort": "SOMMER PAUSE\n\u00A0geschlossen\n\n\u00A0",
-    "IcsFileName": "2026-08-03_Cafe_Carina_SOMMER_PAUSE.ics"
-  },
-  {
-    "Venue": "Cafe Carina",
     "Date": "2026-08-04",
     "Artist": "SOMMER PAUSE",
     "Info": "SOMMER PAUSE\n\u00A0geschlossen\n\n\u00A0",
@@ -1175,6 +1175,17 @@
     "End": "2026-08-14T23:59:00",
     "InfoShort": "SOMMER PAUSE\n\u00A0geschlossen\n\n\u00A0",
     "IcsFileName": "2026-08-14_Cafe_Carina_SOMMER_PAUSE.ics"
+  },
+  {
+    "Venue": "Cafe Carina",
+    "Date": "2026-08-15",
+    "Artist": "SOMMER PAUSE",
+    "Info": "SOMMER PAUSE\n\u00A0geschlossen\n\n\u00A0",
+    "Link": "https://www.cafe-carina.at/2020/events/sonntag-ruhetag-715-333-970-496-766-848/",
+    "Start": "2026-08-15T18:00:00",
+    "End": "2026-08-15T23:59:00",
+    "InfoShort": "SOMMER PAUSE\n\u00A0geschlossen\n\n\u00A0",
+    "IcsFileName": "2026-08-15_Cafe_Carina_SOMMER_PAUSE.ics"
   },
   {
     "Venue": "Flucc",
