@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260905-Flucc-LIVE:-On-Company-Time-(OCT)@eventcrawler
+DTSTAMP:20260813T074830Z
+DTSTART:20260905T190000
+DTEND:20260905T220000
+SUMMARY:LIVE: On Company Time (OCT) (Uhrzeit prüfen)
+LOCATION:Flucc
+DESCRIPTION:@WANNE | 19:00h Doors 20:00h Concerts OCT (On Company Time) is a musical comedy trio blending sharp satire with chart-worthy bangers. Known for viral hits like “Don’t Touch My Clogs” and “Half Horse\, Half Man\,” they combine high-concept storytelling with absurdist humor and genre-hopping production. With over 25 million streams and a growing cult following\, OCT is redefining what it means to be a band in the digital age. Their live shows feel like a concert\, comedy special\, and fever dream all in one. 29\,99€ VVK 
+URL:https://flucc.at/events/QovgJQ-live-on-company-time-oct/
+END:VEVENT
+END:VCALENDAR

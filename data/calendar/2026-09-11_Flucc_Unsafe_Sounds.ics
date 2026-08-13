@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260911-Flucc-Unsafe+Sounds@eventcrawler
+DTSTAMP:20260813T074830Z
+DTSTART:20260911T210000
+DTEND:20260911T235900
+SUMMARY:Unsafe+Sounds (Uhrzeit prüfen)
+LOCATION:Flucc
+DESCRIPTION:@DECK\, WANNE | Friday\, 11. September - Closing Flucc Wanne & Deck\, 21:30-06:00 EarthBall • Masma Dream World • Lolina + many more tba! 18€ 
+URL:https://flucc.at/events/5omgmf-unsafesounds/
+END:VEVENT
+END:VCALENDAR
