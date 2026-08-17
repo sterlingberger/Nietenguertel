@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260914-Szene-tjark@eventcrawler
+DTSTAMP:20260817T070909Z
+DTSTART:20260914T190000
+DTEND:20260914T235900
+SUMMARY:tjark (Uhrzeit prüfen)
+LOCATION:Szene
+DESCRIPTION:ACHTUNG: Die Show wurde von der SiMM City in die ((szene)) Wien verlegt. Bereits gekaufte Tickets behalten ihre Gültigkeit.  ******  TJARK kommt im Rahmen seiner „auch wenn’s uns morgen nicht mehr gibt Tour 2026“ nach Wien!  Tickets sichern!   
+URL:https://szene.wien/events/tjark/
+END:VEVENT
+END:VCALENDAR

@@ -660,6 +660,17 @@
     "IcsFileName": "2026-09-04_Venster99_The_Snub__Urban_Misery_-_kleines_vereinsfest_by_Fomo.ics"
   },
   {
+    "Venue": "Venster99",
+    "Date": "2026-09-24",
+    "Artist": "Lothario \u002BUseless Eaters\u002B Los Tonnos",
+    "Info": "",
+    "Link": "http://Muhgang - lothario",
+    "Start": "2026-09-24T18:00:00",
+    "End": "2026-09-24T23:59:00",
+    "InfoShort": "",
+    "IcsFileName": "2026-09-24_Venster99_Lothario__Useless_Eaters__Los_Tonnos.ics"
+  },
+  {
     "Venue": "Szene",
     "Date": "2026-08-20",
     "Artist": "high purple | evolution",
@@ -726,15 +737,136 @@
     "IcsFileName": "2026-08-29_Szene_caravanseray_vienna.ics"
   },
   {
-    "Venue": "Cafe Carina",
-    "Date": "2026-08-16",
-    "Artist": "SOMMER PAUSE",
-    "Info": "SOMMER PAUSE\n\u00A0geschlossen\n\n\u00A0",
-    "Link": "https://www.cafe-carina.at/2020/events/sonntag-ruhetag-715-333-970-496-766-848/",
-    "Start": "2026-08-16T18:00:00",
-    "End": "2026-08-16T23:59:00",
-    "InfoShort": "SOMMER PAUSE\n\u00A0geschlossen\n\n\u00A0",
-    "IcsFileName": "2026-08-16_Cafe_Carina_SOMMER_PAUSE.ics"
+    "Venue": "Szene",
+    "Date": "2026-09-03",
+    "Artist": "hovacek | stubenfliege",
+    "Info": "((szene)) Soundgarden presented by ROCK ANTENNE \u00D6sterreich mit:\n\nHOVACEK und STUBENFLIEGE \u2013 Austro-Pop trifft Wienerlied, klassisch, modern mit Herz \u0026 Seele interpretiert. Ein Abend welcher Unterhaltung \u0026 Melodien in gem\u00FCtlicher Garten Atmosph\u00E4re garantiert \u2013 man bringe den Spritzwein!\n\nHOVACEK kommt mit aktuellem Programm \u201EEs regiert das Lustprinzip!\u201C in den ((szene)) Soundgarden!\n\n\u201EAls der Austro-Pop das Laufen lernte wurde der Hovacek im Gitterbett vergessen\u201C (G. Danzer)\n\nImmer ein wenig zu sp\u00E4t, immer ein wenig zu bissig, immer ein wenig neben der Spur\u2026 so lassen sich die heute fast vergessenen Werke des ebenso in Vergessenheit geratenen heimlichen Helden der \u00F6sterreichischen Musikgeschichte wohl am besten beschreiben.\nDabei h\u00E4tten sich seine Lieder \u201EA Trottel kummt s\u00F6tn allaa\u201C, \u201EGestern, in der Fett\u2018n\u201C oder \u201EI bin kurz schiff\u2019n\u201C eigentlich einen Platz im Repertoire jeder Austro-Pop-Coverband verdient.\n\nZum Gl\u00FCck gibt\u2019s ja HOVACEK, \u00D6sterreichs einzige Tribute-Band, die sich auch in ihrem zweiten Programm exklusiv dem Verm\u00E4chtnis des \u201EHovaceks\u201C verschrieben hat.\nVerwirrt? Dieser Abend wird helfen.\n\nSTUBENFLIEGE laden ein zum \u201EFlug \u00FCber Wien\u201C!\nSchlie\u00DFen Sie Ihre Sicherheitsgurte, wir haben ab!\nSTUBENFLIEGE ist eine aus Wien stammende musikalische Formation rund um Eva Stubenvoll, die mit ihren Texten und Kompositionen zu begeistern wei\u00DF.\nDie Stubenfliegen bewegen sich in einem Raum der wienerischen Musik, welcher sich mit humorvollen Dialektliedern bis hin zu sozialkritischen, herausfordernden Alltagsgeschichten mit Tiefgr\u00FCndigkeit f\u00FCllt.\nEine Melange aus altbekannten Wienerliedern, neu arrangiert, und Eigenkompositionen sind Inhalte ihres Wirkens. Musikalisch werden in den Liedern volkst\u00FCmliche mit jazzigen Elementen kombiniert und ein einzigartiger Sound geschaffen.\nDie humoristische Seite kommt dabei nicht zu kurz. So erwartet das Publikum ein musikalisch, kabarettistisch, authentisches Programm, durch das die Zuh\u00F6rer:innen mit einer augenzwinkernden Moderation begleitet werden.\n\nBei Schlechtwetter findet die Show im Saal statt.\n\n******\n\n((szene)) Soundgarden 2026\nGr\u00F6\u00DFer, moderner und besser denn je. Den ganzen Sommer lang (halb-) akustische Live-Shows unter freiem Himmel in gem\u00FCtlicher Garten-Atmosph\u00E4re mitten im Herzen Simmerings.\n\nAuch heuer gibt es wieder die exklusiv erh\u00E4ltlichen hausgemachten, \u00FCberbackenen Rock-Brote!!\n\nFestivalstimmung pur und das bei freiem Eintritt mitten in der Stadt.\nLet\u2019s celebrate the summer!\n\nMit freundlicher Unterst\u00FCtzung von Soletti.\n\n\n",
+    "Link": "https://szene.wien/events/hovacek-stubenfliege/",
+    "Start": "2026-09-03T18:00:00",
+    "End": "2026-09-03T23:59:00",
+    "InfoShort": "((szene)) Soundgarden presented by ROCK ANTENNE \u00D6sterreich mit:\n\nHOVACEK und STUBENFLIEGE \u2013 Austro-Pop trifft Wienerlied, klassi...",
+    "IcsFileName": "2026-09-03_Szene_hovacek___stubenfliege.ics"
+  },
+  {
+    "Venue": "Szene",
+    "Date": "2026-09-04",
+    "Artist": "drei\u00DFig.",
+    "Info": "Herzlich willkommen in deinen Drei\u00DFigern. Jetzt bist du erwachsen \u2013 und hast wohl endlich alles im Griff: Haus, Hochzeit, Kind, Karriere, Sport, Hobbys, Freundschaften. Oder? Wir sind ganz ehrlich: Wir fragen uns eigentlich jeden Tag \u201CWie zur H\u00F6lle kommen wir da durch?\u201D Und deswegen reden wir dar\u00FCber: Nat\u00FCrlich mit euch \u2013 live auf unserer Tour 2026.\n\nZusammen f\u00FChlen wir uns weniger allein mit dem, was uns Anfang/Mitte 30 besch\u00E4ftigt: Karrieretr\u00E4ume und Alltagschaos, Fernbeziehungen und Ehekrisen, Kita- Ausfall und Aperol-Daydrinking, Krei\u00DFsaalbesichtigung und Horrordates. Das ganz normale Chaos mit 30 also: Etwas zu ehrlich, meist lustig, manchmal nachdenklich und immer zusammen.\n\n\n",
+    "Link": "https://szene.wien/events/dreissig/",
+    "Start": "2026-09-04T18:30:00",
+    "End": "2026-09-04T23:59:00",
+    "InfoShort": "Herzlich willkommen in deinen Drei\u00DFigern. Jetzt bist du erwachsen \u2013 und hast wohl endlich alles im Griff: Haus, Hochzeit, Kind, ...",
+    "IcsFileName": "2026-09-04_Szene_drei\u00DFig.ics"
+  },
+  {
+    "Venue": "Szene",
+    "Date": "2026-09-05",
+    "Artist": "reading rock gala 2026",
+    "Info": "((szene)) Soundgarden presented by ROCK ANTENNE \u00D6sterreich mit:\n\nDie gro\u00DFe READING ROCK GALA 2026\n\nLive on stage:\nBianca Dobler, Barbara Kadletz, Roman Beisser, Die W\u00F6dmasta, Rainer Krispel, The Angry Hippies, Bastian Zach, Walter Gr\u00F6bchen, Echoes Of Ghosts, Wolfgang Kuhn, Gordon McMichael, Andi Appel \u0026 G\u00E4ste\n\nMit ihrem einzigartigen Mix aus Lesung und Live-Musik, Schm\u00E4h und Tiefgang avancierte die von Andi Appel (\u201EG\u00FCnther. Giftler, Gammler, Plattensammler\u201C) und Gordon McMichael (\u201EIch mit mir\u201D) gegr\u00FCndete Reading Rock Reihe zum beliebten und etwas anderen Highlight im Veranstaltungskalender.\n\nDas \u201EBuch zur Serie\u201C war dann ebenso aufgelegt wie unterhaltsam und erschien mit \u201ELauter! sch\u00F6nen Kurzgeschichten\u201C 2024, ein Jahr drauf pr\u00E4sentierte Band 2 \u201ELauter! Sch\u00F6ne neue Kurzgeschichten\u201C.\n\nDem nicht genug dreht sich seit Sommer 2025 der Reading Rock Podcast um \u201ELiteratur, Musik und alles dazwischen\u201C. Jeden Donnersduck stellt Pod-Gastgeber Wolfgang Kuhn mit Gordon und/oder Andi neue G\u00E4ste und Themen vor.\n\nDas Herzst\u00FCck der Reihe ist und bleibt indes das Live-Erlebnis. Es wird (vor)gelesen und musiziert, g\u00B4scheit geredet und Schm\u00E4h gef\u00FChrt. Und womit? Mit Recht, Erfolg und bei der Reading Rock Gala 2026 wieder mit einer Vielzahl ebenso unterschiedlicher wie gro\u00DFartiger, renommierter und neuer Autor*innen und Musiker*innen.\n\nDas alles und noch mehr am letzten Feriensamstag bei freiem Eintritt unter ebensolchem Himmel im wunderbaren Ambiente des Szene Wien \u201ESoundgarden\u201C. Es wird also wieder Gala-ktisch, vor allem wenn man sich rechtzeitig seine (Gratis-)Pl\u00E4tze sichert per E-Mail an: markus@planet.tt\n\nBei Schlechtwetter findet die Show im Saal statt.\n\n******\n\n((szene)) Soundgarden 2026\nGr\u00F6\u00DFer, moderner und besser denn je. Den ganzen Sommer lang (halb-) akustische Live-Shows unter freiem Himmel in gem\u00FCtlicher Garten-Atmosph\u00E4re mitten im Herzen Simmerings.\n\nAuch heuer gibt es wieder die exklusiv erh\u00E4ltlichen hausgemachten, \u00FCberbackenen Rock-Brote!!\n\nFestivalstimmung pur und das bei freiem Eintritt mitten in der Stadt.\nLet\u2019s celebrate the summer!\n\nMit freundlicher Unterst\u00FCtzung von Soletti.\n\n\n",
+    "Link": "https://szene.wien/events/reading-rock-gala-2026/",
+    "Start": "2026-09-05T18:00:00",
+    "End": "2026-09-05T23:59:00",
+    "InfoShort": "((szene)) Soundgarden presented by ROCK ANTENNE \u00D6sterreich mit:\n\nDie gro\u00DFe READING ROCK GALA 2026\n\nLive on stage:\nBianca Dobler,...",
+    "IcsFileName": "2026-09-05_Szene_reading_rock_gala_2026.ics"
+  },
+  {
+    "Venue": "Szene",
+    "Date": "2026-09-08",
+    "Artist": "the gardener \u0026 the tree",
+    "Info": "Nur wenige Genres haben die Kraft, so verl\u00E4sslich f\u00FCr G\u00E4nsehautmomente zu sorgen, wie ausufernder Indie-Folk. Die Schweizer Band The Gardener \u0026 The Tree bedient das Genre seit ihrer Gr\u00FCndung im Jahr 2013 mit gr\u00F6\u00DFter Hingabe und sorgt besonders auf der Live-B\u00FChne seit \u00FCber zehn Jahren f\u00FCr hochemotionale Momente.\n\nAngefangen hat alles mit den beiden Freunden Manuel Felder (Gesang) und Patrik Muggli (ehemaliger Gitarrist), die sich im Auto gegenseitig ihre amateurhaften Aufnahmen vorgespielt und daraufhin kurzerhand beschlossen haben, es gemeinsam mit der Musik zu versuchen. Unter dem Namen The Gardener \u0026 The Tree beginnen die beiden mit vier weiteren Gr\u00FCndungsmitgliedern an ihrem Indie-Folk-Entwurf zu schrauben und haben in k\u00FCrzester Zeit erste Songs auf Lager. Schnell war klar, dass die alles einnehmende, kehlige Stimme von Felder einen Wiedererkennungswert hat und auf Gefallen st\u00F6\u00DFt, denn bereits das erste Projekt h\u00E4lt sich stolze drei Wochen in den Schweizer Charts.\n\nBereits ein Jahr nach Bandgr\u00FCndung erscheint die Deb\u00FCt-EP \u201ERevolution\u201C, auf der Songs wie \u201Emama\u2019s guitar\u201C oder \u201Ewaterfall\u201C enthalten waren, die bis heute als wichtige Tracks in der Diskografie der Band aus Schaffhausen gelten. In den folgenden Jahren ging es flei\u00DFig weiter: Insgesamt drei EPs und zwei Alben haben The Gardener \u0026 The Tree in den vergangenen zw\u00F6lf Jahren ver\u00F6ffentlicht \u2013 und im Juli dieses Jahres folgt ein neues Werk, die EP \u201ESOLE\u201C.\n\nVon bitters\u00FC\u00DFen Balladen bis energiegeladenen Indie-Pop-Mitsingrefrains umfasst das Werk alle Facetten, die The Gardener \u0026 The Tree in ihrer bisherigen Diskografie so entwickelt haben. Die bereits ver\u00F6ffentlichten Tracks reichen vom hochemotionalen \u201Ekingdom far\u201C bis hin zum feierlichen, poppigen \u201E(fuck it)\u201C und geben einen guten Vorgeschmack nicht nur darauf, was wir von der EP-Ver\u00F6ffentlichung am 17. Juli erwarten d\u00FCrfen, sondern auch darauf, was die zugeh\u00F6rige Tour bringt. G\u00E4nsehaut ist bei der abwechslungsreichen Setlist vorprogrammiert, die auf der \u201ESOLE\u201C-Tour Bandklassiker wie \u201EWild Horses\u201C oder \u201ESilver Lining\u201C mit den Neuver\u00F6ffentlichungen kombiniert.\n\n\n",
+    "Link": "https://szene.wien/events/the-gardener-the-tree/",
+    "Start": "2026-09-08T19:30:00",
+    "End": "2026-09-08T23:59:00",
+    "InfoShort": "Nur wenige Genres haben die Kraft, so verl\u00E4sslich f\u00FCr G\u00E4nsehautmomente zu sorgen, wie ausufernder Indie-Folk. Die Schweizer Band...",
+    "IcsFileName": "2026-09-08_Szene_the_gardener___the_tree.ics"
+  },
+  {
+    "Venue": "Szene",
+    "Date": "2026-09-11",
+    "Artist": "planet festival tour 2026 \u2013 qualifying #1",
+    "Info": "Wir starten mit Vorfreude in die n\u00E4chste Saison und sind schon gespannt, welche gro\u00DFartigen \u00F6sterreichischen Acts wir zu sehen und h\u00F6ren bekommen!\nQualifyings in ganz \u00D6sterreich \u2013 Playoffs in der ((szene)) Wien \u2013 Final Big Bang in der Planet.tt Raiffeisen Halle im Wiener Gasometer.\n\nF\u00FCr JEDEN Finalisten gibt es Bargeld zu gewinnen:\n1.Platz \u20AC 12.000.-\n2.Platz \u20AC 2.000.-\n3.Platz \u20AC 1.000.-\njeder weitere Platz \u20AC 500.-\nZus\u00E4tzlich mindestens 10 Festival-Slots und Gigs (z.B. Nova Rock, Sziget,\u2026), ein Vollstipendium an der Jam Music Lab University, Studiopreise und Equipment\u2013 Preise im Wert von insgesamt rund 150.000 Euro!\n\n100% Festival-Feeling und 50% der Eintrittseinnahmen f\u00FCr die Bands!\n\nJetzt anmelden unter www.planetfestivaltour.at\nAll styles welcome!\n\n\n",
+    "Link": "https://szene.wien/events/planet-festival-tour-2026-qualifying-1/",
+    "Start": "2026-09-11T18:30:00",
+    "End": "2026-09-11T23:59:00",
+    "InfoShort": "Wir starten mit Vorfreude in die n\u00E4chste Saison und sind schon gespannt, welche gro\u00DFartigen \u00F6sterreichischen Acts wir zu sehen u...",
+    "IcsFileName": "2026-09-11_Szene_planet_festival_tour_2026___qualifying__1.ics"
+  },
+  {
+    "Venue": "Szene",
+    "Date": "2026-09-12",
+    "Artist": "an evening with oasis \u0026 the beatles",
+    "Info": "AN EVENING WITH OASIS \u0026 THE BEATLES starring:\n\n\u00D6ASIS \u2013 THE AUSTRIAN TRIBUTE BAND\nHerzlich willkommen zu einer Reunion Reise zuru\u0308ck in die 90er, in eine Zeit, als Britpop K\u00F6nig war und Oasis die Herrschaft anfu\u0308hrte! Lasst euch entfu\u0308hren von einer Band, die den Sound und die Attitu\u0308de der Gallaghers direkt nach \u00D6sterreich bringt \u2013 **\u00D6ASIS**, die beste Oasis Tribute Band diesseits des \u00C4rmelkanals!\nSie sehen aus wie Oasis, sie klingen wie Oasis, und wenn ihr ganz fest die Augen zumacht und das Bier eures Nachbarn stibitzt, k\u00F6nnte man fast meinen, man ist im feuchtfr\u00F6hlichen Manchester der 90er.\nSie bringen alle gro\u00DFen Hits, die ihr liebt \u2013 von *Wonderwall* bis *Don\u2019t Look Back in Anger* \u2013 und dazu die perfekte Dosis Rock\u2019n\u2019Roll-Attitu\u0308de. Mit mehr Charisma als Liam und Noel Gallagher zusammen (aber hoffentlich weniger Schl\u00E4gereien) versprechen sie euch eine Show, die euch die Reunion direkt nach \u00D6sterreich bringt.\nAlso, schnallt euch an und lasst euch von den Hymnen mitrei\u00DFen \u2013 hier kommt der *\u00D6ASIS*-Sound, ganz wie das Original, aber ohne den Flieger nehmen zu mu\u0308ssen! Los geht\u2019s!\n\nThe BBCtles\nDie Band wurde von Arthur Fandl gegr\u00FCndet und war 2004 und 2009 als einzige \u00F6sterreichische Gruppe von Cavern City Tours (CCT), dem offiziellen Veranstalter der allj\u00E4hrlich stattfindenden BEATLE-WEEK, f\u00FCr Konzerte nach Liverpool eingeladen. Unter anderem trat die Band im legend\u00E4ren \u201ECavern\u201C auf, wo die Beatles zwischen 1961 und 1963 292 Mal spielten. Das Repertoire der Gruppe besteht u.a. aus den Songs, die die Beatles zwischen 1963 und 1965 eigens f\u00FCr die BBC Radioshows einspielten. Deshalb auch der Bandname.\n\nDie BBCtles sind:\nArthur Fandl\nGesang, Bass, Klavier\nKomponist, Texter, Arrangeur, Musiklehrer\nAktuelle Solo \u2013 CD: \u201C Honest\u201C (Pleyl Records)\nTrat bereits 1995 und 1996 im Duo mit Peter Pleyl in Liverpool auf (u.a. in einer Radiosendung der BBC Merseyside)\nCo-Autor des Buches \u201EServus Beatles\u201C\nMusikalischer Leiter des ARTHUR FANDL BLUES SETs\n\nPeter Pleyl\nGesang, Gitarre\nBesitzer des Tonstudios \u201EPleyl\u201C\n\nHans Mayrhofer\nGesang, Gitarre, Bass\nChors\u00E4nger bei der Chorvereinigung \u201ESchola Cantorum\u201C\n\nKurt Gober\nSchlagzeug\nEhemaliger S\u00E4nger von KGB (\u201EMotorboot\u201C)\n\n\n",
+    "Link": "https://szene.wien/events/an-evening-with-oasis-the-beatles/",
+    "Start": "2026-09-12T19:30:00",
+    "End": "2026-09-12T23:59:00",
+    "InfoShort": "AN EVENING WITH OASIS \u0026 THE BEATLES starring:\n\n\u00D6ASIS \u2013 THE AUSTRIAN TRIBUTE BAND\nHerzlich willkommen zu einer Reunion Reise zuru...",
+    "IcsFileName": "2026-09-12_Szene_an_evening_with_oasis___the_beatles.ics"
+  },
+  {
+    "Venue": "Szene",
+    "Date": "2026-09-14",
+    "Artist": "tjark",
+    "Info": "ACHTUNG: Die Show wurde von der SiMM City in die ((szene)) Wien verlegt. Bereits gekaufte Tickets behalten ihre G\u00FCltigkeit.\n\n******\n\nTJARK kommt im Rahmen seiner \u201Eauch wenn\u2019s uns morgen nicht mehr gibt Tour 2026\u201C nach Wien!\n\nTickets sichern!\n\n\n",
+    "Link": "https://szene.wien/events/tjark/",
+    "Start": "2026-09-14T19:00:00",
+    "End": "2026-09-14T23:59:00",
+    "InfoShort": "ACHTUNG: Die Show wurde von der SiMM City in die ((szene)) Wien verlegt. Bereits gekaufte Tickets behalten ihre G\u00FCltigkeit.\n\n***...",
+    "IcsFileName": "2026-09-14_Szene_tjark.ics"
+  },
+  {
+    "Venue": "Szene",
+    "Date": "2026-09-15",
+    "Artist": "la coka nostra",
+    "Info": "Hip-Hop-Event des Jahres? Die US-Supergroup La Coka Nostra kommt nach Wien!\n\nLa Coka Nostra feiert zwanzig Jahre auf der B\u00FChne und geht aus diesem Anlass auf Europatour. Am 15. September 2026 bringt die Crew ihren explosiven Rap mit kompromisslosen Beats und Flows im Stil von Cypress Hill nach Szene Wien. Die intime Clubatmosph\u00E4re mit limitierter Kapazit\u00E4t verspricht eines der intensivsten Hip-Hop-Erlebnisse des Jahres.\n\nEine Hip-Hop-Marke, der man vertrauen kann \u2013 genau mit dieser Haltung st\u00FCrmte La Coka Nostra vor zwanzig Jahren die Szene. Die Crew vereint markante Pers\u00F6nlichkeiten aus Formationen wie House of Pain, Heavy Metal Kings (Vinnie Paz) und Limp Bizkit und erarbeitete sich rasch Kultstatus \u2013 mit roher Energie, provokanten Texten und einem authentischen Hip-Hop-Spirit direkt von der Stra\u00DFe in die Clubs.\n\nDen Grundstein daf\u00FCr legte das Deb\u00FCtalbum A Brand You Can Trust aus dem Jahr 2009, an dem unter anderem DJ Lethal, Everlast, Ill Bill und The Alchemist mitwirkten. Als G\u00E4ste waren au\u00DFerdem Snoop Dogg und Cypress Hill vertreten \u2013 mit Letzteren wird die Gruppe bis heute oft verglichen. Danach erschienen die Alben Masters of the Dark Arts (2012) und To Thine Own Self Be True (2016).\n\nNach mehreren Jahren ohne neues Studiomaterial meldet sich La Coka Nostra nun mit dem neuen Track We Going Back zur\u00FCck \u2013 eine Hommage an die Hip-Hop-Community und eine R\u00FCckkehr zu den echten Werten des Genres. Seit \u00FCber zwanzig Jahren steht die Gruppe f\u00FCr harten, kompromisslosen Rap und Treue zu ihren Underground-Wurzeln.\n\nPassend dazu kehrt La Coka Nostra mit einer speziellen Jubil\u00E4umstour zur\u00FCck auf die B\u00FChne \u2013 und diese Tour ist weit mehr als nur Nostalgie. Fans d\u00FCrfen sich auf ikonische Tracks, seltene B-Seiten, brandneue Songs und eine gewaltige Portion Energie im Clubsetting freuen.\n\nLive zu erleben am 15. September 2026 in der Szene Wien in folgender Besetzung: Danny Boy, Ill Bill, Slaine und DJ Eclipse. Verpasst nicht die einmalige Gelegenheit, diese legend\u00E4re Kultformation mit echtem Eastcoast-Vibe erstmals live im Rahmen der Konzertreihe Danube Music Day zu erleben.\n\n\n",
+    "Link": "https://szene.wien/events/la-coka-nostra/",
+    "Start": "2026-09-15T19:30:00",
+    "End": "2026-09-15T23:59:00",
+    "InfoShort": "Hip-Hop-Event des Jahres? Die US-Supergroup La Coka Nostra kommt nach Wien!\n\nLa Coka Nostra feiert zwanzig Jahre auf der B\u00FChne u...",
+    "IcsFileName": "2026-09-15_Szene_la_coka_nostra.ics"
+  },
+  {
+    "Venue": "Szene",
+    "Date": "2026-09-16",
+    "Artist": "vaeb",
+    "Info": "V\u00C6B (pron.: VIBE) are the brothers Matthias David Matthiasson (20) and Halfdan Helgi Matthiasson (21), who have been involved in music since a young age and come from a truly musical family. Their father, Matthias, is an organist, saxophone teacher and choir director and their mother, Aslaug, is a singer and singing teacher. The older brother, Halfdan, has a twin sister, but together the brothers have four siblings. They started learning instruments at an early age, Halfdan on drums and Matthias on trumpet. The brothers have sung a lot since childhood, and in 2015 Halfdan won the popular children\u2019s television singing competition in Iceland, The Christmas Star, at the age of 12.\n\nIn 2022, the brothers formed the band V\u00C6B after posting a video on TikTok with a \u201Ejoke-song\u201C that attracted so much attention on social media that they decided to release it on Spotify. They released a few more songs, but in 2023 they met songwriter and producer Ingi Bauer. The brothers participated in the S\u00F6ngvakeppnin (Icelandic pre-selection for Eurovision) last year with the song B\u00ED\u00F3mynd (A Movie) and finished in 4th place. They were a hit in the competition and became nationally famous overnight and held many concerts around the country as a result. They then decided to try again at the S\u00F6ngvakeppnin this year and won the competition by a landslide, both in the public and jury vote, with the song R\u00D3A (ROW). The brothers have said that the song is about moving forward in life. No matter what is going on in the turbulent sea of life, you have to keep rowing and never give up. The song R\u00D3A reached the finals of this year\u2019s Eurovision Song Contest and has been a big hit. It has now been played over 17 million times on Spotify. The brothers are booked in Iceland all summer and will be touring Europe in early 2026.\n\n\n",
+    "Link": "https://szene.wien/events/vaeb/",
+    "Start": "2026-09-16T19:30:00",
+    "End": "2026-09-16T23:59:00",
+    "InfoShort": "V\u00C6B (pron.: VIBE) are the brothers Matthias David Matthiasson (20) and Halfdan Helgi Matthiasson (21), who have been involved in...",
+    "IcsFileName": "2026-09-16_Szene_vaeb.ics"
+  },
+  {
+    "Venue": "Szene",
+    "Date": "2026-09-17",
+    "Artist": "harri stojka",
+    "Info": "ACHTUNG: Die Show wurde von 13.11.2025 auf 17.09.2026 verschoben.\nBereits gekaufte Karten behalten ihre G\u00FCltigkeit.\n\nDer renommierte Wiener Gitarrist Harri Stojka beweist einmal mehr seine au\u00DFergew\u00F6hnliche musikalische Vielseitigkeit. Nach seinem gefeierten \u201EStones Free\u201C Projekt, bei dem er die Musik der Rolling Stones neu interpretierte, pr\u00E4sentiert er nun seine eigenen Rock-Kompositionen \u201EANARCHY\u201C \u2013 rau, laut und kompromisslos.\n\nMit S\u00E4nger Peter D\u00FCrr hat Stojka den idealen Partner f\u00FCr seine kraftvollen Songs gefunden. Gemeinsam mit Walter Hof am Bass und Sigi Meier am Schlagzeug bildet das Quartett eine energiegeladene Rockband, die elf neue Songs auf die B\u00FChne bringt.\n\nMusikalisch bewegt sich \u201EANARCHY\u201C bewusst im Spannungsfeld des klassischen Garagenrocks \u2013 direkt, ungeschliffen und ohne \u00FCberfl\u00FCssige Effekte. Harri Stojka beschreibt den Stil selbst als \u201EGaragenrock\u201C: ehrlich, rau und voller Energie.\n\nAuch inhaltlich setzt das Album klare Akzente. Die Songs greifen gesellschaftlich relevante Themen auf \u2013 von der Klimakrise in \u201EHot Out There\u201C \u00FCber den zunehmenden gesellschaftlichen Druck in \u201EKeep Cool\u201C bis hin zu pers\u00F6nlichen Erfahrungen und zwischenmenschlichen Beziehungen in \u201ELove Isn\u2019t Fair\u201C.\n\nHarri Stojka sagt:\n\u201EDiese Songs sind in die Kategorie Garagenrock einzuordnen!\u201C\n\nS\u00E4nger Peter D\u00FCrr erg\u00E4nzt:\n\u201EDiese Texte sind nicht nur zeitgem\u00E4\u00DF und realit\u00E4tsbezogen, sondern auch die h\u00E4rtesten, die ich jemals gesungen habe.\u201C\n\nLive-Premiere in Wien\nDie offizielle Live-Pr\u00E4sentation von \u201EANARCHY\u201C findet am 17. September in der ((szene)) Wien statt. Gemeinsam mit Peter D\u00FCrr (Gesang), Walter Hof (Bass) und Sigi Meier (Schlagzeug) stellt Harri Stojka die neuen Songs erstmals live vor.\n\nDas Album erscheint in einer limitierten Kleinauflage und wird zus\u00E4tzlich \u00FCber digitale Download- und Streaming-Plattformen verf\u00FCgbar sein. Bereits Ende August erscheint das Musikvideo produziert von Bruno Kratochvill zum SONG \u201EPEOPLE\u201C, aus dem Album \u201EANARCHY\u201C.\n\n\n",
+    "Link": "https://szene.wien/events/harri-stojka/",
+    "Start": "2026-09-17T19:30:00",
+    "End": "2026-09-17T23:59:00",
+    "InfoShort": "ACHTUNG: Die Show wurde von 13.11.2025 auf 17.09.2026 verschoben.\nBereits gekaufte Karten behalten ihre G\u00FCltigkeit.\n\nDer renommi...",
+    "IcsFileName": "2026-09-17_Szene_harri_stojka.ics"
+  },
+  {
+    "Venue": "Szene",
+    "Date": "2026-09-18",
+    "Artist": "planet festival tour 2026 \u2013 qualifying #2",
+    "Info": "Wir starten mit Vorfreude in die n\u00E4chste Saison und sind schon gespannt, welche gro\u00DFartigen \u00F6sterreichischen Acts wir zu sehen und h\u00F6ren bekommen!\nQualifyings in ganz \u00D6sterreich \u2013 Playoffs in der ((szene)) Wien \u2013 Final Big Bang in der Planet.tt Raiffeisen Halle im Wiener Gasometer.\n\nF\u00FCr JEDEN Finalisten gibt es Bargeld zu gewinnen:\n1.Platz \u20AC 12.000.-\n2.Platz \u20AC 2.000.-\n3.Platz \u20AC 1.000.-\njeder weitere Platz \u20AC 500.-\nZus\u00E4tzlich mindestens 10 Festival-Slots und Gigs (z.B. Nova Rock, Sziget,\u2026), ein Vollstipendium an der Jam Music Lab University, Studiopreise und Equipment\u2013 Preise im Wert von insgesamt rund 150.000 Euro!\n\n100% Festival-Feeling und 50% der Eintrittseinnahmen f\u00FCr die Bands!\n\nJetzt anmelden unter www.planetfestivaltour.at\nAll styles welcome!\n\n\n",
+    "Link": "https://szene.wien/events/planet-festival-tour-2026-qualifying-2/",
+    "Start": "2026-09-18T18:30:00",
+    "End": "2026-09-18T23:59:00",
+    "InfoShort": "Wir starten mit Vorfreude in die n\u00E4chste Saison und sind schon gespannt, welche gro\u00DFartigen \u00F6sterreichischen Acts wir zu sehen u...",
+    "IcsFileName": "2026-09-18_Szene_planet_festival_tour_2026___qualifying__2.ics"
+  },
+  {
+    "Venue": "Szene",
+    "Date": "2026-09-19",
+    "Artist": "planet festival tour 2026 \u2013 qualifying #3",
+    "Info": "Wir starten mit Vorfreude in die n\u00E4chste Saison und sind schon gespannt, welche gro\u00DFartigen \u00F6sterreichischen Acts wir zu sehen und h\u00F6ren bekommen!\nQualifyings in ganz \u00D6sterreich \u2013 Playoffs in der ((szene)) Wien \u2013 Final Big Bang in der Planet.tt Raiffeisen Halle im Wiener Gasometer.\n\nF\u00FCr JEDEN Finalisten gibt es Bargeld zu gewinnen:\n1.Platz \u20AC 12.000.-\n2.Platz \u20AC 2.000.-\n3.Platz \u20AC 1.000.-\njeder weitere Platz \u20AC 500.-\nZus\u00E4tzlich mindestens 10 Festival-Slots und Gigs (z.B. Nova Rock, Sziget,\u2026), ein Vollstipendium an der Jam Music Lab University, Studiopreise und Equipment\u2013 Preise im Wert von insgesamt rund 150.000 Euro!\n\n100% Festival-Feeling und 50% der Eintrittseinnahmen f\u00FCr die Bands!\n\nJetzt anmelden unter www.planetfestivaltour.at\nAll styles welcome!\n\n\n",
+    "Link": "https://szene.wien/events/planet-festival-tour-2026-qualifying-3/",
+    "Start": "2026-09-19T18:30:00",
+    "End": "2026-09-19T23:59:00",
+    "InfoShort": "Wir starten mit Vorfreude in die n\u00E4chste Saison und sind schon gespannt, welche gro\u00DFartigen \u00F6sterreichischen Acts wir zu sehen u...",
+    "IcsFileName": "2026-09-19_Szene_planet_festival_tour_2026___qualifying__3.ics"
   },
   {
     "Venue": "Cafe Carina",
