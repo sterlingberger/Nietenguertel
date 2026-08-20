@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260826-Cafe-Carina-Martin-Hazy@eventcrawler
+DTSTAMP:20260820T065919Z
+DTSTART:20260826T200000
+DTEND:20260826T235900
+SUMMARY:Martin Hazy (Uhrzeit prüfen)
+LOCATION:Cafe Carina
+DESCRIPTION:Martin Hazy Martin Hazy     https://www.instagram.com/martinhazy_official
+URL:https://www.cafe-carina.at/2020/events/martin-hazy/
+END:VEVENT
+END:VCALENDAR
