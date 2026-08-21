@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260901-Cafe-Carina-Like-Hell@eventcrawler
+DTSTAMP:20260821T065925Z
+DTSTART:20260901T180000
+DTEND:20260901T235900
+SUMMARY:Like Hell (Uhrzeit prüfen)
+LOCATION:Cafe Carina
+DESCRIPTION:Like Hell  stoner – punk – alternative   
+URL:https://www.cafe-carina.at/2020/events/rock-against-lockdown-mit-dj-d-booi-2-2-298-981/
+END:VEVENT
+END:VCALENDAR
