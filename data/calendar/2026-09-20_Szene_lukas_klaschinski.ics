@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260920-Szene-lukas-klaschinski@eventcrawler
+DTSTAMP:20260823T065305Z
+DTSTART:20260920T193000
+DTEND:20260920T235900
+SUMMARY:lukas klaschinski (Uhrzeit prüfen)
+LOCATION:Szene
+DESCRIPTION:Lukas Klaschinski\, Psychologe\, Erfolgs-Podcaster und Bestsellerautor\, macht Psychologie erlebbar – direkt\, alltagsnah und mitreißend. In seiner Liveshow PsychoSpiele führt er dich 2026 erneut durch die fesselnde Welt deiner eigenen Emotionen. Ob auf der Bühne oder im Publikum: Erlebe Veränderung hautnah oder nimm wertvolle Impulse für dein eigenes Leben mit. Echte Aha-Momente\, ein klarerer Blick auf dich selbst und ein tieferes Verständnis für deine Mitmenschen. Neueste wissenschaftliche Erkenntnisse\, mentale Überraschungen humorvoll vermittelt und immer mit einem klaren Ziel: mehr Lebensqualität für alle!   
+URL:https://szene.wien/events/lukas-klaschinski/
+END:VEVENT
+END:VCALENDAR

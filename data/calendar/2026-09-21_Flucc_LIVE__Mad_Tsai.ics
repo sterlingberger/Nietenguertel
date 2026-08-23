@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260921-Flucc-LIVE:-Mad-Tsai@eventcrawler
+DTSTAMP:20260823T065305Z
+DTSTART:20260921T190000
+DTEND:20260921T235900
+SUMMARY:LIVE: Mad Tsai (Uhrzeit prüfen)
+LOCATION:Flucc
+DESCRIPTION:@WANNE | 19h Doors 20h Concert Introducing Mad Tsai\, a Chinese-Taiwanese-Peruvian artist from Los Angeles\, California with an edgy-pop sound that has branded a global imprint on his following of over 8+ million. Armed with an ethos of constant experimentation with new sonics\, Mad has created his own palette of music\, pushing boundaries within the pop genre while being inspired by pop veterans like Lorde and Rosalía. His debut EP\, “homecoming!” has garnered over 235 million streams\, bringing him widespread recognition without the assistance of a record label. Gaining traction mainly on TikTok\, Mad Tsai’s popularity is fueled by his evocative songwriting\, his bubbly yet opinionated personality and his queer identity\, representing an unprecedented voice that resonates with this new generation. Keeping true to his authentic identity and storytelling through music\, he has been championed by global brands like Michael Kors\, Sennheiser\, Meta\, Gold House and Amazon. Up next\, Mad Tsai will be releasing his newest project later this summer and hitting the road to meet his fans worldwide. 29\,99€ 
+URL:https://flucc.at/events/ZPyBZU-live-mad-tsai/
+END:VEVENT
+END:VCALENDAR

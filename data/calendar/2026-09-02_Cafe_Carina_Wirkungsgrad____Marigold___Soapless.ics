@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260902-Cafe-Carina-Wirkungsgrad-//-Marigold//-Soapless@eventcrawler
+DTSTAMP:20260823T065305Z
+DTSTART:20260902T200000
+DTEND:20260902T235900
+SUMMARY:Wirkungsgrad // Marigold// Soapless (Uhrzeit prüfen)
+LOCATION:Cafe Carina
+DESCRIPTION:Wirkungsgrad // Marigold// Soapless     Wirkungsgrad  Rock im Dialekt Trotteln OUT NOW  https://www.instagram.com/wirkungsgradband/  Marigold https://www.instagram.com/marigold_dieband/ Soapless https://www.instagram.com/soapless_official/
+URL:https://www.cafe-carina.at/2020/events/wirkungsgrad/
+END:VEVENT
+END:VCALENDAR

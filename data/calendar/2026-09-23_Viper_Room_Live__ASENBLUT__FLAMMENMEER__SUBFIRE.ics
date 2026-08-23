@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260923-Viper-Room-Live:-ASENBLUT,-FLAMMENMEER,-SUBFIRE@eventcrawler
+DTSTAMP:20260823T065305Z
+DTSTART:20260923T190000
+DTEND:20260923T235900
+SUMMARY:Live: ASENBLUT\, FLAMMENMEER\, SUBFIRE (Uhrzeit prüfen)
+LOCATION:Viper Room
+DESCRIPTION: ASENBLUT Melodic Death Metal aus Göttingen https://www.facebook.com/asenblutband https://www.youtube.com/watch?v=wg6I9NzqXR0…  FLAMMENMEER https://www.facebook.com/FlammenmeerBand https://www.youtube.com/watch?v=wk92LVpmnHg…  SUBFIRE https://www.facebook.com/SubfireOfficial https://www.youtube.com/watch?v=kf-8claDxGo…   VVK Tickets: Hardtickets ohne Gebühren: Viper Room Vienna (zu Event-Öffnungszeiten) Wiener LP Café (https://www.lp-cafe.wien/) Online: Ticketmaster (zuzügl. Gebühren)  
+URL:https://www.viper-room.at/events/live-asenblut-flammenmeer-subfire
+END:VEVENT
+END:VCALENDAR
