@@ -141,11 +141,54 @@ namespace EventCrawler.Crawler
             return result;
         }
 
+        private static readonly string[] Formats =
+        {
+        "ddd dd MMM yyyy",
+        "ddd dd MMMM yyyy",
+        "dd MMM yyyy",
+        "dd MMMM yyyy",
+        };
+
+        private static readonly Dictionary<string, string> MonthFixups = new(StringComparer.OrdinalIgnoreCase)
+        {
+            ["SEPT"] = "SEP",
+            ["JUNI"] = "JUN",
+            ["JULI"] = "JUL",
+            ["MRZ"] = "MAR", // falls mal deutsche statt österreichische Kürzel reinkommen
+        };
+
         private DateOnly ParseDate(string raw)
         {
-            // "SA 09 MAI | 2026" oder "MI 03 JUN. | 2026"
-            var cleaned = raw.Replace("|", "").Replace(".", "").Trim();
-            return DateOnly.ParseExact(cleaned, "ddd dd MMM  yyyy", new CultureInfo("de-AT"));
+            var culture = new CultureInfo("de-AT");
+
+            // Trennzeichen entfernen, Whitespace normalisieren
+            var cleaned = raw.Replace("|", " ").Replace(".", " ");
+            cleaned = Regex.Replace(cleaned, @"\s+", " ").Trim();
+
+            // Wochentags-Präfix (z. B. "DI", "MI", "SA") optional entfernen und
+            // Monatskürzel ggf. korrigieren
+            var parts = cleaned.Split(' ');
+            for (int i = 0; i < parts.Length; i++)
+            {
+                if (MonthFixups.TryGetValue(parts[i], out var fixedMonth))
+                    parts[i] = fixedMonth;
+            }
+            cleaned = string.Join(" ", parts);
+
+            foreach (var format in Formats)
+            {
+                if (DateOnly.TryParseExact(cleaned, format, culture,
+                        DateTimeStyles.None, out var result))
+                {
+                    return result;
+                }
+            }
+
+            // Fallback: allgemeineres Parsing versuchen
+            if (DateOnly.TryParse(cleaned, culture, DateTimeStyles.None, out var fallback))
+                return fallback;
+
+            throw new FormatException($"Konnte Datum nicht parsen: '{raw}' (normalisiert: '{cleaned}')");
         }
     }
 }

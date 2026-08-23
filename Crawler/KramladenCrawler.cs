@@ -39,7 +39,11 @@ namespace EventCrawler.Crawler
             // Warten bis alle Elemente geladen sind
             await _page.WaitForLoadStateAsync(LoadState.NetworkIdle);
 
-            var eventDivs = await _page.Locator("xpath=//div[@id='block-yui_3_17_2_1_1743151507799_1398']//div[@class='sqs-block-content']//div[@class='sqs-code-container']//div[@class='sk-fb-event']//div[@class='sk-events-body']//div[@class='sk-events-wrapper --sk-columns-3']//div[@class='sk-events-masonry']//div[@class='sk-event-item --vertical --sk-event-image-loaded']").AllAsync();
+            //var eventDivs = await _page.Locator("xpath=//div[@id='block-yui_3_17_2_1_1743151507799_1398']//div[@class='sqs-block-content']//div[@class='sqs-code-container']//div[@class='sk-fb-event']//div[@class='sk-events-body']//div[@class='sk-events-wrapper --sk-columns-3']//div[@class='sk-events-masonry']//div[@class='sk-event-item --vertical --sk-event-image-loaded']").AllAsync();
+            var container = _page.Locator("xpath=//div[contains(@class,'sk-fb-event')]//div[contains(@class,'sk-events-masonry')]").First;
+
+            // Einzelne Event-Items innerhalb des Containers
+            var eventDivs = await container.Locator(".sk-event-item").AllAsync();
 
             if (eventDivs.Count == 0)
             {
