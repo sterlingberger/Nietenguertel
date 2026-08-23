@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260921-Arena-KEMO-THE-BLAXICAN-(us)@eventcrawler
+DTSTAMP:20260823T123706Z
+DTSTART:20260921T190000
+DTEND:20260921T235900
+SUMMARY:KEMO THE BLAXICAN (us) (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Dreiraum | Spanish Grease Tour  Hinter Kemo The Blaxican verbrigt sich kein Geringerer als Delinquent Habits’ MC David Thomas! www.facebook.com/kemotheblaxican  Vorverkauf/Presale Arena Shop € 25 (+ € 2\,75 Fee) Abendkassa/Box Office tba. 
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48563
+END:VEVENT
+END:VCALENDAR
