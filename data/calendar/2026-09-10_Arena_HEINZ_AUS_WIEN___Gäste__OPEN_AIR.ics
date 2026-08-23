@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260910-Arena-HEINZ-AUS-WIEN-+-Gäste-*OPEN-AIR*@eventcrawler
+DTSTAMP:20260823T123706Z
+DTSTART:20260910T180000
+DTEND:20260910T235900
+SUMMARY:HEINZ AUS WIEN + Gäste *OPEN AIR* (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Open Air | presented by SPOON AGENCY  2026 feiern Heinz aus Wien ihr 30-jähriges Bühnenjubiläum.   Das erste Konzert fand im Juni 1996 in der Wiener Sommer-Arena als Vorgruppe der deutschen Band Selig statt. 30 Jahre später kehren Heinz genau dorthin zurück – an jenen Ort\, an dem die Band das Licht der Livemusik-Welt erblickte. 
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48347
+END:VEVENT
+END:VCALENDAR

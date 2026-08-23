@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260903-Arena-VON-WEGEN-LISBETH-(ger)-*OPEN-AIR*@eventcrawler
+DTSTAMP:20260823T123706Z
+DTSTART:20260903T180000
+DTEND:20260903T235900
+SUMMARY:VON WEGEN LISBETH (ger) *OPEN AIR* (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Open Air | presented by GOODLIVE ARTISTS  Strandbad Eldena - Sommertour 2026
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48380
+END:VEVENT
+END:VCALENDAR

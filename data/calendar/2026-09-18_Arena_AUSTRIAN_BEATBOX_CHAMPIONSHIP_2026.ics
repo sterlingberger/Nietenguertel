@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260918-Arena-AUSTRIAN-BEATBOX-CHAMPIONSHIP-2026@eventcrawler
+DTSTAMP:20260823T123706Z
+DTSTART:20260918T180000
+DTEND:20260918T235900
+SUMMARY:AUSTRIAN BEATBOX CHAMPIONSHIP 2026 (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Kleine Halle | Mundakrobaten & Arena Wien präsentieren:  Austrian Beatbox Championship 26  EINLASS 18:00h BEGINN 19:00h  Die österreichische Beatbox-Elite versammelt sich in Wien um in einem spannenden Battle Format die besten Mundakrobaten des Landes zu ermitteln. In unterschiedlichen Kategorien (Solo / Loop / Crew/ Tagteam) treten hier die Teilnehmer gegeneinander an um den Meistertitel für sich zu gewinnen.  x  Beatbox Battles – Die Besten der Bestien batteln bis zum umfallen. x Fette Showcases – Internationale Legenden und lokale Größen zeigen\, was menschlich möglich ist x Gänsehaut-Vibes – Energiegeladenes Publikum\,Top Sound\, Geile Stimmung  Wir freuen uns auf euch!   Vorverkauf Arena Shop € 17 (+ € 1\,87 Fee)  Abendkassa € 20
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48623
+END:VEVENT
+END:VCALENDAR
