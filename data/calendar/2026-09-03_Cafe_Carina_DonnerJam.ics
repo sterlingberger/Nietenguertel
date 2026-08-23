@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260903-Cafe-Carina-DonnerJam@eventcrawler
+DTSTAMP:20260823T065305Z
+DTSTART:20260903T200000
+DTEND:20260903T235900
+SUMMARY:DonnerJam (Uhrzeit prüfen)
+LOCATION:Cafe Carina
+DESCRIPTION:DonnerJam Beim DonnerJam laden wir Musiker*innen unterschiedlicher Genres und Musikrichtungen ein\, um gemeinsam die Bühne im Café Carina zum Beben zu bringen. Nach einem etwa 45 minütigen Set sind Gäste ebenfalls willkommen\, am offenen Jam teilzunehmen! Bring your instruments and friends! Hosted by Verena Werni next: Donnerstag\, 2. Juli
+URL:https://www.cafe-carina.at/2020/events/donnerjam-5-739-793/
+END:VEVENT
+END:VCALENDAR
