@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260919-Kramladen-WIR-TREFFEN-UNS-IM-KRAMLADEN@eventcrawler
-DTSTAMP:20260823T123706Z
+DTSTAMP:20260824T071543Z
 DTSTART:20260919T190000
 DTEND:20260919T235900
 SUMMARY:WIR TREFFEN UNS IM KRAMLADEN (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Wir treffen uns im Kramladen Samstag\, 19. September...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1008915161918040.webp?v=1787381721202
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1008915161918040.webp?v=1787554967939
 END:VEVENT
 END:VCALENDAR

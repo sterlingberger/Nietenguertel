@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260904-Cafe-Carina-Rockoffice-Live@eventcrawler
+DTSTAMP:20260824T071543Z
+DTSTART:20260904T200000
+DTEND:20260904T235900
+SUMMARY:Rockoffice Live (Uhrzeit prüfen)
+LOCATION:Cafe Carina
+DESCRIPTION:Rockoffice live  https://www.facebook.com/Rockoffice-513225798793799  https://www.instagram.com/rockoffice.music/  Das „Rockoffice“ meldet sich  zurück!  Keep on rockin´and welcome to RockOffice! Gegründet von zwei jungen Altrockern mit dem Wunsch\, den klassischen Gitarrenrock der sechziger und siebziger Jahre wieder auf die Bühne zu bringen.
+URL:https://www.cafe-carina.at/2020/events/rockoffice-488-563-612-327-357-383-249-303-730/
+END:VEVENT
+END:VCALENDAR
