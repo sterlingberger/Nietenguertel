@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260912-Kramladen-PROGRESSIVE-MADNESS@eventcrawler
-DTSTAMP:20260824T071543Z
+DTSTAMP:20260825T070133Z
 DTSTART:20260912T234500
 DTEND:20260912T235900
 SUMMARY:PROGRESSIVE MADNESS (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:PROGRESSIVE MADNESS — WIEN  Eine Nacht voller treibe...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/3865133080462606.webp?v=1787554967963
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/3865133080462606.webp?v=1787637807202
 END:VEVENT
 END:VCALENDAR

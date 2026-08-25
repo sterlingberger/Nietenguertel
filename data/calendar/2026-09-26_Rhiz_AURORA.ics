@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260926-Rhiz-AURORA@eventcrawler
+DTSTAMP:20260825T070133Z
+DTSTART:20260926T210000
+DTEND:20260926T235900
+SUMMARY:AURORA (Uhrzeit prüfen)
+LOCATION:Rhiz
+DESCRIPTION:Saint A / NikO NOX / MIA Wurscht Datum: 26.09.2026 | Einlass: 21:00 Uhr Beginn: 21:00 | Ende: 04:00 Uhr  Only AK / 5 € vor Mitternacht / 10 € nach Mitternacht
+URL:https://rhiz.wien/copilotevent/26-09-2026_Aurora
+END:VEVENT
+END:VCALENDAR
