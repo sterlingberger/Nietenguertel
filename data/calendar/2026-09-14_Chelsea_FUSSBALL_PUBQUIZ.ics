@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260914-Chelsea-FUSSBALL-PUBQUIZ@eventcrawler
+DTSTAMP:20260826T070212Z
+DTSTART:20260914T190000
+DTEND:20260914T235900
+SUMMARY:FUSSBALL PUBQUIZ (Uhrzeit prüfen)
+LOCATION:Chelsea
+DESCRIPTION:Anmeldungen für eine Platzgarantie bitte mit Namen und Teamgröße an : fussballpubquiz@gmx.at  Teamgröße: 3–5 Mitglieder  Teilnahmegebühr € 2 je Person  Anpfiff: 19h30  Zu gewinnen gibt es Getränkegutscheine fürs Chelsea\, die jederzeit für eines unserer Getränke eingelöst werden können und für die ersetn 3 Plätze gibt es noch zusätzlich eine Flasche Whiskey!  1. Platz: 5 Getränkegutscheine pro Teammitglied + 1 Flasche Whiskey JAMESON BLACK BARREL  2. Platz: 4 Getränkegutscheine pro Teammitglied + 1 Flasche JAMESON CASKMATES IPA WHISKEY  3. Platz: 3 Getränkegutscheine pro Teammitglied + 1 Flasche JAMESON IRISH WHISKEY   
+URL:https://www.chelsea.co.at/concerts.php#concert_6751
+END:VEVENT
+END:VCALENDAR

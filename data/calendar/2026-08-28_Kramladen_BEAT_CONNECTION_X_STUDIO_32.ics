@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260828-Kramladen-BEAT-CONNECTION-X-STUDIO-32@eventcrawler
-DTSTAMP:20260825T070133Z
+DTSTAMP:20260826T070212Z
 DTSTART:20260828T234500
 DTEND:20260828T235900
 SUMMARY:BEAT CONNECTION X STUDIO 32 (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:„Without music\, life would be a mistake.“ - Nietzs...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2413479812480463.webp?v=1787637807200
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2413479812480463.webp?v=1787713405324
 END:VEVENT
 END:VCALENDAR
