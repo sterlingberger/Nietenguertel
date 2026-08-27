@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260905-Cafe-Carina-UNDERCURRENT-//-Alpha_defizit@eventcrawler
+DTSTAMP:20260827T173500Z
+DTSTART:20260905T200000
+DTEND:20260905T235900
+SUMMARY:UNDERCURRENT // Alpha_defizit (Uhrzeit prüfen)
+LOCATION:Cafe Carina
+DESCRIPTION:UNDERCURRENT // alpha_defizit UNDERCURRENT    Loud. Heavy. Riffs. Stoner-Funk-Rock from Vienna Dive in!  https://www.facebook.com/profile.php?id=61564563323899  https://www.instagram.com/undercurrent.vienna/  alpha_defizit  https://www.instagram.com/alpha_defizit/
+URL:https://www.cafe-carina.at/2020/events/bonfire-punks-undercurrent/
+END:VEVENT
+END:VCALENDAR

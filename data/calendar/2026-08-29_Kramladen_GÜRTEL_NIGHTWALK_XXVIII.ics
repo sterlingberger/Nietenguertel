@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260829-Kramladen-GÜRTEL-NIGHTWALK-XXVIII@eventcrawler
-DTSTAMP:20260826T070212Z
+DTSTAMP:20260827T173500Z
 DTSTART:20260829T180000
 DTEND:20260829T235900
 SUMMARY:GÜRTEL NIGHTWALK XXVIII (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:„Feier die Vielfalt“ ist das Motto der 28. Ausgabe...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1086758930592141.webp?v=1787713405325
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1086758930592141.webp?v=1787808018923
 END:VEVENT
 END:VCALENDAR
