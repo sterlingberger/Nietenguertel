@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260926-Szene-sukone@eventcrawler
+DTSTAMP:20260829T123724Z
+DTSTART:20260926T193000
+DTEND:20260926T235900
+SUMMARY:sukone (Uhrzeit prüfen)
+LOCATION:Szene
+DESCRIPTION:Şükrü-Can Fener\, besser bekannt unter seinem Online-Pseudonym SukOne (oder @thesukone)\, macht unglaublich lustige Videos im Internet\, sehr kreative Prämissen\, unerwartete Wendungen\, absurde Szenarien und meist improvisiert. Er versetzt sich gerne in andere Menschen\, aber stellt sich auch vor wie ein Reh\, die Sonne\, eine Kidneybohne typische Alltagssituationen erleben könnten. All dies in seiner unverwechselbaren Art. Dabei spielt er alle Rollen selber\, führt inneren Monologe oder spricht mit sich selber aus dem Off.  Der Karlsruher Şükrü hatte angefangen Videos über das Leben in der WG zu machen\, wurde dafür auch schon groß beim Spiegel portraitiert\, sein Account auf Instagram ist stark inzwischen auf 227000 Follower’innen gestiegen\, bei TikTok hat er aktuell 7 Millionen likes eingesammelt. Inzwischen hat er seine ganz eigene Stimme gefunden\, weg von der WG\, hin zu szenischer Impro- Comedy mit allen dazugehörigen Meta-Ebenen. Eine erste Setup-Tour wird gerade gebucht\, die Fanganfragen und Wünsche diesbezüglich gehen in die Tausende.   
+URL:https://szene.wien/events/sukone/
+END:VEVENT
+END:VCALENDAR

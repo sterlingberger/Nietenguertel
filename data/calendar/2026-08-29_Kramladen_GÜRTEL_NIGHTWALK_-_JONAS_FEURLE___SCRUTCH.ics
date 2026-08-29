@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260829-Kramladen-GÜRTEL-NIGHTWALK---JONAS-FEURLE-&-SCRUTCH@eventcrawler
+DTSTAMP:20260829T123724Z
+DTSTART:20260829T220000
+DTEND:20260829T235900
+SUMMARY:GÜRTEL NIGHTWALK - JONAS FEURLE & SCRUTCH (Uhrzeit prüfen)
+LOCATION:Kramladen
+DESCRIPTION:Jonas Feurle & scrutch are happy to be a part of t...
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2075585113034468.webp?v=1787986403300
+END:VEVENT
+END:VCALENDAR
