@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260929-Szene-humanity’s-last-breath@eventcrawler
+DTSTAMP:20260830T114336Z
+DTSTART:20260929T180000
+DTEND:20260929T235900
+SUMMARY:humanity’s last breath (Uhrzeit prüfen)
+LOCATION:Szene
+DESCRIPTION:Humanity’s Last Breath hat in den letzten zehn Jahren eine der beeindruckendsten Diskografien des modernen Metal aufgebaut. Ihr fünftes Album „Ashen“ markiert den nächsten Schritt in dieser Entwicklung: roh\, kollaborativ und gewalttätiger denn je.  Nach Tourneen mit Angelmaker\, Cattle Decapitation\, Carnifex und Rivers of Nihil schloß sich die Band Lorna Shore auf der vermutlich größten Deathcore-Tournee der Geschichte an. Unterdessen sind sie bereits intensiv mit dem Schreiben neuen Materials beschäftigt. Ihre neueste Single „Anthracite“ präsentiert einen noch aggressiveren und unversöhnlicheren Sound\, während HLB ihren Weg an der Spitze des Extreme Metal fortsetzen und eine Reihe ausverkaufter Headliner-Shows in Europa hinter sich haben.   
+URL:https://szene.wien/events/humanitys-last-breath/
+END:VEVENT
+END:VCALENDAR
