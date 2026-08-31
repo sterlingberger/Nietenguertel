@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260905-Rhiz-Basst-scho-x-citruscue@eventcrawler
+DTSTAMP:20260831T131936Z
+DTSTART:20260905T210000
+DTEND:20260905T235900
+SUMMARY:Basst scho x citruscue (Uhrzeit prüfen)
+LOCATION:Rhiz
+DESCRIPTION:Bass musicFreut euch auf fette Basslines\, wilde Breakbeats und eine Menge Dopamin. Authentisch\, unkompliziert und vor allem eines: LAUT. Was soll ich sagen? Basst scho.
+URL:https://rhiz.wien/copilotevent/05-09-2026_Basst Scho
+END:VEVENT
+END:VCALENDAR

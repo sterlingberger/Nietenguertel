@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260903-Rhiz-FIFI-Rave@eventcrawler
+DTSTAMP:20260831T131936Z
+DTSTART:20260903T210000
+DTEND:20260903T235900
+SUMMARY:FIFI Rave (Uhrzeit prüfen)
+LOCATION:Rhiz
+DESCRIPTION:Hardgroove Datum: 03.09.2026 | Einlass: 21:00 Uhr Beginn: 21:00 | Ende: 03:27 Uhr  5 Eintritt 23:00 Mein__ DM Vinyl Set 00:00 Adam19 01:00 L4nc3 02:00 MERIFLOX 03:00 F.A.R 04: Open Decks
+URL:https://rhiz.wien/copilotevent/03-09-2026_fifi-rave
+END:VEVENT
+END:VCALENDAR

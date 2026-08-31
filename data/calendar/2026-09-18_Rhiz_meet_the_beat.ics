@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260918-Rhiz-meet-the-beat@eventcrawler
-DTSTAMP:20260830T114336Z
+DTSTAMP:20260831T131936Z
 DTSTART:20260918T180000
 DTEND:20260918T235900
 SUMMARY:meet the beat (Uhrzeit prüfen)
 LOCATION:Rhiz
-DESCRIPTION:dj buzz (waxolusionists) & mono:massive und digga mindz Datum: 18.09.2026 | Einlass: 17:30 Uhr Beginn: 18:00 | Ende: 23:27 Uhr 
+DESCRIPTION:dj buzz (waxolusionists) & mono:massive und digga mindz Datum: 18.09.2026 | Einlass: 17:30 Uhr Beginn: 18:00 | Ende: 21:30 Uhr  AK 13 €
 URL:https://rhiz.wien/copilotevent/18-09-2026_meet-the-beat-dj-buzz-waxolusionists-und-mono-massive-und-digga-mindz
 END:VEVENT
 END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260911-Rhiz-Tote-Hosen-Unplugged-cover-am-Piano@eventcrawler
+DTSTAMP:20260831T131936Z
+DTSTART:20260911T180000
+DTEND:20260911T235900
+SUMMARY:Tote Hosen Unplugged cover am Piano (Uhrzeit prüfen)
+LOCATION:Rhiz
+DESCRIPTION:24 h vor Ernst Happel Stadion: Mike Gromberg spielt DIE TOTEN HOSEN auf Klavier!!! Datum: 11.09.2026 | Einlass: 17:30 Uhr Beginn: 18:00 | Ende: 21:45 Uhr 
+URL:https://rhiz.wien/copilotevent/11-09-2026_tote-hosen-unplugged-cover-am-Piano
+END:VEVENT
+END:VCALENDAR

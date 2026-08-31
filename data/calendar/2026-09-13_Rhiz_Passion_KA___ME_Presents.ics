@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260913-Rhiz-Passion-KA-/-ME-Presents@eventcrawler
+DTSTAMP:20260831T131936Z
+DTSTART:20260913T203000
+DTEND:20260913T235900
+SUMMARY:Passion KA / ME Presents (Uhrzeit prüfen)
+LOCATION:Rhiz
+DESCRIPTION:KA/ ME b2b JUSE Datum: 13.09.2026 | Einlass: 21:00 Uhr Beginn: 20:30 | Ende: 05:20 Uhr  free entry dj event
+URL:https://rhiz.wien/copilotevent/12-09-2026_passion
+END:VEVENT
+END:VCALENDAR
