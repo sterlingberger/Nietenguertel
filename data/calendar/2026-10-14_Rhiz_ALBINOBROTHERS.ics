@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261014-Rhiz-ALBINOBROTHERS@eventcrawler
+DTSTAMP:20260901T113229Z
+DTSTART:20261014T180000
+DTEND:20261014T235900
+SUMMARY:ALBINOBROTHERS (Uhrzeit prüfen)
+LOCATION:Rhiz
+DESCRIPTION: Datum: 14.10.2026 | Einlass: 17:30 Uhr Beginn: 18:00 | Ende: 20:45 Uhr  Just the short story... ALBINOBROTHERS is Tobias Werner (Ambush\,Clear like Blood\,Helga Blohm Dynastie) on acoustic guitar and vocals and Ronny Wunderwald (Garda\,Helga Blohm Dynastie) on drums. Best description might be "Dark Folk in Cinemascope". RHIZ 
+URL:https://rhiz.wien/copilotevent/14-10-2026_albinobrothers-just-the-short-story-
+END:VEVENT
+END:VCALENDAR

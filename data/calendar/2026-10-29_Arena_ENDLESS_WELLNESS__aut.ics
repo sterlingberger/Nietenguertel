@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261029-Arena-ENDLESS-WELLNESS-(aut)@eventcrawler
+DTSTAMP:20260901T113229Z
+DTSTART:20261029T190000
+DTEND:20261029T235900
+SUMMARY:ENDLESS WELLNESS (aut) (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Große Halle | presented by SPOON AGENCY  Endless Wellness kommen aus Wien – aber eigentlich aus dem Bauch. Ihr Debütalbum „Was für ein Glück“ erschien Anfang 2024 bei Ink Music und machte die Band schnell zu einer der auffälligsten Stimmen der österreichischen Indie-Szene. Das Album erreichte die Top 10 der österreichischen Charts\, mehrere Singles landeten in den Top 5 der FM4-Charts\; 2025 folgten zwei Nominierungen für den Amadeus Award (FM4 Alternative).  Musikalisch bewegen sich Endless Wellness zwischen Indie\, Fuzz-Folk und roher Intimität: schrammelnde Westerngitarre und übersteuerte Klangflächen treffen auf obskur-poetische\, deutschsprachige Texte über Erschöpfung\, Verletzlichkeit und gesellschaftliche Überforderung. Live wird daraus ein kollektiver\, tröstender Moment – laut\, mitreißend und voller Wärme.  Musik für alle\, die nicht still sein wollen\, aber auch nicht mehr wissen\, wie laut man schreien darf.
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48570
+END:VEVENT
+END:VCALENDAR

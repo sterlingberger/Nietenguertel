@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261023-Arena-CLAWFINGER-(swe)-*AUSVERKAUFT*@eventcrawler
+DTSTAMP:20260901T113229Z
+DTSTART:20261023T190000
+DTEND:20261023T235900
+SUMMARY:CLAWFINGER (swe) *AUSVERKAUFT* (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Große Halle | presented by MIND OVER MATTER  Das Konzert ist ausverkauft!   Loud\, angry\, dark\, humorous and brutally honest\, CLAWFINGER’s “Before We All Die”Tour is everything you forgot you needed and exactly what you'd expect from a band thatnever cared much for subtlety.“This isn’t about finding peace\,”theirsinger Zak Tell says.“It’s about telling the truth\, even when it’s ugly. Especially then.”From environmentalcollapse to political hypocrisy\, personal disillusionment to collective denial\, this isCLAWFINGER at full volume\, still pissed off\, still sharpas ever\, and still refusing to shutup while the world pretends it’s all fine.Known for their direct\, riff-driven sound and strong political stance\, CLAWFINGERaddress topics such as racism\, political delusion\, drug policy\, environmentaldestruction\, andsocial inequality.”The gigs are where the magic really happens\, there’s nothing better than connectingwith the audiences. Our job is to make the gap between us and the audience disappear\,to create the best atmosphere we can and leave everyone with sweaty smiles on theirfaces and a feeling of well-being when the show is done.” 
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48423
+END:VEVENT
+END:VCALENDAR

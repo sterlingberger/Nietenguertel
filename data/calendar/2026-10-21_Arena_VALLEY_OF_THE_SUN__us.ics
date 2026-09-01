@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261021-Arena-VALLEY-OF-THE-SUN-(us)@eventcrawler
+DTSTAMP:20260901T113229Z
+DTSTART:20261021T190000
+DTEND:20261021T235900
+SUMMARY:VALLEY OF THE SUN (us) (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION:Roadtrip To Outta Space | Arena Wien - Dreiraum | Valley Of The Sun is a three-piece Rock band formed in 2010.  With a unique blend of Stoner Rock\, Grunge\, and Psychedelia\, their sound has been compared to the likes of Fu Manchu\, Kyuss\, Truckfighters and Soundgarden.  Celebrating the release of their latest album\, "Quintessence"\, they are currently on a three month tour spanning the USA\, UK and Europe.  Their captivating performances are often riffy\, occasionally serene\, and always LOUD\, and their take-no-prisoners attitude always leaves their fans wanting more.   https://valleyofthesun.bandcamp.com/  Vorverkauf/Presale € 20 (+ € 2\,20) Abendkassa/Box-office tba.
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48574
+END:VEVENT
+END:VCALENDAR

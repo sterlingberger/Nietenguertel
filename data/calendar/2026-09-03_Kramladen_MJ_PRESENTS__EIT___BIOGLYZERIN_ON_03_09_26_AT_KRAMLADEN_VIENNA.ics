@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260903-Kramladen-MJ-PRESENTS:-EIT-&-BIOGLYZERIN-ON-03.09.26-AT-KRAMLADEN-VIENNA@eventcrawler
-DTSTAMP:20260831T131936Z
+DTSTAMP:20260901T113229Z
 DTSTART:20260903T203000
 DTEND:20260903T235900
 SUMMARY:MJ PRESENTS: EIT & BIOGLYZERIN ON 03.09.26 AT KRAMLADEN VIENNA (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:EiT  (Elektro / Synth-Pop / Schweiz) https://www.face...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1793238868348694.webp?v=1788161814636
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1793238868348694.webp?v=1788253991562
 END:VEVENT
 END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261015-Arena-ZERONIC-(aut)-+-Support@eventcrawler
+DTSTAMP:20260901T113229Z
+DTSTART:20261015T190000
+DTEND:20261015T235900
+SUMMARY:ZERONIC (aut) + Support (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Kleine Halle | zeronic zählen seit ihrem Debütalbum 2001 zu den konstanten Größen der österreichischen Alternative-Szene. In dieser Zeit entstanden mehrere Amadeus-nominierte Releases\, internationale Tourneen sowie eine Zusammenarbeit mit Produzent Gareth Jones\, bekannt für seine Arbeit mit Depeche Mode und Nick Cave. Die Band entwickelte ihren charakteristischen Sound zwischen emotionaler Direktheit und melodischer Klarheit weiter und kehrt 2026 mit dem neuen Album „Modernism“ zurück.  Live hat sich zeronic früh auch über Österreich hinaus etabliert: Neben zahlreichen Clubshows — darunter in London mit Auftritten im Madame Jojo’s und im Dublin Castle — spielte die Band regelmäßig Festivals und eröffnete Abende für so unterschiedliche Acts wie New Order oder Queens of the Stone Age.  Auf 13 Jahre Live-Pause folgt nun ein lang erwarteter Abend\, der die verschiedenen Phasen der Band mit dem Jetzt zusammenführt und mit neuer Intensität auf die Bühne der Arena Wien bringt. https://www.zeronic.net/  Vorverkauf/Presale Arena Shop € 23 (+ € 2\,50 Fee) Abendkasse/Doors tba.
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48576
+END:VEVENT
+END:VCALENDAR

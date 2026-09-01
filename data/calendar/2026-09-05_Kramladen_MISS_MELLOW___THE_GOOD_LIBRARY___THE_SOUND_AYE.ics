@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260905-Kramladen-MISS-MELLOW-+-THE-GOOD-LIBRARY-+-THE-SOUND-AYE@eventcrawler
-DTSTAMP:20260831T131936Z
+DTSTAMP:20260901T113229Z
 DTSTART:20260905T200000
 DTEND:20260905T235900
 SUMMARY:MISS MELLOW + THE GOOD LIBRARY + THE SOUND AYE (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Miss Mellow + The Good Library + The Sound Aye LIVE...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1398946398637788.webp?v=1788161814638
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1398946398637788.webp?v=1788253991564
 END:VEVENT
 END:VCALENDAR

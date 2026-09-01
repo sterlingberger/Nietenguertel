@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261013-Chelsea-STU-LARSEN-(AUS)@eventcrawler
+DTSTAMP:20260901T113229Z
+DTSTART:20261013T180000
+DTEND:20261013T235900
+SUMMARY:STU LARSEN (AUS) (Uhrzeit prüfen)
+LOCATION:Chelsea
+DESCRIPTION: Der australische Singer-Songwriter Stu Larsen ist bekannt für seine ruhigen\, gefühlvollen Folk-Songs und seine enge Verbindung zum Reisen. Viele Jahre lebte er ohne festen Wohnsitz und tourte ununterbrochen durch Europa\, Nordamerika und Australien\, was sich stark in seinen Texten widerspiegelt. Seine Musik ist geprägt von akustischer Gitarre\, sanften Melodien und persönlichen Geschichten über Freiheit\, Begegnungen und das Unterwegssein. Durch seine authentische Art und seine Nähe zum Publikum hat er sich besonders in der Indie-Folk-Szene eine treue Fangemeinde aufgebaut. www.stularsen.com/    Tickets: www.oeticket.com/event/stu-larsen-chelsea-21348239/?affiliate=MT5
+URL:https://www.chelsea.co.at/concerts.php#concert_6647
+END:VEVENT
+END:VCALENDAR

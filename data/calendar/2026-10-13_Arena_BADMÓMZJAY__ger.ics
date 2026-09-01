@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261013-Arena-BADMÓMZJAY-(ger)@eventcrawler
+DTSTAMP:20260901T113229Z
+DTSTART:20261013T190000
+DTEND:20261013T235900
+SUMMARY:BADMÓMZJAY (ger) (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Große Halle | presented by ARCADIA LIVE  "Haus im Meer – Tour 2026"  Badmómzjay gehört zu den prägendsten Stimmen der neuen Generation im deutschsprachigen Rap. Mit klarer Attitüde\, eigenem Style und internationalen Einflüssen hat sie sich längst als feste Größe etabliert.2026 ist sie zurück mit neuer Musik und kündigt ihr nächstes Album "Haus im Meer" für den 4. September an. Ein Projekt\, das persönlicher ist als alles davor.
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48553
+END:VEVENT
+END:VCALENDAR

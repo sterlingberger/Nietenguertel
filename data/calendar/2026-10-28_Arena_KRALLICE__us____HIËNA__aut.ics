@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261028-Arena-KRALLICE-(us)-+-HIËNA-(aut)@eventcrawler
+DTSTAMP:20260901T113229Z
+DTSTART:20261028T190000
+DTEND:20261028T235900
+SUMMARY:KRALLICE (us) + HIËNA (aut) (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Kleine Halle | Krallice is a metal band formed by New York City musicians Colin Marston\, Mick Barr\, Nick McMaster and Lev Weinstein. They play an experimental\, highly technical style of black metal. The band has released eight studio albums and two EPs\, most recently the LP Go Be Forgotten on November 21\, 2017. They have been described as "one of the most interesting\, engaging black metal bands to emerge in recent years" and "one of the most important bands in modern black metal". https://krallice.bandcamp.com/  Hiëna werden an dem Abend ihr neues Album präsentieren! https://www.instagram.com/hiena.dbeat/  Vorverkauf/Presale Arena Shop € 28 (+ € 3 Fee) Abendkassa/Box-office € 35
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48571
+END:VEVENT
+END:VCALENDAR

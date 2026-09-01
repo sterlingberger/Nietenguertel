@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260926-Kramladen-PUNKBERATER-&-AXEL-MOLEY-JR.@eventcrawler
-DTSTAMP:20260831T131936Z
+DTSTAMP:20260901T113229Z
 DTSTART:20260926T200000
 DTEND:20260926T235900
 SUMMARY:PUNKBERATER & AXEL MOLEY JR. (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:PUNKBERATER  Mit einer beispiellosen Energie und inn...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1524628618928942.webp?v=1788161814642
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1524628618928942.webp?v=1788253991567
 END:VEVENT
 END:VCALENDAR

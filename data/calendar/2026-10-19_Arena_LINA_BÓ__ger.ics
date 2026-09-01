@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261019-Arena-LINA-BÓ-(ger)@eventcrawler
+DTSTAMP:20260901T113229Z
+DTSTART:20261019T190000
+DTEND:20261019T235900
+SUMMARY:LINA BÓ (ger) (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Kleine Halle | presented by ADIVA Artists  Asphalt und Sterne Tour 2026    Lina Bó stehen für Musik\, die bewegt! Seit ihrer Gründung 2018 haben Celina von Wrochem und Luca Bo Hansen ihren ganz eigenen Sound entwickelt: Folk-Pop mit Einflüssen aus Lateinamerika\, viel Gefühl und noch mehr Energie. Ob auf der Straße oder im Club – ihre Songs erzählen von Begegnungen\, vom Reisen\, vom Leben zwischen Kulturen. Mal leichtfüßig und tanzbar\, mal nachdenklich und voll Seele.    Mit ihrer selbstbetitelten Debüt-EP\, zahlreichen TV-Auftritten und Supportshows für Größen wie Santiano oder Anna R. haben Lina Bó längst gezeigt\, was in ihnen steckt. Nach der 2025 teilweise ausverkauften Deutschlandtour bringen sie 2026 ihre Musik erneut in die Clubs in Deutschland\, Österreich und der Schweiz!
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48588
+END:VEVENT
+END:VCALENDAR
