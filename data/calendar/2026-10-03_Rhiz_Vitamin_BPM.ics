@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261003-Rhiz-Vitamin-BPM@eventcrawler
+DTSTAMP:20260902T110705Z
+DTSTART:20261003T210000
+DTEND:20261003T235900
+SUMMARY:Vitamin BPM (Uhrzeit prüfen)
+LOCATION:Rhiz
+DESCRIPTION:Open Space Event DIV Techno
+URL:https://rhiz.wien/copilotevent/03-10-2026_vitamin-bpm-open-space-event
+END:VEVENT
+END:VCALENDAR

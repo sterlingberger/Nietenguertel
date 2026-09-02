@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261024-Arena-ELEMNT-pres.-KANINE@eventcrawler
+DTSTAMP:20260902T110705Z
+DTSTART:20261024T220000
+DTEND:20261024T235900
+SUMMARY:ELEMNT pres. KANINE (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Gelände | ELEMNT pres. KANINE - 'Reflections' Tour Vienna  DRUM & BASS is back at ARENA WIEN!  GROSSE HALLE - Drum & Bass ⨯ KANINE presents 'Reflections' + full lineup to be announced soon!  TICKETS ⨯ EARLY-BIRD: 25 € ⨯ PHASE 1: 30 € ⨯ PHASE 2: TBA ⨯ FINAL PHASE: TBA  ABENDKASSA: TBA  ⨯ STRICTLY 18+ / Ausweis mitnehmen!  https://elemnt.at https://facebook.com/elemnt.at https://instagram.com/elemnt.at 
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48635
+END:VEVENT
+END:VCALENDAR

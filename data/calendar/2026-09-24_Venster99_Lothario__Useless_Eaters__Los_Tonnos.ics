@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260924-Venster99-Lothario-+Useless-Eaters+-Los-Tonnos@eventcrawler
+DTSTAMP:20260902T110705Z
+DTSTART:20260924T180000
+DTEND:20260924T235900
+SUMMARY:Lothario +Useless Eaters+ Los Tonnos (Uhrzeit prüfen)
+LOCATION:Venster99
+DESCRIPTION:
+URL:http://Muhgang - lothario
+END:VEVENT
+END:VCALENDAR

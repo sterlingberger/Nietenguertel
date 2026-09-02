@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260912-Cafe-Carina-FEDER-/-PRUNKNELKE@eventcrawler
+DTSTAMP:20260902T110705Z
+DTSTART:20260912T200000
+DTEND:20260912T235900
+SUMMARY:FEDER / PRUNKNELKE (Uhrzeit prüfen)
+LOCATION:Cafe Carina
+DESCRIPTION:FEDER / PRUNKNELKE  FEDER  Punk kann wütend sein\, laut sein und anecken. Die äußerst symphatischen Grazer \, die nicht zum ersten Mal bei uns zu Gast sind\, schaffen aber gleichzeitig Nähe\, spenden Trost und denken viele Themen weiter\, anstatt mit Parolen um sich zu schmeißen. Düster-Deutschpunk mit metallischen Gitarren und ehrlichen Texten\, Wut\, Melancholie und schonungsloser Selbstreflexion. Mit „Radikale Empathie“ präsentieren FEDER ihr neues Album und bringen ihre eigenwillige Mischung aus Härte\, Verletzlichkeit und Haltung nach Wien!  https://www.instagram.com/feder.punx/  PRUNKNELKE  Emotionen stehen stark im Vordergrund und die Band überrascht immer wieder mit ihrer ungestümen Art. Zwischen manisch treibenden Drumparts und Punkrockriffs passt immer mal ein plötzlicher Ausbruch an Disharmonie wobei die Hörer*innen mit roher Energie und Ecken und Kanten belohnt werden.  https://www.instagram.com/prunknelke/   
+URL:https://www.cafe-carina.at/2020/events/feder-prunknelke/
+END:VEVENT
+END:VCALENDAR

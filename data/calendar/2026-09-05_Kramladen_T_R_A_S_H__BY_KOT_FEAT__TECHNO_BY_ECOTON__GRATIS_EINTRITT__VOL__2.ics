@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260905-Kramladen-T.R.A.S.H.-BY-KOT-FEAT.-TECHNO-BY-ECOTON-(GRATIS-EINTRITT)-VOL.-2@eventcrawler
-DTSTAMP:20260901T113229Z
+DTSTAMP:20260902T110705Z
 DTSTART:20260905T235000
 DTEND:20260905T235900
 SUMMARY:T.R.A.S.H. BY KOT FEAT. TECHNO BY ECOTON (GRATIS EINTRITT) VOL. 2 (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Wer hat den TRASH nicht weggeräumt??? Aus der Asche...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1400634561531210.webp?v=1788253991564
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1400634561531210.webp?v=1788327702932
 END:VEVENT
 END:VCALENDAR
