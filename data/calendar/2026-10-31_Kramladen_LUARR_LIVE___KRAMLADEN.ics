@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261031-Kramladen-LUARR-LIVE-@-KRAMLADEN@eventcrawler
-DTSTAMP:20260902T110705Z
+DTSTAMP:20260903T110631Z
 DTSTART:20261031T193000
 DTEND:20261031T235900
 SUMMARY:LUARR LIVE @ KRAMLADEN (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:LUARR Live at Kramladen w/ Full Band!  Support by M...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/4430743113858516.webp?v=1788327702944
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/4430743113858516.webp?v=1788425610600
 END:VEVENT
 END:VCALENDAR

@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261003-Kramladen-SORRY-MOM-X-TOGA@eventcrawler
-DTSTAMP:20260902T110705Z
+DTSTAMP:20260903T110631Z
 DTSTART:20261003T234500
 DTEND:20261003T235900
 SUMMARY:SORRY MOM X TOGA (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:SORRY MOM x TOGA TOGAther ist man weniger allein un...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1829715714866086.webp?v=1788327702937
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1829715714866086.webp?v=1788425610590
 END:VEVENT
 END:VCALENDAR
