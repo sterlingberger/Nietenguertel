@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261008-Arena-VERNISSAGE:-DRIFT---Edition-#2@eventcrawler
+DTSTAMP:20260904T110652Z
+DTSTART:20261008T180000
+DTEND:20261008T235900
+SUMMARY:VERNISSAGE: DRIFT - Edition #2 (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: |  | DRIFT - Edition #2  Viewing Habits ist eine Filmkunst-Ausstellung die sich mit dieser 2. Ausgabe dem Thema „Bildlosigkeit“ im Film annimmt. Der Fokus der ausgesuchten Film- und Videowerke liegt daher vor allem auf der Bild-Verweigerung und dem Experimentieren mit visueller Reduktion: Schrift und Grafik Poesie und Sprache Sound und Musik - alle Elemente außer Darstellungen im Film spielen hier die zentrale Rolle. „Viewing Habits“ ist eine kurz und bündige Exkursion durch eine geschichtsträchtige Nische der Film-Kunst angefangen bei den Dadaisten über die Lettristen zu den Situationisten bis hin zur aktuellen internationalen und lokalen Positionen. Zusammengestellt wurde das Programm von Robert Pawliczek Mitgründer des Vereins DRIFT einer Non-Profit Organisation welche zur Förderung von innovativer Film- und Videokunst ins Leben gerufen wurde. Das Gebäude des Dreiraums und der kleinen Halle soll zu diesem Zweck zwei Tage lang zu einem großen Ausstellungsraum werden. Das Programm besteht aus Live-Performances Projektionen Video-Installationen und Film-Vorführungen in verschiedenen Settings.   Eintritt frei!
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48640
+END:VEVENT
+END:VCALENDAR

@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261021-Kramladen-NOIX-(CZ)-&-SUNTAN-CLUB-(AT)ᆞKRAMLADENᆞWIEN@eventcrawler
-DTSTAMP:20260903T110631Z
+DTSTAMP:20260904T110652Z
 DTSTART:20261021T190000
 DTEND:20261021T235900
 SUMMARY:NOIX (CZ) & SUNTAN CLUB (AT)ᆞKRAMLADENᆞWIEN (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Vienna welcomes NOIX (CZ) live on stage at Kramlad...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1009448474756628.webp?v=1788425610597
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1009448474756628.webp?v=1788502132135
 END:VEVENT
 END:VCALENDAR

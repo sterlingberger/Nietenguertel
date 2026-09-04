@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261008-Kramladen-CHRIS-ZITTA-&-BAND-LIVE-IM-KRAMLADEN@eventcrawler
-DTSTAMP:20260903T110631Z
+DTSTAMP:20260904T110652Z
 DTSTART:20261008T200000
 DTEND:20261008T235900
 SUMMARY:CHRIS ZITTA & BAND LIVE IM KRAMLADEN (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Wir freuen uns sehr darüber\, euch am 8.10 im Kraml...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1593922135167698.webp?v=1788425610619
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1593922135167698.webp?v=1788502132134
 END:VEVENT
 END:VCALENDAR

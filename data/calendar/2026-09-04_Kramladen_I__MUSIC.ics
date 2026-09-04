@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260904-Kramladen-I♥️MUSIC@eventcrawler
-DTSTAMP:20260903T110631Z
+DTSTAMP:20260904T110652Z
 DTSTART:20260904T234500
 DTEND:20260904T235900
 SUMMARY:I♥️MUSIC (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:I  MUSIC is back��� ��� ���4.9.26 im KRAMLADEN VIE...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2382362282292602.webp?v=1788425610577
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2382362282292602.webp?v=1788502132118
 END:VEVENT
 END:VCALENDAR

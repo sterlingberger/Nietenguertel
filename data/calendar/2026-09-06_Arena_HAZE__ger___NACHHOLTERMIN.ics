@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260906-Arena-HAZE-(ger)-*NACHHOLTERMIN.*@eventcrawler
-DTSTAMP:20260903T110631Z
+DTSTAMP:20260904T110652Z
 DTSTART:20260906T190000
 DTEND:20260906T235900
 SUMMARY:HAZE (ger) *NACHHOLTERMIN.* (Uhrzeit prüfen)
 LOCATION:Arena
-DESCRIPTION: | Arena Wien - Große Halle | presented by TICKETHEAD  Haze Jubiläumstour 2026  Das Konzert musste vom 20.03.2026 auf den 06.09.2026 verschoben werden. Bereits gekaufte Tickets behalten ihre Gültigkeit\, können bei Bedarf aber auch an der jeweiligen Vorverkaufsstelle zurückgegeben werden.  Willkommen zu der Haze Jubiläumstour 2026! Zehn Jahre zwischen Ruhm und Missgunst\, zwischen Euphorie und Ernüchterung\, vom Rampenlicht der Bühne bis zu den flackernden Laternen der Blockbauten\, den stillen Zeitzeugen unzähliger bitterer Schicksale.Ein ewiger Kreislauf\, der uns heimtükisch mit Hoffnungsschimmer ködert.
+DESCRIPTION: | Arena Wien - Große Halle | presented by TICKETHEAD  19:00 Einlass 20:00 Beginn  Haze Jubiläumstour 2026  Das Konzert musste vom 20.03.2026 auf den 06.09.2026 verschoben werden. Bereits gekaufte Tickets behalten ihre Gültigkeit\, können bei Bedarf aber auch an der jeweiligen Vorverkaufsstelle zurückgegeben werden.  Willkommen zu der Haze Jubiläumstour 2026! Zehn Jahre zwischen Ruhm und Missgunst\, zwischen Euphorie und Ernüchterung\, vom Rampenlicht der Bühne bis zu den flackernden Laternen der Blockbauten\, den stillen Zeitzeugen unzähliger bitterer Schicksale.Ein ewiger Kreislauf\, der uns heimtükisch mit Hoffnungsschimmer ködert.
 URL:https://arena.wien/Home/Programm-Detail/concert-id/48512
 END:VEVENT
 END:VCALENDAR

@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261007-Kramladen-DIE-CIGARETTEN-LIVE-IN-WIEN@eventcrawler
-DTSTAMP:20260903T110631Z
+DTSTAMP:20260904T110652Z
 DTSTART:20261007T200000
 DTEND:20261007T235900
 SUMMARY:DIE CIGARETTEN LIVE IN WIEN (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Die Cigaretten kommen endlich wieder nach Wien - m...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1943596619893615.webp?v=1788425610589
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1943596619893615.webp?v=1788502132143
 END:VEVENT
 END:VCALENDAR

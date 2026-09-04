@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261010-Kramladen-WIEN_KRAMLADEN---.LIMA-&-MEERSEIN---CONERT@eventcrawler
-DTSTAMP:20260903T110631Z
+DTSTAMP:20260904T110652Z
 DTSTART:20261010T203000
 DTEND:20261010T235900
 SUMMARY:WIEN_KRAMLADEN - .LIMA & MEERSEIN - CONERT (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:10.10.2026 - WIEN  KRAMLADEN\, 39/40 u-bahnbogen\, 108...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/4043443079250658.webp?v=1788425610593
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/4043443079250658.webp?v=1788502132129
 END:VEVENT
 END:VCALENDAR

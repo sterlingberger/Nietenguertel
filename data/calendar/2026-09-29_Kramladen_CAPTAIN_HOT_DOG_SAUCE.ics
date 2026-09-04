@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260929-Kramladen-CAPTAIN-HOT-DOG-SAUCE@eventcrawler
-DTSTAMP:20260903T110631Z
+DTSTAMP:20260904T110652Z
 DTSTART:20260929T080000
 DTEND:20260929T235900
 SUMMARY:CAPTAIN HOT DOG SAUCE (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Captain Hot Dog Sauce is a 4-piece instrumental ba...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/820549901050295.webp?v=1788425610587
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/820549901050295.webp?v=1788502132141
 END:VEVENT
 END:VCALENDAR
