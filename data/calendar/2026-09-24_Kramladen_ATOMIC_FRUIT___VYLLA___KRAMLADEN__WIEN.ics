@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260924-Kramladen-ATOMIC-FRUIT-&-VYLLA-@-KRAMLADEN,-WIEN@eventcrawler
-DTSTAMP:20260904T110652Z
+DTSTAMP:20260905T102640Z
 DTSTART:20260924T200000
 DTEND:20260924T235900
 SUMMARY:ATOMIC FRUIT & VYLLA @ KRAMLADEN\, WIEN (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:VYLLA & ATOMIC FRUIT - Double Headline Show!  Doors:...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1585654109815372.webp?v=1788502132148
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1585654109815372.webp?v=1788593620519
 END:VEVENT
 END:VCALENDAR

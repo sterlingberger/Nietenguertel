@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260916-Cafe-Carina-VMI-SEMESTER-OPENING@eventcrawler
+DTSTAMP:20260905T102640Z
+DTSTART:20260916T200000
+DTEND:20260916T235900
+SUMMARY:VMI SEMESTER OPENING (Uhrzeit prüfen)
+LOCATION:Cafe Carina
+DESCRIPTION:VMI SEMESTER OPENING  A new semester deserves a proper start! Join us for the first VMI NIGHT of the semester and celebrate the beginning of a new chapter at the VMI SEMESTER OPENING.  Created to welcome our new students and bring the entire VMI community together\, the evening combines live music\, creativity\, and connection. An international opening band will set the tone for the night\, followed by an open jam session inviting musicians to share the stage and make music together.  Come by\, meet fellow students\, make new connections and experience the creative spirit of VMI from day one. Whether you want to network\, join the jam or simply enjoy the music\, the Semester Opening is the perfect way to start the semester. This event marks a highlight at the start of every semester that no one should miss!  Foto Credits: @ Peter Kogoj
+URL:https://www.cafe-carina.at/2020/events/vmi-night-6-455/
+END:VEVENT
+END:VCALENDAR

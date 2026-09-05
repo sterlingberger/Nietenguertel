@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260911-Kramladen-ZAPPZARAPP-+-VEZZ3-@-KRAMLADEN@eventcrawler
-DTSTAMP:20260904T110652Z
+DTSTAMP:20260905T102640Z
 DTSTART:20260911T190000
 DTEND:20260911T235900
 SUMMARY:ZAPPZARAPP + VEZZ3 @ KRAMLADEN (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:zappzarapp - wichteltanz / frantisek techno vezz3 -...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1055715390772573.webp?v=1788502132124
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1055715390772573.webp?v=1788593620515
 END:VEVENT
 END:VCALENDAR

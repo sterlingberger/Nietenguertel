@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261023-Kramladen-MODS-VS.-ROCKERS-II@eventcrawler
-DTSTAMP:20260904T110652Z
+DTSTAMP:20260905T102640Z
 DTSTART:20261023T200000
 DTEND:20261023T235900
 SUMMARY:MODS VS. ROCKERS II (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Der Beatclub mit volle Kanne Rhythm & Blues\, (Frea...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/770936199297329.webp?v=1788502132129
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/770936199297329.webp?v=1788593620542
 END:VEVENT
 END:VCALENDAR

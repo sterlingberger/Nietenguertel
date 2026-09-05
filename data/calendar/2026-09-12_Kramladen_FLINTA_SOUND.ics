@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260912-Kramladen-FLINTA*SOUND@eventcrawler
-DTSTAMP:20260904T110652Z
+DTSTAMP:20260905T102640Z
 DTSTART:20260912T200000
 DTEND:20260912T235900
 SUMMARY:FLINTA*SOUND (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:FLINTA*SOUND ist ein queer-feministisches Konzertf...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/985301557600004.webp?v=1788502132126
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/985301557600004.webp?v=1788593620517
 END:VEVENT
 END:VCALENDAR
