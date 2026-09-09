@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260926-Kramladen-XPERIMENT-NIGHTS-EVENT-AT-KRAMLADEN@eventcrawler
-DTSTAMP:20260908T110603Z
+DTSTAMP:20260909T111034Z
 DTSTART:20260926T234500
 DTEND:20260926T235900
 SUMMARY:XPERIMENT NIGHTS EVENT AT KRAMLADEN (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Xperiment Records gladly presents An Xperiment Nig...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2029789571036699.webp?v=1788846381038
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2029789571036699.webp?v=1788933730487
 END:VEVENT
 END:VCALENDAR
