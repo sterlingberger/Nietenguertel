@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261014-Kramladen-COSMIC-COLOURS-LIVE-@-KRAMLADEN-VIENNA@eventcrawler
-DTSTAMP:20260909T111034Z
+DTSTAMP:20260910T110724Z
 DTSTART:20261014T193000
 DTEND:20261014T235900
 SUMMARY:COSMIC COLOURS LIVE @ KRAMLADEN VIENNA (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:The Cosmic Colours live in Concert!  This time with...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1519345696887414.webp?v=1788933730497
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1519345696887414.webp?v=1789015616987
 END:VEVENT
 END:VCALENDAR

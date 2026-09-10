@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261020-Kramladen-SCHOOL-OF-POP-LIVE@eventcrawler
-DTSTAMP:20260909T111034Z
+DTSTAMP:20260910T110724Z
 DTSTART:20261020T200000
 DTEND:20261020T235900
 SUMMARY:SCHOOL OF POP LIVE (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Am Dienstag\, 20. Oktober um 20 Uhr präsentieren un...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/26794303390246396.webp?v=1788933730500
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/26794303390246396.webp?v=1789015616990
 END:VEVENT
 END:VCALENDAR
