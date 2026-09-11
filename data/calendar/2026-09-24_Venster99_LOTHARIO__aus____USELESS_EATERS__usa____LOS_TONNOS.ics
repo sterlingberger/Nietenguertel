@@ -2,11 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
-UID:20260924-Venster99-Lothario-+Useless-Eaters+-Los-Tonnos@eventcrawler
-DTSTAMP:20260910T110724Z
+UID:20260924-Venster99-LOTHARIO-(aus)-/-USELESS-EATERS-(usa)-/-LOS-TONNOS@eventcrawler
+DTSTAMP:20260911T110814Z
 DTSTART:20260924T180000
 DTEND:20260924T235900
-SUMMARY:Lothario +Useless Eaters+ Los Tonnos (Uhrzeit prüfen)
+SUMMARY:LOTHARIO (aus) / USELESS EATERS (usa) / LOS TONNOS (Uhrzeit prüfen)
 LOCATION:Venster99
 DESCRIPTION:
 URL:http://www.venster99.at

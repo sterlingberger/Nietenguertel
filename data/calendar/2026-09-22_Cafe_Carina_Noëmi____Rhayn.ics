@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260922-Cafe-Carina-Noëmi-//-Rhayn@eventcrawler
+DTSTAMP:20260911T110814Z
+DTSTART:20260922T200000
+DTEND:20260922T235900
+SUMMARY:Noëmi // Rhayn (Uhrzeit prüfen)
+LOCATION:Cafe Carina
+DESCRIPTION:Noëmi // Rhayn  Playing with my Band at Cafe Carina supported by beautiful singer Rhayn Presenting songs by me Noëmi Haffner sharing the stage with the amazing musicians: Marci fenyvesi\, David Maresch\, Danny Ziemann\, Joschi Fenyvesi This is the perfect evening for a little melancholy and feels. It’s a door gig/pay as you wish to support the live music scene in Vienna! Come by and feel the chills with us share some love https://www.facebook.com/profile.php?id=61593537391651
+URL:https://www.cafe-carina.at/2020/events/noemi-rhayn/
+END:VEVENT
+END:VCALENDAR
