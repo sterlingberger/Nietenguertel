@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260917-Kramladen-THURSDAY-ECHOES@eventcrawler
-DTSTAMP:20260911T110814Z
+DTSTAMP:20260912T103420Z
 DTSTART:20260917T230000
 DTEND:20260917T235900
 SUMMARY:THURSDAY ECHOES (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:FREE ENTRY ! @djalexblack  @sabrji  @zeno.flac  All Nigh...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1857750262258275.webp?v=1789105803912
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1857750262258275.webp?v=1789191401824
 END:VEVENT
 END:VCALENDAR

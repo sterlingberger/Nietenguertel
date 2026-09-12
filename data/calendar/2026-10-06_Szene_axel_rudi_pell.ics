@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261006-Szene-axel-rudi-pell@eventcrawler
+DTSTAMP:20260912T103420Z
+DTSTART:20261006T193000
+DTEND:20261006T235900
+SUMMARY:axel rudi pell (Uhrzeit prüfen)
+LOCATION:Szene
+DESCRIPTION:Für die Musik des Bochumer Gitarristen\, Komponisten und Bandleaders Axel Rudi Pell braucht man weder Lexikon noch Navigationsgerät. Denn das\, was vermutlich auf nahezu alle erfolgreichen Musiker zutrifft\, gilt auch für Pell: Seine Songs tragen eine für ihn typische\, jederzeit charakteristische Handschrift\, ein Hybrid aus kraftvollen Gitarrenriffs und eingängigen Melodien sowie dem Fundament einer bravourös agierenden Band um den amerikanischen Sänger Johnny Gioeli\, Ex- Rainbow-Drummer Bobby Rondinelli\, Bassist Volker Krawczak und Keyboarder Ferdy Doernberg. Und obwohl Pell seine Fans mit dieser signifikanten Mischung bereits seit weit mehr als 35 (!) Jahren begeistert\, findet man auf seinen Alben immer wieder raffinierte Überraschungen oder bemerkenswerte Kooperationen. Auch auf seiner aktuellen Studioscheibe ‚Ghost Town‘ steht fest: Axel Rudi Pell vergrößert die lange Liste großartiger Songs seiner Karriere um weitere elf Exponate. Und diese wird er im Rahmen der großen „Ghost Town Tour 2026“ live vorstellen.   
+URL:https://szene.wien/events/axel-rudi-pell/
+END:VEVENT
+END:VCALENDAR

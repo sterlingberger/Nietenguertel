@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260923-Kramladen-DEMPSEY-BOLTON-(CA)-&-SPECIAL-GUEST-FARMAR-(AT)@eventcrawler
-DTSTAMP:20260911T110814Z
+DTSTAMP:20260912T103420Z
 DTSTART:20260923T190000
 DTEND:20260923T235900
 SUMMARY:DEMPSEY BOLTON (CA) & SPECIAL GUEST FARMAR (AT) (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Dempsey Bolton (CA): Dempsey’s music is influenced ...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1421388846577619.webp?v=1789105803916
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1421388846577619.webp?v=1789191401828
 END:VEVENT
 END:VCALENDAR
