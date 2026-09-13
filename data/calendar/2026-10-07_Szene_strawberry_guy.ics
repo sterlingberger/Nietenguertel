@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261007-Szene-strawberry-guy@eventcrawler
+DTSTAMP:20260913T113723Z
+DTSTART:20261007T190000
+DTEND:20261007T235900
+SUMMARY:strawberry guy (Uhrzeit prüfen)
+LOCATION:Szene
+DESCRIPTION:STRAWBERRY GUY kommt am 7. Oktober 2026 im Rahmen seiner „Give Me A Dream Tour 2026“ in die ((szene)) Wien. Der britische Indie-Musiker hat sich mit seinem verträumten Sound zwischen Bedroom-Pop\, Folk und nostalgischen Lo-Fi-Klängen eine weltweite Fangemeinde erspielt. Songs wie „Mrs Magic“ oder „F Song“ verbinden warme Melodien mit melancholischer Leichtigkeit und machen Strawberry Guy zu einer der spannendsten Stimmen der jungen Indie-Szene. In der intimen Atmosphäre der ((szene)) verspricht der Abend ein besonderes Konzerterlebnis zwischen Tagtraum und Wirklichkeit zu werden.   
+URL:https://szene.wien/events/strawberry-guy/
+END:VEVENT
+END:VCALENDAR

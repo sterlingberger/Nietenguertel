@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261003-WUK-LUSTERBODEN@eventcrawler
+DTSTAMP:20260913T113723Z
+DTSTART:20261003T180000
+DTEND:20261003T235900
+SUMMARY:LUSTERBODEN (Uhrzeit prüfen)
+LOCATION:WUK
+DESCRIPTION:MUSIK\,  45 JAHRE WUK\,  KONZERT 45 JAHRE WUK LUSTERBODEN | TIME   Sa 3.10.2026\, 20 Uhr  PRICE   kostenfrei  PLACE   Saal  GATE   C | Freundschaft. Vertrautheit. Charme.  Drei Wörter\, die einem automatisch durch den Kopf schwirren\, sobald Lusterboden spielt. Ihre Musik ist ehrlich. Ein seltenes Gut in Zeiten\, in denen Klang oft synthetisch wirkt. Echte Musik stirbt nicht. Sie ist nicht kleinzukriegen. Lusterboden ist einer dieser Eckpfeiler\, auf die sich Kunst immer stützen kann\, wenn sie mal ins Straucheln gerät. Sie bleibt\, leuchtet nach\, trägt.  Merlin und Florian kennen sich\, seit sie Kinder sind. Damals standen sie gemeinsam auf der Bühne des Burgtheaters\, zwei Burschen\, die spielten\, bevor sie wussten\, dass man dass päter einmal „Kunst“ nennt. Der Dachboden über dieser Bühne heißt Lusterboden. Dort\, zwischen Staub\, Licht und Geschichten\, entstand etwas\, das bis heute nachhallt: eine Freundschaft\, die Musik geworden ist. Und genau diese Freundschaft hört man. Sie ist das unsichtbare Band zwischen den Tönen. Der Sauerstoff\, der ihre Musik atmen lässt. Wenn Merlin und Florian auf der Bühne miteinander sprechen\, dann ist das kein Bühnenprogramm\, sondern pures Vertrauen. Ihre Gespräche sind ungekünstelt\, ihr Lachen ansteckend\, ihre Stille genauso ehrlich wie ihre Melodien. Vielleicht ist das das Geheimnis von Lusterboden: dass man bei ihnen nicht nur Musik hört\, sondern auch miterlebt\, wie Freundschaft klingt. | Barrierefrei für Rollstuhlfahrer*innen – um Anmeldung wird gebeten. Eine Veranstaltung vom WUK | 
+URL:https://wuk.at/en/programm/lusterboden/
+END:VEVENT
+END:VCALENDAR
