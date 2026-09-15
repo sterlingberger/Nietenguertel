@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261025-WUK-TEMPLES@eventcrawler
+DTSTAMP:20260915T114018Z
+DTSTART:20261025T200000
+DTEND:20261025T235900
+SUMMARY:TEMPLES (Uhrzeit prüfen)
+LOCATION:WUK
+DESCRIPTION:MUSIK\,  KONZERT TEMPLES | TIME   Su 25.10.2026 8.00 pm  PLACE   Saal  GATE   C | Die britische Band Temples steht seit jeher für die Offenheit\, ihren Sound stetig neu zu denken und musikalische Grenzen zu verschieben. Gegründet im englischen Kettering und bestehend aus James Bagshaw\, Thomas Walmsley\, Adam Smith und Rens Ottink\, hat sich die Gruppe mit ihrer Mischung aus Psychedelia und moderner Popästhetik eine treue internationale Fanbase erspielt. Mit ihrem fünften Album BLISS erweitern Temples nun ihre musikalische Ausrichtung um elektronische Einflüsse und präsentieren ein Werk\, das gleichermaßen euphorisch wie melancholisch wirkt. Inspiriert von Dance-Sounds der späten Neunziger erfinden sie ihre Musik neu und verschmelzen sie zu einem frischen\, vielschichtigen Gesamtbild. Am 25. Oktober 2026 sind Temples im Rahmen ihrer aktuellen Tour im WUK zu erleben und bringen ihren neuen Sound live nach Wien.  Auf der Bühne übertragen Temples ihre Songs in eine Atmosphäre\, die im Live-Setting direkter und greifbarer wirkt. Zwischen klaren Melodien und rhythmischen Strukturen entfaltet sich ein Sound\, der sich stetig weiterentwickelt und dennoch unverkennbar bleibt. Die Band beweist dabei ein feines Gespür für Dynamik und Dramaturgie und schafft es\, ihr Publikum durchgehend in ihren Bann zu ziehen. Gerade in einem intimen Setting wie dem WUK Wien verspricht ihr Auftritt eine besondere Nähe und Intensität\, bei der sich die Energie der neuen Songs unmittelbar entfaltet und die kreative Vielseitigkeit von Temples eindrucksvoll spürbar wird. | Barrierefrei für Rollstuhlfahrer*innen – um Anmeldung wird gebeten. Veranstalter: Live Nation Austria GmbH | 
+URL:https://wuk.at/en/programm/temples/
+END:VEVENT
+END:VCALENDAR

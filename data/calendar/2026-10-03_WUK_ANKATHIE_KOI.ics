@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261003-WUK-ANKATHIE-KOI@eventcrawler
+DTSTAMP:20260915T114018Z
+DTSTART:20261003T180000
+DTEND:20261003T235900
+SUMMARY:ANKATHIE KOI (Uhrzeit prüfen)
+LOCATION:WUK
+DESCRIPTION:MUSIK\,  45 JAHRE WUK\,  KONZERT 45 JAHRE WUK ANKATHIE KOI | TIME   Sa 3.10.2026\, 21 Uhr  PRICE   kostenfrei  PLACE   Saal  GATE   C | Ankathie Koi ist seit 2014 eine feste Größe in der deutschsprachigen Musikszene\, eine Wiener Popinstitution mit punkiger Landei- Sozialisation und einer Überdosis Achtzigerjahre im Herzen. Und diese Frau kann zaubern: Mit ihrer Stimme\, ihrem uniquest selling point\, die sie gern zum Schabernack-Treiben verwendet\, die aber auch erschüttern\, durchrütteln\, beglücken kann in ihrer Tiefe und Eindringlichkeit. Die Musikerin hat die für das Jahrzehnt typischen Glam-Looks und Synth-Sounds erfolgreich in das neue Jahrtausend hinübergehievt und steckt ihr Publikum stets mit einer überbordenden Freude am grellbunten Chaos an. Sie buchstabiert POP in Großbuchstaben und hat in Sachen Trends stets die Nase vorn.  Eines ist allen klar\, die jemals auf einem Ankathie Koi Konzert waren - es wird (auf gut wienerisch) ur arg und episch! Die Band ist berühmt-berüchtigt dafür\, ihre Klassiker zu 15-minütigen Tanzorgien auszweiten. Also gern ein bissi weniger anziehen\, weil heiß wird’s bestimmt! | Barrierefrei für Rollstuhlfahrer*innen – um Anmeldung wird gebeten. Eine Veranstaltung vom WUK | 
+URL:https://wuk.at/en/programm/ankathie-koi/
+END:VEVENT
+END:VCALENDAR

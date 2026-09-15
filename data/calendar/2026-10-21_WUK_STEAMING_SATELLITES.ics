@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261021-WUK-STEAMING-SATELLITES@eventcrawler
+DTSTAMP:20260915T114018Z
+DTSTART:20261021T200000
+DTEND:20261021T235900
+SUMMARY:STEAMING SATELLITES (Uhrzeit prüfen)
+LOCATION:WUK
+DESCRIPTION:MUSIK\,  KONZERT STEAMING SATELLITES | TIME   We 21.10.2026 8.00 pm  PRICE   € 39\,-  PLACE   Saal  GATE   C | Nach Jahren auf der Bühne\, unzähligen Festivalauftritten und mehreren gefeierten Alben zählen die Steaming Satellites längst zu den Fixsternen der österreichischen Musikszene. Mit ihrem unverkennbaren Sound zwischen Indie-Rock\, Psychedelic und einem Hauch elektronischer Weite hat sich die Band eine treue Fangemeinde aufgebaut – nicht nur im deutschsprachigen Raum\, sondern auch darüber hinaus. Seit ihrem Debütalbum „Neurotic Handshake at the Local Clown Party“ (2006) waren die Steaming Satellites europaweit und auch in den USA auf Tour. Ihre Musik wurde nicht nur in den Charts gefeiert\, sondern fand auch Eingang in die Filmwelt\, etwa mit dem Song „How Dare You!“ im Soundtrack des preisgekrönten Films „Das finstere Tal“.    Beim letzte Album „ANDROMEDA“ widmete sich die Band rund um Singer/Songwriter Max Borchardt der Liebe zum Motown und dabei ist ein emotional spannendes und Genre übergreifendes Potpourri entstanden. | Barrierefrei für Rollstuhlfahrer*innen – um Anmeldung wird gebeten. Veranstalter: Spoon Agency GmbH | 
+URL:https://wuk.at/en/programm/steaming-satellites/
+END:VEVENT
+END:VCALENDAR
