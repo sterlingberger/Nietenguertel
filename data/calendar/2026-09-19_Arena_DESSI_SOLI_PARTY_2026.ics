@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20260919-Arena-DESSI-SOLI-PARTY-2026@eventcrawler
-DTSTAMP:20260915T114018Z
+DTSTAMP:20260916T112140Z
 DTSTART:20260919T140000
 DTEND:20260919T235900
 SUMMARY:DESSI SOLI PARTY 2026 (Uhrzeit prüfen)
 LOCATION:Arena
-DESCRIPTION: | Arena Wien - Gelände
+DESCRIPTION: | Arena Wien - Gelände | Keine Dessiparty ist wie die andere ...   Total Eclipse of the Heart - Bonnie Tyler Wrecking Ball - Miley Cyrus Never Ending Story - Limahl Eternal Flame - The Bangles  Like a Prayer - Madonna  ...sucht Friends und singt euch schon mal ein .... vielleicht steht ihr schon bald auf der Open Air Bühne und performt für das größte Karaoke Wiens  Haltet am 19.9. bis 19 Uhr (!) Ausschau nach dem "Shot-Wagerl"\, stimmt ab (3 aus 5) und/oder meldet euch an.
 URL:https://arena.wien/Home/Programm-Detail/concert-id/48529
 END:VEVENT
 END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261008-Rhiz-Sonic-Night---Kcell-&-Purusha@eventcrawler
+DTSTAMP:20260916T112141Z
+DTSTART:20261008T180000
+DTEND:20261008T235900
+SUMMARY:Sonic Night - Kcell & Purusha (Uhrzeit prüfen)
+LOCATION:Rhiz
+DESCRIPTION:------------------------------
+URL:https://rhiz.wien/copilotevent/08-10-2026_Sonic Night
+END:VEVENT
+END:VCALENDAR

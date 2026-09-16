@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261008-Venster99-Nadsat,-Thosar,-Bumshelter,-Truude-Herr@eventcrawler
+DTSTAMP:20260916T112141Z
+DTSTART:20261008T180000
+DTEND:20261008T235900
+SUMMARY:Nadsat\, Thosar\, Bumshelter\, Truude Herr (Uhrzeit prüfen)
+LOCATION:Venster99
+DESCRIPTION:
+URL:http://www.venster99.at
+END:VEVENT
+END:VCALENDAR

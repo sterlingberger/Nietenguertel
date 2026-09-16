@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260921-Szene-jony@eventcrawler
+DTSTAMP:20260916T112141Z
+DTSTART:20260921T180000
+DTEND:20260921T235900
+SUMMARY:jony (Uhrzeit prüfen)
+LOCATION:Szene
+DESCRIPTION:ACHTUNG: Die Show wurde vom Gasometer in die ((szene)) Wien verlegt. Bereits gekaufte Tickets behalten ihre Gültigkeit.  *****  JONY kehrt mit einer großen Konzerttournee zurück!  JONY ist ein überaus beliebter Künstler und der Schöpfer von Hits wie „Kometa“\, „Kamin“\, „Titry“\, „Love Your Voice“\, „Alleya“ und vielen mehr. Seine Songs erreichen monatlich über 4 Millionen Hörer und erfreuen sich nicht nur in Osteuropa\, sondern auch weit über die Grenzen hinaus größter Beliebtheit!  Der Künstler hat bereits vier Studioalben\, zahlreiche eigenständige Singles und Kollaborationen mit beliebten Sängern veröffentlicht. Im Laufe seiner Karriere hat JONY zudem Dutzende von Musikvideos herausgebracht\, die Millionen von Aufrufen erzielt haben.  Derzeit arbeitet JONY an einem neuen Album und tourt aktiv durch verschiedene Länder und Städte.  Sichern Sie sich schnell Ihre Tickets\, solange sie noch im Vorverkauf sind!   
+URL:https://szene.wien/events/jony/
+END:VEVENT
+END:VCALENDAR
