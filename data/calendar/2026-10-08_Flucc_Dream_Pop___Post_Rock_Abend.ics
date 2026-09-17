@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261008-Flucc-Dream-Pop-/-Post-Rock-Abend@eventcrawler
+DTSTAMP:20260917T112842Z
+DTSTART:20261008T190000
+DTEND:20261008T000000
+SUMMARY:Dream Pop / Post Rock Abend (Uhrzeit prüfen)
+LOCATION:Flucc
+DESCRIPTION:@DECK | Three bands\, one night of shimmering guitars\, dreamy melodies and beautifully restless indie sounds. Pilot Jr.\, Lynd and MT SIGNAL bring noise\, warmth and atmosphere to the stage.  LINE UP 20:00: Pilot Jr. (Vienna\, Dream Pop) 21:00 Lynd (Budapest\, Dream Pop) 22:00 MT SIGNAL (Salzburg\, Dream Pop) ------------------------------------------------------------------- presented bySubscene Kulturverein pay-as-you-wish (for mailing-list signup)\, regular 12 € 
+URL:https://flucc.at/events/ZbfQ24-dream-pop-post-rock-abend/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261013-Chelsea-STU-LARSEN-(AUS)-/-TIM-HART-(AUS)@eventcrawler
+DTSTAMP:20260917T112842Z
+DTSTART:20261013T193000
+DTEND:20261013T235900
+SUMMARY:STU LARSEN (AUS) / TIM HART (AUS) (Uhrzeit prüfen)
+LOCATION:Chelsea
+DESCRIPTION:Doors: 19:30\, Tim Hart: 20:00\, Stu Larsen: 21:00   Der australische Singer-Songwriter Stu Larsen ist bekannt für seine ruhigen\, gefühlvollen Folk-Songs und seine enge Verbindung zum Reisen. Viele Jahre lebte er ohne festen Wohnsitz und tourte ununterbrochen durch Europa\, Nordamerika und Australien\, was sich stark in seinen Texten widerspiegelt. Seine Musik ist geprägt von akustischer Gitarre\, sanften Melodien und persönlichen Geschichten über Freiheit\, Begegnungen und das Unterwegssein. Durch seine authentische Art und seine Nähe zum Publikum hat er sich besonders in der Indie-Folk-Szene eine treue Fangemeinde aufgebaut. www.stularsen.com/    TIM HART https://timhart.com.au/   Tickets: www.oeticket.com/event/stu-larsen-chelsea-21348239/?affiliate=MT5
+URL:https://www.chelsea.co.at/concerts.php#concert_6647
+END:VEVENT
+END:VCALENDAR
