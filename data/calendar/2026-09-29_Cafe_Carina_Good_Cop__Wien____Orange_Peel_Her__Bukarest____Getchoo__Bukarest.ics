@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260929-Cafe-Carina-Good-Cop-(Wien)//-Orange-Peel-Her-(Bukarest)//-Getchoo-(Bukarest)@eventcrawler
+DTSTAMP:20260918T110352Z
+DTSTART:20260929T200000
+DTEND:20260929T235900
+SUMMARY:Good Cop (Wien)// Orange Peel Her (Bukarest)// Getchoo (Bukarest) (Uhrzeit prüfen)
+LOCATION:Cafe Carina
+DESCRIPTION:Good Cop (Wien)// Orange Peel Her (Bukarest)// Getchoo (Bukarest)  Good Cop (Wien)  https://cutsurface.bandcamp.com/album/world-piss  Orange Peel Her (Bukarest)  https://www.instagram.com/orange.peelher  Getchoo (Bukarest)  https://www.instagram.com/getchoo.aha
+URL:https://www.cafe-carina.at/2020/events/good-cop-wien-orange-peel-her-bukarest-getchoo-bukarest/
+END:VEVENT
+END:VCALENDAR

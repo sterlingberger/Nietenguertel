@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261003-Rhiz-Vitamin-BPM@eventcrawler
-DTSTAMP:20260917T112842Z
+DTSTAMP:20260918T110352Z
 DTSTART:20261003T210000
 DTEND:20261003T235900
 SUMMARY:Vitamin BPM (Uhrzeit prüfen)
 LOCATION:Rhiz
-DESCRIPTION:Open Space Event DIV Techno
+DESCRIPTION:Open Space Event DIV Techno Datum: 03.10.2026 | Einlass: 21:00 Uhr Beginn: 21:00 | Ende: 04:00 Uhr  free ticketing schrille marille — erste ausgabe @rhizvienna neuer name\, neue nacht. 3.10. // 23:00 uhr keine ahnung ob's schrill wird oder nur schräg. aber marille bleibt marille — sauer\, süß\, mit kern. line-up wird in den nächsten tagen enthüllt. wer zuerst da ist\, hört zuerst\, worum's geht. eintritt: freie spende. vitamine für die ohren — erste dosis. #schrillemarille #rhizwien #vitaminbpm #technowien #newnight
 URL:https://rhiz.wien/copilotevent/03-10-2026_vitamin-bpm-open-space-event
 END:VEVENT
 END:VCALENDAR
