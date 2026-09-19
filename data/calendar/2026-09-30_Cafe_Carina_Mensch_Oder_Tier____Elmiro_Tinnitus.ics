@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20260930-Cafe-Carina-Mensch-Oder-Tier-//-Elmiro-Tinnitus@eventcrawler
+DTSTAMP:20260919T104637Z
+DTSTART:20260930T200000
+DTEND:20260930T235900
+SUMMARY:Mensch Oder Tier // Elmiro Tinnitus (Uhrzeit prüfen)
+LOCATION:Cafe Carina
+DESCRIPTION:Mensch oder Tier // Elmiro Tinnitus  Mensch oder Tier  https://www.instagram.com/menschodertier/  (https://www.facebook.com/menschtierband) „Mensch oder Tier“ klingen als wäre eine Punk Rock Party im Gange\, bei der sich Die Toten Hosen\, Social Distortion\, Broilers\, Johnny Cash\, Udo Jürgens und Udo Lindenberg spontan entschlossen haben\, eine gemeinsame Band zu formieren.  Elmiro Tinnitus  https://www.instagram.com/elmiro_tinnitus/
+URL:https://www.cafe-carina.at/2020/events/mensch-oder-tier-live/
+END:VEVENT
+END:VCALENDAR

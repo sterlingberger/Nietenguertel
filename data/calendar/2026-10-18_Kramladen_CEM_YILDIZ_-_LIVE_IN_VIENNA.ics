@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261018-Kramladen-CEM-YILDIZ---LIVE-IN-VIENNA@eventcrawler
+DTSTAMP:20260919T104637Z
+DTSTART:20261018T190000
+DTEND:20261018T235900
+SUMMARY:CEM YILDIZ - LIVE IN VIENNA (Uhrzeit prüfen)
+LOCATION:Kramladen
+DESCRIPTION:Cem Yıldız live in Vienna this October  Known for “...
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1379338871033913.webp?v=1789795622236
+END:VEVENT
+END:VCALENDAR
