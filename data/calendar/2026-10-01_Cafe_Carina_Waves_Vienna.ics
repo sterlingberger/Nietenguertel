@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261001-Cafe-Carina-Waves-Vienna@eventcrawler
+DTSTAMP:20260920T110908Z
+DTSTART:20261001T200000
+DTEND:20261001T235900
+SUMMARY:Waves Vienna (Uhrzeit prüfen)
+LOCATION:Cafe Carina
+DESCRIPTION:Waves Vienna  https://www.wavesvienna.com/         
+URL:https://www.cafe-carina.at/2020/events/waves-vienna-988-998-797/
+END:VEVENT
+END:VCALENDAR
