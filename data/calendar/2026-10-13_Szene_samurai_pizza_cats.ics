@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261013-Szene-samurai-pizza-cats@eventcrawler
+DTSTAMP:20260921T123521Z
+DTSTART:20261013T193000
+DTEND:20261013T235900
+SUMMARY:samurai pizza cats (Uhrzeit prüfen)
+LOCATION:Szene
+DESCRIPTION:Wenn Gaming-Attitüde auf Metalcore-Wahnsinn trifft\, schlagen SAMURAI PIZZA CATS zu: Mit ihrer „Press Start European Tour 26“ katapultieren sie ihr Publikum direkt ins nächste Level. Breakdowns wie Bossfights\, Hooks mit Ohrwurm-Garantie und eine Liveshow\, die keine Pausetaste kennt. Am 13.10. verwandelt sich die ((szene)) in ein grell blinkendes Spielfeld – laut\, wild und absolut kompromisslos. Game over ist erst\, wenn der letzte Ton verhallt.   
+URL:https://szene.wien/events/samurai-pizza-cats/
+END:VEVENT
+END:VCALENDAR
