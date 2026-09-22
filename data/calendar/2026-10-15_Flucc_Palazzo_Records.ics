@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261015-Flucc-Palazzo-Records@eventcrawler
+DTSTAMP:20260922T112510Z
+DTSTART:20261015T200000
+DTEND:20261015T235900
+SUMMARY:Palazzo Records (Uhrzeit prüfen)
+LOCATION:Flucc
+DESCRIPTION:@DECK | 
+URL:https://flucc.at/events/icfYpH-palazzo-records/
+END:VEVENT
+END:VCALENDAR

@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261010-Venster99-Discure-/-Bipolar-Penguins@eventcrawler
-DTSTAMP:20260921T123521Z
+DTSTAMP:20260922T112510Z
 DTSTART:20261010T180000
 DTEND:20261010T235900
 SUMMARY:Discure / Bipolar Penguins (Uhrzeit prüfen)
 LOCATION:Venster99
 DESCRIPTION:
-URL:http://www.venster99.at
+URL:http://www.facebook.com/events/1594565962109738
 END:VEVENT
 END:VCALENDAR
