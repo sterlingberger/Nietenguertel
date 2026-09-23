@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261015-Flucc-Palazzo-Night@eventcrawler
+DTSTAMP:20260923T111948Z
+DTSTART:20261015T200000
+DTEND:20261015T020000
+SUMMARY:Palazzo Night (Uhrzeit prüfen)
+LOCATION:Flucc
+DESCRIPTION:@DECK | Join us for this years second edition of Palazzo Night at Flucc Deck. Mariam Gviniashvili will present a live set and immerse us in electro-acoustic sounds\, Pnø will present material from the new album and Yuzu rounds up the evening with an eclectic DJ set.  LINE UP Mariam Gviniashvili Pnø Yuzu VVK 18€ AK 20€ 
+URL:https://flucc.at/events/icfYpH-palazzo-records/
+END:VEVENT
+END:VCALENDAR
