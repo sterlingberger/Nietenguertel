@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261023-B72-EUROTEURO---ALBUM-RELEASE-SHOW-MAGIC-(SILUH-RECORDS)@eventcrawler
+DTSTAMP:20260924T113509Z
+DTSTART:20261023T180000
+DTEND:20261023T235900
+SUMMARY:EUROTEURO - ALBUM RELEASE SHOW MAGIC (SILUH RECORDS) (Uhrzeit prüfen)
+LOCATION:B72
+DESCRIPTION: live: EUROTEURO  + special guests: Mme Psychosis Zween (ohne Aui)  DJ Rickerstattung presented by BYTE.FM\, MUSIKEXPRESS\, MUSIKBLOG.DE\, RAUSGEGANGEN  Das neue EUROTEURO Album Magic markiert eine musikalische Neuorientierung. Die Texte wechseln zwischen deutscher und englischer Sprache und bewegen sich thematisch durch Räume von Trauer und Trost\, Zweifel und Hoffnung.  Nach ihren bisherigen Volume-Veröffentlichungen\, die als Singles-Collections fungierten\, präsentiert sich Magic als das erste geschlossene EUROTEURO Album. Es enstand in einem gemeinsamen Prozess unter anderem mit den Wiener Musiker*innen Alexander Kranabetter\, Topsy Turvy\, Katarina Maria Trenk\, Soap&Skin\, Farce\, Voodoo Jürgens und Elise Mory.  Das Album Magic von Euroteuro erscheint am 25.9.2026 auf dem Wiener Label Siluh Reocrds als LP / CD und in digitaler Form.  Live dargeboten von Peter T. und Katarina Maria Trenk.
+URL:https://www.b72.at//program/10234/EUROTEURO__album_release_
+END:VEVENT
+END:VCALENDAR

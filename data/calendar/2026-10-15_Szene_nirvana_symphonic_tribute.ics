@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261015-Szene-nirvana-symphonic-tribute@eventcrawler
+DTSTAMP:20260924T113509Z
+DTSTART:20261015T193000
+DTEND:20261015T235900
+SUMMARY:nirvana symphonic tribute (Uhrzeit prüfen)
+LOCATION:Szene
+DESCRIPTION:NIRVANA SYMPHONIC TRIBUTE – das Erfolgsprogramm wieder in der ((szene)) Wien!  Unvergessen. Ungebändigt. Zeitlos. Kurt Cobain und Nirvana prägten eine ganze Generation – jetzt erklingen ihre Songs in einer Tribute-Rock-Classic-Show der ganz besonderen Art\, it smells like Teen Spirit.  Der kompromisslose Garagensound von Nirvana trifft auf symphonische Elemente\, Rock mit orchestralem Touch: verzerrte Gitarren\, treibende Drums – getragen und veredelt durch das Teen Spirit Orchestra\, ein kleines Salon-Orchester\, das den Songs neue Farben verleiht\, ohne ihren rauen Kern zu verlieren. Rock bleibt Rock – das Orchester ergänzt\, akzentuiert\, atmet mit.  Nirvana Symphonic Tribute feiert die Musik und den Spirit der Band live on stage. Authentisch\, intensiv und nah am Original\, mit Sebastian als Kurt\, – und zugleich überraschend neu. Klassiker wie „Smells Like Teen Spirit“\, „Come As You Are“\, „Rape Me“ oder „In Bloom“ entfalten in dieser besonderen Klangwelt eine zusätzliche emotionale Tiefe.  Nach dem großen Erfolg vor eineinhalb Jahren\, endlich wieder in der ((szene)) Wien. Ein Abend für alle\, die Nirvana lieben – pur\, ehrlich und mit einem feinen orchestralen Touch.   
+URL:https://szene.wien/events/nirvana-symphonic-tribute/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261016-Venster99-Desolat-Release,-z.u.a.,-vomits@eventcrawler
+DTSTAMP:20260924T113509Z
+DTSTART:20261016T180000
+DTEND:20261016T235900
+SUMMARY:Desolat Release\, z.u.a.\, vomits (Uhrzeit prüfen)
+LOCATION:Venster99
+DESCRIPTION:
+URL:http://www.venster99.at
+END:VEVENT
+END:VCALENDAR
