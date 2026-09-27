@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261008-Cafe-Carina-DonnerJam@eventcrawler
+DTSTAMP:20260927T115222Z
+DTSTART:20261008T200000
+DTEND:20261008T235900
+SUMMARY:DonnerJam (Uhrzeit prüfen)
+LOCATION:Cafe Carina
+DESCRIPTION:DonnerJam Einmal im Monat donnert es gewaltig im ehrwürdigen Café Carina. Beim DonnerJam treffen sich RockmusikerInnen\, grollende Riffs und bebende Rhythmen. Für alle\, die Rock nicht nur hören\, sondern fühlen. Schnapp‘ dein Instrument\, komm vorbei und steig mit ein. Als Gast sei dir gewiss\, das ist der Sound\, der dich vom Hocker reißt! Once a month\, the venerable Café Carina comes thundering to life.At DonnerJam\, rock musicians come together for rumbling riffs and pounding rhythms. Grab your instrument\, come on by\, and jump right in.For everyone who doesn’t just listen to rock\, but feels it.And even if you’re just there as a guest\, get ready — this is the kind of sound that’ll knock you out of your seat!  Hosted by Verena Werni  next: Donnerstag\, 5. November
+URL:https://www.cafe-carina.at/2020/events/donnerjam-5-739-793-723/
+END:VEVENT
+END:VCALENDAR
