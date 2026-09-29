@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261018-Flucc-Augend&Addend-presents:-Fred-Moten-&-Brandon-López-and-sucre-sucre@eventcrawler
+DTSTAMP:20260929T123637Z
+DTSTART:20261018T193000
+DTEND:20261018T230000
+SUMMARY:Augend&Addend presents: Fred Moten & Brandon López and sucre sucre (Uhrzeit prüfen)
+LOCATION:Flucc
+DESCRIPTION:@WANNE | Augend&Addend presents: Fred Moten & Brandon López (live) and sucre sucre (dj) at Flucc Wanne.  On the 18th of October we are honoured to welcome esteemed poet and theorist Fred Moten and bassist\, composer and improviser Brandon López for a live concert as well as an opening dj set by Berlin based sucre sucre.  LINE UP Fred Moten & Brandon Lopez (live) sucre sucre (dj) --------------------------------------------- presented by Augend&Addend Presale: 16€ & 20€ Abendkasse: 25€ 
+URL:https://flucc.at/events/G7T7MH-augend-addend/
+END:VEVENT
+END:VCALENDAR
