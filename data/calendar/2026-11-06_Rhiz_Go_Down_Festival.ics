@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261106-Rhiz-Go-Down-Festival@eventcrawler
+DTSTAMP:20261001T125806Z
+DTSTART:20261106T193000
+DTEND:20261106T235900
+SUMMARY:Go Down Festival (Uhrzeit prüfen)
+LOCATION:Rhiz
+DESCRIPTION:Elepharmers (IT)\, Great Rift (A) Datum: 06.11.2026 | Einlass: 19:00 Uhr Beginn: 19:30 | Ende: 21:45 Uhr 
+URL:https://rhiz.wien/copilotevent/06-11-2026_go-down-festival-elepharmers-it-great-rift-a
+END:VEVENT
+END:VCALENDAR

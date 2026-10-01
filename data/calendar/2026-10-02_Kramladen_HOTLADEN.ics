@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261002-Kramladen-HOTLADEN@eventcrawler
+DTSTAMP:20261001T125806Z
+DTSTART:20261002T233000
+DTEND:20261002T235900
+SUMMARY:HOTLADEN (Uhrzeit prüfen)
+LOCATION:Kramladen
+DESCRIPTION:Hey Hotties   HOTLADEN #4 is coming in hot.   Summer m...
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1598772007849724.webp?v=1790834110844
+END:VEVENT
+END:VCALENDAR

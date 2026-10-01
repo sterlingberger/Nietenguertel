@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261103-Arena-SLEAFORD-MODS-(uk)@eventcrawler
+DTSTAMP:20261001T125806Z
+DTSTART:20261103T190000
+DTEND:20261103T235900
+SUMMARY:SLEAFORD MODS (uk) (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Große Halle | presented by LIVE NATION  Der Vorverkauf beginnt am 9. April um 10 Uhr Tickets gibt es ausschließlich über Ticketmaster
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48539
+END:VEVENT
+END:VCALENDAR

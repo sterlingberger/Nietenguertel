@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261119-Arena-ARLO-PARKS-(uk)-+-BAIRD-(us)@eventcrawler
+DTSTAMP:20261001T125806Z
+DTSTART:20261119T190000
+DTEND:20261119T235900
+SUMMARY:ARLO PARKS (uk) + BAIRD (us) (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Große Halle | presented by LIVE NATION  Der Vorverkauf beginnt am 12. März um 10 Uhr 
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48518
+END:VEVENT
+END:VCALENDAR

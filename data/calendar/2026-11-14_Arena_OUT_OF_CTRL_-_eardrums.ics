@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261114-Arena-OUT-OF-CTRL---eardrums@eventcrawler
+DTSTAMP:20261001T125806Z
+DTSTART:20261114T220000
+DTEND:20261114T235900
+SUMMARY:OUT OF CTRL - eardrums (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Gelände | More Infos soon!
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48658
+END:VEVENT
+END:VCALENDAR

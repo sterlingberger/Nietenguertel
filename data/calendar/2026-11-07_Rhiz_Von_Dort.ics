@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261107-Rhiz-Von-Dort@eventcrawler
+DTSTAMP:20261001T125806Z
+DTSTART:20261107T190000
+DTEND:20261107T235900
+SUMMARY:Von Dort (Uhrzeit prüfen)
+LOCATION:Rhiz
+DESCRIPTION:experimentel rock\, noise und pop Datum: 07.11.2026 | Einlass: 18:30 Uhr Beginn: 19:00 | Ende: 21:10 Uhr  Only AK Verzerrt\, treibend\, magnetisch.
+URL:https://rhiz.wien/copilotevent/07-11-2026_von-dort
+END:VEVENT
+END:VCALENDAR

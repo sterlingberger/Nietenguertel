@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261113-Arena-LEAP-(uk)-+-GLAZED-CURTAINS-(aut)@eventcrawler
+DTSTAMP:20261001T125806Z
+DTSTART:20261113T190000
+DTEND:20261113T235900
+SUMMARY:LEAP (uk) + GLAZED CURTAINS (aut) (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Große Halle | presented by BARRACUDA MUSIC  Vorverkauf / Tickets: ÖTicket  Having hit the charts across Europe with their self-released debut album ENTROPY\, LEAP are quickly becoming one of the UK’s most exciting rock exports. With support pouring in from the likes of Kerrang\, NME\, Rolling Stone\, BBC Radio 1 and more\, LEAP are on the cusp of a major commercial breakthrough as they bring their explosive live show to new cities.  support: Glazed Curtains
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48629
+END:VEVENT
+END:VCALENDAR

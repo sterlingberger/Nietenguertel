@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261117-Arena-MESS-(mex)-+-PRESSURE-DROP-(aut)@eventcrawler
+DTSTAMP:20261001T125806Z
+DTSTART:20261117T190000
+DTEND:20261117T235900
+SUMMARY:MESS (mex) + PRESSURE DROP (aut) (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Dreiraum | Der Vorverkauf beginnt am 12. Juni um 10 Uhr Presale starts on Juni 12th at 10am  Mess sind eine mexikanische Punk./Oi!-Band mit startkem 82er UK-Einschlag. https://messtheterribles.bandcamp.com/  Pressure Drop: https://pressure-drop.bandcamp.com  Vorverkauf/Presale Arena Shop € 18 (+ € 1\,98 Fee)  Abendkassa/Box-office tba. 
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48583
+END:VEVENT
+END:VCALENDAR

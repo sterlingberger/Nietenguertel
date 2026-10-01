@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261116-Arena-IMPERIAL-TRIUMPHANT-(us)-+-KNOLL-(us)@eventcrawler
+DTSTAMP:20261001T125806Z
+DTSTART:20261116T190000
+DTEND:20261116T235900
+SUMMARY:IMPERIAL TRIUMPHANT (us) + KNOLL (us) (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Kleine Halle | IMPERIAL TRIUMPHANT (USA\, Century Media Records) Extreme Metal\, Jazz\, Avant-Garde https://www.instagram.com/imperialtriumphant/  KNOLL (USA)  Grindcore\, Noise\, Death Metal https://www.instagram.com/knollgrind/  Vorverkauf/Presale Arena Shop € 25\,- (+ € 2\,75\,- Fee)  Abendkassa/Box-office tba.
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48524
+END:VEVENT
+END:VCALENDAR

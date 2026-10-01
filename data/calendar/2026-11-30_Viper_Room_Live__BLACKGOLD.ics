@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261130-Viper-Room-Live:-BLACKGOLD@eventcrawler
+DTSTAMP:20261001T125806Z
+DTSTART:20261130T190000
+DTEND:20261130T235900
+SUMMARY:Live: BLACKGOLD (Uhrzeit prüfen)
+LOCATION:Viper Room
+DESCRIPTION: Mind Over Matter presents BLACKGOLD 30. November 2026 Viper Room\, Wien *** Tickets gibt’s ab 25. Juni 2026 – 10:00 Uhr unter www.oeticket.com  
+URL:https://www.viper-room.at/events/live-blackgold
+END:VEVENT
+END:VCALENDAR

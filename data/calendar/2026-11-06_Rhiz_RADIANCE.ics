@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261106-Rhiz-RADIANCE@eventcrawler
+DTSTAMP:20261001T125806Z
+DTSTART:20261106T220000
+DTEND:20261106T235900
+SUMMARY:RADIANCE (Uhrzeit prüfen)
+LOCATION:Rhiz
+DESCRIPTION:Vibrant X Dave & Bass Birthday Bash Datum: 06.11.2026 | Einlass: 22:00 Uhr Beginn: 22:00 | Ende: 05:00 Uhr  Free Entry Radiance ist eine neue Drum & Bass Reihe in Wien mit Fokus auf Dancefloor und Liquid\, also genau dem Sound\, der hier oft zu kurz kommt: melodisch\, euphorisch\, zum Mitsingen und Durchtanzen. Wir laden ein zu unserem allerersten Event und feiern zugleich den Geburtstag von Dave & Bass und Vibrant\, welche von einem starken Lineup aus lokalen DJs unterstützt werden. Wir haben einige Goodies für euch vorbereitet und freuen uns\, euch auf der Tanzfläche zu sehen Line Up CE:LINE LIL ZEE VIBRANT DAVE & BASS SYNTHESIS WNR DØRIAN
+URL:https://rhiz.wien/copilotevent/06-11-2026_dave-und-bass
+END:VEVENT
+END:VCALENDAR

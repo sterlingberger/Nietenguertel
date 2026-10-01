@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261119-Arena-ALPHA-KEVIN-(aut)-+-JLP-(aut)@eventcrawler
+DTSTAMP:20261001T125806Z
+DTSTART:20261119T190000
+DTEND:20261119T235900
+SUMMARY:ALPHA KEVIN (aut) + JLP (aut) (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Dreiraum | Alpha Kevin Laut. Leise. Rauh. Zart. Grelle Farben? Nein. Herbst statt Sommer. Melancholischer Krieger. Slave to the Rythm. AlphaKevin. Eh klar. https://www.alphakevinband.com/  JLP JLP ist eine energiegeladene Rockband aus Wien\, die kraftvollen Gesang\, erdige Gitarrenriffs und eine groovende Rhythmusgruppe vereint. Entstanden aus der Songwriting-Partnerschaft der Geschwister Jelena und Luka Petener\, ist die Band für ihre intensiven Liveshows und direkten\, persönlichen Texte bekannt.  Vorverkauf/Presale Arena Shop € 25\,- (inkl. Gebühren) Abendkassa/Box-office tba.                 
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48647
+END:VEVENT
+END:VCALENDAR

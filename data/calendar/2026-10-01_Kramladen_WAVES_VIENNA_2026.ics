@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261001-Kramladen-WAVES-VIENNA-2026@eventcrawler
+DTSTAMP:20261001T125806Z
+DTSTART:20261001T180000
+DTEND:20261001T235900
+SUMMARY:WAVES VIENNA 2026 (Uhrzeit prüfen)
+LOCATION:Kramladen
+DESCRIPTION:https://www.wavesvienna.com DO:  M.Rider // Ivery // ...
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1740119974781729.webp?v=1790834110843
+END:VEVENT
+END:VCALENDAR

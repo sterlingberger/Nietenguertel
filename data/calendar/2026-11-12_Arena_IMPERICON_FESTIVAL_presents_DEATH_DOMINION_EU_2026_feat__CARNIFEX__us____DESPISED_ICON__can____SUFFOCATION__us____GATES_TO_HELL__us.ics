@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261112-Arena-IMPERICON-FESTIVAL-presents-DEATH-DOMINION-EU-2026-feat.-CARNIFEX-(us)-+-DESPISED-ICON-(can)-+-SUFFOCATION-(us)-+-GATES-TO-HELL-(us)@eventcrawler
+DTSTAMP:20261001T125806Z
+DTSTART:20261112T170000
+DTEND:20261112T235900
+SUMMARY:IMPERICON FESTIVAL presents DEATH DOMINION EU 2026 feat. CARNIFEX (us) + DESPISED ICON (can) + SUFFOCATION (us) + GATES TO HELL (us) (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Große Halle | Carnifex Despised Icon Suffocation Gates To Hell  Vorverkauf/Presale Arena Shop € 44\,40 (inkl. Gebühren)  Abendkassa/Doors € 50
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48547
+END:VEVENT
+END:VCALENDAR

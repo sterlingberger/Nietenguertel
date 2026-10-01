@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261129-Arena-LITTLE-BIG-(us)@eventcrawler
+DTSTAMP:20261001T125806Z
+DTSTART:20261129T190000
+DTEND:20261129T235900
+SUMMARY:LITTLE BIG (us) (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Große Halle | presented by EVENNTA GmbH  After conquering North America\, the boundary-pushing rave-pop collective Little Big is back to dominate Europe. Today\, the band announces their massive 24-date European TOUR 2026\, kicking off in Oslo on October 11 and bringing their surreal\, high-energy live show across 13 countries.  Little Big is a Los Angeles-based rave-pop collective that has completely redefined the intersection of music and viral internet culture. Originally formed in Saint Petersburg and driven by the explosive creative core of frontman Ilya “Ilich” Prusikin and vocalist Sonya Tayurskaya\, the band delivers a sensory overload of heavy electronic beats\, absurdist visuals\, and razor-sharp satirical storytelling. With a global reputation for riotous live performances\, Little Big transforms every stage into a high-octane rave\, blending hardcore energy with inescapable pop hooks.  They have consistently pushed boundaries through massive collaborations with global artists - ranging from Oliver Tree\, Tommy Cash\, and Dillon Francis to recent heavy-hitters like Amazingblaze\, Lil Texas\, and Sophie Powers’ alter ego Pixl Girl. This relentless creative output has built a catalogue surpassing 4 billion total views across platforms. Their 2018 smash hit “SKIBIDI” became a global cultural phenomenon\, racking up over 781 million views\, while their 2020 single “UNO” made history as the most-viewed video in Eurovision history with over 301 million views.  In March 2022\, following their outspoken opposition to Russia's invasion of Ukraine\, the band relocated from Moscow to Los Angeles\, continuing to expand their international footprint and turning their art into a powerful platform of defiance. https://www.instagram.com/littlebigband
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48586
+END:VEVENT
+END:VCALENDAR

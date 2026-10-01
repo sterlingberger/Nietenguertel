@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261024-Kramladen-LIVE:-PEAK-/-MARSHALL-ORANGE-/-SONS-OF-NESREKA@eventcrawler
-DTSTAMP:20260930T122143Z
+DTSTAMP:20261001T125806Z
 DTSTART:20261024T190000
 DTEND:20261024T235900
 SUMMARY:LIVE: PEAK / MARSHALL ORANGE / SONS OF NESREKA (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:  Drei Bands. Drei Sounds. Ein Abend im Kramladen. Am...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1087432007218157.webp?v=1790745677382
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1087432007218157.webp?v=1790834110854
 END:VEVENT
 END:VCALENDAR

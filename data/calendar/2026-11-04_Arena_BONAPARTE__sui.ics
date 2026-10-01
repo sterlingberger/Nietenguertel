@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261104-Arena-BONAPARTE-(sui)@eventcrawler
+DTSTAMP:20261001T125806Z
+DTSTART:20261104T190000
+DTEND:20261104T235900
+SUMMARY:BONAPARTE (sui) (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Große Halle | presented by SPOON AGENCY  Der Vorverkauf beginnt am 11. September um 12 Uhr  20 Jahre Bonaparte
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48345
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261105-Arena-UCHE-YARA-(aut)-*AUSVERKAUFT*@eventcrawler
+DTSTAMP:20261001T125806Z
+DTSTART:20261105T190000
+DTEND:20261105T235900
+SUMMARY:UCHE YARA (aut) *AUSVERKAUFT* (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION:BODYSCANNER Tour 26 | Arena Wien - Kleine Halle | Das Konzert ist ausverkauft!  BODYSCANNER Tour 26  UCHE YARA: A post-club experience  UCHE YARA’s music is raw\, electrifying\, and deeply emotional. Fusing influences from alt pop\, R&B and club music she creates a unique sonic universe ranging from hypnotic intensity to delicate intimacy.  On stage\, UCHE is a one-woman force of sound and movement: with her voice\, guitar\, and body as instruments she builds something truly magnetic\, blurring the lines between live performance and club experience.  BODYSCANNER – the debut album of UCHE YARA – feels like a club record viewed from an unexpected angle. It explores the tension between how we perceive ourselves from within and how we are constantly scanned\, judged\, and interpreted by the outside world. It reflects the intimate act of turning that scanner inward — observing your own body\, identity\, and emotions with the same intensity.  A must see for everyone drawn to left-field pop\, R&B\, club culture\, and movement. https://ucheyara.webflow.io/  Vorverkauf/Presale Arena Shop € 29 (inkl. Fee) Abendkassa/Box-office tba. 
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48590
+END:VEVENT
+END:VCALENDAR

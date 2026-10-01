@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261120-Arena-RANCOEUR-(fra)-+-BLAU-(cze)-+-KIEN-(cze)@eventcrawler
+DTSTAMP:20261001T125806Z
+DTSTART:20261120T190000
+DTEND:20261120T235900
+SUMMARY:RANCOEUR (fra) + BLAU (cze) + KIEN (cze) (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Dreiraum | presented by STOMP YOUR FEET\, IRON BOOKING & ARENA WIEN   Rancoeur Cold Oi! Fatalité (Nancy) Formed in Nancy in 2020\, Rancoeur cultivates a unique blend of genres. Between punk and cold wave\, Oi! and post-punk\, the band crafts a dark\, edgy sound\, always a little off-kilter\, as if ready to derail unexpectedly.After four pressings of their first album and several international tours\, the band returned to the studio in 2025 to record the ten new tracks of Fatalité\, their second album. Released on Longshot Records (USA)\, Contra Records (Germany)\, Kanal Hystérik (France)\, and TAE Records (Spain)!  Blau DIY Punk from Czech Republic  Underground Prague nihilism and punk.   Kien Newly founded post-punk band from Prague- ready to hit the stage.  Vorverkauf/Presale Arena Shop € 18 (inkl. Fee) Abendkassa tba. 
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48528
+END:VEVENT
+END:VCALENDAR

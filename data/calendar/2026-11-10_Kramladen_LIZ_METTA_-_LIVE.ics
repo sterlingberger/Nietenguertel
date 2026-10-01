@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261110-Kramladen-LIZ-METTA---LIVE@eventcrawler
+DTSTAMP:20261001T125806Z
+DTSTART:20261110T200000
+DTEND:20261110T235900
+SUMMARY:LIZ METTA - LIVE (Uhrzeit prüfen)
+LOCATION:Kramladen
+DESCRIPTION:Liz Metta – Live im Kramladen Tauche ein in die at...
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1723214779595444.webp?v=1790834110858
+END:VEVENT
+END:VCALENDAR

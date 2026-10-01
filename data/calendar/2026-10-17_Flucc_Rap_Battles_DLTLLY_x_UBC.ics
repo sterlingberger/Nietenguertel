@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261017-Flucc-Rap-Battles-DLTLLY-x-UBC@eventcrawler
+DTSTAMP:20261001T125806Z
+DTSTART:20261017T140000
+DTEND:20261017T220000
+SUMMARY:Rap Battles DLTLLY x UBC (Uhrzeit prüfen)
+LOCATION:Flucc
+DESCRIPTION:@WANNE | Co-Event von Deutschland und Österreichs grössten Battle-Rap Ligen: DLTLLY und UBC! ------------------------------------------------------------------------------------------------------------------------- Kato vs Young Kennedy Riesenlauch vs Mellow Valik + Baretta vs Tyler Bourbon + DinoDerDon Bault vs NRG Mamo vs Schlawin0r ----------------------------------------------------------------------- presented by UBC\, DLTLLY  55 € 
+URL:https://flucc.at/events/TpLUvN-dltlly/
+END:VEVENT
+END:VCALENDAR

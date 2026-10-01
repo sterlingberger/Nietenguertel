@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261104-B72-JAN---ALBUM-RELEASE-SHOW@eventcrawler
+DTSTAMP:20261001T125806Z
+DTSTART:20261104T180000
+DTEND:20261104T235900
+SUMMARY:JAN - ALBUM RELEASE SHOW (Uhrzeit prüfen)
+LOCATION:B72
+DESCRIPTION: Am 4. November 2026 erscheint das Debütalbum des Wiener Punk-Poeten JAN\, und am selben Abend präsentiert er es zum ersten Mal live.  Das ist alles erst der Anfang": Der Albumtitel ist Programm. Songs über Leben und Liebe\, über Brüche und Widersprüche und übers niemals aufhören\, anzufangen. Übers Trotzdem-Machen\, auch wenn keiner dran glaubt. Das Trotzdem-Machen\, auch wenn nur das eigene Herz Ja sagt.  Punk trifft Poesie: Deutschsprachige Songs\, destilliert aus den großen Kleinigkeiten und den kleinen Katastrophen\, aus dem Nichts und aus dem Alles. Punk-Attitüde trifft auf Poesie. Mal direkt\, roh und kraftvoll\, mal verletzlich und nachdenklich in falschen Erinnerungen schwelgend aber immer mit großartiger Band.  Über JAN: JANs Geschichte ist keine klassische Musikerbiografie. Aufgewachsen im Wiener Floridsdorf\, brachte er sich das Gitarrespielen selbst bei. Statt Musikschule oder Konservatorium hieß es ausprobieren\, spielen\, scheitern\, weitermachen. Bis die Finger bluteten und die Stimme versagte. Auf der Bühne stand er immer\, ein Debüt ist es also nur auf dem Papier. Es ist ein Schritt zur richtigen Zeit. Der Einer geht noch-Whisky zum jetzt-aber-wirklich-Abschluss oder eben doch nicht. Denn irgendwie ist ja immer alles erst der Anfang.
+URL:https://www.b72.at//program/10424/JAN__Album_Release_Show
+END:VEVENT
+END:VCALENDAR
