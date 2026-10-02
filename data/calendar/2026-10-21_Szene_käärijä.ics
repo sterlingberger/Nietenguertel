@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261021-Szene-käärijä@eventcrawler
+DTSTAMP:20261002T122201Z
+DTSTART:20261021T193000
+DTEND:20261021T235900
+SUMMARY:käärijä (Uhrzeit prüfen)
+LOCATION:Szene
+DESCRIPTION:ACHTUNG: Die Show wurde von der ((szene)) in die Simm City hochverlegt. Bereits gekaufte Karten behalten ihre Gültigkeit!  *****  Käärijä bringt am 21.10.2026 die ((szene)) Wien zum Beben. Der finnische Wirbelwind\, der mit seinem explosiven Mix aus Electro\, Rap und unverschämter Bühnenenergie europaweit Kultstatus erreicht hat\, trifft hier auf ein Publikum\, das bereit ist\, jede Sekunde mitzunehmen. Erwartet einen Abend voller Adrenalin\, Schweiß und dieser herrlich unberechenbaren Käärijä-Magie\, die jede Show in ein kollektives Ausrasten verwandelt.   
+URL:https://szene.wien/events/kaeaerijae/
+END:VEVENT
+END:VCALENDAR
