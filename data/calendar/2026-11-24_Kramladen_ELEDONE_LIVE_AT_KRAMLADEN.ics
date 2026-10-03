@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261124-Kramladen-ELEDONE-LIVE-AT-KRAMLADEN@eventcrawler
-DTSTAMP:20261002T122201Z
+DTSTAMP:20261003T113248Z
 DTSTART:20261124T203000
 DTEND:20261124T235900
 SUMMARY:ELEDONE LIVE AT KRAMLADEN (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Support: J.S.Q. Eintritt 10 €  
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1646317193766193.webp?v=1790918630280
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1646317193766193.webp?v=1791010118020
 END:VEVENT
 END:VCALENDAR

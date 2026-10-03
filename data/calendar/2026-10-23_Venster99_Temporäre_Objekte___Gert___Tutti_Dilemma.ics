@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261023-Venster99-Temporäre-Objekte-+-Gert-+-Tutti-Dilemma@eventcrawler
+DTSTAMP:20261003T113248Z
+DTSTART:20261023T180000
+DTEND:20261023T235900
+SUMMARY:Temporäre Objekte + Gert + Tutti Dilemma (Uhrzeit prüfen)
+LOCATION:Venster99
+DESCRIPTION:
+URL:http://www.venster99.at
+END:VEVENT
+END:VCALENDAR
