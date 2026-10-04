@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261023-Szene-quest-pistols@eventcrawler
+DTSTAMP:20261004T121432Z
+DTSTART:20261023T193000
+DTEND:20261023T235900
+SUMMARY:quest pistols (Uhrzeit prüfen)
+LOCATION:Szene
+DESCRIPTION:QUEST PISTOLS are heading out on a major European tour!  The legendary Ukrainian band is coming to your city! This is one you simply cannot miss!  After many years away from the public eye\, the co-founders and original members of QUEST PISTOLS have reunited in their legendary original lineup.  Everyone knows their iconic hits\, including: «Ты так красива» «Я твой наркотик» «Я устал» «Белая стрекоза любви» «Санта лючия» …and many more!  Age limit: 16+ Guests under 16 are admitted only when accompanied by an adult.  ******  ВІДЕНЬ\, QUEST PISTOLS вирушає у великий європейський тур!  Легендарний український гурт у твоєму місті! Це неможливо пропустити!  Після багатьох років відсутності на публіці співзасновники та оригінальні учасники гурту QUEST PISTOLS повернулися до свого легендарного золотого складу.  Їхні хіти чув кожен:  «Ты так красива» «Я твой наркотик» «Я устал» «Белая стрекоза любви» «Санта лючия» та багато інших!  Вхід 16+ Особи молодше 16 років допускаються лише у супроводі дорослих.   
+URL:https://szene.wien/events/quest-pistols/
+END:VEVENT
+END:VCALENDAR
