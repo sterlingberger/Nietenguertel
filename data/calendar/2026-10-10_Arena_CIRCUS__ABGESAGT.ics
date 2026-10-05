@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261010-Arena-CIRCUS-*ABGESAGT*@eventcrawler
-DTSTAMP:20261004T121432Z
+DTSTAMP:20261005T141835Z
 DTSTART:20261010T230000
 DTEND:20261010T235900
 SUMMARY:CIRCUS *ABGESAGT* (Uhrzeit prüfen)
 LOCATION:Arena
-DESCRIPTION: | Arena Wien - Gelände | Das Event ist abgesagt!
+DESCRIPTION: | Arena Wien - Gelände | Das Event ist abgesagt! Hier ein Statement des Veranstalters: "Die Kosten für die Veranstaltung von Events sind in den letzten Jahren explodiert. Eine Circus-Produktion kostet heute ungefähr drei- bis viermal so viel wie zu unseren Anfängen. Diese finanzielle Realität bedeutet\, dass wir Circus in der Arena Wien derzeit nicht mehr umsetzen können. Das liegt nicht an der Arena oder ihrem Team: Ich bin dankbar für die langjährige Zusammenarbeit. Nach 15 wunderbaren Jahren an diesem legendären Ort ist mir diese Entscheidung sehr schwergefallen. Es tut mir leid\, dass ich etwas Zeit gebraucht habe\, um alle Möglichkeiten auszuloten und die richtigen Worte zu finden – und dass ich euch am 10. Oktober nicht sehen werde. Circus kommt zurück\, besser als je zuvor. Ich habe einige wunderbare Optionen für ein neues Zuhause für Circus und entwickle gerade einige neue Projekte\, die unsere Community zusammenbringen. Ich kann es kaum erwarten\, euch zu erzählen\, wie es weitergeht.Danke für 15 unglaubliche Jahre. Bleibt dran und abonniert unseren Newsletter für Updates. Alles Liebe\, Simon"
 URL:https://arena.wien/Home/Programm-Detail/concert-id/48522
 END:VEVENT
 END:VCALENDAR

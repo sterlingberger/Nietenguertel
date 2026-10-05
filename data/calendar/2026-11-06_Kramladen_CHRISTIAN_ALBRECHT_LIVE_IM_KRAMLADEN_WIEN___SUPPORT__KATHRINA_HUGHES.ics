@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261106-Kramladen-CHRISTIAN-ALBRECHT-LIVE-IM-KRAMLADEN-WIEN-•-SUPPORT:-KATHRINA-HUGHES@eventcrawler
-DTSTAMP:20261004T121432Z
+DTSTAMP:20261005T141835Z
 DTSTART:20261106T203000
 DTEND:20261106T235900
 SUMMARY:CHRISTIAN ALBRECHT LIVE IM KRAMLADEN WIEN • SUPPORT: KATHRINA HUGHES (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Christian Albrecht live im Kramladen Wien • Suppor...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2664319167277737.webp?v=1791010118017
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2664319167277737.webp?v=1791181124087
 END:VEVENT
 END:VCALENDAR

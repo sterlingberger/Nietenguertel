@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261017-Kramladen-GLUE-CREW-ALBUM-RELEASE---IMMER-NO-NIX-GLERNT-|-SUPPORT:-SPATZENHIRN-&-MINDBLIND@eventcrawler
-DTSTAMP:20261004T121432Z
+DTSTAMP:20261005T141835Z
 DTSTART:20261017T200000
 DTEND:20261017T235900
 SUMMARY:GLUE CREW ALBUM RELEASE - IMMER NO NIX GLERNT | SUPPORT: SPATZENHIRN & MINDBLIND (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Mit punkiger Energie\, Ska-Offbeats und Austropop-S...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1014415458051260.webp?v=1791010118014
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1014415458051260.webp?v=1791181124078
 END:VEVENT
 END:VCALENDAR

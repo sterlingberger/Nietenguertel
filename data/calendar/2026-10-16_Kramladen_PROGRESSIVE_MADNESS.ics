@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261016-Kramladen-PROGRESSIVE-MADNESS@eventcrawler
-DTSTAMP:20261004T121432Z
+DTSTAMP:20261005T141835Z
 DTSTART:20261016T233000
 DTEND:20261016T235900
 SUMMARY:PROGRESSIVE MADNESS (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION: PROGRESSIVE MADNESS — Kram Laden presents Am 16. O...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1068487755955778.webp?v=1791010118014
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1068487755955778.webp?v=1791181124077
 END:VEVENT
 END:VCALENDAR

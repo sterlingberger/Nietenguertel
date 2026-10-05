@@ -2,11 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
-UID:20261010-Venster99-Discure-/-Bipolar-Penguins@eventcrawler
-DTSTAMP:20261004T121432Z
+UID:20261010-Venster99-Discure-/-Bipolar-Penguins-/-Monotrauma@eventcrawler
+DTSTAMP:20261005T141835Z
 DTSTART:20261010T180000
 DTEND:20261010T235900
-SUMMARY:Discure / Bipolar Penguins (Uhrzeit prüfen)
+SUMMARY:Discure / Bipolar Penguins / Monotrauma (Uhrzeit prüfen)
 LOCATION:Venster99
 DESCRIPTION:
 URL:http://www.facebook.com/events/1594565962109738
