@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261121-Kramladen-NEBEL-+-C-O-M-B-A-I@eventcrawler
-DTSTAMP:20261006T131426Z
+DTSTAMP:20261007T131003Z
 DTSTART:20261121T200000
 DTEND:20261121T235900
 SUMMARY:NEBEL + C O M B A I (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:An evening with Nebel and c o m b a i. Nebel is a b...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2069073203706214.webp?v=1791271248350
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2069073203706214.webp?v=1791357867457
 END:VEVENT
 END:VCALENDAR

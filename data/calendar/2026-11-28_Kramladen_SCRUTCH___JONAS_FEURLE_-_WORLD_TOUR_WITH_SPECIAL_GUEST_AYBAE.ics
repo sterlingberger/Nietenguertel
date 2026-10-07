@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261128-Kramladen-SCRUTCH-&-JONAS-FEURLE---WORLD-TOUR-WITH-SPECIAL-GUEST-AYBAE!@eventcrawler
-DTSTAMP:20261006T131426Z
+DTSTAMP:20261007T131003Z
 DTSTART:20261128T200000
 DTEND:20261128T235900
 SUMMARY:SCRUTCH & JONAS FEURLE - WORLD TOUR WITH SPECIAL GUEST AYBAE! (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Jonas Feurle and scrutch come from very different ...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1713108346575927.webp?v=1791271248352
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1713108346575927.webp?v=1791357867461
 END:VEVENT
 END:VCALENDAR

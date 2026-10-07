@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261027-Szene-judith-owen@eventcrawler
+DTSTAMP:20261007T131003Z
+DTSTART:20261027T193000
+DTEND:20261027T235900
+SUMMARY:judith owen (Uhrzeit prüfen)
+LOCATION:Szene
+DESCRIPTION:Vienna\, get ready for 27.10.2026: Judith Owen makes her long-awaited Vienna debut this Ocober\, bringing her distinctive blend of musical styles and an unforgettable live performance to the stage.  Judith Owen is a genre-defying singer\, songwriter\, and storyteller whose work spans jazz\, blues\, big band\, rock\, pop\, classical music\, and musical theatre. Renowned for her charismatic live performances—part concert\, part theatre—she creates what she calls “mini-musicals\,” blending humour\, emotion\, and musicianship.  Her new album\, Suit Yourself (released 24 April 2026)\, captures the full Judith Owen experience. It builds on the energy of Come On and Get It\, the big band flair of Judith Owen Swings Christmas\, and the immediacy of Comes Alive. The result is a rich\, cohesive body of work rooted in jazz and blues\, driven by Owen’s distinctive voice and musical identity. Whether performing solo or with ensemble\, her interpretations are both intimate and electrifying.   
+URL:https://szene.wien/events/judith-owen/
+END:VEVENT
+END:VCALENDAR

@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261114-Kramladen-RATHMANN-+-SUPPORT:-ZELDA-WEBER@eventcrawler
-DTSTAMP:20261006T131426Z
+DTSTAMP:20261007T131003Z
 DTSTART:20261114T200000
 DTEND:20261114T235900
 SUMMARY:RATHMANN + SUPPORT: ZELDA WEBER (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:  VVK: https://rathmann.schigged.de/ Rathmann spielen...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1941431639838061.webp?v=1791271248349
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1941431639838061.webp?v=1791357867456
 END:VEVENT
 END:VCALENDAR

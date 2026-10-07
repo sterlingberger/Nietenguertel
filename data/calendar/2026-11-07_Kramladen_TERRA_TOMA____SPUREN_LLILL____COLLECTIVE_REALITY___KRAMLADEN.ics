@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261107-Kramladen-TERRA-TOMA-//-SPUREN-LLILL-//-COLLECTIVE-REALITY-@-KRAMLADEN@eventcrawler
-DTSTAMP:20261006T131426Z
+DTSTAMP:20261007T131003Z
 DTSTART:20261107T200000
 DTEND:20261107T235900
 SUMMARY:TERRA TOMA // SPUREN LLILL // COLLECTIVE REALITY @ KRAMLADEN (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Gitarren fransen aus.  Maschinen stolpern im Takt. Te...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2012106659402806.webp?v=1791271248347
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2012106659402806.webp?v=1791357867453
 END:VEVENT
 END:VCALENDAR
