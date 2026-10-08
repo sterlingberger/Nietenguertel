@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261112-Kramladen-BABIEBLAU/DANYELA-MIT-Y/AUTOPILOT-LIVE-IM-KRAMLADEN@eventcrawler
-DTSTAMP:20261007T131003Z
+DTSTAMP:20261008T131714Z
 DTSTART:20261112T180000
 DTEND:20261112T235900
 SUMMARY:BABIEBLAU/DANYELA MIT Y/AUTOPILOT LIVE IM KRAMLADEN (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Live Konzert im Kramladen Wien mit  Babieblau / Deut...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/723932614148279.webp?v=1791357867455
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/723932614148279.webp?v=1791438023799
 END:VEVENT
 END:VCALENDAR

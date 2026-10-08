@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261111-Flucc-LIVE:-Jack-and-the-Weatherman@eventcrawler
+DTSTAMP:20261008T131714Z
+DTSTART:20261111T190000
+DTEND:20261111T235900
+SUMMARY:LIVE: Jack and the Weatherman (Uhrzeit prüfen)
+LOCATION:Flucc
+DESCRIPTION:@WANNE | 19h Doors 20h Concert 27\,15€ VVK 
+URL:https://flucc.at/events/XcKg5N-live-jack-and-the-weatherman/
+END:VEVENT
+END:VCALENDAR

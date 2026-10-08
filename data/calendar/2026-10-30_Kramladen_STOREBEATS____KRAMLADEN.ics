@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261030-Kramladen-STOREBEATS-//-KRAMLADEN@eventcrawler
-DTSTAMP:20261007T131003Z
+DTSTAMP:20261008T131714Z
 DTSTART:20261030T233000
 DTEND:20261030T235900
 SUMMARY:STOREBEATS // KRAMLADEN (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬  S T O R E B E A T S  ▬▬▬▬▬▬▬▬▬▬▬...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/4649914185223458.webp?v=1791357867450
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/4649914185223458.webp?v=1791438023804
 END:VEVENT
 END:VCALENDAR

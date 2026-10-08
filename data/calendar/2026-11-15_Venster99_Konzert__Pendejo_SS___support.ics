@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261115-Venster99-Konzert:-Pendejo-SS-/-support@eventcrawler
+DTSTAMP:20261008T131714Z
+DTSTART:20261115T180000
+DTEND:20261115T235900
+SUMMARY:Konzert: Pendejo SS / support (Uhrzeit prüfen)
+LOCATION:Venster99
+DESCRIPTION:
+URL:http://www.venster99.at
+END:VEVENT
+END:VCALENDAR

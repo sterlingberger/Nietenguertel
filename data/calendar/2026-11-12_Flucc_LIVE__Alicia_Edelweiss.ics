@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261112-Flucc-LIVE:-Alicia-Edelweiss@eventcrawler
+DTSTAMP:20261008T131714Z
+DTSTART:20261112T190000
+DTEND:20261112T235900
+SUMMARY:LIVE: Alicia Edelweiss (Uhrzeit prüfen)
+LOCATION:Flucc
+DESCRIPTION:@DECK | tba 
+URL:https://flucc.at/events/oRFjLx-live-alicia-edelweiss/
+END:VEVENT
+END:VCALENDAR

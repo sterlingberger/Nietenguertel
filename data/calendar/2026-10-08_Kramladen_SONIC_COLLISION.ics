@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261008-Kramladen-SONIC-COLLISION@eventcrawler
+DTSTAMP:20261008T131714Z
+DTSTART:20261008T234500
+DTEND:20261008T235900
+SUMMARY:SONIC COLLISION (Uhrzeit prüfen)
+LOCATION:Kramladen
+DESCRIPTION:Auf geht’s in die zweite Runde SONIC COLLISION!  Na...
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1102195762223115.webp?v=1791438023816
+END:VEVENT
+END:VCALENDAR
