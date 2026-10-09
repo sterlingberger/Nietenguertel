@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261030-Szene-bad-boys-for-life-tour@eventcrawler
+DTSTAMP:20261009T130442Z
+DTSTART:20261030T190000
+DTEND:20261030T235900
+SUMMARY:bad boys for life tour (Uhrzeit prüfen)
+LOCATION:Szene
+DESCRIPTION:ACHTUNG: Die Show wurde von der ((szene)) Wien ins Flex Café verlegt. Bereits gekaufte Tickets behalten ihre Gültigkeit.  ******  BAD BOYS FOR LIFE TOUR Mit dabei: The Bones Murphy’s Law The Drowns The Teflon Dons   
+URL:https://szene.wien/events/bad-boys-for-life-tour/
+END:VEVENT
+END:VCALENDAR
