@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261119-Kramladen-LUKA-BLAU-&-BAND:-BISSCHEN-BEIDES-UND-NEUE-SONGS-I-SUPPORT:-LOUPA@eventcrawler
-DTSTAMP:20261009T130442Z
+DTSTAMP:20261010T122204Z
 DTSTART:20261119T203000
 DTEND:20261119T235900
 SUMMARY:LUKA BLAU & BAND: BISSCHEN BEIDES UND NEUE SONGS I SUPPORT: LOUPA (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Luka Blau & Band: Bisschen Beides und neue Songs  .....
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1587440849459956.webp?v=1791527958139
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1587440849459956.webp?v=1791615043508
 END:VEVENT
 END:VCALENDAR
