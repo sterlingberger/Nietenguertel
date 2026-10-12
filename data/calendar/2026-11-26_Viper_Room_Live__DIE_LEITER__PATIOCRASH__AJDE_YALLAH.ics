@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261126-Viper-Room-Live:-DIE-LEITER,-PATIOCRASH,-AJDE-YALLAH@eventcrawler
+DTSTAMP:20261012T150748Z
+DTSTART:20261126T190000
+DTEND:20261126T235900
+SUMMARY:Live: DIE LEITER\, PATIOCRASH\, AJDE YALLAH (Uhrzeit prüfen)
+LOCATION:Viper Room
+DESCRIPTION: Die Leiter (Schlager Punk) https://www.instagram.com/dieleiter.official/?hl=am-et Patiocrash (Garage Punk / Grunge) patiocrash.com https://www.youtube.com/@patiocrashofficial1436/featured Ajde Yallah (Garage Rock) https://www.youtube.com/@ajdeyallah342 https://www.instagram.com/ajde_yallah/ VVK 10€ (bei den Bands und im Club) AK 15€  
+URL:https://www.viper-room.at/events/live-die-leiter-patiocrash-ajde-yallah
+END:VEVENT
+END:VCALENDAR
