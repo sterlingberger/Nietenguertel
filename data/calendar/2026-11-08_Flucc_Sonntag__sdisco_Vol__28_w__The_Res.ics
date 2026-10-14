@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261108-Flucc-Sonntag'-sdisco-Vol.-28-w/-The-Res@eventcrawler
+DTSTAMP:20261014T114129Z
+DTSTART:20261108T200000
+DTEND:20261108T234500
+SUMMARY:Sonntag' sdisco Vol. 28 w/ The Res (Uhrzeit prüfen)
+LOCATION:Flucc
+DESCRIPTION:@DECK | Sonntag´sdisco Vol. 28  LIVE: The Res Davor & danach: DREHLI ROBNIK und viele seiner Platten Before the After: DREHLI ROBNIK and many of his flat tires     tba 
+URL:https://flucc.at/events/f9RAFs-sonntag-sdisco-081126/
+END:VEVENT
+END:VCALENDAR

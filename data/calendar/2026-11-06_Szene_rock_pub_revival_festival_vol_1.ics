@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261106-Szene-rock-pub-revival-festival-vol.1@eventcrawler
+DTSTAMP:20261014T114129Z
+DTSTART:20261106T183000
+DTEND:20261106T235900
+SUMMARY:rock pub revival festival vol.1 (Uhrzeit prüfen)
+LOCATION:Szene
+DESCRIPTION:Erinnert ihr euch noch? Der Geruch von Tschik und Jägermeister\, die ersten Akkorde von Metallica & Co. aus den Boxen und Nächte\, die erst endeten\, wenn die Sonne über Wien (und später in Schwechat) aufging? Das Rock Pub war mehr als nur eine Bar. Es war unser Wohnzimmer\, unser Zufluchtsort und die Herzkammer der Rock- und Metal-Szene in der Region. Am 06.11.2026 bringen wir diesen Spirit für eine Nacht zurück!   
+URL:https://szene.wien/events/rock-pub-revival-festival-vol-1/
+END:VEVENT
+END:VCALENDAR
