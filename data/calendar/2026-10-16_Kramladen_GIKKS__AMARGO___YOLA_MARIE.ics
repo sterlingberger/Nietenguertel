@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261016-Kramladen-GIKKS:-AMARGO-+-YOLA-MARIE@eventcrawler
+DTSTAMP:20261015T111929Z
+DTSTART:20261016T193000
+DTEND:20261016T235900
+SUMMARY:GIKKS: AMARGO + YOLA MARIE (Uhrzeit prüfen)
+LOCATION:Kramladen
+DESCRIPTION:Die ‘Gikks’ sind eine Konzertreihe\, die von dem ös...
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1421721233250683.webp?v=1792060532214
+END:VEVENT
+END:VCALENDAR
