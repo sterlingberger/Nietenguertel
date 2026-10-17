@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261112-Szene-druga-rika@eventcrawler
+DTSTAMP:20261017T103242Z
+DTSTART:20261112T193000
+DTEND:20261112T235900
+SUMMARY:druga rika (Uhrzeit prüfen)
+LOCATION:Szene
+DESCRIPTION:Following the grand „I Am! 30 Years“ concert at Kyiv’s Palace of Sports\, the rock band Druga Rika has announced a large-scale tour across Europe. The musicians are hitting the road with a jubilee program and a brand-new album\, set for release just before the tour kicks off. The primary goal of the tour is to raise 15 million UAH for the needs of the Defense Intelligence of Ukraine (HUR)\; by purchasing a ticket\, every fan automatically contributes to this charitable cause.  The stage production\, which debuted on March 8\, 2026\, in Kyiv\, is being specially adapted for European venues. Originally directed by Herman Nienov\, the show will retain its core dramaturgy and visual logic while shifting to a more intimate format\, allowing for a closer connection between the band and the audience. This program represents a new chapter for Druha Rika rather than a nostalgic look back\, featuring fresh premieres alongside legendary hits like „Sekret\,“ „Tak malo tut tebe\,“ and „Vidchyniai“ in brand-new arrangements.  Frontman Valeriy Kharchyshyn emphasizes that these concerts are\, above all\, an opportunity to unite Ukrainians abroad and remind the world of our resilience. „This tour is for those who miss home and authentic Ukrainian music. We are bringing new songs that will surprise you with their sound\, and an energy that simply cannot be captured through a screen. It is vital for us to be with our people\, wherever they may be\, and to work together toward victory\,“ the musician concludes.   
+URL:https://szene.wien/events/druga-rika/
+END:VEVENT
+END:VCALENDAR
