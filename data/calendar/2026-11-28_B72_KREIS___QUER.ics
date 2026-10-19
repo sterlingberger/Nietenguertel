@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261128-B72-KREIS-&-QUER@eventcrawler
-DTSTAMP:20261018T105144Z
+DTSTAMP:20261019T125027Z
 DTSTART:20261128T180000
 DTEND:20261128T235900
 SUMMARY:KREIS & QUER (Uhrzeit prüfen)
 LOCATION:B72
-DESCRIPTION:
+DESCRIPTION: Wien\, wir kommen!  Am 28. November 2026 ist es so weit: Wir stehen live auf der Bühne des legendären B72 und wollen diesen Abend gemeinsam mit EUCH feiern!  Mit neuen Songs\, bekannten Hits und jeder Menge Energie bringen wir unseren Deutsch-Pop/Rock auf die Bühne!  Und weil ein Konzertabend nicht einfach nach dem letzten Song enden muss\, feiern wir danach gemeinsam bei unserer Aftershow-Party mit DJ weiter!  WAS EUCH ERWARTET: Ein Abend voller Live-Musik\, Emotionen\, guter Stimmung und einer ordentlichen Portion Kreis & Quer!  TIMETABLE 19:00 Uhr | Einlass 20:00 Uhr | Support Act 21:00 Uhr | KREIS & QUER LIVE 23:00 Uhr | Aftershow-Party mit DJ  Also: Schnappt euch eure Freunde\, sichert euch eure Tickets und seid dabei\, wenn wir das B72 gemeinsam zum Beben bringen!  Wir freuen uns auf EUCH! Eure Jungs von KREIS & QUER
 URL:https://www.b72.at//program/10285/KREIS_amp_QUER
 END:VEVENT
 END:VCALENDAR

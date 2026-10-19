@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261114-Szene-schattenmann@eventcrawler
+DTSTAMP:20261019T125027Z
+DTSTART:20261114T193000
+DTEND:20261114T235900
+SUMMARY:schattenmann (Uhrzeit prüfen)
+LOCATION:Szene
+DESCRIPTION:SCHATTENMANN kommen im Rahmen ihrer „Endgegner Tour 2026“ nach Wien. Tickets sichern!   
+URL:https://szene.wien/events/schattenmann/
+END:VEVENT
+END:VCALENDAR

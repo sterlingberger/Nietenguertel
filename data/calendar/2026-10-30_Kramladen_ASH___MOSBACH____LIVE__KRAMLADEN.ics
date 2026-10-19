@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261030-Kramladen-ASH-&-MOSBACH-//-LIVE-@KRAMLADEN@eventcrawler
+DTSTAMP:20261019T125027Z
+DTSTART:20261030T190000
+DTEND:20261030T235900
+SUMMARY:ASH & MOSBACH // LIVE @KRAMLADEN (Uhrzeit prüfen)
+LOCATION:Kramladen
+DESCRIPTION:ASH: Die Wiener Newcomerin ASH bringt frischen Pop-...
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1554572230049928.webp?v=1792408187488
+END:VEVENT
+END:VCALENDAR
