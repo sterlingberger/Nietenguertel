@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261105-Szene-kuult@eventcrawler
-DTSTAMP:20261019T125027Z
+DTSTAMP:20261020T112058Z
 DTSTART:20261105T193000
 DTEND:20261105T235900
 SUMMARY:kuult (Uhrzeit prüfen)
 LOCATION:Szene
-DESCRIPTION:KUULT – Deutschpop mit Herz\, Haltung und Hymnenfaktor KUULT kommen aus Essen – und klingen genauso\, wie man das Ruhrgebiet kennt: bodenständig\, direkt und mit ordentlich Seele. Seit mehr als zehn Jahren steht das Trio um Sänger Chris Werner für deutschsprachigen Pop\, der mitten ins Leben trifft – mal euphorisch und tanzbar\, mal nachdenklich und leise. Was KUULT auszeichnet\, ist dieser spezielle Mix aus Pop\, Rock\, Party und Emotion. Ihre Songs erzählen Geschichten\, die aus dem echten Leben stammen – ohne Pathos\, aber mit Format. Denn KUULT wollen nicht cool sein. Sie wollen einfach gut unterhalten – und das gelingt ihnen mit beeindruckender Konsequenz. Mit fünf Studioalben und unzähligen Club- sowie Festivalshows haben sich die Jungs längst ihren Platz in der deutschsprachigen Poplandschaft erspielt. Auf der Bühne liefern sie den Beweis\, dass Haltung und Herz besser funktionieren als glattpolierte Posen. Wer sie einmal live erlebt hat\, spürt sofort: Diese Band meint’s ernst.  Nach erfolgreichen Jahren auf den deutschen Bühnen zieht es KUULT nun auch über die Landesgrenzen hinaus – nach Österreich. Und das direkt vor großer Kulisse\, als „Support“ für die „Fäaschtbänkler“\, um danach die Clubs in Wien\, Linz und Graz zu bespielen.   
+DESCRIPTION:verlegt ins Flex Cafe Tickets behalten Gültigkeit   
 URL:https://szene.wien/events/kuult/
 END:VEVENT
 END:VCALENDAR

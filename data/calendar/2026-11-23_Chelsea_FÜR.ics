@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261123-Chelsea-FÜR.@eventcrawler
+DTSTAMP:20261020T112058Z
+DTSTART:20261123T200000
+DTEND:20261123T235900
+SUMMARY:FÜR. (Uhrzeit prüfen)
+LOCATION:Chelsea
+DESCRIPTION:Doors: 20:00\, Show: 20:30   Für. ist eine junge 4-köpfige Band aus Wien. Grundsätzlich im Post-Punk verortet\, haben sie im Verlauf ihres 3-jährigen Bestehens jedoch einen eigenen Sound kreiert\, in dem sich ebenso Elemente aus anderen Genres wie Shoegaze\, Indie-Rock oder Folk wiederfinden. Sie stecken viel Zeit in das Schreiben und Ausarbeiten von Songs\, wobei 2 davon bereits eigens aufgenommen\, produziert und auf Streamingdiensten veröffentlicht wurden. Letzten Frühling gingen sie gemeinsam mit Fiakka Studios in Richtung einer professionellen Recording und Production. Die daraus entstandene EP\, bestehend aus 5 Songs\, wird diesen Herbst/Winter veröffentlicht!    www.instagram.com/fuer.band/  https://open.spotify.com/intl-de/artist/3MtBp78oTbIZy0oN1QNzrW? si=fHFPkZmeSDW2Saq9Crs5zQ
+URL:https://www.chelsea.co.at/concerts.php#concert_6783
+END:VEVENT
+END:VCALENDAR
