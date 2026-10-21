@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261127-Venster99-Gyfth,-Maunra,-Hills-like-white-lions@eventcrawler
+DTSTAMP:20261021T113645Z
+DTSTART:20261127T180000
+DTEND:20261127T235900
+SUMMARY:Gyfth\, Maunra\, Hills like white lions (Uhrzeit prüfen)
+LOCATION:Venster99
+DESCRIPTION:
+URL:http://Tbd
+END:VEVENT
+END:VCALENDAR
