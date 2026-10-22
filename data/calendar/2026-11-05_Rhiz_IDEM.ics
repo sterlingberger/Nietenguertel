@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261105-Rhiz-IDEM@eventcrawler
-DTSTAMP:20261021T113645Z
+DTSTAMP:20261022T113400Z
 DTSTART:20261105T183000
 DTEND:20261105T235900
 SUMMARY:IDEM (Uhrzeit prüfen)
 LOCATION:Rhiz
-DESCRIPTION:Indie - Punk Datum: 05.11.2026 | Einlass: 18:00 Uhr Beginn: 18:30 | Ende: 21:00 Uhr 
+DESCRIPTION:Indie - Punk Datum: 05.11.2026 | Einlass: 18:00 Uhr Beginn: 18:30 | Ende: 21:00 Uhr  IDEM is the solo project of Antun Aleksa\, trombonist of the bands Porto Morto and JeboTon Ensambl and guitarist and singer of the band Trophy Jump. In a completely new expression\, Antun touches on all the topics that are important to him with a bitter-sweet note through songs that are intended to be hits primarily for the author himself\, and then potentially for a wider audience. With its 10 released singles and two albums "poyy" and "CIAO" in just over two years of existence\, this project has attracted great favor from the audience and critics. This is best evidenced by numerous successful performances in clubs and festivals throughout the region\, a two-day sold-out concert promotion of the album "CIAO" in the Zagreb clubs Tvornica Kulture and Boogaloo and winning the Porin for New Artist of the Year and six Rock&Off awards. https://linktr.ee/antunidem
 URL:https://rhiz.wien/copilotevent/05-11-2026_idem
 END:VEVENT
 END:VCALENDAR

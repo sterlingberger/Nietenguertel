@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261104-Kramladen-ALBUM-RELEASE-KONZERT---JOHANNA-EGGER@eventcrawler
-DTSTAMP:20261021T113645Z
+DTSTAMP:20261022T113400Z
 DTSTART:20261104T200000
 DTEND:20261104T235900
 SUMMARY:ALBUM RELEASE KONZERT - JOHANNA EGGER (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Am 4.11. präsentiert die Salzburger Singer-Songwri...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1516429430209464.webp?v=1792561822905
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1516429430209464.webp?v=1792650121363
 END:VEVENT
 END:VCALENDAR
