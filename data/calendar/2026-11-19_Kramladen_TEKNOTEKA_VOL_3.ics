@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261119-Kramladen-TEKNOTEKA-VOL.3@eventcrawler
-DTSTAMP:20261023T112553Z
+DTSTAMP:20261024T104341Z
 DTSTART:20261119T230000
 DTEND:20261119T235900
 SUMMARY:TEKNOTEKA VOL.3 (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION: TEKNOTEKA presents UV Project 1st time in Vienna ...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1130078206626289.webp?v=1792650121368
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1130078206626289.webp?v=1792830277831
 END:VEVENT
 END:VCALENDAR

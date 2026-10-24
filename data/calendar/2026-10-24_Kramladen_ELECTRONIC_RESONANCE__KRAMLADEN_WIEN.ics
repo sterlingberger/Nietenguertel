@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261024-Kramladen-ELECTRONIC-RESONANCE-@KRAMLADEN-WIEN@eventcrawler
-DTSTAMP:20261023T112553Z
+DTSTAMP:20261024T104341Z
 DTSTART:20261024T234500
 DTEND:20261024T235900
 SUMMARY:ELECTRONIC RESONANCE @KRAMLADEN WIEN (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION: ELECTRONIC RESONANCE  Three DJs. One Frequency. Pu...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2021415138515627.webp?v=1792737971587
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2021415138515627.webp?v=1792830277811
 END:VEVENT
 END:VCALENDAR
