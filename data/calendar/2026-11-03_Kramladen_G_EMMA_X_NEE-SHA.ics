@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261103-Kramladen-G'EMMA-X-NEE-SHA@eventcrawler
-DTSTAMP:20261025T110712Z
+DTSTAMP:20261026T124122Z
 DTSTART:20261103T210000
 DTEND:20261103T235900
 SUMMARY:G'EMMA X NEE-SHA (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:G'EMMA  Warm und kraftvoll ist die Stimme\, mit der G...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1607468761073695.webp?v=1792830277820
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1607468761073695.webp?v=1792994301872
 END:VEVENT
 END:VCALENDAR
