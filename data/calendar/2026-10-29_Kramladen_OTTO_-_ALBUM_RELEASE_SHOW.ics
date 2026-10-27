@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261029-Kramladen-OTTO---ALBUM-RELEASE-SHOW@eventcrawler
+DTSTAMP:20261027T115735Z
+DTSTART:20261029T190000
+DTEND:20261029T235900
+SUMMARY:OTTO - ALBUM RELEASE SHOW (Uhrzeit prüfen)
+LOCATION:Kramladen
+DESCRIPTION:Achtung: Kann Spuren von Romantik enthalten!  Otto b...
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1661761432337230.webp?v=1793084266114
+END:VEVENT
+END:VCALENDAR

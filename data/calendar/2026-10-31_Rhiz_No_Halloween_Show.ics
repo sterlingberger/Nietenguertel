@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261031-Rhiz-No-Halloween-Show@eventcrawler
+DTSTAMP:20261027T115735Z
+DTSTART:20261031T190000
+DTEND:20261031T235900
+SUMMARY:No Halloween Show (Uhrzeit prüfen)
+LOCATION:Rhiz
+DESCRIPTION:ALLES ALLEN Datum: 31.10.2026 | Einlass: 18:00 Uhr Beginn: 19:00 | Ende: 05:00 Uhr  Cancel b2b KarmaSutra · Frau F · DJ Handgepäck Lucifer · Pesca · DJ Streuselkuchen free entry
+URL:https://rhiz.wien/copilotevent/31-10-2026_no-halloween-show
+END:VEVENT
+END:VCALENDAR
