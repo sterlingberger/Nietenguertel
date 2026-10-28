@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261105-Kramladen-FIFI-RAVE@eventcrawler
-DTSTAMP:20261027T115735Z
+DTSTAMP:20261028T123259Z
 DTSTART:20261105T233000
 DTEND:20261105T235900
 SUMMARY:FIFI RAVE (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Line up: 00:00 LUXUS  01:00 ADAM19  02:00 SILENTSEVIR  03...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2304675160309841.webp?v=1793084266119
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2304675160309841.webp?v=1793173280873
 END:VEVENT
 END:VCALENDAR
