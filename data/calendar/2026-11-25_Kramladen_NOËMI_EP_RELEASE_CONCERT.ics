@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261125-Kramladen-NOËMI-EP-RELEASE-CONCERT@eventcrawler
-DTSTAMP:20261028T123259Z
+DTSTAMP:20261029T124317Z
 DTSTART:20261125T203000
 DTEND:20261125T235900
 SUMMARY:NOËMI EP RELEASE CONCERT (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Playing with mah Bänd at KRAMLADEN supported by on...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/885546201050938.webp?v=1793173280886
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/885546201050938.webp?v=1793257662920
 END:VEVENT
 END:VCALENDAR
