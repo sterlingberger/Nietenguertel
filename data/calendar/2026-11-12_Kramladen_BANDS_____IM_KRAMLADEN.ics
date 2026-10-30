@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261112-Kramladen-BANDS->>>-IM-KRAMLADEN@eventcrawler
-DTSTAMP:20261029T124317Z
+DTSTAMP:20261030T123422Z
 DTSTART:20261112T200000
 DTEND:20261112T235900
 SUMMARY:BANDS >>> IM KRAMLADEN (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Bands sind einfach >>>  mit  Babieblau  Danyela mit Y  J...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/723932614148279.webp?v=1793257662916
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/723932614148279.webp?v=1793333459534
 END:VEVENT
 END:VCALENDAR
