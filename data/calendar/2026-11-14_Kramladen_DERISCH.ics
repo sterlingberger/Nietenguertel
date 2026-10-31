@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261114-Kramladen-DERISCH@eventcrawler
+DTSTAMP:20261031T120226Z
+DTSTART:20261114T233000
+DTEND:20261114T235900
+SUMMARY:DERISCH (Uhrzeit prüfen)
+LOCATION:Kramladen
+DESCRIPTION:Am 14.11 geht DERISCH im Kramladen in die nächste ...
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1124175476761204.webp?v=1793420900265
+END:VEVENT
+END:VCALENDAR
