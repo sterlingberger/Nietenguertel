@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261207-Chelsea-FREUD@eventcrawler
+DTSTAMP:20261101T130258Z
+DTSTART:20261207T200000
+DTEND:20261207T235900
+SUMMARY:FREUD (Uhrzeit prüfen)
+LOCATION:Chelsea
+DESCRIPTION:Doors: 20:00\, Show: 21:00  Im Rahmen der 40-Jahre-Feier des Chelsea stehen FREUD und Chris Pope gemeinsam auf der Bühne und setzen damit ein besonderes Highlight im Jubiläumsprogramm. Die Band FREUD\, die traditionell jedes Jahr im Dezember ihr Weihnachtskonzert veranstaltet\, verbindet mit Chris Pope eine mehrjährige musikalische Freundschaft. Bereits bei Auftritten mit den Buzzcocks sowie bei weiteren Konzerten standen sie gemeinsam auf der Bühne. Mit im Gepäck haben sie außerdem eine gemeinsam eingespielte Single\, die das Publikum live erleben kann. Ein Abend\, der die besondere Verbindung zwischen FREUD\, Chris Pope und dem Chelsea eindrucksvoll hörbar macht.  www.facebook.com/FreudVienna
+URL:https://www.chelsea.co.at/concerts.php#concert_6639
+END:VEVENT
+END:VCALENDAR

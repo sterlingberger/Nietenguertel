@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261204-Arena-ANNA-ABSOLUT-(aut)-+-BLACK-SUNZET-(aut)-+-SCHÖFISCH-&-RUEß-(ger)@eventcrawler
+DTSTAMP:20261101T130258Z
+DTSTART:20261204T190000
+DTEND:20261204T235900
+SUMMARY:ANNA ABSOLUT (aut) + BLACK SUNZET (aut) + SCHÖFISCH & RUEß (ger) (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Dreiraum | Album-Release Show  Anna Absolut https://www.instagram.com/anna.absolut  Black SunZet https://www.instagram.com/black_sunzet  Schöfisch & Rueß https://www.schoefischundruess.de/    Vorverkauf Arena Shop € 16 (+ € 1\,60 Fee)  Abendkassa tba. 
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48606
+END:VEVENT
+END:VCALENDAR

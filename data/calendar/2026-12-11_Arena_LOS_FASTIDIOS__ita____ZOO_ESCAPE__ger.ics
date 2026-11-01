@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261211-Arena-LOS-FASTIDIOS-(ita)-+-ZOO-ESCAPE-(ger)@eventcrawler
+DTSTAMP:20261101T130258Z
+DTSTART:20261211T190000
+DTEND:20261211T235900
+SUMMARY:LOS FASTIDIOS (ita) + ZOO ESCAPE (ger) (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Kleine Halle | Los Fastidios sind eine Streetpunkband\, die sich 1991 in Verona gründete. Die Italiener spielen kraftvollen\, melodischen Streetpunk\, der sich aus klassischem\, britischen Oi!-Punk und aus allerlei Bereichen des Rock‘n‘Roll\, Ska\, Hardcore und Punkrock zusammensetzt. Die Texte sind in meist italienischer Sprache verfasst und befassen sich mit sozialkritischen und politischen Themen.  Zoo Escape spielen Power-Pop-Punk. Glam trifft Dreck\, Wut trifft Liebe\, die Einflüsse reichen von The Clash über Johnny Thunders bis France Gall. 2008 in München gegründet\, hinterlassen die vier ein Schlachtfeld aus Konfetti\, Glitzer und Schweiß – ob bei Clubshows oder auf großen Bühnen.  Vorverkauf/Presale Arena Shop € 23 (+ € 2 Fee) Abendkassa/Box-office tba.
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48550
+END:VEVENT
+END:VCALENDAR

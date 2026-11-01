@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261230-Viper-Room-Live:-SCHIRENC-PLAYS-PUNGENT-STENCH-Farewell-Tour-+-Special-Guests@eventcrawler
+DTSTAMP:20261101T130258Z
+DTSTART:20261230T190000
+DTEND:20261230T235900
+SUMMARY:Live: SCHIRENC PLAYS PUNGENT STENCH Farewell Tour + Special Guests (Uhrzeit prüfen)
+LOCATION:Viper Room
+DESCRIPTION: SCHIRENC PLAYS PUNGENT STENCH https://www.facebook.com/Schirenc.Plays.Pungent.Stench DISHARMONIC ORCHESTRA https://www.facebook.com/disharmonicorchestra.official NEKRODEUS https://www.facebook.com/nekrodeus SOLD OUT!!  
+URL:https://www.viper-room.at/events/live-schirenc-plays-pungent-stench-farewell-tour-special-guests
+END:VEVENT
+END:VCALENDAR

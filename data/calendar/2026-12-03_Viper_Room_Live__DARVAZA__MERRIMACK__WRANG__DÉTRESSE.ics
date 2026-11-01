@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261203-Viper-Room-Live:-DARVAZA,-MERRIMACK,-WRANG,-DÉTRESSE@eventcrawler
+DTSTAMP:20261101T130258Z
+DTSTART:20261203T190000
+DTEND:20261203T235900
+SUMMARY:Live: DARVAZA\, MERRIMACK\, WRANG\, DÉTRESSE (Uhrzeit prüfen)
+LOCATION:Viper Room
+DESCRIPTION: 𝗗𝗔𝗥𝗩𝗔𝗭𝗔 – 𝗠𝗲𝗿𝗿𝗶𝗺𝗮𝗰𝗸 – 𝗪𝗿𝗮𝗻𝗴 – 𝗗é𝘁𝗿𝗲𝘀𝘀𝗲 EUROPEAN TOUR 2026  DARVAZA https://www.facebook.com/Darvaza.blackmetal  MERRIMACK https://www.facebook.com/merrimackofficial  WRANG https://www.facebook.com/wrangblackmetal  DÉTRESSE https://www.facebook.com/detresse.official   Tickets gibt es ab sofort und nur bei https://metalticket.at  
+URL:https://www.viper-room.at/events/live-darvaza-merrimack-helleruin-detresse
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261213-Arena-WUW-UNDERGROUND-WRESTLING---CHRISTMAS-BRAWL@eventcrawler
+DTSTAMP:20261101T130258Z
+DTSTART:20261213T170000
+DTEND:20261213T235900
+SUMMARY:WUW UNDERGROUND WRESTLING - CHRISTMAS BRAWL (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Große Halle | 17:00 Einlass 18:30 Beginn Kämpfe im Anschluss Aftershow-Konzert im Beisl Live on stage: Änderung (Punk/Sludge(Heavy Metal)  Kinder unter 10 Jahren dürfen an dieser Veranstaltung nicht teilnehmen.  Kinder im Alter von 10 bis 14 Jahren dürfen nur in Begleitung einer erwachsenen\, vertrauten Bezugsperson an der Veranstaltung teilnehmen.   Vorverkauf/Presale Arena Shop € 28\,90\,- (inkl. Gebühren) Abendkassa/Box Office tba.
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48442
+END:VEVENT
+END:VCALENDAR

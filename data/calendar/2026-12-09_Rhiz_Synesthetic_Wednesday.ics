@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261209-Rhiz-Synesthetic-Wednesday@eventcrawler
+DTSTAMP:20261101T130258Z
+DTSTART:20261209T183000
+DTEND:20261209T235900
+SUMMARY:Synesthetic Wednesday (Uhrzeit prüfen)
+LOCATION:Rhiz
+DESCRIPTION:Synesthetic 4 Datum: 09.12.2026 | Einlass: 18:00 Uhr Beginn: 18:30 | Ende: Uhr 
+URL:https://rhiz.wien/copilotevent/09-12-2026_synesthetic-wednesday
+END:VEVENT
+END:VCALENDAR

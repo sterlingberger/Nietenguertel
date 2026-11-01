@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261204-Viper-Room-Live:-FIRTAN,-WESEN@eventcrawler
+DTSTAMP:20261101T130258Z
+DTSTART:20261204T183000
+DTEND:20261204T235900
+SUMMARY:Live: FIRTAN\, WESEN (Uhrzeit prüfen)
+LOCATION:Viper Room
+DESCRIPTION: -| 𝗙𝗜𝗥𝗧𝗔𝗡 – 𝗪𝗘𝗦𝗘𝗡 |- 𝗙𝗜𝗥𝗧𝗔𝗡 präsentieren euch ihr brandneues Album „HELIOS“ (VÖ am 02. Oktober via AOP records) live am 04.12.2026 im Viper Room Wien.  Die noch relativ junge Formation WESEN aus Tirol werden euch an diesem Abend atmosphärisch einstimmen. Tickets: metalticket.at  
+URL:https://www.viper-room.at/events/live-firtan-wesen
+END:VEVENT
+END:VCALENDAR

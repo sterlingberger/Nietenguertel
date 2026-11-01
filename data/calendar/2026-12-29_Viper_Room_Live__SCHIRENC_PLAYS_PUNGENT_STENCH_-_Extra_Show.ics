@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261229-Viper-Room-Live:-SCHIRENC-PLAYS-PUNGENT-STENCH---Extra-Show@eventcrawler
+DTSTAMP:20261101T130258Z
+DTSTART:20261229T190000
+DTEND:20261229T235900
+SUMMARY:Live: SCHIRENC PLAYS PUNGENT STENCH - Extra Show (Uhrzeit prüfen)
+LOCATION:Viper Room
+DESCRIPTION: SCHIRENC PLAYS PUNGENT STENCH – Extra Show Nachdem die Farewell Show am 30.12. so schnell ausverkauft war\, haben wir uns dazu entschlossen\, eine extra Show am Tag davor durchzuführen!  SCHIRENC PLAYS PUNGENT STENCH https://www.facebook.com/Schirenc.Plays.Pungent.Stench  MASTER https://www.facebook.com/TheRealMasterofficial  DISTASTE https://www.facebook.com/distastegrind  VVK Tickets: Online via Ticketmaster  
+URL:https://www.viper-room.at/events/live-schirenc-plays-pungent-stench-extra-show
+END:VEVENT
+END:VCALENDAR
