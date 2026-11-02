@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261103-Arena-SLEAFORD-MODS-(uk)-+-CULK-(aut)@eventcrawler
+DTSTAMP:20261102T152251Z
+DTSTART:20261103T190000
+DTEND:20261103T235900
+SUMMARY:SLEAFORD MODS (uk) + CULK (aut) (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Große Halle | presented by LIVE NATION  19:00 doors 20:00 Culk 21:00 Sleaford Mods
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48539
+END:VEVENT
+END:VCALENDAR

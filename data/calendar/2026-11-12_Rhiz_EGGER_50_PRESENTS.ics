@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261112-Rhiz-EGGER-50-PRESENTS@eventcrawler
+DTSTAMP:20261102T152251Z
+DTSTART:20261112T190000
+DTEND:20261112T235900
+SUMMARY:EGGER 50 PRESENTS (Uhrzeit prüfen)
+LOCATION:Rhiz
+DESCRIPTION:experimental music night Datum: 12.11.2026 | Einlass: 18:00 Uhr Beginn: 19:00 | Ende: 04:00 Uhr  VVK 20 EGGER 50 PRESENTS Ein besonderer Abend im Rhiz mit Live-Musik\, DJ-Sounds und einer vielseitigen Runde an Artists: Florian Hecker\, Evelyn Plaschg\, Jung An Tagen\, Rent\, Sabisha Friedberg und Philipp Quehenberger. An den Decks: Melissa Logan\, Altroy Jerome und 333vi. Moderiert wird der Abend von Nicholas Hoffmann und Ruth Weismann.
+URL:https://rhiz.wien/copilotevent/12-11-2026_egger-50-presents
+END:VEVENT
+END:VCALENDAR
