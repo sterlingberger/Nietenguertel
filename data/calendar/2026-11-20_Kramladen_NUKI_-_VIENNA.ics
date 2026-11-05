@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261120-Kramladen-NUKI---VIENNA@eventcrawler
-DTSTAMP:20261104T141006Z
+DTSTAMP:20261105T142858Z
 DTSTART:20261120T200000
 DTEND:20261120T235900
 SUMMARY:NUKI - VIENNA (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Hey! We’re a post-apocalyptic nu-alternative emo gr...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1304558044998243.webp?v=1793786691543
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1304558044998243.webp?v=1793863838934
 END:VEVENT
 END:VCALENDAR
