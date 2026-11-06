@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261128-Arena-STAGEDIVE---A-Skateboarding-&-Music-Event@eventcrawler
+DTSTAMP:20261106T140451Z
+DTSTART:20261128T160000
+DTEND:20261128T235900
+SUMMARY:STAGEDIVE - A Skateboarding & Music Event (Uhrzeit prüfen)
+LOCATION:Arena
+DESCRIPTION: | Arena Wien - Gelände | presented by BUBBLE  Presenting "Stagedive" - a skateboarding and music event at Arena Wien in collaboration with Monster Energy\, celebrating culture and the release of our bubble 006 "Vienna Issue"! Join us to skate the pop up skatepark\, win cash prizes\, peep the premiere and party with us to live music and dj sets. Mark your calendars\, can't wait for this one.
+URL:https://arena.wien/Home/Programm-Detail/concert-id/48698
+END:VEVENT
+END:VCALENDAR
