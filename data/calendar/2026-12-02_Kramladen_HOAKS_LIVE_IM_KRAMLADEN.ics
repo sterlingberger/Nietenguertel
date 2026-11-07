@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261202-Kramladen-HOAKS-LIVE-IM-KRAMLADEN@eventcrawler
-DTSTAMP:20261106T140451Z
+DTSTAMP:20261107T124902Z
 DTSTART:20261202T200000
 DTEND:20261202T235900
 SUMMARY:HOAKS LIVE IM KRAMLADEN (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:details tba
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1108679941793896.webp?v=1793954510716
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1108679941793896.webp?v=1794039787693
 END:VEVENT
 END:VCALENDAR
