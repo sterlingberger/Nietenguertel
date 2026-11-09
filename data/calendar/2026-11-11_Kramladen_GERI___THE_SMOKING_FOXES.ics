@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261111-Kramladen-GERI-&-THE-SMOKING-FOXES@eventcrawler
-DTSTAMP:20261108T130606Z
+DTSTAMP:20261109T154856Z
 DTSTART:20261111T200000
 DTEND:20261111T235900
 SUMMARY:GERI & THE SMOKING FOXES (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:GERI & THE SMOKING FOXES – The Premiere! After yea...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1292002959806910.webp?v=1794039787651
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1292002959806910.webp?v=1794201878772
 END:VEVENT
 END:VCALENDAR

@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261112-Arena-IMPERICON-FESTIVAL-presents-DEATH-DOMINION-EU-2026-feat.-CARNIFEX-(us)-+-DESPISED-ICON-(can)-+-SUFFOCATION-(us)-+-KANINE-(fra)@eventcrawler
-DTSTAMP:20261108T130606Z
+DTSTAMP:20261109T154856Z
 DTSTART:20261112T170000
 DTEND:20261112T235900
 SUMMARY:IMPERICON FESTIVAL presents DEATH DOMINION EU 2026 feat. CARNIFEX (us) + DESPISED ICON (can) + SUFFOCATION (us) + KANINE (fra) (Uhrzeit prüfen)
 LOCATION:Arena
-DESCRIPTION: | Arena Wien - Große Halle | Carnifex Despised Icon Suffocation Kanine  Vorverkauf/Presale Arena Shop € 44\,40 (inkl. Gebühren)  Abendkassa/Doors € 50
+DESCRIPTION: | Arena Wien - Große Halle | 17:00 doors 18:00 Kanine 18:50 Despised Icon 19:55 Suffocation 21:00 Carnifex  Vorverkauf/Presale Arena Shop € 44\,40 (inkl. Gebühren)  Abendkassa/Doors € 50
 URL:https://arena.wien/Home/Programm-Detail/concert-id/48547
 END:VEVENT
 END:VCALENDAR

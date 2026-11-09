@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261110-Arena-GLORYHAMMER-*AUSVERKAUFT*@eventcrawler
-DTSTAMP:20261108T130606Z
+DTSTAMP:20261109T154856Z
 DTSTART:20261110T180000
 DTEND:20261110T235900
 SUMMARY:GLORYHAMMER *AUSVERKAUFT* (Uhrzeit prüfen)
 LOCATION:Arena
-DESCRIPTION: | Arena Wien - Große Halle | presented by MIND OVER MATTER  Das Konzert ist ausverkauft!  5th Album Release Tour 2026  Support: Majestica & Arion  Arena Wien Einlass: 18:00 Uhr | Beginn: 19:00 Uhr   Mighty warriors of the galaxy! GLORYHAMMER has returned from an epic quest\, and they come bearing their new album\, "LEGENDS FROM BEYOND THE GALACTIC TERRORVORTEX". In this thrilling third chapter of the Gloryhammer saga\, we follow the legendary prince Angus McFife into another dimension\, where he will fight with more terrifying foes and embark on more epic adventures than ever before. Join his quest to save the Kingdom of Fife\, through 10 tracks of nuclear-fueled high-velocity heroic power metal\, the likes of which you've never heard in your life. FOR THE ETERNAL GLORY OF DUNDEE!
+DESCRIPTION: | Arena Wien - Große Halle | presented by MIND OVER MATTER  Das Konzert ist ausverkauft!  Doors 18:00 Arion: 18:55  Majestica 19:45  Gloryhammer 21:00   5th Album Release Tour 2026  Support: Majestica & Arion   Mighty warriors of the galaxy! GLORYHAMMER has returned from an epic quest\, and they come bearing their new album\, "LEGENDS FROM BEYOND THE GALACTIC TERRORVORTEX". In this thrilling third chapter of the Gloryhammer saga\, we follow the legendary prince Angus McFife into another dimension\, where he will fight with more terrifying foes and embark on more epic adventures than ever before. Join his quest to save the Kingdom of Fife\, through 10 tracks of nuclear-fueled high-velocity heroic power metal\, the likes of which you've never heard in your life. FOR THE ETERNAL GLORY OF DUNDEE!
 URL:https://arena.wien/Home/Programm-Detail/concert-id/48433
 END:VEVENT
 END:VCALENDAR
