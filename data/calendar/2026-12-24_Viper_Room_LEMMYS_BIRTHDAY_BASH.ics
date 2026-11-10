@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261224-Viper-Room-LEMMYS-BIRTHDAY-BASH@eventcrawler
+DTSTAMP:20261110T144221Z
+DTSTART:20261224T220000
+DTEND:20261224T235900
+SUMMARY:LEMMYS BIRTHDAY BASH (Uhrzeit prüfen)
+LOCATION:Viper Room
+DESCRIPTION: Happy Birthday\, Lemmy!  Wie jedes Jahr wollen wir die Rocklegende gebührend feiern\, die vor 81 Jahren am 24.12. das Licht der Welt erblickte. Dazu gibt es Dj Phil Sabbath’s und DJ Iguana’s feinste Rock- und Metalselection!  Natürlich wie jedes Jahr bei freiem Eintritt!  
+URL:https://www.viper-room.at/events/lemmys-birthday-bash-26
+END:VEVENT
+END:VCALENDAR

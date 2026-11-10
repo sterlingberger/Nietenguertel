@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261114-Rhiz-Masterlevel-Madness@eventcrawler
+DTSTAMP:20261110T144221Z
+DTSTART:20261114T220000
+DTEND:20261114T235900
+SUMMARY:Masterlevel Madness (Uhrzeit prüfen)
+LOCATION:Rhiz
+DESCRIPTION:Movement Culture Vienna presents: Master Level Madness\, bringing the maddest Dancehall vibes to @rhizvienna! Datum: 14.11.2026 | Einlass: 22:00 Uhr Beginn: 22:00 | Ende: 04:00 Uhr  Movement Culture Vienna presents: Master Level Madness\, bringing the maddest Dancehall vibes to @rhizvienna! Line UpDJs: Selecta Bangerer\, DJ Mykal\, TespaDance Performance: MCV Crew Doors: 23:00 Entry: € 10
+URL:https://rhiz.wien/copilotevent/14-11-2026_masterlevel-madness
+END:VEVENT
+END:VCALENDAR
