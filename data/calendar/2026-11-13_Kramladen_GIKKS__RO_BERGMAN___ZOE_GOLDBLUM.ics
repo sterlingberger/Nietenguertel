@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261113-Kramladen-GIKKS:-RO-BERGMAN-+-ZOE-GOLDBLUM@eventcrawler
+DTSTAMP:20261111T135753Z
+DTSTART:20261113T193000
+DTEND:20261113T235900
+SUMMARY:GIKKS: RO BERGMAN + ZOE GOLDBLUM (Uhrzeit prüfen)
+LOCATION:Kramladen
+DESCRIPTION:Tickets:  Vorverkauf: 12€  Abendkassa 16€ -- Timetable:  2...
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2011749679501135.webp?v=1794382364581
+END:VEVENT
+END:VCALENDAR

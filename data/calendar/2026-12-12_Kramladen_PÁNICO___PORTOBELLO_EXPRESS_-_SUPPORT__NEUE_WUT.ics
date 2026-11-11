@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261212-Kramladen-PÁNICO-&-PORTOBELLO-EXPRESS---SUPPORT:-NEUE-WUT@eventcrawler
-DTSTAMP:20261110T144221Z
+DTSTAMP:20261111T135753Z
 DTSTART:20261212T200000
 DTEND:20261212T235900
 SUMMARY:PÁNICO & PORTOBELLO EXPRESS - SUPPORT: NEUE WUT (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:PÁNICO  indie-rock  The soundtrack of the city at dar...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1112053257988423.webp?v=1794297353590
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1112053257988423.webp?v=1794382364627
 END:VEVENT
 END:VCALENDAR

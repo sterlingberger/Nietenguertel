@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261119-Rhiz-"Einsam-Gemeinsam"@eventcrawler
+DTSTAMP:20261111T135753Z
+DTSTART:20261119T193000
+DTEND:20261119T235900
+SUMMARY:"Einsam-Gemeinsam" (Uhrzeit prüfen)
+LOCATION:Rhiz
+DESCRIPTION:Michael Auinger (solo) Datum: 19.11.2026 | Einlass: 19:00 Uhr Beginn: 19:30 | Ende: Uhr  €15 Was entsteht\, wenn sich Saiten und Spannung\, Holz und Kabel begegnen? In Zusammengesetzt setzt Michael Auinger seine Musik aus einzelnen Fragmenten zusammen: Fingerstyle-Gitarre liefert Melodie\, Rhythmus und Wärme\, der Modularsynthesizer formt daraus Flächen\, Texturen und unerwartete Wendungen. Live im Moment gebaut\, verdichten sich die Teile zu einem Ganzen – und lösen sich wieder auf. Ein Abend zwischen handgemachtem Spiel und elektronischer Klangforschung\, solo und unmittelbar.
+URL:https://rhiz.wien/copilotevent/19-11-2026_einsam-gemeinsam-michael-auinger-solo
+END:VEVENT
+END:VCALENDAR

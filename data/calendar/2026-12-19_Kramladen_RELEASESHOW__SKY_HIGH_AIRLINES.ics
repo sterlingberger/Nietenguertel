@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261219-Kramladen-RELEASESHOW-"SKY-HIGH-AIRLINES"@eventcrawler
-DTSTAMP:20261110T144221Z
+DTSTAMP:20261111T135753Z
 DTSTART:20261219T200000
 DTEND:20261219T235900
 SUMMARY:RELEASESHOW "SKY HIGH AIRLINES" (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:RELEASESHOW „SKY HIGH AIRLINES“ X.L.E.O. hebt mit s...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/29064290879873179.webp?v=1794297353589
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/29064290879873179.webp?v=1794382364628
 END:VEVENT
 END:VCALENDAR

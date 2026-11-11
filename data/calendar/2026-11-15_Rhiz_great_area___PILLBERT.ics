@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261115-Rhiz-great-area-|-PILLBERT@eventcrawler
+DTSTAMP:20261111T135753Z
+DTSTART:20261115T180000
+DTEND:20261115T235900
+SUMMARY:great area | PILLBERT (Uhrzeit prüfen)
+LOCATION:Rhiz
+DESCRIPTION:(live)
+URL:https://rhiz.wien/copilotevent/15-11-2026_great area-pillbert
+END:VEVENT
+END:VCALENDAR

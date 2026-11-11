@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261204-Kramladen-TRINITITE-//-TBA-//-@-KRAMLADEN@eventcrawler
-DTSTAMP:20261110T144221Z
+DTSTAMP:20261111T135753Z
 DTSTART:20261204T200000
 DTEND:20261204T235900
 SUMMARY:TRINITITE // TBA // @ KRAMLADEN (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:All hope abandon\, ye who enter here. Trinitite retu...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2077843132733581.webp?v=1794297353603
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/2077843132733581.webp?v=1794382364594
 END:VEVENT
 END:VCALENDAR

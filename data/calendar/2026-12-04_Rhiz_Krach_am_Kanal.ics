@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261204-Rhiz-Krach-am-Kanal@eventcrawler
+DTSTAMP:20261111T135753Z
+DTSTART:20261204T200000
+DTEND:20261204T235900
+SUMMARY:Krach am Kanal (Uhrzeit prüfen)
+LOCATION:Rhiz
+DESCRIPTION: Datum: 04.12.2026 | Einlass: 20:00 Uhr Beginn: 20:00 | Ende: 03:00 Uhr  Freie Spende Line Up TBA Foto: Edo Katavić
+URL:https://rhiz.wien/copilotevent/04-12-2026_krach-am-kanal-im-rhiz
+END:VEVENT
+END:VCALENDAR
