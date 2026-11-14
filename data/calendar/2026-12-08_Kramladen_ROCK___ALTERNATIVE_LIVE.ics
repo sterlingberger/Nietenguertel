@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261208-Kramladen-ROCK-&-ALTERNATIVE-LIVE@eventcrawler
-DTSTAMP:20261113T142359Z
+DTSTAMP:20261114T132039Z
 DTSTART:20261208T190000
 DTEND:20261208T235900
 SUMMARY:ROCK & ALTERNATIVE LIVE (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION: Rock & Alternative im Kramladen!   Am 8. Dezember g...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1114853281439363.webp?v=1794297353592
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1114853281439363.webp?v=1794642640271
 END:VEVENT
 END:VCALENDAR

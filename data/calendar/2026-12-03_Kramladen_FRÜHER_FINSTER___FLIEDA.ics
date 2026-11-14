@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261203-Kramladen-FRÜHER-FINSTER-/-FLIEDA@eventcrawler
-DTSTAMP:20261113T142359Z
+DTSTAMP:20261114T132039Z
 DTSTART:20261203T200000
 DTEND:20261203T235900
 SUMMARY:FRÜHER FINSTER / FLIEDA (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Zwei Indie-Bands die aus der österreichischen Musi...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1678936990514427.webp?v=1794382364585
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1678936990514427.webp?v=1794642640269
 END:VEVENT
 END:VCALENDAR

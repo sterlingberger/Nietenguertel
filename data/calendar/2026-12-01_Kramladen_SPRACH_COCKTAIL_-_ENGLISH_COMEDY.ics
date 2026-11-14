@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261201-Kramladen-SPRACH-COCKTAIL---ENGLISH-COMEDY@eventcrawler
-DTSTAMP:20261113T142359Z
+DTSTAMP:20261114T132039Z
 DTSTART:20261201T190000
 DTEND:20261201T235900
 SUMMARY:SPRACH COCKTAIL - ENGLISH COMEDY (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Tauchen Sie wieder ein in die komischen Seiten der...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1810173250183521.webp?v=1794382364625
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1810173250183521.webp?v=1794642640268
 END:VEVENT
 END:VCALENDAR

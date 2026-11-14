@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261215-Kramladen-LITTLE-MILA-•-WIEN-•-KRAMLADEN@eventcrawler
-DTSTAMP:20261113T142359Z
+DTSTAMP:20261114T132039Z
 DTSTART:20261215T203000
 DTEND:20261215T235900
 SUMMARY:LITTLE MILA • WIEN • KRAMLADEN (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:ho ho ho  weihnachten mit little mila let’s  go go go...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/3064154633957960.webp?v=1794382364595
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/3064154633957960.webp?v=1794642640275
 END:VEVENT
 END:VCALENDAR
