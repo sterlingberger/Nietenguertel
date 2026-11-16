@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261211-Kramladen-GIKKS:-FRACHILD-+-LE:LA@eventcrawler
-DTSTAMP:20261115T134830Z
+DTSTAMP:20261116T152517Z
 DTSTART:20261211T200000
 DTEND:20261211T235900
 SUMMARY:GIKKS: FRACHILD + LE:LA (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:Die ‘Gikks’ sind eine Konzertreihe\, die von dem ös...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/3151539131719872.webp?v=1794727616067
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/3151539131719872.webp?v=1794813286579
 END:VEVENT
 END:VCALENDAR

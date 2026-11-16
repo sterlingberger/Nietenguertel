@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261120-Kramladen-FORBIDDEN-FREQUENCY@eventcrawler
-DTSTAMP:20261115T134830Z
+DTSTAMP:20261116T152517Z
 DTSTART:20261120T233000
 DTEND:20261120T235900
 SUMMARY:FORBIDDEN FREQUENCY (Uhrzeit prüfen)
 LOCATION:Kramladen
 DESCRIPTION:  We’re taking over Kramladen for a night of Hard Ho...
-URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1428387969446954.webp?v=1794727616054
+URL:https://data-image.sociablekit.com/sources/facebook-page-events/kramladen.wien/1428387969446954.webp?v=1794813286570
 END:VEVENT
 END:VCALENDAR
