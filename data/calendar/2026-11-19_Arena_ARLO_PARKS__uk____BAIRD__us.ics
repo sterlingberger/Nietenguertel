@@ -3,12 +3,12 @@ VERSION:2.0
 PRODID:-//EventCrawler//EventCrawler//DE
 BEGIN:VEVENT
 UID:20261119-Arena-ARLO-PARKS-(uk)-+-BAIRD-(us)@eventcrawler
-DTSTAMP:20261116T152517Z
+DTSTAMP:20261117T154944Z
 DTSTART:20261119T190000
 DTEND:20261119T235900
 SUMMARY:ARLO PARKS (uk) + BAIRD (us) (Uhrzeit prüfen)
 LOCATION:Arena
-DESCRIPTION: | Arena Wien - Große Halle | presented by LIVE NATION  Der Vorverkauf beginnt am 12. März um 10 Uhr 
+DESCRIPTION: | Arena Wien - Große Halle | presented by LIVE NATION  19:00 doors 20:00 Baird 21:00 Arlo Parks
 URL:https://arena.wien/Home/Programm-Detail/concert-id/48518
 END:VEVENT
 END:VCALENDAR
