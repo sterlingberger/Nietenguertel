@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EventCrawler//EventCrawler//DE
+BEGIN:VEVENT
+UID:20261207-Rhiz-Lost-but-Found@eventcrawler
+DTSTAMP:20261120T151433Z
+DTSTART:20261207T190000
+DTEND:20261207T235900
+SUMMARY:Lost but Found (Uhrzeit prüfen)
+LOCATION:Rhiz
+DESCRIPTION:the first cut is the deepest (erstes Konzert) Datum: 07.12.2026 | Einlass: 18:00 Uhr Beginn: 19:00 | Ende: 22:00 Uhr  Act 1 und Act 2 Janis Jobless / Tragic Boy Tragic Boy ist eine Band mit 4 Seepferdestärken beim Tiefseetauchen im Wiener Untergrund. Nach 2 Jahren gemeinsamen Zusammenspielens in schaurig düsteren Proberäumen fühlen sie sich bereit\, ihre tragisch komischen Lieder zu zeigen. Am 7. Dezember tauchen sie zum ersten Mal im Rhiz auf – zusammen mit der bekannten Wiener Junky Rock Band Janis Jobless laden sie herzlich zum _„Lost but Found“_-Konzertabend ein! https://www.instagram.com/janisjobless/ https://www.instagram.com/tragicboymusik/
+URL:https://rhiz.wien/copilotevent/07-12-2026_tragic-boy
+END:VEVENT
+END:VCALENDAR
